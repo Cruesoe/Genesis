@@ -9,6 +9,7 @@ namespace Genesis
         static GenesisMod()
         {
             SupersededResearch.Init();
+            EraTree.Build();
             Era.Init();
             new Harmony("cruesoe.genesis").PatchAll();
         }

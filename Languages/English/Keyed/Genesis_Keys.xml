@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Genesis_ColonyIsNowEra>Your colony has entered the {0} era</Genesis_ColonyIsNowEra>
+  <Genesis_EraProjectsFinished>{0} projects finished: {1} of {2}</Genesis_EraProjectsFinished>
   <Genesis_Era_Animal>Tribal</Genesis_Era_Animal>
   <Genesis_Era_Neolithic>Neolithic</Genesis_Era_Neolithic>
   <Genesis_Era_Medieval>Medieval</Genesis_Era_Medieval>
