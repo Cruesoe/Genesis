@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Tabs without visible projects are hidden in game, so Tribal only shows when VFE Tribals adds its projects -->
+
+  <ResearchTabDef>
+    <defName>Genesis_Tribal</defName>
+    <label>Tribal</label>
+    <generalTitle>Tribal research</generalTitle>
+    <generalDescription>The first steps of a people with nothing: fire, tools, gathering and the knowledge passed between them. Finish the era's capstone to enter the neolithic.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Genesis_Neolithic</defName>
+    <label>Neolithic</label>
+    <generalTitle>Neolithic research</generalTitle>
+    <generalDescription>Farming, herding and settled life. Finish the era's capstone to enter the medieval era.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Genesis_Medieval</defName>
+    <label>Medieval</label>
+    <generalTitle>Medieval research</generalTitle>
+    <generalDescription>Stonecutting, smithing and the crafts of a settled society. Finish the era's capstone to enter the industrial era.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Genesis_Industrial</defName>
+    <label>Industrial</label>
+    <generalTitle>Industrial research</generalTitle>
+    <generalDescription>Electricity, machinery and firearms. Finish the era's capstone to enter the spacer era.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Genesis_Spacer</defName>
+    <label>Spacer</label>
+    <generalTitle>Spacer research</generalTitle>
+    <generalDescription>The technology of the stars: fabrication, advanced medicine and spaceflight.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Genesis_Ultra</defName>
+    <label>Ultra</label>
+    <generalTitle>Ultra research</generalTitle>
+    <generalDescription>Technology at the edge of understanding.</generalDescription>
+  </ResearchTabDef>
+
+</Defs>

@@ -13,6 +13,13 @@ Research moves through the eras, from tribal beginnings to spacer technology, wi
 Works with any mix of the supported mods; each is only touched when it's active.
 
 Replaces the Progression and ProgressionLESS mods; do not use them together.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
   <incompatibleWith>
     <li>ferny.progressionagriculture</li>
     <li>ferny.progressionammunition</li>
@@ -44,6 +51,7 @@ Replaces the Progression and ProgressionLESS mods; do not use them together.</de
     <li>cruesoe.progressionlessstorage</li>
   </incompatibleWith>
   <loadAfter>
+    <li>brrainz.harmony</li>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Royalty</li>
     <li>Ludeon.RimWorld.Ideology</li>
