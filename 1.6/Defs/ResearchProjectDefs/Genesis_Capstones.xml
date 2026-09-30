@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Finishing a Capstone raises the colony to the next era (Genesis.CapstoneExtension). Cost is twice the median vanilla project cost of its era. Prerequisites and positions are set when each era's tree is built. -->
+
+  <ResearchProjectDef Name="Genesis_CapstoneBase" Abstract="True">
+    <researchViewX>20.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <modExtensions>
+      <li Class="Genesis.CapstoneExtension" />
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase" MayRequire="OskarPotocki.VFE.Tribals">
+    <defName>Genesis_Capstone_Neolithic</defName>
+    <label>settled life</label>
+    <description>Bring together everything your people have learned to live off the land, and take the first step towards settled life. Completing this advances your colony to the neolithic era.</description>
+    <techLevel>Animal</techLevel>
+    <tab>Genesis_Tribal</tab>
+    <baseCost>100</baseCost>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
+    <defName>Genesis_Capstone_Medieval</defName>
+    <label>civilization</label>
+    <description>Farming, herding and craft have made your people a settled society. Completing this advances your colony to the medieval era.</description>
+    <techLevel>Neolithic</techLevel>
+    <tab>Genesis_Neolithic</tab>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li MayRequire="OskarPotocki.VFE.Tribals">Genesis_Capstone_Neolithic</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
+    <defName>Genesis_Capstone_Industrial</defName>
+    <label>industrialization</label>
+    <description>The crafts of the medieval world give way to machines and the power to drive them. Completing this advances your colony to the industrial era.</description>
+    <techLevel>Medieval</techLevel>
+    <tab>Genesis_Medieval</tab>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>Genesis_Capstone_Medieval</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
+    <defName>Genesis_Capstone_Spacer</defName>
+    <label>spacer technology</label>
+    <description>Master the technology of the stars that built the worlds around you. Completing this advances your colony to the spacer era.</description>
+    <techLevel>Industrial</techLevel>
+    <tab>Genesis_Industrial</tab>
+    <baseCost>2000</baseCost>
+    <prerequisites>
+      <li>Genesis_Capstone_Industrial</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
+    <defName>Genesis_Capstone_Ultra</defName>
+    <label>ultratech</label>
+    <description>Push past spacer technology to the edge of what is understood. Completing this advances your colony to the ultra era.</description>
+    <techLevel>Spacer</techLevel>
+    <tab>Genesis_Spacer</tab>
+    <baseCost>5600</baseCost>
+    <prerequisites>
+      <li>Genesis_Capstone_Spacer</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

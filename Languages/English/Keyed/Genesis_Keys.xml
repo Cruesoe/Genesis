@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Genesis_ColonyIsNowEra>Your colony has entered the {0} era</Genesis_ColonyIsNowEra>
+  <Genesis_Era_Animal>Tribal</Genesis_Era_Animal>
+  <Genesis_Era_Neolithic>Neolithic</Genesis_Era_Neolithic>
+  <Genesis_Era_Medieval>Medieval</Genesis_Era_Medieval>
+  <Genesis_Era_Industrial>Industrial</Genesis_Era_Industrial>
+  <Genesis_Era_Spacer>Spacer</Genesis_Era_Spacer>
+  <Genesis_Era_Ultra>Ultra</Genesis_Era_Ultra>
+</LanguageData>

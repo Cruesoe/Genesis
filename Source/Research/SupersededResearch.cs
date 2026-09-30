@@ -69,16 +69,4 @@ namespace Genesis
             }
         }
     }
-
-    public class GameComponent_Genesis : GameComponent
-    {
-        public GameComponent_Genesis(Game game)
-        {
-        }
-
-        public override void FinalizeInit()
-        {
-            SupersededResearch.SyncAll();
-        }
-    }
 }

@@ -23,7 +23,11 @@ namespace Genesis
     [HarmonyPatch(typeof(ResearchManager), nameof(ResearchManager.FinishProject))]
     public static class Patch_ResearchManager_FinishProject
     {
-        public static void Postfix(ResearchProjectDef proj) => SupersededResearch.FinishSupersededBy(proj);
+        public static void Postfix(ResearchProjectDef proj)
+        {
+            SupersededResearch.FinishSupersededBy(proj);
+            Era.Notify_ProjectFinished(proj);
+        }
     }
 
     // Drops superseded projects from the research screen's (cached) project list
