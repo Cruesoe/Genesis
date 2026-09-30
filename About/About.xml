@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Genesis</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.genesis</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>A progression overhaul built around the Vanilla Expanded series.
+
+Research moves through the eras, from tribal beginnings to spacer technology, with fewer and bigger projects. Each one unlocks a whole family of related items across your mods, so everything from the same stage arrives together. Finishing an era's capstone project advances your colony to the next era.
+
+Works with any mix of the supported mods; each is only touched when it's active.
+
+Replaces the Progression and ProgressionLESS mods; do not use them together.</description>
+  <incompatibleWith>
+    <li>ferny.progressionagriculture</li>
+    <li>ferny.progressionammunition</li>
+    <li>ferny.progressionarsenal</li>
+    <li>ferny.progressionattire</li>
+    <li>ferny.progressioncore</li>
+    <li>ferny.progressiondrugs</li>
+    <li>ferny.progressioneducation</li>
+    <li>ferny.progressionfactories</li>
+    <li>ferny.progressionfurniture</li>
+    <li>ferny.progressiongravship</li>
+    <li>ferny.progressionhospitality</li>
+    <li>ferny.progressionkitchen</li>
+    <li>ferny.progressionproduction</li>
+    <li>ferny.progressionrobotics2</li>
+    <li>ferny.progressionscenarios</li>
+    <li>ferny.progressionstorage</li>
+    <li>ferny.progressiontemperature</li>
+    <li>cruesoe.progressionlessarsenal</li>
+    <li>cruesoe.progressionlessattire</li>
+    <li>cruesoe.progressionlessdrugs</li>
+    <li>cruesoe.progressionlesseducation</li>
+    <li>cruesoe.progressionlessfactories</li>
+    <li>cruesoe.progressionlessfurniture</li>
+    <li>cruesoe.progressionlessgravship</li>
+    <li>cruesoe.progressionlesskitchen</li>
+    <li>cruesoe.progressionlessproduction</li>
+    <li>cruesoe.progressionlessrobotics</li>
+    <li>cruesoe.progressionlessstorage</li>
+  </incompatibleWith>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>OskarPotocki.VFE.Tribals</li>
+  </loadAfter>
+</ModMetaData>
