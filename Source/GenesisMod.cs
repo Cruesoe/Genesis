@@ -8,6 +8,7 @@ namespace Genesis
     {
         static GenesisMod()
         {
+            ResearchRemap.Apply();
             SupersededResearch.Init();
             EraTree.Build();
             Era.Init();

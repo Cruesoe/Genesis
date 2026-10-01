@@ -10,6 +10,12 @@ namespace Genesis
     {
         public ResearchProjectDef? by;
 
+        // Where an item gated only by this project goes, unless a Genesis project lists it (ResearchRemap); default: by
+        public ResearchProjectDef? itemsTo;
+
+        // Items that just lose this gate
+        public List<string>? dropOnly;
+
         private static readonly Dictionary<ResearchProjectDef, List<ResearchProjectDef>> byTarget = new Dictionary<ResearchProjectDef, List<ResearchProjectDef>>();
         private static readonly HashSet<ResearchProjectDef> all = new HashSet<ResearchProjectDef>();
 

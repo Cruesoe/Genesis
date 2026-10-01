@@ -101,13 +101,15 @@ namespace Genesis
             return special;
         }
 
-        // Each source tab's projects keep their layout (after the game's own overlap pass), placed left to right in tab order; the Capstone goes last
+        // Projects defined on the era tab keep their positions and come first; each source tab's projects follow, keeping their layout
+        // (after the game's own overlap pass), left to right in tab order; the Capstone goes last. Superseded projects are hidden and ignored.
         private static void Layout(TechLevel era, ResearchTabDef tab, Dictionary<ResearchProjectDef, ResearchTabDef> folded,
             List<ResearchProjectDef> capstones, List<ResearchTabDef> tabOrder)
         {
-            var cursor = 0f;
-            var groups = folded.Where(f => f.Key.tab == tab).GroupBy(f => f.Value, f => f.Key).OrderBy(g => tabOrder.IndexOf(g.Key));
-            var placed = new List<ResearchProjectDef>();
+            var placed = DefDatabase<ResearchProjectDef>.AllDefsListForReading
+                .Where(p => p.tab == tab && !folded.ContainsKey(p) && !capstones.Contains(p) && !SupersededResearch.IsSuperseded(p)).ToList();
+            var cursor = placed.Count > 0 ? placed.Max(p => X(p)) + 1f : 0f;
+            var groups = folded.Where(f => f.Key.tab == tab && !SupersededResearch.IsSuperseded(f.Key)).GroupBy(f => f.Value, f => f.Key).OrderBy(g => tabOrder.IndexOf(g.Key));
             foreach (var group in groups)
             {
                 var minX = group.Min(p => X(p));

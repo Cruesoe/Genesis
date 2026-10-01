@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- The Genesis Animal projects (Genesis_Animal.xml) and the Neolithic Capstone hold VFE Tribals' work and order locks now -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[starts-with(defName, "VFET_")]/unlocksWorkTypes</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[starts-with(defName, "VFET_")]/unlocksWorkTags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[starts-with(defName, "VFET_")]/unlocksDesignators</xpath>
+  </Operation>
+
+  <!-- by: finishes it. itemsTo: where an item gated only by it goes unless a Genesis project lists the item (default: by). dropOnly: items that just lose the gate. -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Fire"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Fire</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Hunting"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Hunting</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Weapons"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_StoneTools</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Bow"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_ShortBow</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_HideClothing</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Mining"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Digging</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_AnimalHandling"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Taming</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Furniture"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Bedding</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Construction"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch">
+        <by>Genesis_Shelter</by>
+        <itemsTo>Genesis_Capstone_Neolithic</itemsTo>
+        <dropOnly>
+          <li>AncientFortifiedWall</li>
+          <li>OrbitalAncientFortifiedWall</li>
+          <li>VGE_OrbitalPirateFortifiedWall</li>
+        </dropOnly>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Spirits</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Agriculture" or defName="VFET_Cultivation" or defName="VFET_Medicine"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Capstone_Neolithic</by></li>
+    </value>
+  </Operation>
+
+</Patch>
