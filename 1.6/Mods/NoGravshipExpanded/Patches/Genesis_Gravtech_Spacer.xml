@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Without Vanilla Gravship Expanded, Odyssey's gravship research is Spacer (with it, VGE owns these projects) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="BasicGravtech" or defName="StandardGravtech" or defName="OrbitalTech"]/techLevel</xpath>
+    <success>Always</success>
+    <value>
+      <techLevel>Spacer</techLevel>
+    </value>
+  </Operation>
+
+</Patch>

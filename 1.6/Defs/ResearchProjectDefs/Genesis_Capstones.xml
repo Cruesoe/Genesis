@@ -11,34 +11,14 @@
     </modExtensions>
   </ResearchProjectDef>
 
-  <!-- Until the Neolithic projects exist, the Neolithic locks and the items leaving the Animal era wait on this Capstone -->
-  <VFETribals.TribalResearchProjectDef ParentName="Genesis_CapstoneBase" MayRequire="OskarPotocki.VFE.Tribals">
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
     <defName>Genesis_Capstone_Neolithic</defName>
     <label>settled life</label>
     <description>Bring together everything your people have learned to live off the land, and take the first step towards settled life. Completing this advances your colony to the neolithic era.</description>
     <techLevel>Animal</techLevel>
     <tab>Genesis_Tribal</tab>
     <baseCost>100</baseCost>
-    <unlocksWorkTypes>
-      <li>Growing</li>
-    </unlocksWorkTypes>
-    <unlocksDesignators>
-      <li>Designator_ZoneAdd_Growing</li>
-      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_AquaticGrowingZone</li>
-      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_SandyGrowingZone</li>
-      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_FlowerGardenGrowingZone</li>
-      <li>Designator_Slaughter</li>
-      <li>Designator_SmoothSurface</li>
-    </unlocksDesignators>
-    <modExtensions>
-      <li Class="Genesis.UnlocksItems">
-        <items>
-          <li>VAE_Apparel_WoodenArmor</li>
-          <li>VAE_Headgear_StoneWarMask</li>
-        </items>
-      </li>
-    </modExtensions>
-  </VFETribals.TribalResearchProjectDef>
+  </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="Genesis_CapstoneBase">
     <defName>Genesis_Capstone_Medieval</defName>
@@ -48,51 +28,8 @@
     <tab>Genesis_Neolithic</tab>
     <baseCost>1000</baseCost>
     <prerequisites>
-      <li MayRequire="OskarPotocki.VFE.Tribals">Genesis_Capstone_Neolithic</li>
+      <li>Genesis_Capstone_Neolithic</li>
     </prerequisites>
-    <!-- Items that left the Animal era for the Medieval era wait on this Capstone until the Medieval projects exist -->
-    <modExtensions>
-      <li Class="Genesis.UnlocksItems">
-        <items>
-          <li>VFEArch_CobblestoneFloorGranite</li>
-          <li>VFEArch_CobblestoneFloorLimestone</li>
-          <li>VFEArch_CobblestoneFloorMarble</li>
-          <li>VFEArch_CobblestoneFloorSandstone</li>
-          <li>VFEArch_CobblestoneFloorSlate</li>
-          <li>VFEArch_FineWoodenFloor</li>
-          <li>VFEArch_FineWoodenFloorBirch</li>
-          <li>VFEArch_FineWoodenFloorMahogany</li>
-          <li>VFEArch_FineWoodenFloorWalnut</li>
-          <li>VFEArch_WoodenParquet</li>
-          <li>VFEArch_WoodenParquetBirch</li>
-          <li>VFEArch_WoodenParquetMahogany</li>
-          <li>VFEArch_WoodenParquetWalnut</li>
-          <li>VFEArch_FineWall</li>
-          <li>VFEArch_SingleDoor</li>
-          <li>VFEArch_SingleDoor_Flipped</li>
-          <li>DoorSaloon</li>
-          <li>VFEArch_Grass</li>
-          <li>VFEArch_LawnPlot</li>
-          <li>VFEArch_HedgeWall</li>
-          <li>VFEArch_PicketFence</li>
-          <li>VFEArch_LowFence</li>
-          <li>VFEArch_AnimalGate</li>
-          <li>GameOfUrBoard</li>
-          <li>ChristmasTree</li>
-          <li>VFEM2_Chemdrench</li>
-          <li>VIEHAR_Apparel_Fez</li>
-          <li>VIEHAR_Apparel_BishopHat</li>
-          <li>VIEHAR_Apparel_WideHat</li>
-          <li>VIEHAR_Apparel_BrimlessHat</li>
-          <li>VIEHAR_Apparel_Skullcap</li>
-          <li>VIEHAR_Apparel_SpikedSkullcap</li>
-          <li>VIEHAR_Apparel_Headscarf</li>
-          <li>VIEHAR_Apparel_Headbag</li>
-          <li>VHE_TableBarber</li>
-          <li>VCE_SushiPrepTable</li>
-        </items>
-      </li>
-    </modExtensions>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="Genesis_CapstoneBase">
@@ -105,19 +42,6 @@
     <prerequisites>
       <li>Genesis_Capstone_Medieval</li>
     </prerequisites>
-    <!-- Items that left the Animal era for the Industrial era wait on this Capstone until the Industrial projects exist -->
-    <modExtensions>
-      <li Class="Genesis.UnlocksItems">
-        <items>
-          <li>Sandbags</li>
-          <li>Barricade</li>
-          <li>CE_Embrasure</li>
-          <li>VIEHAR_Apparel_CommisarHat</li>
-          <li>VIEHAR_Apparel_MilitaryCap</li>
-          <li>VBE_Cigarettes</li>
-        </items>
-      </li>
-    </modExtensions>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="Genesis_CapstoneBase">

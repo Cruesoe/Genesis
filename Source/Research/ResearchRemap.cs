@@ -12,7 +12,7 @@ namespace Genesis
     }
 
     // Replaces superseded projects in every research gate: buildable and plant prerequisites, item recipes and recipe defs.
-    // An item listed by a project (UnlocksItems) goes there; otherwise it keeps its other gates, or takes its old project's itemsTo.
+    // An item listed by a project (UnlocksItems) goes there, ungated items included; otherwise it keeps its other gates, or takes its old project's itemsTo.
     public static class ResearchRemap
     {
         private static readonly Dictionary<string, ResearchProjectDef> listed = new Dictionary<string, ResearchProjectDef>();
@@ -43,35 +43,40 @@ namespace Genesis
                 return;
             }
 
+            // A listed item also gains its project where nothing superseded gated it: on construction if it's buildable, on sowing if
+            // it's sowable, and on every recipe that makes it
             foreach (var thing in DefDatabase<ThingDef>.AllDefsListForReading)
             {
-                thing.researchPrerequisites = Remap(thing.researchPrerequisites, thing.defName);
+                thing.researchPrerequisites = Remap(thing.researchPrerequisites, thing.defName, thing.BuildableByPlayer);
                 if (thing.plant != null)
                 {
-                    thing.plant.sowResearchPrerequisites = Remap(thing.plant.sowResearchPrerequisites, thing.defName);
+                    thing.plant.sowResearchPrerequisites = Remap(thing.plant.sowResearchPrerequisites, thing.defName, thing.plant.Sowable);
                 }
                 if (thing.recipeMaker != null)
                 {
                     var gates = Combine(thing.recipeMaker.researchPrerequisite, thing.recipeMaker.researchPrerequisites);
-                    thing.recipeMaker.researchPrerequisite = null;
-                    thing.recipeMaker.researchPrerequisites = Remap(gates, thing.defName);
+                    if (gates.Any(superseded.ContainsKey))
+                    {
+                        thing.recipeMaker.researchPrerequisite = null;
+                        thing.recipeMaker.researchPrerequisites = Remap(gates, thing.defName, false);
+                    }
                 }
             }
             foreach (var terrain in DefDatabase<TerrainDef>.AllDefsListForReading)
             {
-                terrain.researchPrerequisites = Remap(terrain.researchPrerequisites, terrain.defName);
+                terrain.researchPrerequisites = Remap(terrain.researchPrerequisites, terrain.defName, terrain.BuildableByPlayer);
             }
             foreach (var recipe in DefDatabase<RecipeDef>.AllDefsListForReading)
             {
+                // A recipe takes the destination of the first listed product, or its own listing
+                var name = recipe.products?.Select(p => p.thingDef?.defName).FirstOrDefault(n => n != null && listed.ContainsKey(n)) ?? recipe.defName;
                 var gates = Combine(recipe.researchPrerequisite, recipe.researchPrerequisites);
-                if (!gates.Any(superseded.ContainsKey))
+                if (!gates.Any(superseded.ContainsKey) && !listed.ContainsKey(name))
                 {
                     continue;
                 }
-                // A recipe takes the destination of the first listed product, or its own listing
-                var name = recipe.products?.Select(p => p.thingDef?.defName).FirstOrDefault(n => n != null && listed.ContainsKey(n)) ?? recipe.defName;
                 recipe.researchPrerequisite = null;
-                recipe.researchPrerequisites = Remap(gates, name);
+                recipe.researchPrerequisites = Remap(gates, name, true);
             }
         }
 
@@ -89,11 +94,15 @@ namespace Genesis
             return all;
         }
 
-        // Returns the gates with superseded projects replaced; unchanged lists come back as they were
-        private static List<ResearchProjectDef>? Remap(List<ResearchProjectDef>? gates, string name)
+        // Returns the gates with superseded projects replaced, and the listed project added when addListed; unchanged lists come back as they were
+        private static List<ResearchProjectDef>? Remap(List<ResearchProjectDef>? gates, string name, bool addListed)
         {
             if (gates == null || !gates.Any(superseded.ContainsKey))
             {
+                if (addListed && listed.TryGetValue(name, out var add) && (gates == null || !gates.Contains(add)))
+                {
+                    return (gates ?? new List<ResearchProjectDef>()).Append(add).ToList();
+                }
                 return gates;
             }
             var old = gates.Where(superseded.ContainsKey).ToList();

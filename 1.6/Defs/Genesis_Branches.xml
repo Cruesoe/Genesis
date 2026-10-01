@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Research branches: each is a lane on every era tab, top to bottom by order. A listed project moves onto the era tab of its tech level. -->
+  <!-- Projects not listed here stay where their tab puts them; on an era tab they go in a last "other" lane. Names of inactive mods' projects are ignored. -->
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Farming</defName>
+    <label>farming</label>
+    <order>10</order>
+    <projects>
+      <li>Genesis_Hunting</li>
+      <li>Genesis_Taming</li>
+      <li>Genesis_Agriculture</li>
+      <li>Genesis_Husbandry</li>
+      <li>Genesis_FibreCrops</li>
+      <li>TreeSowing</li>
+      <li>Fishing</li>
+      <li>VFEM2_Beekeeping</li>
+      <li>Hydroponics</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Cooking</defName>
+    <label>cooking and brewing</label>
+    <order>20</order>
+    <projects>
+      <li>Genesis_Cooking</li>
+      <li>Brewing</li>
+      <li>PsychoidBrewing</li>
+      <li>VFEM2_Wine</li>
+      <li>NutrientPaste</li>
+      <li>PackagedSurvivalMeal</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Medicine</defName>
+    <label>medicine</label>
+    <order>30</order>
+    <projects>
+      <li>Genesis_Herbalism</li>
+      <li>VFEM2_Alchemy</li>
+      <li>DrugProduction</li>
+      <li>MedicineProduction</li>
+      <li>PenoxycylineProduction</li>
+      <li>GoJuiceProduction</li>
+      <li>WakeUpProduction</li>
+      <li>PsychiteRefining</li>
+      <li>HospitalBed</li>
+      <li>VitalsMonitor</li>
+      <li>SterileMaterials</li>
+      <li>Prosthetics</li>
+      <li>FertilityProcedures</li>
+      <li>Deathrest</li>
+      <li>Xenogermination</li>
+      <li>GeneProcessor</li>
+      <li>Archogenetics</li>
+      <li>Biosculpting</li>
+      <li>Bioregeneration</li>
+      <li>NeuralSupercharger</li>
+      <li>Bionics</li>
+      <li>BrainWiring</li>
+      <li>SpecializedLimbs</li>
+      <li>ToxFiltration</li>
+      <li>Cryptosleep</li>
+      <li>GrowthVats</li>
+      <li>ArtificialMetabolism</li>
+      <li>CircadianInfluence</li>
+      <li>FleshShaping</li>
+      <li>HealingFactors</li>
+      <li>MolecularAnalysis</li>
+      <li>NeuralComputation</li>
+      <li>SkinHardening</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Shelter</defName>
+    <label>shelter</label>
+    <order>40</order>
+    <projects>
+      <li>Genesis_Shelter</li>
+      <li>Genesis_TimberBuilding</li>
+      <li>Stonecutting</li>
+      <li>VFEM2_MedievalArchitecture</li>
+      <li>Autodoors</li>
+      <li>HeavyBridges</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Comfort</defName>
+    <label>comfort and leisure</label>
+    <order>50</order>
+    <projects>
+      <li>Genesis_Bedding</li>
+      <li>Genesis_Woodworking</li>
+      <li>ComplexFurniture</li>
+      <li>CarpetMaking</li>
+      <li>Harp</li>
+      <li>Harpsichord</li>
+      <li>Piano</li>
+      <li>TubeTelevision</li>
+      <li>FlatscreenTelevision</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Industry</defName>
+    <label>industry</label>
+    <order>60</order>
+    <projects>
+      <li>Genesis_Digging</li>
+      <li>Genesis_Carving</li>
+      <li>Smithing</li>
+      <li>VFEM2_ComplexWorkshops</li>
+      <li>Machining</li>
+      <li>MicroelectronicsBasics</li>
+      <li>Fabrication</li>
+      <li>AdvancedFabrication</li>
+      <li>DeepDrilling</li>
+      <li>GroundPenetratingScanner</li>
+      <li>LongRangeMineralScanner</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Power</defName>
+    <label>power and utilities</label>
+    <order>70</order>
+    <projects>
+      <li>Genesis_Fire</li>
+      <li>PassiveCooler</li>
+      <li>Electricity</li>
+      <li>Batteries</li>
+      <li>ColoredLights</li>
+      <li>SolarPanels</li>
+      <li>WatermillGenerator</li>
+      <li>GeothermalPower</li>
+      <li>BiofuelRefining</li>
+      <li>AirConditioning</li>
+      <li>MoisturePump</li>
+      <li>ToxifierGenerator</li>
+      <li>WastepackAtomizer</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Melee</defName>
+    <label>weapons: melee</label>
+    <order>80</order>
+    <projects>
+      <li>Genesis_StoneTools</li>
+      <li>LongBlades</li>
+      <li>CompactWeaponry</li>
+      <li>VenomSynthesis</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Ranged</defName>
+    <label>weapons: ranged</label>
+    <order>90</order>
+    <projects>
+      <li>Genesis_ThrowingWeapons</li>
+      <li>Genesis_ShortBow</li>
+      <li>RecurveBow</li>
+      <li>Greatbow</li>
+      <li>VFEM2_Matchlocks</li>
+      <li>Gunsmithing</li>
+      <li>BlowbackOperation</li>
+      <li>GasOperation</li>
+      <li>PrecisionRifling</li>
+      <li>MultibarrelWeapons</li>
+      <li>ChargedShot</li>
+      <li>BeamWeapons</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Defence</defName>
+    <label>defence</label>
+    <order>100</order>
+    <projects>
+      <li>GunTurrets</li>
+      <li>HeavyTurrets</li>
+      <li>SniperTurret</li>
+      <li>RocketswarmLauncher</li>
+      <li>FoamTurret</li>
+      <li>Mortars</li>
+      <li>IEDs</li>
+      <li>Firefoam</li>
+      <li>ToxGas</li>
+      <li>HunterDrones</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Clothing</defName>
+    <label>apparel: clothing</label>
+    <order>110</order>
+    <projects>
+      <li>Genesis_HideClothing</li>
+      <li>Genesis_Tailoring</li>
+      <li>ComplexClothing</li>
+      <li>NobleApparel</li>
+      <li>RoyalApparel</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Armour</defName>
+    <label>apparel: armour</label>
+    <order>120</order>
+    <projects>
+      <li>PlateArmor</li>
+      <li>FlakArmor</li>
+      <li>SmokepopBelt</li>
+      <li>JumpPack</li>
+      <li>Gunlink</li>
+      <li>ShieldBelt</li>
+      <li>ReconArmor</li>
+      <li>PoweredArmor</li>
+      <li>CataphractArmor</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Mechs</defName>
+    <label>mechs</label>
+    <order>130</order>
+    <projects>
+      <li>BasicMechtech</li>
+      <li>StandardMechtech</li>
+      <li>HighMechtech</li>
+      <li>UltraMechtech</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Transport</defName>
+    <label>transport</label>
+    <order>140</order>
+    <projects>
+      <li>TransportPod</li>
+      <li>Shuttles</li>
+      <li>ShipBasics</li>
+      <li>ShipComputerCore</li>
+      <li>ShipCryptosleep</li>
+      <li>ShipEngine</li>
+      <li>ShipReactor</li>
+      <li>ShipSensorCluster</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <!-- With Vanilla Gravship Expanded these stay on its own tab -->
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Gravships</defName>
+    <label>transport: gravships</label>
+    <order>145</order>
+    <skipIfModActive>
+      <li>VanillaExpanded.Gravship</li>
+      <li>VanillaExpanded.Gravship2</li>
+    </skipIfModActive>
+    <projects>
+      <li>BasicGravtech</li>
+      <li>StandardGravtech</li>
+      <li>OrbitalTech</li>
+      <li>AdvancedGravtech</li>
+    </projects>
+  </Genesis.BranchDef>
+
+  <Genesis.BranchDef>
+    <defName>Genesis_Branch_Society</defName>
+    <label>society and knowledge</label>
+    <order>150</order>
+    <projects>
+      <li>Genesis_Spirits</li>
+      <li>Genesis_Worship</li>
+      <li>VFEM2_Heraldry</li>
+      <li>MultiAnalyzer</li>
+    </projects>
+  </Genesis.BranchDef>
+
+</Defs>

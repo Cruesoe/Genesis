@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Neolithic era: farming, herding and settled crafts. Vanilla Neolithic projects are reused alongside these (Genesis_Base_Vanilla.xml). -->
+  <!-- Positions are set at startup by the branch layout (Genesis_Branches.xml). VFE Tribals projects where they hold its work and order locks. -->
+
+  <ResearchProjectDef Name="Genesis_NeolithicBase" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+    <tab>Genesis_Neolithic</tab>
+    <baseCost>300</baseCost>
+  </ResearchProjectDef>
+
+  <VFETribals.TribalResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Agriculture</defName>
+    <label>agriculture</label>
+    <description>Sow, tend and harvest crops instead of only gathering them. Unlocks growing, growing zones and the staple crops.</description>
+    <unlocksWorkTypes>
+      <li>Growing</li>
+    </unlocksWorkTypes>
+    <unlocksDesignators>
+      <li>Designator_ZoneAdd_Growing</li>
+      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_AquaticGrowingZone</li>
+      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_SandyGrowingZone</li>
+      <li MayRequire="VanillaExpanded.VPlantsEMore">VanillaPlantsExpandedMorePlants.Designator_FlowerGardenGrowingZone</li>
+    </unlocksDesignators>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Plant_Potato</li>
+          <li>Plant_Rice</li>
+          <li>Plant_Corn</li>
+          <li>Plant_Strawberry</li>
+          <li>Plant_Strawberry_Wild</li>
+          <li>Plant_Haygrass</li>
+          <li>Plant_Toxipotato</li>
+          <li>Plant_Nutrifungus</li>
+          <li>PlantPot</li>
+        </items>
+      </li>
+    </modExtensions>
+  </VFETribals.TribalResearchProjectDef>
+
+  <VFETribals.TribalResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Husbandry</defName>
+    <label>husbandry</label>
+    <description>Keep herds in pens and raise animals for food and produce. Unlocks slaughtering, pens, fences and egg boxes.</description>
+    <prerequisites>
+      <li>Genesis_Taming</li>
+    </prerequisites>
+    <unlocksDesignators>
+      <li>Designator_Slaughter</li>
+    </unlocksDesignators>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>PenMarker</li>
+          <li>Fence</li>
+          <li>FenceGate</li>
+          <li>AnimalFlap</li>
+          <li>EggBox</li>
+          <li>VFEArch_PicketFence</li>
+          <li>VFEArch_LowFence</li>
+          <li>VFEArch_AnimalGate</li>
+        </items>
+      </li>
+    </modExtensions>
+  </VFETribals.TribalResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_FibreCrops</defName>
+    <label>fibre crops</label>
+    <description>Grow plants for fibre and dye, and weave them into cloth. Unlocks cotton, fibercorn, tinctoria, devilstrand and woven fabrics.</description>
+    <prerequisites>
+      <li>Genesis_Agriculture</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Plant_Cotton</li>
+          <li>Plant_Cotton_Wild</li>
+          <li>Plant_Fibercorn</li>
+          <li>Plant_Fibercorn_Wild</li>
+          <li>Plant_Tinctoria</li>
+          <li>Plant_Tinctoria_Wild</li>
+          <li>VFEM2_Hardweave</li>
+          <li>VFEM2_Hayweave</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Cooking</defName>
+    <label>cooking</label>
+    <description>Cook on a proper stove, butcher at a table and preserve food for lean times. Unlocks the fueled stove, butcher table and pemmican.</description>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>FueledStove</li>
+          <li>TableButcher</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Herbalism</defName>
+    <label>herbalism</label>
+    <description>Grow and prepare healing and calming herbs. Unlocks healroot, smokeleaf, herbal medicine and smokeleaf joints.</description>
+    <prerequisites>
+      <li>Genesis_Agriculture</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Plant_Healroot</li>
+          <li>Plant_Smokeleaf</li>
+          <li>Plant_Smokeleaf_Wild</li>
+          <li>MedicineHerbal</li>
+          <li>SmokeleafJoint</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_TimberBuilding</defName>
+    <label>timber building</label>
+    <description>Build lasting homes and defences from timber. Unlocks palisades, columns, wood floors and bridges.</description>
+    <prerequisites>
+      <li>Genesis_Shelter</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_Palisade</li>
+          <li>Column</li>
+          <li>WoodPlankFloor</li>
+          <li>Bridge</li>
+          <li>AncientBridge</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Woodworking</defName>
+    <label>woodworking</label>
+    <description>Make simple furniture for a settled home. Unlocks stools, tables and the hoopstone ring.</description>
+    <prerequisites>
+      <li>Genesis_Bedding</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Stool</li>
+          <li>Table1x2c</li>
+          <li>Table2x2c</li>
+          <li>Table2x4c</li>
+          <li>Table3x3c</li>
+          <li>HoopstoneRing</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Worship</defName>
+    <label>worship</label>
+    <description>Give your beliefs a place and a form. Unlocks altars, the ideogram, lecterns, pews and shrines.</description>
+    <prerequisites>
+      <li>Genesis_Spirits</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Altar_Small</li>
+          <li>Altar_Medium</li>
+          <li>Altar_Large</li>
+          <li>Altar_Grand</li>
+          <li>Ideogram</li>
+          <li>Lectern</li>
+          <li>Pew</li>
+          <li>KneelSheet</li>
+          <li>KneelPillow</li>
+          <li>IncenseShrine</li>
+          <li>GibbetCage</li>
+          <li>CannibalPlatter</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+  <VFETribals.TribalResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Carving</defName>
+    <label>carving</label>
+    <description>Carve stone and wood into art, and smooth rough rock into fine surfaces. Unlocks the art bench and smoothing.</description>
+    <prerequisites>
+      <li>Genesis_Digging</li>
+    </prerequisites>
+    <unlocksDesignators>
+      <li>Designator_SmoothSurface</li>
+    </unlocksDesignators>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>TableSculpting</li>
+        </items>
+      </li>
+    </modExtensions>
+  </VFETribals.TribalResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Tailoring</defName>
+    <label>tailoring</label>
+    <description>Cut and sew cloth and leather into fitted garments. Unlocks parkas, wraps, burkas, masks and simple armour.</description>
+    <prerequisites>
+      <li>Genesis_HideClothing</li>
+    </prerequisites>
+    <modExtensions>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Apparel_Parka</li>
+          <li>Apparel_KidParka</li>
+          <li>Apparel_Broadwrap</li>
+          <li>Apparel_Burka</li>
+          <li>Apparel_Headwrap</li>
+          <li>Apparel_VisageMask</li>
+          <li>VAE_Apparel_WoodenArmor</li>
+          <li>VAE_Headgear_StoneWarMask</li>
+        </items>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>
+
+</Defs>

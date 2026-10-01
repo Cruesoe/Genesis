@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Merged into Genesis projects: hidden, finished with their replacement, and their items move to it -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Cooking</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>TreeSowing</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_FibreCrops</by></li>
+    </value>
+  </Operation>
+
+  <!-- Items moved onto existing projects (Genesis.UnlocksItems); names from mods that aren't active are ignored -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>Plant_Hops</li></items></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>Plant_Psychoid</li><li>Plant_Psychoid_Wild</li></items></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>FlagstoneSandstone</li>
+          <li>FlagstoneGranite</li>
+          <li>FlagstoneLimestone</li>
+          <li>FlagstoneSlate</li>
+          <li>FlagstoneMarble</li>
+          <li>FlagstoneVacstone</li>
+          <li>JfF_FlagstoneJade</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexFurniture"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>GameOfUrBoard</li>
+          <li>ChristmasTree</li>
+          <li>DoorSaloon</li>
+          <li>VFEArch_SingleDoor</li>
+          <li>VFEArch_SingleDoor_Flipped</li>
+          <li>VFEArch_Grass</li>
+          <li>VFEArch_LawnPlot</li>
+          <li>VFEArch_HedgeWall</li>
+          <li>VHE_TableBarber</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_Chemdrench</li>
+          <li>VFEArch_CobblestoneFloorGranite</li>
+          <li>VFEArch_CobblestoneFloorLimestone</li>
+          <li>VFEArch_CobblestoneFloorMarble</li>
+          <li>VFEArch_CobblestoneFloorSandstone</li>
+          <li>VFEArch_CobblestoneFloorSlate</li>
+          <li>VFEArch_FineWoodenFloor</li>
+          <li>VFEArch_FineWoodenFloorBirch</li>
+          <li>VFEArch_FineWoodenFloorMahogany</li>
+          <li>VFEArch_FineWoodenFloorWalnut</li>
+          <li>VFEArch_WoodenParquet</li>
+          <li>VFEArch_WoodenParquetBirch</li>
+          <li>VFEArch_WoodenParquetMahogany</li>
+          <li>VFEArch_WoodenParquetWalnut</li>
+          <li>VFEArch_FineWall</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>VCE_SushiPrepTable</li></items></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VIEHAR_Apparel_Fez</li>
+          <li>VIEHAR_Apparel_BishopHat</li>
+          <li>VIEHAR_Apparel_WideHat</li>
+          <li>VIEHAR_Apparel_BrimlessHat</li>
+          <li>VIEHAR_Apparel_Skullcap</li>
+          <li>VIEHAR_Apparel_SpikedSkullcap</li>
+          <li>VIEHAR_Apparel_Headscarf</li>
+          <li>VIEHAR_Apparel_Headbag</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GunTurrets"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>Sandbags</li><li>Barricade</li><li>CE_Embrasure</li></items></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FlakArmor"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>VIEHAR_Apparel_CommisarHat</li><li>VIEHAR_Apparel_MilitaryCap</li></items></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems"><items><li>VBE_Cigarettes</li></items></li>
+    </value>
+  </Operation>
+
+  <!-- Prerequisites tying reused Neolithic projects into the tree -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]/prerequisites</xpath>
+      <value><li>Genesis_Agriculture</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
+      <value><prerequisites><li>Genesis_Agriculture</li></prerequisites></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="Brewing"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Brewing"]/prerequisites</xpath>
+      <value><li>Genesis_Agriculture</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+      <value><prerequisites><li>Genesis_Agriculture</li></prerequisites></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]/prerequisites</xpath>
+      <value><li>Genesis_Herbalism</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+      <value><prerequisites><li>Genesis_Herbalism</li></prerequisites></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="RecurveBow"]/prerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="RecurveBow"]/prerequisites</xpath>
+      <value><li>Genesis_ShortBow</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="RecurveBow"]</xpath>
+      <value><prerequisites><li>Genesis_ShortBow</li></prerequisites></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="Fishing"]/prerequisites</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Fishing"]/prerequisites</xpath>
+      <value><li>Genesis_Hunting</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+      <value><prerequisites><li>Genesis_Hunting</li></prerequisites></value>
+    </nomatch>
+  </Operation>
+
+</Patch>

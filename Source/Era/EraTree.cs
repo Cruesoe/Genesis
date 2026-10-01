@@ -13,16 +13,22 @@ namespace Genesis
     }
 
     // Builds the era tree at startup, so it fits whichever mods are active:
-    // folds projects onto era tabs, lays each tab out, gives each Capstone its era as hidden prerequisites,
+    // folds projects onto era tabs, lays each tab out in branch lanes, gives each Capstone its era as hidden prerequisites,
     // and makes each era's starting projects need the previous Capstone.
     public static class EraTree
     {
+        private const float RowStep = 0.7f;
+        private const float LaneGap = 0.4f;
+
         private static readonly AccessTools.FieldRef<ResearchProjectDef, float> X = AccessTools.FieldRefAccess<ResearchProjectDef, float>("x");
         private static readonly AccessTools.FieldRef<ResearchProjectDef, float> Y = AccessTools.FieldRefAccess<ResearchProjectDef, float>("y");
 
         public static readonly Dictionary<TechLevel, ResearchTabDef> Tabs = new Dictionary<TechLevel, ResearchTabDef>();
         private static readonly Dictionary<ResearchProjectDef, bool> specialCache = new Dictionary<ResearchProjectDef, bool>();
         private static HashSet<ResearchProjectDef> codexProjects = new HashSet<ResearchProjectDef>();
+
+        // Project -> (branch order, position in the branch's list)
+        private static readonly Dictionary<ResearchProjectDef, (int Lane, int Index)> branchOf = new Dictionary<ResearchProjectDef, (int, int)>();
 
         public static bool IsEraTab(ResearchTabDef? tab) => tab != null && Tabs.ContainsValue(tab);
 
@@ -40,21 +46,31 @@ namespace Genesis
 
             var all = DefDatabase<ResearchProjectDef>.AllDefsListForReading;
             var capstones = all.Where(p => p.HasModExtension<CapstoneExtension>()).ToList();
-            var tabOrder = DefDatabase<ResearchTabDef>.AllDefsListForReading;
 
-            var folded = new Dictionary<ResearchProjectDef, ResearchTabDef>();
+            foreach (var branch in DefDatabase<BranchDef>.AllDefsListForReading.Where(b => b.Active))
+            {
+                for (var i = 0; i < branch.projects.Count; i++)
+                {
+                    var p = DefDatabase<ResearchProjectDef>.GetNamedSilentFail(branch.projects[i]);
+                    if (p != null && !branchOf.ContainsKey(p))
+                    {
+                        branchOf[p] = (branch.order, i);
+                    }
+                }
+            }
+
             foreach (var p in all)
             {
-                if (!capstones.Contains(p) && p.tab != null && p.tab.HasModExtension<FoldIntoEras>() && Tabs.TryGetValue(p.techLevel, out var eraTab))
+                var fold = branchOf.ContainsKey(p) || (p.tab != null && p.tab.HasModExtension<FoldIntoEras>());
+                if (!capstones.Contains(p) && fold && Tabs.TryGetValue(p.techLevel, out var eraTab))
                 {
-                    folded[p] = p.tab;
                     p.tab = eraTab;
                 }
             }
 
-            foreach (var pair in Tabs)
+            foreach (var tab in Tabs.Values)
             {
-                Layout(pair.Key, pair.Value, folded, capstones, tabOrder);
+                Layout(tab, all, capstones);
             }
 
             foreach (var capstone in capstones)
@@ -101,31 +117,50 @@ namespace Genesis
             return special;
         }
 
-        // Projects defined on the era tab keep their positions and come first; each source tab's projects follow, keeping their layout
-        // (after the game's own overlap pass), left to right in tab order; the Capstone goes last. Superseded projects are hidden and ignored.
-        private static void Layout(TechLevel era, ResearchTabDef tab, Dictionary<ResearchProjectDef, ResearchTabDef> folded,
-            List<ResearchProjectDef> capstones, List<ResearchTabDef> tabOrder)
+        // One lane per branch, top to bottom; projects without a branch go last. Column = prerequisite depth on this tab.
+        // Projects sharing a lane and column stack in their branch's listed order. The Capstone goes one column after the rest.
+        private static void Layout(ResearchTabDef tab, List<ResearchProjectDef> all, List<ResearchProjectDef> capstones)
         {
-            var placed = DefDatabase<ResearchProjectDef>.AllDefsListForReading
-                .Where(p => p.tab == tab && !folded.ContainsKey(p) && !capstones.Contains(p) && !SupersededResearch.IsSuperseded(p)).ToList();
-            var cursor = placed.Count > 0 ? placed.Max(p => X(p)) + 1f : 0f;
-            var groups = folded.Where(f => f.Key.tab == tab && !SupersededResearch.IsSuperseded(f.Key)).GroupBy(f => f.Value, f => f.Key).OrderBy(g => tabOrder.IndexOf(g.Key));
-            foreach (var group in groups)
+            var projects = all.Where(p => p.tab == tab && !capstones.Contains(p) && !SupersededResearch.IsSuperseded(p)).ToList();
+            var onTab = new HashSet<ResearchProjectDef>(projects);
+            var depth = new Dictionary<ResearchProjectDef, int>();
+            int Depth(ResearchProjectDef p)
             {
-                var minX = group.Min(p => X(p));
-                var maxX = group.Max(p => X(p));
-                foreach (var p in group)
+                if (depth.TryGetValue(p, out var d))
                 {
-                    SetPosition(p, X(p) - minX + cursor, Y(p));
+                    return d;
                 }
-                placed.AddRange(group);
-                cursor += maxX - minX + 1f;
+                depth[p] = 0;
+                var prereqs = (p.prerequisites ?? new List<ResearchProjectDef>()).Where(onTab.Contains).ToList();
+                d = prereqs.Count == 0 ? 0 : prereqs.Max(Depth) + 1;
+                depth[p] = d;
+                return d;
             }
-            var capstone = capstones.FirstOrDefault(c => c.tab == tab && c.techLevel == era);
+
+            var cursor = 0f;
+            var maxColumn = -1;
+            var lanes = projects.GroupBy(p => branchOf.TryGetValue(p, out var b) ? b.Lane : int.MaxValue).OrderBy(g => g.Key);
+            foreach (var lane in lanes)
+            {
+                var columns = lane.GroupBy(Depth).ToList();
+                var rows = columns.Max(c => c.Count());
+                foreach (var column in columns)
+                {
+                    var ordered = column.OrderBy(p => branchOf.TryGetValue(p, out var b) ? b.Index : int.MaxValue).ThenBy(p => Y(p)).ThenBy(p => p.defName).ToList();
+                    for (var i = 0; i < ordered.Count; i++)
+                    {
+                        SetPosition(ordered[i], column.Key, cursor + i * RowStep);
+                    }
+                    maxColumn = Mathf.Max(maxColumn, column.Key);
+                }
+                cursor += rows * RowStep + LaneGap;
+            }
+
+            var capstone = capstones.FirstOrDefault(c => c.tab == tab);
             if (capstone != null)
             {
-                var midY = placed.Count > 0 ? (placed.Min(p => Y(p)) + placed.Max(p => Y(p))) / 2f : 0f;
-                SetPosition(capstone, cursor, Mathf.Round(midY * 10f) / 10f);
+                var midY = projects.Count > 0 ? (projects.Min(p => Y(p)) + projects.Max(p => Y(p))) / 2f : 0f;
+                SetPosition(capstone, maxColumn + 1, Mathf.Round(midY * 10f) / 10f);
             }
         }
 

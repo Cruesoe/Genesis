@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!-- The Genesis Animal projects (Genesis_Animal.xml) and the Neolithic Capstone hold VFE Tribals' work and order locks now -->
+  <!-- Genesis projects hold VFE Tribals' work and order locks now (Genesis_Animal.xml; Agriculture, Husbandry and Carving in Genesis_Neolithic.xml) -->
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/VFETribals.TribalResearchProjectDef[starts-with(defName, "VFET_")]/unlocksWorkTypes</xpath>
   </Operation>
@@ -52,13 +52,13 @@
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_AnimalHandling"]</xpath>
     <value>
-      <li Class="Genesis.SupersededResearch"><by>Genesis_Taming</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Taming</by><itemsTo>Genesis_Husbandry</itemsTo></li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Furniture"]</xpath>
     <value>
-      <li Class="Genesis.SupersededResearch"><by>Genesis_Bedding</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Bedding</by><itemsTo>Genesis_Woodworking</itemsTo></li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
@@ -66,7 +66,7 @@
     <value>
       <li Class="Genesis.SupersededResearch">
         <by>Genesis_Shelter</by>
-        <itemsTo>Genesis_Capstone_Neolithic</itemsTo>
+        <itemsTo>Genesis_TimberBuilding</itemsTo>
         <dropOnly>
           <li>AncientFortifiedWall</li>
           <li>OrbitalAncientFortifiedWall</li>
@@ -78,13 +78,19 @@
   <Operation Class="PatchOperationAddModExtension">
     <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]</xpath>
     <value>
-      <li Class="Genesis.SupersededResearch"><by>Genesis_Spirits</by><itemsTo>Genesis_Capstone_Neolithic</itemsTo></li>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Spirits</by><itemsTo>Genesis_Worship</itemsTo></li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Agriculture" or defName="VFET_Cultivation" or defName="VFET_Medicine"]</xpath>
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Agriculture" or defName="VFET_Cultivation"]</xpath>
     <value>
-      <li Class="Genesis.SupersededResearch"><by>Genesis_Capstone_Neolithic</by></li>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Agriculture</by></li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Medicine"]</xpath>
+    <value>
+      <li Class="Genesis.SupersededResearch"><by>Genesis_Herbalism</by></li>
     </value>
   </Operation>
 
