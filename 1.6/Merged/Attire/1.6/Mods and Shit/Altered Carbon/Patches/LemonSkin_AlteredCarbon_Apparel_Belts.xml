@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- AC_CuirassierBelt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AC_CuirassierBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

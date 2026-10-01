@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- DV_Apparel_HaySunhat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HaySunhat"]/costList</xpath>
+    <value>
+      <costList>
+        <Hay>25</Hay>
+      </costList>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HaySunhat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.07</Mass>
+        <Flammability>1.5</Flammability>
+        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+        <ArmorRating_Heat>-0.1</ArmorRating_Heat>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>8</Insulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HaySunhat"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HaySunhat"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HaySunhat"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Seat_ModernChair"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Couches</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="Seat_Bench"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						@Name="VFE_ErgonomicBedBase"
+						or defName="Bed_Ergonomic"
+						or defName="Bed_DoubleErgonomic"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>MF_ModernFurniture</li>
+						<li>Ferny_ClothBeds</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>
+					/Defs/ThingDef[
+						defName="Bed_Ergonomic"
+						or defName="Bed_DoubleErgonomic"
+					]
+				</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>MF_ModernFurniture</li>
+						<li>Ferny_ClothBeds</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
+		<value>
+			<label>Royal furniture</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PlantPots</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PlantPots</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Table_1x1c"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Table_1x1c"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Table_1x1c"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Table_Counter"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Table_Counter"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>ComplexFurniture</li>
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Table_Counter"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>ComplexFurniture</li>
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFE_CoffeeTable"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFE_CoffeeTable"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VFE_CoffeeTable"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Tables</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Sarcophagus</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Sarcophagus</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Seat_Cushion"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_Chair</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Joy_Arcade"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Joy_DartsBoard"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Joy_DartsBoard"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>ComplexFurniture</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Joy_DartsBoard"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>ComplexFurniture</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PokerTable</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PokerTable</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Radio_Industrial"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Radio_Spacer"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_ModernComputer</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_ModernComputer</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_PersonalComputer</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_ModernComputer</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li>Ferny_ModernComputer</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_LaserWeapons"]/label</xpath><value><label>salvaged laser pistol</label></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_LaserWeapons"]/description</xpath><value><description>Craft compact unstable beam weapons from advanced components and improvised battery cells.</description></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_LaserWeapons"]/baseCost</xpath><value><baseCost>1200</baseCost></value></Operation>
+  <Operation Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserRifle"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserRifle</researchPrerequisite></recipeMaker></value></Operation>
+  <Operation Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserShotgun"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserRifle</researchPrerequisite></recipeMaker></value></Operation>
+  <Operation Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEL_Gun_SalvagedLaserSniperRifle"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserSniperRifle</researchPrerequisite></recipeMaker></value></Operation>
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VFEE_Apparel_TechfriarCrown -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEE_Apparel_TechfriarCrown"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEE_Apparel_AbsolverHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEE_Apparel_AbsolverHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEE_Apparel_DeserterHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEE_Apparel_DeserterHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEE_Apparel_JanissaryHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEE_Apparel_JanissaryHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

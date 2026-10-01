@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="Concrete"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="Concrete"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="Concrete"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="FlagstoneGranite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneGranite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneGranite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="FlagstoneLimestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneLimestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneLimestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="FlagstoneMarble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneMarble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneMarble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="FlagstoneSandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneSandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneSandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="FlagstoneSlate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneSlate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="FlagstoneSlate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="GoldTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="GoldTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="GoldTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="MetalTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="MetalTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="MetalTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="PavedTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PavedTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PavedTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="SilverTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="SilverTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="SilverTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="SterileTile"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="SterileTile"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>SterileMaterials</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="SterileTile"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>SterileMaterials</li>
+						<li>Smithing</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="StrawMatting"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="StrawMatting"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="StrawMatting"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="TileGranite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileGranite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileGranite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="TileLimestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileLimestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileLimestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="TileMarble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileMarble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileMarble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="TileSandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileSandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileSandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="TileSlate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileSlate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="TileSlate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+						<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="WoodPlankFloor"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Floors</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/label</xpath>
+    <value>
+      <label>makeshift pistol</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/description</xpath>
+    <value>
+      <description>Assemble crude handguns from scavenged parts, loose tolerances, and barely reliable firing mechanisms.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/baseCost</xpath>
+    <value>
+      <baseCost>200</baseCost>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/tab</xpath>
+    <value><tab>Main</tab></value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]</xpath>
+    <value>
+      <prerequisites>
+        <li>Machining</li>
+        <li MayRequire="OskarPotocki.VFE.Medieval2">Ferny_Flintlock</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/researchViewX</xpath>
+    <value>
+      <researchViewX>5.80</researchViewX>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_MakeshiftWeapons"]/researchViewY</xpath>
+    <value>
+      <researchViewY>3.20</researchViewY>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftPistol"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>VWE_MakeshiftWeapons</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftShotgun"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>Ferny_MakeshiftShotgun</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftRifle"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>Ferny_SMG</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftSMG"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>Ferny_CombatHandgun</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>Ferny_LMG</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+</Patch>

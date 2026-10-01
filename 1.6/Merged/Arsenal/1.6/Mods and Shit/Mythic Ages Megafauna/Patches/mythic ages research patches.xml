@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Mythic Ages: Megafauna Bestiary</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_ClawSaber"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_DuskSpear"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_GnautHornMace"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_AminoxWarmaul"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_MegaboneClub"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_Rhinhammer"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs/ThingDef[defName="MA_ScarodonFangDagger"]/recipeMaker</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                </Operation>
+</Patch>

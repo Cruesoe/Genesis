@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="GR_FeatherdustJoint"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="GR_FeatherdustJoint"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="GR_FeatherdustJoint"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

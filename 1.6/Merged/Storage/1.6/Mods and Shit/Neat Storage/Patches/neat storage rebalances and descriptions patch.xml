@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Research: crates to Crates and chests, display shelves to Basic storage -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="sbzCrateBase"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Boxes</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="sbzDisplayShelfBase"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Shelves</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="sbzSmallDisplayShelfBase"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Shelves</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<!-- Crate base: 6 to 8 stacks/tile -->
+	<!-- Original maxItemsInCell: 6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="sbzCrateBase"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>8</maxItemsInCell>
+		</value>
+	</Operation>
+	<!-- Specialized industrial: to 15 stacks/tile -->
+	<!-- <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_TextileRack"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>15</maxItemsInCell>
+		</value>
+	</Operation> -->
+	<!-- Original maxItemsInCell: 6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>18</maxItemsInCell>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/statBases/MaxHitPoints</xpath>
+		<value>
+			<MaxHitPoints>5000</MaxHitPoints>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/stuffCategories</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="sbz_Safe"]/stuffCategories</xpath>
+			<value>
+				<stuffCategories>
+					<li>Metallic</li>
+				</stuffCategories>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="sbz_Safe"]</xpath>
+			<value>
+				<stuffCategories>
+					<li>Metallic</li>
+				</stuffCategories>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/costStuffCount</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="sbz_Safe"]/costStuffCount</xpath>
+			<value>
+				<costStuffCount>200</costStuffCount>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="sbz_Safe"]</xpath>
+			<value>
+				<costStuffCount>200</costStuffCount>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/costList</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="sbz_Safe"]/costList</xpath>
+		</match>
+	</Operation>
+	<!-- Original maxItemsInCell: 6 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Drum"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>15</maxItemsInCell>
+		</value>
+	</Operation>
+	<!-- Pallets: restore source total capacities via 6 stacks/tile -->
+	<!-- Original maxItemsInCell: 6 (inherited from sbzCrateBase) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_MiniPallet"]</xpath>
+		<value>
+			<building>
+				<maxItemsInCell>6</maxItemsInCell>
+			</building>
+		</value>
+	</Operation>
+	<!-- Original maxItemsInCell: 6 (inherited from sbzCrateBase) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_HalfPallet"]</xpath>
+		<value>
+			<building>
+				<maxItemsInCell>6</maxItemsInCell>
+			</building>
+		</value>
+	</Operation>
+	<!-- Original maxItemsInCell: 6 (inherited from sbzCrateBase) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_Pallet"]</xpath>
+		<value>
+			<building>
+				<maxItemsInCell>6</maxItemsInCell>
+			</building>
+		</value>
+	</Operation>
+	<!-- Filters -->
+	<!-- Crate: Root minus Foods, FoodMeals, Corpses, Chunks -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_MidCrate"]</xpath>
+		<value>
+			<building>
+				<fixedStorageSettings>
+					<filter>
+						<disallowNotEverStorable>true</disallowNotEverStorable>
+						<categories Inherit="False">
+							<li>Root</li>
+						</categories>
+						<disallowedCategories Inherit="False">
+							<li>Foods</li>
+							<li>FoodMeals</li>
+							<li>Corpses</li>
+							<li>Chunks</li>
+						</disallowedCategories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+	<!-- Pallets: unrestricted -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_MiniPallet"]</xpath>
+		<value>
+			<building>
+				<fixedStorageSettings>
+					<filter>
+						<disallowNotEverStorable>true</disallowNotEverStorable>
+						<categories Inherit="False">
+							<li>Root</li>
+						</categories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_HalfPallet"]</xpath>
+		<value>
+			<building>
+				<fixedStorageSettings>
+					<filter>
+						<disallowNotEverStorable>true</disallowNotEverStorable>
+						<categories Inherit="False">
+							<li>Root</li>
+						</categories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="sbz_Pallet"]</xpath>
+		<value>
+			<building>
+				<fixedStorageSettings>
+					<filter>
+						<disallowNotEverStorable>true</disallowNotEverStorable>
+						<categories Inherit="False">
+							<li>Root</li>
+						</categories>
+					</filter>
+				</fixedStorageSettings>
+			</building>
+		</value>
+	</Operation>
+	<!-- Safe: only metallic-category items -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/building/fixedStorageSettings/filter</xpath>
+		<value>
+			<filter>
+				<disallowNotEverStorable>true</disallowNotEverStorable>
+				<categories Inherit="False">
+					
+				</categories>
+			</filter>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Safe"]/building/defaultStorageSettings/filter</xpath>
+		<value>
+			<filter>
+				<disallowNotEverStorable>true</disallowNotEverStorable>
+				<categories Inherit="False">
+					
+				</categories>
+			</filter>
+		</value>
+	</Operation>
+	<!-- Drum: restrict to ResourcesRaw, Foods -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="sbz_Drum"]/building/fixedStorageSettings/filter</xpath>
+		<value>
+			<filter>
+				<disallowNotEverStorable>true</disallowNotEverStorable>
+				<categories Inherit="False">
+					<li>ResourcesRaw</li>
+					<li>Foods</li>
+				</categories>
+			</filter>
+		</value>
+	</Operation>
+	<!-- Descriptions -->
+	<!-- Crate (2x1, 8/tile, 16 total) -->
+	<!-- Mini Pallet (1x1, 6/tile, 6 total) -->
+	<!-- Half Pallet (2x1, 6/tile, 12 total) -->
+	<!-- Pallet (2x2, 6/tile, 24 total) -->
+	<!-- Display Shelf (2x1, 3/tile, 6 total) -->
+	<!-- Small Display Shelf (1x1, 3/tile, 3 total) -->
+	<!-- Open Shelf (2x1, 6/tile, 12 total) -->
+	<!-- 2-Tier Display Shelf (2x1, 6/tile, 12 total) -->
+	<!-- Tall Display Shelf (2x1, 6/tile, 12 total) -->
+	<!-- Narrow Tall Display Shelf (1x1, 6/tile, 6 total) -->
+	<!-- Hanger Shelf (2x1, 4/tile, 8 total) -->
+	<!-- Narrow Hanger Shelf (1x1, 4/tile, 4 total) -->
+	<!-- Textile Rack (1x1, 15/tile, 15 total) -->
+	<!-- Safe (1x1, 18/tile, 18 total) -->
+	<!-- Drum (1x1, 15/tile, 15 total) -->
+	<!-- Tall Crate (2x2, 8/tile, 32 total) -->
+	<!-- Large Crate (2x2, 8/tile, 32 total) -->
+	<!-- Small Crate (1x1, 8/tile, 8 total) -->
+	<!-- Corpse Dump Spot (1x1, 12/tile, 12 total) -->
+	<!-- Meat Hook (2x1, 6/tile, 12 total) -->
+	<!-- Weapon Rack (2x1, 3/tile, 6 total) -->
+	<!-- Horizontal Weapon Rack (2x1, 6/tile, 12 total) -->
+	<!-- Vertical Weapon Rack (2x1, 6/tile, 12 total) -->
+	<!-- Display Cabinet (2x1, 4/tile, 8 total) -->
+	<!-- Narrow Display Cabinet (1x1, 4/tile, 4 total) -->
+	<!-- Display Case (1x1, 1/tile, 1 total) -->
+	<!-- Round Pedestal (1x1, 1/tile, 1 total) -->
+	<!-- TextileRack GraphicsDef: scale building appearance thresholds for 15 capacity -->
+	<!-- <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/graphics/li[3]/minimumStackCount</xpath>
+		<value>
+			<minimumStackCount>3</minimumStackCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/graphics/li[4]/minimumStackCount</xpath>
+		<value>
+			<minimumStackCount>5</minimumStackCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/graphics/li[5]/minimumStackCount</xpath>
+		<value>
+			<minimumStackCount>7</minimumStackCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/graphics/li[6]/minimumStackCount</xpath>
+		<value>
+			<minimumStackCount>10</minimumStackCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/graphics/li[7]/minimumStackCount</xpath>
+		<value>
+			<minimumStackCount>13</minimumStackCount>
+		</value>
+	</Operation> -->
+	<!-- TextileRack GraphicsDef: split items into 3 rows of 5 instead of 1 infinite stack -->
+	<!-- <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AdaptiveStorage.GraphicsDef[defName="sbz_TextileRackASF"]/itemGraphics</xpath>
+		<value>
+			<itemGraphics>
+				<columns>
+					<c0>
+						<rows>
+							<r0>
+								<stackBehaviour>Stack</stackBehaviour>
+								<stackOffset>(0,0.25,0.07)</stackOffset>
+								<drawOffset>(0,0,-0.2)</drawOffset>
+								<drawScale>0.5</drawScale>
+								<rotation>45</rotation>
+							</r0>
+							<r1>
+								<stackBehaviour>Stack</stackBehaviour>
+								<stackOffset>(0,0.25,0.07)</stackOffset>
+								<drawOffset>(0,0,0.1)</drawOffset>
+								<drawScale>0.5</drawScale>
+								<rotation>45</rotation>
+							</r1>
+							<r2>
+								<stackBehaviour>Stack</stackBehaviour>
+								<stackOffset>(0,0.25,0.07)</stackOffset>
+								<drawOffset>(0,0,0.4)</drawOffset>
+								<drawScale>0.5</drawScale>
+								<rotation>45</rotation>
+							</r2>
+						</rows>
+					</c0>
+				</columns>
+			</itemGraphics>
+		</value>
+	</Operation> -->
+</Patch>

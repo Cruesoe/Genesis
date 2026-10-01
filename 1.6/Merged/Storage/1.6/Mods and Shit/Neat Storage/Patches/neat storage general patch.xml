@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>        
+
+
+
+<!-- MAY 24 2026, New research projects  -->
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="sbz_HalfPallet"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_HalfPallet"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_HalfPallet"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="sbz_Pallet"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_Pallet"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_Pallet"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                        
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <success>Always</success>
+                  <xpath>/Defs/ThingDef[defName="sbz_Safe"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_Safe"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Machining</li>
+                      </researchPrerequisites>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_Safe"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Machining</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <success>Always</success>
+                  <xpath>/Defs/ThingDef[defName="sbz_WideHangerShelf"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_WideHangerShelf"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                      </researchPrerequisites>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_WideHangerShelf"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <success>Always</success>
+                  <xpath>/Defs/ThingDef[defName="sbz_HangerShelf"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="sbz_HangerShelf"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                      </researchPrerequisites>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="sbz_HangerShelf"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="false">
+                        <li>Ferny_Shelves</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
+
+
+<!-- RELABEL -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="sbz_Crate"]/label</xpath>
+                    <value>
+                        <label>large container</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="sbz_MidCrate"]/label</xpath>
+                    <value>
+                        <label>medium container</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="sbz_SmallCrate"]/label</xpath>
+                    <value>
+                        <label>small container</label>
+                    </value>
+                </Operation>
+
+
+
+<!-- VE FURNITURE -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="Shelf_WeaponRack"]/label</xpath>
+                        <value>
+                            <label>small weapon rack</label>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[@Name="sbzWeaponRackBase"]/costStuffCount</xpath>
+                        <value>
+                            <costStuffCount>50</costStuffCount>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+	</Operation>
+
+
+
+
+
+
+<!-- REEL -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Reel's Expanded Storage</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[@Name="sbzCrateBase"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>Ferny_Boxes</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[@Name="sbzDisplayShelfBase"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>Ferny_Shelves</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[@Name="sbzSmallDisplayShelfBase"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>Ferny_Shelves</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[@Name="sbzWeaponRackBase"]</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>ReelIndustrialStorage</li>
+                            </researchPrerequisites>
+                        </value>
+                    </li>
+
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+							<VEF.Buildings.HiddenDesignatorsDef>
+								<defName>FernyNeatStorageReelStorageProgStorage_HiddenDesignators</defName>
+								<hiddenDesignators>
+									<li>sbz_MeatHook</li>
+                                    <li>ReelNewIndustrialShelf</li>
+                                    <li>sbz_WeaponRack</li>
+                                    <li>sbz_HorizontalWeaponRack</li>
+                                    <li>sbz_VerticalWeaponRack</li>
+                                    <li>sbz_SmallCrate</li>
+                                    <li>sbz_Crate</li>
+								</hiddenDesignators>
+							</VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+	</Operation>
+
+
+<!-- MEDIEVAL OVERHAUL -->
+	
+
+	<!-- Drum research -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="sbz_Drum"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="sbz_Drum"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="false">
+					<li>Machining</li>
+					<li MayRequire="reel.expanded.storage">ReelIndustrialStorage</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="sbz_Drum"]</xpath>
+			<value>
+				<researchPrerequisites Inherit="false">
+					<li>Machining</li>
+					<li MayRequire="reel.expanded.storage">ReelIndustrialStorage</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

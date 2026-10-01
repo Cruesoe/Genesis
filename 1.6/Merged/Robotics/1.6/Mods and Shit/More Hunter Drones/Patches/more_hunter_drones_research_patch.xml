@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="WaspDroneTrap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Drone_HunterToxic_Trap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Drone_HunterAntigrainWarhead_Trap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Drone_HunterIncendiary_Trap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Drone_HunterEMP_Trap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Drone_HunterSmoke_Trap"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_HunterAntigrainTrap</li></researchPrerequisites></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Apparel_PackHunter_Toxic"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_HunterAntigrainPack</researchPrerequisite></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Apparel_PackHunter_AntigrainWarhead"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_HunterAntigrainPack</researchPrerequisite></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Apparel_PackHunter_Incendiary"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_HunterAntigrainPack</researchPrerequisite></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Apparel_PackHunter_EMP"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_HunterAntigrainPack</researchPrerequisite></value></Operation>
+    <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Apparel_PackHunter_Smoke"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_HunterAntigrainPack</researchPrerequisite></value></Operation>
+
+</Patch>

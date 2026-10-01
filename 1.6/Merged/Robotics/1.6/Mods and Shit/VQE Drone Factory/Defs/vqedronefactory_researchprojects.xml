@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_BattleDrone</defName>
+		<label>Combat drones</label>
+		<description>Assemble battle and turret drones.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>6.60</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>VQE_Dronetech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_CleanerDrone</defName>
+		<label>Cleaner drone</label>
+		<description>Design and build a maintenance-oriented drone for cleaning and upkeep tasks. The drone is equipped with a small cleaning brush, making it proficient in scrubbing surfaces.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>VQE_Dronetech</li>
+		</prerequisites>
+	</ResearchProjectDef> -->
+	<ResearchProjectDef>
+		<defName>Ferny_HaulerDrone</defName>
+		<label>Work drones</label>
+		<description>Assemble hauler, miner and broadcaster drones.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>5.90</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>VQE_Dronetech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

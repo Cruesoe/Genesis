@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_MassDrivers"]/label</xpath><value><label>gauss revolver</label></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_MassDrivers"]/description</xpath><value><description>Craft electromagnetic sidearms that launch armor-piercing sabots at extreme velocity.</description></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_MassDrivers"]/baseCost</xpath><value><baseCost>1200</baseCost></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_GaussRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_GaussLance"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussLance</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRevolver"]</xpath><match Class="PatchOperationSequence"><operations>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRevolver"]/label</xpath><value><label>frontier gauss revolver</label></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRevolver"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussRifle</researchPrerequisite></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_GaussRepeater"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussLance</researchPrerequisite></value></li>
+  </operations></match></Operation>
+  <Operation Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="Aqued_Gun_GaussCarbine"]</xpath><match Class="PatchOperationSequence"><operations>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Aqued_Gun_GaussCarbine"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussRifle</researchPrerequisite></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Aqued_Gun_GaussSAW"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussLance</researchPrerequisite></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Aqued_Gun_GaussSlugger"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussLance</researchPrerequisite></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Aqued_Gun_GaussDMR"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_GaussLance</researchPrerequisite></value></li>
+  </operations></match></Operation>
+  <Operation Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="DV_Gun_CoilgunLance"]/recipeMaker/researchPrerequisites</xpath><match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="DV_Gun_CoilgunLance"]/recipeMaker/researchPrerequisites</xpath><value><li>Ferny_GaussLance</li></value></match><nomatch Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="DV_Gun_CoilgunLance"]/recipeMaker</xpath><match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="DV_Gun_CoilgunLance"]/recipeMaker</xpath><value><researchPrerequisites><li>Ferny_GaussLance</li></researchPrerequisites></value></match></nomatch></Operation>
+</Patch>

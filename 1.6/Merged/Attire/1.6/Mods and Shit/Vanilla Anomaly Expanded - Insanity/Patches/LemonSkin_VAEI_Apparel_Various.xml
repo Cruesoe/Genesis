@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAEI_Apparel_Gag -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAEI_Apparel_Gag"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_PrisonerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAEI_Apparel_StraitJacket -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAEI_Apparel_StraitJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_PrisonerApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

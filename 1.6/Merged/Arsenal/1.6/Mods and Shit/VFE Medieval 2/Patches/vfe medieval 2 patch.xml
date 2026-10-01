@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>          
+<Patch>       
+          
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_HeavyMace"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_HeavyMace</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Flail"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_HeavyMace</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_ThrowingAxe"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Axe</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Warbow"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Longbow</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/label</xpath>
+            <value>
+              <label>hand cannon</label>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/description</xpath>
+            <value>
+              <description>Craft crude handheld gunpowder tubes that launch devastating shot at short range.</description>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/baseCost</xpath>
+            <value>
+              <baseCost>500</baseCost>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/generalRules</xpath>
+            <value>
+              <generalRules>
+                <rulesStrings>
+                  <li>subject-&gt;hand cannons</li>
+                  <li>subject_story-&gt;made crude handheld gunpowder weapons reliable enough for the field</li>
+                  <li>subject_story-&gt;brought thunderous short-range firearms into battle</li>
+                  <li>subject_story-&gt;learned to cast and brace early portable gun barrels</li>
+                  <li>subject_gerund-&gt;crafting hand cannons</li>
+                </rulesStrings>
+              </generalRules>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Gun_HandCannon"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>VFEM2_Matchlocks</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Gun_Arquebus"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Arquebus</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Gun_Musket"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Arquebus</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Gun_Flintlock"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Flintlock</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_Turret_WallMountedArquebus"]/researchPrerequisites</xpath>
+            <value>
+              <researchPrerequisites>
+                <li>Ferny_Arquebus</li>
+              </researchPrerequisites>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Claymore"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_DaneAxe</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_Halberd</researchPrerequisite>
+            </value>
+          </Operation>
+          <Operation Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_BattleAxe</researchPrerequisite>
+            </value>
+          </Operation>
+</Patch>

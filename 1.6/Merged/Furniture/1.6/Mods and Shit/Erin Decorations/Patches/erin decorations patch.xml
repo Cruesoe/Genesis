@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>
+      Defs/ThingDef[
+        defName="ED_Doormat" or
+        defName="ED_Bin" or
+        defName="ED_SmallPhotos" or
+        defName="ED_Candles" or
+        defName="ED_PetBowl" or
+        defName="ED_Plushie" or
+        defName="ED_Laptop" or
+        defName="ED_SmallPlant" or
+        defName="ED_Paper" or
+        defName="ED_Papers" or
+        defName="ED_Book" or
+        defName="ED_PileofBooks" or
+        defName="ED_Pillow" or
+        defName="ED_Trophy" or
+        defName="ED_Clock"
+      ]/researchPrerequisites
+    </xpath>
+  </Operation>
+
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="ED_SimpleDecorations"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Art</li>
+    </mods>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="ED_Vase"]/researchPrerequisites</xpath>
+    </nomatch>
+  </Operation>
+
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="ED_CatTower"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ED_CatTower"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>Ferny_Bedroll</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/ThingDef[defName="ED_CatTower"]</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>Ferny_Bedroll</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+
+
+</Patch>

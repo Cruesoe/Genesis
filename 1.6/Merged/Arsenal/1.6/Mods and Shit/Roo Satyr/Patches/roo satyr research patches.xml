@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Lute"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Lute</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Lyre"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Lute</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- BMT_Apparel_DinoHatCarni_Base -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BMT_Apparel_DinoHatCarni_Base"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_CostumeHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

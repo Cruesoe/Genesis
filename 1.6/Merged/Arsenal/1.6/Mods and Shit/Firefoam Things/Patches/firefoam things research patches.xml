@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/recipeMaker/researchPrerequisites</xpath>
+    <value><researchPrerequisites Inherit="False" /></value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/recipeMaker/researchPrerequisite</xpath>
+      <value><researchPrerequisite>Ferny_FirefoamLauncher</researchPrerequisite></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Mosi_FirefoamLauncher"]/recipeMaker</xpath>
+      <value><researchPrerequisite>Ferny_FirefoamLauncher</researchPrerequisite></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/recipeMaker/researchPrerequisites</xpath>
+    <value><researchPrerequisites Inherit="False" /></value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/recipeMaker/researchPrerequisite</xpath>
+      <value><researchPrerequisite>Ferny_FirefoamLauncher</researchPrerequisite></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Mosi_FirefoamSprayer"]/recipeMaker</xpath>
+      <value><researchPrerequisite>Ferny_FirefoamLauncher</researchPrerequisite></value>
+    </nomatch>
+  </Operation>
+</Patch>

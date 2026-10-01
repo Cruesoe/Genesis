@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Butcher table -->
+	<ResearchProjectDef>
+		<defName>Ferny_ButcherTable</defName>
+		<label>Butcher table</label>
+		<description>Construct a heavy table for butchering dead creatures into pieces of raw meat for meal preparation.</description>
+		<baseCost>500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>11.70</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Tables</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FueledStove</defName>
+		<label>Fueled stove</label>
+		<description>Learn to build a simple cooking station that can be fueled with wood or other materials to cook meals.</description>
+		<baseCost>500</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>Ferny_SimpleMeals</li>
+			<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Tables</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_SimpleMeals</defName>
+		<label>Simple meals</label>
+		<description>Learn to prepare basic meals that will satiate your colonists.</description>
+		<baseCost>200</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Fire</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FineMeals</defName>
+		<label>Fine meals</label>
+		<description>Learn to prepare improved meals that will satisfy your colonists while improving their mood.</description>
+		<baseCost>400</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li>Ferny_FueledStove</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LavishMeals</defName>
+		<label>Lavish meals</label>
+		<description>Refine your cooking to cook fantastic meals that will massively satisfy your colonists while greatly improving their mood.</description>
+		<baseCost>700</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<!-- <tags>
+			<li>ClassicStart</li>
+		</tags> -->
+		<prerequisites>
+			<li>Ferny_FineMeals</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Neolithic -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicApparel</defName>
+    <label>neolithic apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_NeolithicArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_NeolithicApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Medieval -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalApparel</defName>
+    <label>medieval apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_MedievalArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Industrial -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialApparel</defName>
+    <label>industrial apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_IndustrialArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_IndustrialApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Spacer -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerApparel</defName>
+    <label>spacer apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SpacerArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_SpacerApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Ultra-tech -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraApparel</defName>
+    <label>ultra-tech apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_UltraArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Prisoner -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_PrisonerApparel</defName>
+    <label>prisoner apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_PrisonerHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_PrisonerApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Workwear -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_Workwear</defName>
+    <label>workwear</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_WorkwearHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_Workwear</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Costumes -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_Costume</defName>
+    <label>costumes</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_CostumeHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_Costume</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Vanity -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_VanityApparel</defName>
+    <label>vanity apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_VanityHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_VanityApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Kid -->
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidApparel</defName>
+    <label>kid apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_KidApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidArmor</defName>
+    <label>armor</label>
+    <parent>LemonSkin_KidApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_KidArmor</parent>
+  </ThingCategoryDef>
+</Defs>

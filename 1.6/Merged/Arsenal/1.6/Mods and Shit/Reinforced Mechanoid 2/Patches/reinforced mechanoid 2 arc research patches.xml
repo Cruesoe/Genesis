@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="RM_ARCShot"]/label</xpath>
+    <value><label>ARC pistol</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="RM_ARCShot"]/description</xpath>
+    <value><description>Craft compact tesla-coil sidearms that stun and burn clustered targets with chaining electrical bursts.</description></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="RM_ARCShot"]/baseCost</xpath>
+    <value><baseCost>1600</baseCost></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RM_ARCRifle"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_ARCRifle</researchPrerequisite></value>
+  </Operation>
+</Patch>

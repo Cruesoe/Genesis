@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef MayRequire="Ludeon.Rimworld.Biotech">
+    <defName>Ferny_Flamebow</defName>
+    <label>flamebow</label>
+    <description>Craft simple selfbows loaded with incendiary arrows that spread burning fuel on impact.</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+    <prerequisites>
+      <li MayRequire="OskarPotocki.VFE.Tribals">VFET_Bow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

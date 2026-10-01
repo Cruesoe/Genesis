@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="det.halffoot">
+    <defName>Ferny_ArcWrench</defName>
+    <label>arc wrench</label>
+    <description>Craft heavy two-pronged welding tools that channel an electrical arc between their jaws.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites><li>Machining</li></prerequisites>
+  </ResearchProjectDef>
+</Defs>

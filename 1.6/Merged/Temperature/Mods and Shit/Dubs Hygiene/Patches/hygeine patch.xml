@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                    <li>Vanilla Temperature Expanded</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                    <operations>
+                    <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="MultiSplitAirCon"]</xpath>
+                    </li>
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+                            <VEF.Buildings.HiddenDesignatorsDef>
+                                <defName>FernyDubsHygieneVETemperatureProgTemperature_HiddenDesignators</defName>
+                                <hiddenDesignators>			
+                                    <li>AirConOutdoorUnit</li>
+                                    <li>AirconIndoorUnit</li>
+                                    <li>FreezerUnit</li>
+                                    <li>airPipe</li>
+                                    <li>VTE_SmallCeilingFan</li>
+                                    <li>VTE_LargeCeilingFan</li>
+                                    <li>airPipeHidden</li>
+                                </hiddenDesignators>							
+                            </VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
+                    </operations>
+                    </match>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="LogBoilers"]/label</xpath>
+                    <value>
+                        <label>Water-based heating</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]/prerequisites</xpath>
+                  <match Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]/prerequisites</xpath>
+                    <value>
+                      <li>Plumbing</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]</xpath>
+                    <value>
+                      <prerequisites>
+                        <li>Plumbing</li>
+                      </prerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="CentralHeating"]/label</xpath>
+                    <value>
+                        <label>Fluid heat exchange</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="GeothermalHeating"]/label</xpath>
+                    <value>
+                        <label>Geothermal water heater</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SolarHeater"]/label</xpath>
+                    <value>
+                        <label>Solar water heater</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GeothermHeater"]/label</xpath>
+                    <value>
+                        <label>Geothermal water heater</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="CeilingFanS"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="CeilingFanS"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="CeilingFanS"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="CeilingFan"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="CeilingFan"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="CeilingFan"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="SolarHeater"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="SolarHeater"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_SolarWaterHeating</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="SolarHeater"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_SolarWaterHeating</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+</Patch>

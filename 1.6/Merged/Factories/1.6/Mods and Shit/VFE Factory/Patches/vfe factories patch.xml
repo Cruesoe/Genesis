@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+<!-- Repurpose the original basic factories project -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_BasicFactories"]/label</xpath>
+    <value>
+        <label>Conveyor belts</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_BasicFactories"]/description</xpath>
+    <value>
+        <description>Build automated transport belts for efficiently transporting materials around the colony.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_BasicFactories"]/baseCost</xpath>
+    <value>
+        <baseCost>1500</baseCost>
+    </value>
+</Operation>
+
+
+<!-- Repurpose the original complex factories project; the factory booster and heatsink keep it as their research -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]/label</xpath>
+    <value>
+        <label>Underground conveyor belts</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]/description</xpath>
+    <value>
+        <description>Build automated transport belts that can tunnel underground and back up for more complex logistics networks, plus factory boosters and heatsinks that link with nearby factory machines.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]/baseCost</xpath>
+    <value>
+        <baseCost>2500</baseCost>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]/researchViewX</xpath>
+    <value>
+        <researchViewX>6.00</researchViewX>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VFE_ComplexFactories"]/researchViewY</xpath>
+    <value>
+        <researchViewY>4.20</researchViewY>
+    </value>
+</Operation>
+
+
+<!-- Underground conveyors -->
+
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_UndergroundConveyorEntrance"]</xpath>
+    <value>
+        <researchPrerequisites Inherit="False">
+        <li>VFE_ComplexFactories</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_UndergroundConveyorExit"]</xpath>
+    <value>
+        <researchPrerequisites Inherit="False">
+        <li>VFE_ComplexFactories</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Automated extraction -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedSmelter"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedSmelter</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedDrillPlatform"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedSmelter</li>
+        <li>DeepDrilling</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedMasonrySaw"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedSmelter</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedBiofuelRefinery"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedSmelter</li>
+        <li>BiofuelRefining</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Automated food production; the fishfarm exists with Odyssey and the cannery with Vanilla Cooking Expanded -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_Autofarmer"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedFarmer</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedMincer"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedFarmer</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedFishfarm"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedFarmer</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedCannery"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedFarmer</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Automated crafting; the drone assembler is moved in the VQE Drone Factory folder -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_Autoloom"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedLoom</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedAmmunitionPress"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedLoom</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Factory processing -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_ConveyorOven"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_ConveyorOven</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedCrematorium"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_ConveyorOven</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedDistillery"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_ConveyorOven</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_MedicineGranulator"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_ConveyorOven</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_NeutroamineSynthesizer"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_ConveyorOven</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Factory manufacturing -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedAlloyForge"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedAssembler</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedAssembler"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedAssembler</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedMachiningBay"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+        <li>Ferny_AutomatedAssembler</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Renames -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_Autoloom"]/label</xpath>
+    <value>
+        <label>automated loom</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_Autofarmer"]/label</xpath>
+    <value>
+        <label>automated farmer</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedMasonrySaw"]/label</xpath>
+    <value>
+        <label>automated heavy-duty saw</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_AutomatedMasonrySaw"]/description</xpath>
+    <value>
+		<description>An industrial machine capable of cutting resources into usable materials.\n\nFactory buildings need factory hoppers for input and output. They produce significant heat and consume much power, but can be overclocked for higher efficiency, increasing both heat generation and power consumption.</description>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_MedicineGranulator"]/label</xpath>
+    <value>
+        <label>drug granulator</label>
+    </value>
+</Operation>
+
+
+<!-- recipes -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyGravlite"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAssembler</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[defName="VFEFactory_AlloyBronze"]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAssembler</li>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeHighExplosiveShells" or
+        defName="VFEFactory_MakeIncendiaryShells" or
+        defName="VFEFactory_MakeEMPShells" or
+        defName="VFEFactory_MakeFirefoamShells" or
+        defName="VFEFactory_MakeSmokeShells" or
+        defName="VFEFactory_MakeToxShells" or
+        defName="VFEFactory_MakeTarShells" or
+        defName="VFEFactory_MakeShrapnelShells" or
+        defName="VFEFactory_MakeArmorPiercingShells" or
+        defName="VFEFactory_MakeClusterShells" or
+        defName="VFEFactory_MakeDeadlifeShells"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedLoom</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_AssembleComponent" or
+        defName="VFEFactory_AssembleAdvancedComponent"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedAssembler</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeChemfuelFromWood" or
+        defName="VFEFactory_MakeChemfuelFromOrganics" or
+        defName="VFEFactory_MakeChemfuelFromRedWood" or
+        defName="VFEFactory_MakeChemfuelFromMushroomWood" or
+        defName="VFEFactory_MakeChemfuelFromCanola" or
+        defName="VFEFactory_AstrofuelFromChemfuel"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedSmelter</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeBeerFromHops" or
+        defName="VFEFactory_MakeWhiskeyFromCorn" or
+        defName="VFEFactory_MakeTequilaFromAgave" or
+        defName="VFEFactory_MakeVodkaFromPotatoes" or
+        defName="VFEFactory_MakeGinFromBerries" or
+        defName="VFEFactory_MakeSoda" or
+        defName="VFEFactory_MakeSakeFromRice" or
+        defName="VFEFactory_MakeChocoLiquor" or
+        defName="VFEFactory_MakeCoffeeLiquor"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_ConveyorOven</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeStoneBlocks"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_AutomatedSmelter</li>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakePemmican" or
+        defName="VFEFactory_MakeSurvivalMeal" or
+        defName="VFEFactory_MakeSimpleSoup"
+    ]/researchPrerequisites/li[text()="VFE_BasicFactories"]</xpath>
+    <value>
+        <li>Ferny_ConveyorOven</li>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/PipeSystem.ProcessDef[
+        defName="VFEFactory_MakeMedicine" or
+        defName="VFEFactory_SynthesizeFlake" or
+        defName="VFEFactory_SynthesizeYayo" or
+        defName="VFEFactory_BrewPsychiteTea" or
+        defName="VFEFactory_SynthesizeGoJuice" or
+        defName="VFEFactory_SynthesizePenoxycyline" or
+        defName="VFEFactory_SynthesizeWakeUp" or
+        defName="VFEFactory_SynthesizeAntibiotics" or
+        defName="VFEFactory_SynthesizeAgePills"
+    ]/researchPrerequisites/li[text()="VFE_ComplexFactories"]</xpath>
+    <value>
+        <li>Ferny_ConveyorOven</li>
+    </value>
+</Operation>
+
+</Patch>

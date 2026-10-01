@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BananaSuit_TheSuit"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_CostumingTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BananaSuit_TheSuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BananaSuit_TheKidSuit"]/recipeMaker</xpath>
+      <value>
+        <recipeMaker>
+          <recipeUsers Inherit="False">
+            <li>Ferny_CostumingTable</li>
+          </recipeUsers>
+          <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        </recipeMaker>
+      </value>
+    </match>
+  </Operation>
+</Patch>

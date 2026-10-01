@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef MayRequire="VexedTrees980.RimElvesBiotech">
+    <defName>Ferny_ChargeBow</defName>
+    <label>charge bow</label>
+    <description>Craft composite bows that energize arrows with unstable pulse-charged fields as they are drawn.</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>13.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+    <prerequisites>
+      <li>ChargedShot</li>
+      <li>Greatbow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

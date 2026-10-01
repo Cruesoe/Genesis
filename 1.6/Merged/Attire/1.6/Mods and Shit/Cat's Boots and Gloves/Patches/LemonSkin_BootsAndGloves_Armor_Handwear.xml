@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- CAT_Handwear_EltexGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_EltexGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Handwear_ReconGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_ReconGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Handwear_HeavyMarineGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_HeavyMarineGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Handwear_EnsignGloves -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_EnsignGloves"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Handwear_EnsignGloves"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <!-- CAT_Handwear_CrusaderGloves -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_CrusaderGloves"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Handwear_CrusaderGloves"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <!-- CAT_Handwear_FlakGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_FlakGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Handwear_RiotGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_RiotGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Handwear_VacsuitGloves -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Handwear_VacsuitGloves"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Handwear_VacsuitGloves"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

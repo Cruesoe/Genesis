@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- DV_Apparel_GolemancerBag -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_GolemancerBag"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToMake>3500</WorkToMake>
+        <Mass>1.5</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_GolemancerBag"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_GolemancerBag"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

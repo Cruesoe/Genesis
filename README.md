@@ -1,10 +1,11 @@
 # Genesis
 
-A RimWorld progression overhaul built around the Vanilla Expanded series.
+A RimWorld progression overhaul that takes your colony through the eras, from tribal beginnings to spacer technology.
+Each era ends in a capstone project; finishing it advances your colony to the next era, with a short celebration as it
+happens.
 
-Research moves through the eras, from tribal beginnings to spacer technology, with fewer and bigger projects. Each one
-unlocks a whole family of related items across your mods, so everything from the same stage arrives together. Finishing
-an era's capstone project advances your colony to the next era, with a short celebration as it happens.
+Genesis brings ferny's Progression mods and the ProgressionLESS forks together in one mod: Core, Temperature,
+Hospitality, Furniture, Storage, Kitchen, Production, Drugs, Robotics, Attire, Arsenal, Factories and Gravship.
 
-Works with any mix of the supported mods; each is only touched when it's active. Replaces the Progression and
-ProgressionLESS mods.
+Built on [ferny's Progression mods](https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585). Huge thanks to
+ferny for the original mods and all the Progression work this builds on.

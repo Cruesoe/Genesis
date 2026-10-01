@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- CAT_Footwear_EltexBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_EltexBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Footwear_ReconBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_ReconBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Footwear_HeavyMarineBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_HeavyMarineBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Footwear_EnsignBoots -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_EnsignBoots"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Footwear_EnsignBoots"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <!-- CAT_Footwear_CrusaderBoots -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_CrusaderBoots"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Footwear_CrusaderBoots"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <!-- CAT_Footwear_FlakBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_FlakBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- CAT_Footwear_RiotBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_RiotBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Footwear_EnsignBoots -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CAT_Footwear_VacsuitBoots"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="CAT_Footwear_VacsuitBoots"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

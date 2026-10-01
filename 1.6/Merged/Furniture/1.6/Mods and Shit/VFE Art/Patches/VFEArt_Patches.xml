@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFE_Wallpaper"]/label</xpath>
+		<value>
+			<label>wallpaper wall</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]/label</xpath>
+		<value>
+			<label>obelisk sculpting</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]/label</xpath>
+		<value>
+			<label>monument sculpting</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Statues"]/label</xpath>
+		<value>
+			<label>statue sculpting</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]/label</xpath>
+		<value>
+			<label>wallpaper wall</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]/prerequisites</xpath>
+			<match Class="PatchOperationReplace">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]/prerequisites</xpath>
+				<value>
+					<prerequisites>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+					</prerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]</xpath>
+				<value>
+					<prerequisites>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+					</prerequisites>
+				</value>
+			</nomatch>
+	</Operation>
+
+
+
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Rugs"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Rugs"]/prerequisites</xpath>
+			<value>
+				<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Rugs"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[@Name="RugBase"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RugBase"]/designationCategory</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]/designationCategory</xpath>
+					<value>
+						<designationCategory>Ferny_DecoRugs</designationCategory>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]</xpath>
+					<value>
+						<designationCategory>Ferny_DecoRugs</designationCategory>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RugBase"]/terrainAffordanceNeeded</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]/terrainAffordanceNeeded</xpath>
+					<value>
+						<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]</xpath>
+					<value>
+						<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[@Name="RugBase"]/researchPrerequisites</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>VFE_Res_Rugs</li>
+						</researchPrerequisites>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[@Name="RugBase"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>VFE_Res_Rugs</li>
+						</researchPrerequisites>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="VFE_RugSmall"]/statBases/WorkToMake</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VFE_RugSmall"]/statBases/WorkToMake</xpath>
+					<value>
+						<WorkToBuild>14000</WorkToBuild>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFE_RugSmall"]/statBases</xpath>
+					<value>
+						<WorkToBuild>14000</WorkToBuild>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="VFE_RugLarge"]/statBases/WorkToMake</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VFE_RugLarge"]/statBases/WorkToMake</xpath>
+					<value>
+						<WorkToBuild>32000</WorkToBuild>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFE_RugLarge"]/statBases</xpath>
+					<value>
+						<WorkToBuild>32000</WorkToBuild>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="VFE_RugGrand"]/statBases/WorkToMake</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VFE_RugGrand"]/statBases/WorkToMake</xpath>
+					<value>
+						<WorkToBuild>70000</WorkToBuild>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFE_RugGrand"]/statBases</xpath>
+					<value>
+						<WorkToBuild>70000</WorkToBuild>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- VFE Art projects follow Progression: Production sculpting bench -->
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Statues"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Statues"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Statues"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]/prerequisites</xpath>
+			<value>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

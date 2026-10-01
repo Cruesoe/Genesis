@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="PMP_PersonaMechStandard"]/prerequisites</xpath>
+    <value>
+        <prerequisties><li>StandardMechtech</li></prerequisties>
+    </value>
+</Operation>
+
+
+</Patch>

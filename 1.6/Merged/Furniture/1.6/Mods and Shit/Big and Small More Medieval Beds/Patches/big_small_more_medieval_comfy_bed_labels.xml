@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_Rustic_Red"]/label</xpath>
+    <value>
+      <label>giant comfy red bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_Rustic_Green"]/label</xpath>
+    <value>
+      <label>giant comfy green bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_Rustic_Blue"]/label</xpath>
+    <value>
+      <label>giant comfy blue bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_RusticDouble_Red"]/label</xpath>
+    <value>
+      <label>giant comfy red double bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_RusticDouble_Green"]/label</xpath>
+    <value>
+      <label>giant comfy green double bed</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DZGB_Giant_Bed_RusticDouble_Blue"]/label</xpath>
+    <value>
+      <label>giant comfy blue double bed</label>
+    </value>
+  </Operation>
+</Patch>

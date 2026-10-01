@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Vanilla Weapons Expanded - Tribal</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_TribalAxe"]/label</xpath>
+                                <value>
+                                    <label>makeshift axe</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_HeavyClub"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_LightClub"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_TribalAxe"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shiv"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_Sling"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_Throwing_Shards"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VWE_Weapon_FireBomb"]/recipeMaker/researchPrerequisite</xpath>
+                                <value>
+                                    <researchPrerequisite>Ferny_FireBombs</researchPrerequisite>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                </Operation>
+</Patch>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- EveningDress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="EveningDress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- PleatedDress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PleatedDress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- SolemnDress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SolemnDress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

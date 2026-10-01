@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_VitaminF</defName>
+		<label>vitamin f</label>
+		<description>Produce a synthetic combat-enhancing drug that reduces pain while slightly increasing consciousness, breathing, and manipulation.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>12.40</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+			<li>FOF_Plants</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

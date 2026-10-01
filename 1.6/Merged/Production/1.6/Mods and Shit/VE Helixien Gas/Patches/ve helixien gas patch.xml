@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VHGE_GasPoweredCrematorium"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VHGE_GasExtraction</li>
+				<li MayRequire="oskarpotocki.vfe.classical">VFEC_WoodfiredCrematorium</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VHGE_GasPoweredSmelter"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VHGE_GasExtraction</li>
+				<li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VHGE_GasPoweredRefinery"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VHGE_GasExtraction</li>
+				<li>BiofuelRefining</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- DV_Apparel_HunterVisage -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HunterVisage"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>ReconArmor</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Apparel_HunterVisage"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

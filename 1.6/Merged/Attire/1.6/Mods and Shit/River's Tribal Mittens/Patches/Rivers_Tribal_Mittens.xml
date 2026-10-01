@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Change Naming -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "River_Tribal_mittens"]/label</xpath>
+		<value>
+			<label>tribal mittens</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "River_Tribal_mittens"]/description</xpath>
+		<value>
+			<description>A pair of mittens crafted using neolithic tools. While it may look primitive, it is effective at insulating the wearer.</description>
+		</value>
+	</Operation>
+
+</Patch>

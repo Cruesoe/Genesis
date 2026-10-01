@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><Patch><Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VFED_Gun_ChargeCycler"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargePistol</researchPrerequisite></value></Operation></Patch>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="BasketballGoal" or defName="SoccerGoal" or defName="VolleyballNet"]/researchPrerequisites</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BasketballGoal"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Basketball</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="SoccerGoal"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Basketball</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="VolleyballNet"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Basketball</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

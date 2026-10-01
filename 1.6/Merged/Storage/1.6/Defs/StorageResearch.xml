@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef MayRequireAnyOf="reel.expanded.storage,sbz.NeatStorage">
+		<defName>Ferny_Boxes</defName>
+		<label>Crates and chests</label>
+		<description>Build wooden crates, barrels, chests, strongboxes and meat hooks to store resources.</description>
+		<baseCost>400</baseCost>
+		<tab>Main</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>10.30</researchViewY>
+		<prerequisites>
+			<li MayRequire="sbz.neatstorage">Ferny_Shelves</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

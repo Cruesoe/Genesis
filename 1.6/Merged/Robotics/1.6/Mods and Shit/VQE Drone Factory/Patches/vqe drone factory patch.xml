@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VQE_UnfinishedDroneSpawner_AutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>deployed broadcaster drone</label>
+    </value>
+</Operation>
+
+<!-- Autobroadcaster -> Broadcaster -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>broadcaster drone</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/PawnKindDef[defName="VQE_AutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>broadcaster drone</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleAutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>assemble broadcaster drone</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VQE_UnfinishedDroneSpawner_AutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>deployed broadcaster drone</label>
+    </value>
+</Operation>
+
+
+
+
+
+
+
+
+<!-- New research projects -->
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleBattleDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_BattleDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<!-- <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleCleanerDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_CleanerDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation> -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleHaulerDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_HaulerDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleMinerDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_HaulerDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleAutobroadcasterDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_HaulerDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="VQE_AssembleTurretDrone"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_BattleDrone</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Hunter drone gates the military drone branches when Odyssey is active. -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Ferny_BattleDrone"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>HunterDrones</li>
+            </prerequisites>
+        </value>
+    </match>
+</Operation>
+
+
+</Patch>

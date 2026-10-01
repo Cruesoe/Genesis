@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_Apparel_RiotArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_RiotArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_RiotHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_RiotHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- VAE_Apparel_BaseShield -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="VAE_Apparel_BaseShield"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialShields</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

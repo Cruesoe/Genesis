@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+<!-- LARGE MACHINING TABLE -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/label</xpath>
+		<value>
+			<label>Large workstations</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/description</xpath>
+		<value>
+			<description>Build large machining, smithing and tailoring tables for faster work.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/baseCost</xpath>
+		<value>
+			<baseCost>1500</baseCost>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="VFE_Manufacturing"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				<li>Fabrication</li>
+				<li>Machining</li>
+			</prerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFE_Manufacturing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFE_TableStoveLarge"]/researchPrerequisites/li[text()="VFE_Manufacturing"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableSmithyLarge"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFE_Manufacturing</li>
+				<li>Smithing</li>
+				
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFE_Manufacturing</li>
+				<li>ComplexClothing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+<!-- NEW RESEARCH PROJECTS -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_FueledSmelter"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Smithing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableStonecutterElectric"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Electricity</li>
+				<li>Stonecutting</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

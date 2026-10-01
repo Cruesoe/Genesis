@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Waiter"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+        </value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CashRegister_Mech"]/researchPrerequisites</xpath>
+		<value>
+        <researchPrerequisites>
+			<li>Ferny_Surrogate</li>
+        </researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

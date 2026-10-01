@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/TerrainDef[defName="WoodenDeck"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

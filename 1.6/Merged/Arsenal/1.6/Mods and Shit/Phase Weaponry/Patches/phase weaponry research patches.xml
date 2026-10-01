@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="DV_PhaseWeaponsResearch"]/label</xpath>
+    <value><label>phase shank</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="DV_PhaseWeaponsResearch"]/description</xpath>
+    <value><description>Craft compact sidearms that condense bursts of energy into cutting blades for close-range penetration.</description></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="DV_PhaseWeaponsResearch"]/baseCost</xpath>
+    <value><baseCost>1200</baseCost></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Gun_PhaseRifle"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_PhaseSaw</researchPrerequisite></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Gun_PhasePrecisionRifle"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_PhaseSaw</researchPrerequisite></value>
+  </Operation>
+</Patch>

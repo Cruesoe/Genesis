@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- These guns inherit a Gunsmithing recipe from BaseMakeableGun. Removing the
+       child recipeMaker exposes that inherited recipe, so explicitly null it. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False" IsNull="True" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/researchPrerequisites</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/researchPrerequisites</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/weaponTags</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/weaponTags</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/thingSetMakerTags</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/thingSetMakerTags</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/possessionCount</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]/possessionCount</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[(defName="TWRL_Gun_RainbowMinimi" or defName="TWRL_Gun_RainbowRevolver" or defName="TWRL_Gun_RainbowShotgun")]</xpath>
+    <value>
+      <tradeability>None</tradeability>
+      <generateCommonality>0</generateCommonality>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>        
+
+
+<!-- RELABEL -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ASF_WeaponRack"]/label</xpath>
+                    <value>
+                        <label>makeshift weapon rack</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ASF_CoveredClayPot"]/label</xpath>
+                    <value>
+                        <label>covered pot</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ASF_UncoveredClayPot"]/label</xpath>
+                    <value>
+                        <label>uncovered pot</label>
+                    </value>
+                </Operation>
+
+<!-- WOOD PATCH -->
+	
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Reel's Expanded Storage</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+							<VEF.Buildings.HiddenDesignatorsDef>
+								<defName>FernyAdaptivePrimitiveReelStorageProgStorage_HiddenDesignators</defName>
+								<hiddenDesignators>
+									<li>ReelStorageWoodPile</li>
+									<li>ReelStorageLargeWoodPile</li>
+								</hiddenDesignators>
+							</VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+	</Operation>
+</Patch>

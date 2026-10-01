@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- VFE Medieval 2 - Ailments Shelf (6/tile capacity) -->
+	<!-- Original maxItemsInCell: 4 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFEM2_AilmentsShelf"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>6</maxItemsInCell>
+		</value>
+	</Operation>
+</Patch>

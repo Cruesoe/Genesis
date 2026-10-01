@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VFEC_Wreath -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Wreath"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>HeadgearNoble</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_LegionnaireHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>60</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>11200</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-4.0</ShootingAccuracyPawn>
+        <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_CenturionHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>7</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-6.0</ShootingAccuracyPawn>
+        <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="LightBall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="LightBall"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_StandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="Loudspeaker"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Loudspeaker"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_PersonalComputer</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="DV_TongoTable"]/researchPrerequisites</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DV_TongoTable"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChessTable</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

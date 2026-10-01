@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!---->
+
+
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_GourmetMeals</defName>
+		<label>Gourmet meals</label>
+		<description>Learn the process of making exquisite gourmet meals, bakes and desserts that will delight your colonists, and allow for condiments.</description>
+		<baseCost>800</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_LavishMeals</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Defs>

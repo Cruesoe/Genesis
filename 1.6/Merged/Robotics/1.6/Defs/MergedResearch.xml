@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
+		<defName>Ferny_Agrihand</defName>
+		<label>Light labor mechs</label>
+		<description>Gestate small mechanoids built for farming, cleaning and cooking.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="sarg.alphamechs,pal5k.scramblermechanoid">
+		<defName>Ferny_Bellicor</defName>
+		<label>Light combat mech variants</label>
+		<description>Gestate specialist light combat mechanoids built on the militor pattern.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Ferny_Militor</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
+		<defName>Ferny_Centipedes</defName>
+		<label>Heavy combat mechs</label>
+		<description>Gestate heavy and ultra-heavy combat mechanoids.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs,el.invmech">
+		<defName>Ferny_Cyclops</defName>
+		<label>Front-line mechs</label>
+		<description>Gestate medium combat mechanoids that fight up close.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,bart.em,pal5k.logisticsmechanoid">
+		<defName>Ferny_Excavator</defName>
+		<label>Heavy labor mechs</label>
+		<description>Gestate mechanoids built for mining, drilling and hauling.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,el.invmech">
+		<defName>Ferny_Fabricor</defName>
+		<label>Advanced labor mechs</label>
+		<description>Gestate advanced worker mechanoids for crafting and medical care.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="sarg.alphamechs,pal5k.huntermechanoid">
+		<defName>Ferny_Hunter</defName>
+		<label>Light labor mech variants</label>
+		<description>Gestate specialist light worker mechanoids for hunting and fast cleaning.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Ferny_Agrihand</li>
+			<li>Ferny_Militor</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
+		<defName>Ferny_Militor</defName>
+		<label>Light combat mechs</label>
+		<description>Gestate small combat mechanoids such as the militor.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs,el.invmech">
+		<defName>Ferny_Pikeman</defName>
+		<label>Ranged mechs</label>
+		<description>Gestate medium combat mechanoids that fight from range.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>8.60</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="sov.det.surrogatemech,gondragon.mechanoidwaiter,sarg.alphamechs">
+		<defName>Ferny_Surrogate</defName>
+		<label>Service mechs</label>
+		<description>Gestate mechanoids that care for children, serve customers and tend to the colony's daily needs.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

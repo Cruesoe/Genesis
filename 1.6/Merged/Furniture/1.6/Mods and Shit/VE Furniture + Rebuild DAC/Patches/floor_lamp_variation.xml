@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFE_FloorLamp"]/comps/li[@Class="VEF.Buildings.CompProperties_RandomBuildingGraphic"]</xpath>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VFE_FloorLamp"]/comps/li[@Class="VEF.Buildings.CompProperties_RandomBuildingGraphic"]/randomGraphics</xpath>
+					<value>
+						<li>Things/Building/Furniture/RB_FloorLamp/FloorLamp</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="VFE_FloorLamp"]/comps/li[@Class="VEF.Buildings.CompProperties_RandomBuildingGraphic"]/optionalNames</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VFE_FloorLamp"]/comps/li[@Class="VEF.Buildings.CompProperties_RandomBuildingGraphic"]/optionalNames</xpath>
+						<value>
+							<li>Rebuild</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VFE_FloorLamp"]/comps</xpath>
+			<value>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>NewThings/Light/FloorLamp</li>
+						<li>Things/Building/Furniture/RB_FloorLamp/FloorLamp</li>
+					</randomGraphics>
+					<optionalNames>
+						<li>Vanilla Furniture Expanded</li>
+						<li>Rebuild</li>
+					</optionalNames>
+				</li>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

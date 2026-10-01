@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- FaeApparelBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="FaeApparelBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="FaeApparelBase"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  -->
+  
+
+  <!-- RBSFE_Faegarms -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faegarms"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.4</Mass>
+        <Insulation_Cold>8.8</Insulation_Cold>
+        <Insulation_Heat>8.8</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faegarms"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_KidFaegarms -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_KidFaegarms"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_KidFaegarms"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>60</MaxHitPoints>
+        <WorkToMake>1400</WorkToMake>
+        <Mass>0.4</Mass>
+        <Insulation_Cold>8.8</Insulation_Cold>
+        <Insulation_Heat>8.8</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_KidFaegarms"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faepron -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faepron"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>2</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4000</WorkToMake>
+        <Mass>0.5</Mass>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faepron"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+        <PlantWorkSpeed>0.10</PlantWorkSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faecloak -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecloak"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>1</Mass>
+        <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+        <ArmorRating_Heat>-0.05</ArmorRating_Heat>
+        <Insulation_Cold>14.4</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecloak"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.20</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faeleaf -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faeleaf"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <MaxHitPoints>69</MaxHitPoints>
+        <WorkToMake>750</WorkToMake>
+        <Mass>0.1</Mass>
+        <EquipDelay>0.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faeleaf"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faemail -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>6</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>140</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>10</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.30</RBSF_NatureConnectionOffset>
+        <MoveSpeed>-0.20</MoveSpeed>
+        <Beauty>5</Beauty>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faecrown -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/label</xpath>
+    <value>
+      <label>leaf crown</label>
+    </value>
+  </Operation>
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.05</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <Beauty>1</Beauty>
+        <RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faerose -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/label</xpath>
+    <value>
+      <label>rose</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/description</xpath>
+    <value>
+      <description>A romantic rose held between the teeth. It strengthens the wearer's social impact and connection with nature, but offers little else.</description>
+    </value>
+  </Operation>
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>1500</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.05</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
+        <SocialImpact>0.05</SocialImpact>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- RBSFE_Faecap -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/label</xpath>
+    <value>
+      <label>leaf emblem cap</label>
+    </value>
+  </Operation>
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>2100</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+        <PsychicSensitivity>0.05</PsychicSensitivity>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- RBSFE_Faescarf -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/label</xpath>
+    <value>
+      <label>leaf scarf</label>
+    </value>
+  </Operation>
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>5</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>1200</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.09</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+        <RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker</xpath>
+            <value>
+              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <!-- RBSF_Faehelm -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>11200</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Flammability>1</Flammability>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
+        <Beauty>5</Beauty>
+        <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/recipeMaker</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <!-- COMMENTED OUT: changes researchPrerequisite -->
+  <!--
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

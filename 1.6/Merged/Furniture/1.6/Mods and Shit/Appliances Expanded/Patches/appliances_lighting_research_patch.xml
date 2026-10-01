@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="CA_ChemfuelFloodlight"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CA_ChemfuelFloodlight"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChemfuelStandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="CA_Sunlamp"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CA_Sunlamp"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChemfuelStandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="CAS_ChemfuelWallLight"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CAS_ChemfuelWallLight"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChemfuelStandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="CA_ChemfuelStandingLamp"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CA_ChemfuelStandingLamp"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChemfuelStandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

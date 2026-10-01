@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VPE_Apparel_PlateArmorPrestige - prestige plate armor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Apparel_PlateArmorPrestige"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>10</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Apparel_PlateArmorPrestige"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>200</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Apparel_PlateArmorPrestige"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VPE_Psyring -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Psyring"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

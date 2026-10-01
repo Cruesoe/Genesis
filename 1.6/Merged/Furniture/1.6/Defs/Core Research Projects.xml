@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_PlantPots</defName>
+		<label>Plant pots</label>
+		<description>Build small pots capable of displaying beautiful decorative flowers.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_ClothBeds</defName>
+		<label>Cloth beds</label>
+		<description>Build comfortable cloth beds, including comfy beds.</description>
+		<baseCost>550</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Couches</defName>
+		<label>Comfort furniture</label>
+		<description>Build couches, armchairs, ergonomic chairs and padded benches.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_Chair</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Tables</defName>
+		<label>Tables</label>
+		<description>Build tables for colonists to gather, eat, and spend time around.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Bedroll</defName>
+		<label>Beds</label>
+		<description>Build bedrolls, simple beds, and sleeping boxes and beds for animals.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Chair</defName>
+		<label>Chairs</label>
+		<description>Build chairs, stools, benches and sitting cushions.</description>
+		<baseCost>150</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<!-- Game of ur -->
+	<ResearchProjectDef>
+		<defName>Ferny_HoopstoneRing</defName>
+		<label>Games</label>
+		<description>Build simple games such as hoopstone rings and Game-of-Ur boards.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>8.90</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Column</defName>
+		<label>Columns and walls</label>
+		<description>Build columns and decorative walls.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Floors</defName>
+		<label>Floors</label>
+		<description>Build floors, bridges and decks.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Sarcophagus</defName>
+		<label>Sarcophagus</label>
+		<description>Build burial chambers for colonists, nobles, and beloved dead.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_ChessTable</defName>
+		<label>Table games</label>
+		<description>Build tables for chess, cards, dice and other table games.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+		<prerequisites>
+			<li>Ferny_Tables</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_PokerTable</defName>
+		<label>Gaming tables</label>
+		<description>Build poker, billiards and roulette tables.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+		<prerequisites>
+			<li>Ferny_Tables</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_StandingLamp</defName>
+		<label>Electric lights</label>
+		<description>Build electric standing, wall, desk and sun lamps and decorative lights.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

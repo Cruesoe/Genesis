@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>LemonSkin_LeatherArmour</defName>
+    <label>leather armor</label>
+    <description>Learn how to sew together plates of leather to create sturdy, durable armor.</description>
+    <baseCost>500</baseCost>
+    <tab>VanillaExpanded</tab>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.15</researchViewY>
+    <prerequisites>
+      <li>LemonSkin_RusticClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

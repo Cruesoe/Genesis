@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ModernComputer</defName>
+		<label>Advanced electronics</label>
+		<description>Build modern computers and longwave radios.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_PersonalComputer</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

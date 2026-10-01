@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- RBME_Chiton -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/techLevel</xpath>
+    <value>
+      <techLevel>Neolithic</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>200</WorkToMake>
+        <Mass>0.4</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>LemonSkin_RBME_MinotaurCraftables</researchPrerequisite>
+        <recipeUsers Inherit="False">
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+          <li>CraftingSpot</li>
+        </recipeUsers>
+      </recipeMaker>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="VFEC_Togas"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBME_Chiton"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VFEC_Togas</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <li>CraftingSpot</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Chiton"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- RBME_Panoply -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Panoply"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_UltraArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- RBME_HellenicHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>14600</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_HellenicHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li>LemonSkin_RBME_MinotaurCraftables</li>
+      </researchPrerequisites>
+    </value>
+  </Operation> -->
+
+
+  <!-- RBME_RoyalHellenicHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>14600</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+        <SocialImpact>0.1</SocialImpact>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_RoyalHellenicHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>PlateArmor</li>
+        <li MayRequire="Ludeon.RimWorld.Royalty">RoyalApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+
+  <!-- RBME_Cowbell -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/techLevel</xpath>
+    <value>
+      <techLevel>Neolithic</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>15</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.14</Mass>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <displayPriority>175</displayPriority>
+        <researchPrerequisite>LemonSkin_RBME_MinotaurCraftables</researchPrerequisite>
+        <recipeUsers Inherit="False">
+          <li>ElectricTailoringBench</li>
+          <li>HandTailoringBench</li>
+          <li>CraftingSpot</li>
+        </recipeUsers>
+      </recipeMaker>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
+    </value>
+  </Operation>
+  <!-- Cowbell also keeps its Smithing requirement -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>Smithing</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+</Patch>

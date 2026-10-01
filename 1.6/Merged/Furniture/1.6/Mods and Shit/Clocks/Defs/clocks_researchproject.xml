@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_AlarmClock</defName>
+		<label>Alarm clocks</label>
+		<description>Build mechanical and electronic alarm clocks.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

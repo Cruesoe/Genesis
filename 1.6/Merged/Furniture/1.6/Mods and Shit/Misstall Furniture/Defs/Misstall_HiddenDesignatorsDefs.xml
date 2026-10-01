@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyMisstallProgFurniture_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>MF_PartitionB</li>
+			<li>MF_ToxPoweredGenerator</li>
+			<li>MF_ChemfuelPoweredGenerator</li>
+			<li>MF_smallGenerator</li>
+			<li>MF_TableB</li>
+			<li>MF_StylingStation</li>
+			<li>MF_RaguD</li>
+			<li>MF_RaguC</li>
+			<li>MF_RaguA</li>
+			<li>MF_RaguB</li>
+			<li>MF_RaguF</li>
+			<li>MF_RaguFB</li>
+			<li>MF_Bin_Small</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ApparelArmorCataphractBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorCataphractBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- ApparelArmorHelmetCataphractBase -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetCataphractBase"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_Gunlink -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Gunlink"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparel_Gunlink"]/apparel</xpath>
+      <value>
+        <layers Inherit="False">
+          <li>DankPyon_InnerHelmet</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+</Patch>

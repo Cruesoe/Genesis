@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="HunterDrones"]/baseCost</xpath>
+    <value>
+        <baseCost>900</baseCost>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+        <researchPrerequisite>Ferny_HunterPack</researchPrerequisite>
+    </value>
+</Operation>
+
+</Patch>

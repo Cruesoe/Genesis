@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_MeleeWeapon_ArcWrench"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_ArcWrench</researchPrerequisite></value>
+  </Operation>
+</Patch>

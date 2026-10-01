@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyErinJapaneseProgFurniture_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>Erin_FutonA</li>
+			<li>Erin_DoubleFutonB</li>
+			<li>Erin_IncenseHolder</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

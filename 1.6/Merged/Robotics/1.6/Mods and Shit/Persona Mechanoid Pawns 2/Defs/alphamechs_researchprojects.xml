@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Artilleron</defName>
+		<label>Artilleron</label>
+		<description>Build a variation of the militor and bellicor, the artilleron stands at a height of around 5 feet and it is armed with a powerful mortar that fires explosive canisters with great accuracy. With its reduced durability, the Artilleron can't withstand intense battles and is often deployed in the rear lines to eliminate high priority targets and secure strategic objectives from afar. It can also swap weapons between its mortar and a low damage, high accuracy micro needle gun to avoid causing friendly fire with its explosives.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Bellicor</li>
+			<li>Ferny_Militor</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Bellicor</defName>
+		<label>Bellicor</label>
+		<description>Build an advanced combat mechanoid designed to excel in high-risk combat situations. With a height of around 5 feet, it is armed with a rapid-firing tactical mechanoid shotgun. Unlike its predecessor, the Militor, the Bellicor is highly durable and has the ability to withstand intense battles. It is often deployed in the front lines to eliminate high priority targets and secure strategic objectives. Due to its advanced capabilities, the Bellicor is more expensive to produce and maintain, but is still highly valued by those who seek to dominate the battlefield.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Militor</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Blitzkrieg</defName>
+		<label>Blitzkrieg</label>
+		<description>Build a unique mechanoid designed for tactical warfare and area denial. Shaped like a sleek and menacing metallic mine, it is capable of self-propelling itself to the intended target location before detonating in a devastating explosion. However, its indiscriminate detonation makes it a double-edged sword, and careful coordination is required to ensure that it does not harm friendly forces.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Culinarius</defName>
+		<label>Culinarius</label>
+		<description>Build a mechanoid designed for culinary arts, that can analyze ingredients and create delicious meals with exceptional precision and consistency. The Culinarius can access an extensive database of recipes, culinary techniques, and flavor profiles, allowing it to adapt and customize its cooking style to suit any cuisine or dietary requirement. Its sturdy metal frame and robust construction make it resistant to heat, moisture, and other common hazards in the kitchen. Much better at cooking than a fabricor, but very inefficient in combat.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_Daggersnout</defName>
+		<label>Daggersnout</label>
+		<description>Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef> -->
+
+	<ResearchProjectDef>
+		<defName>Ferny_Turbocleaner</defName>
+		<label>Turbocleaner</label>
+		<description>Build what is essentially a cleansweeper mounted on two small gyro-stabilized turbine engines. The turbocleaner hovers over terrain, using a vacuum nozzle to suction dirt and other debris. Absurdly useless in combat.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Cleansweeper</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Aura</defName>
+		<label>Aura</label>
+		<description>Build an angel-shaped mechanoid surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Lux</defName>
+		<label>Lux</label>
+		<description>Build a sleek and agile humanoid mechanoid designed for fast-paced combat operations. Equipped with a powerful heavy laser weapon, it is capable of dealing devastating damage to both ground and air targets with pinpoint accuracy. The Lux's agility comes at the cost of durability, and it must rely on its speed and evasion to survive on the battlefield.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Munifex</defName>
+		<label>Munifex</label>
+		<description>Build a formidable human-sized combat mechanoid designed specifically for long-range combat scenarios. They are equipped with advanced coil lances, which are mass driver weapons that fire electromagnetically accelerated slugs at incredible velocities. These projectiles are capable of penetrating through almost any kind of defense, including thick armor plating and reinforced concrete.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Ferny_Optio</defName>
+		<label>Optio</label>
+		<description>Build an elite combat support mechanoid that employs a rotary needle launcher. Its armor is reinforced to withstand heavy firepower, and it can project a formidable energy shield to protect nearby allies. The Optio is a valuable asset on the battlefield, able to quickly adapt to changing situations and provide crucial support to other mechanoids.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Polychoron</defName>
+		<label>Polychoron</label>
+		<description>Build a heavy combat mechanoid with a graser cannon that can deal massive damage to armored targets. Though it lacks agility, its graser cannon is capable of firing focused energy beams that can cut through most shielding and leave enemies defenseless.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_PristineBiomechs</defName>
+		<label>Modified biomechs</label>
+		<description>Build pristine versions of ancient biomechs.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Demolisher</defName>
+		<label>Demolisher</label>
+		<description>Build a mechanoid that looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony's outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Fireworm</defName>
+		<label>Fireworm</label>
+		<description>Build a huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Phalanx</defName>
+		<label>Phalanx</label>
+		<description>Build a hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 10 Frostbite damage on a 2.9 tile radius.\n\nIf toggled to not spawn via mod options, they will get replaced by a Pikeman.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechEfficiencyBooster</defName>
+		<label>Mech efficiency booster</label>
+		<description>Build a remote energy efficiency enhancement device. Any friendly mechanoids in its effect radius will use less energy per day.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechProtectionBooster</defName>
+		<label>Mech protection booster</label>
+		<description>Build a remote armor reinforcement device. Any friendly mechanoids in its effect radius will have greater protection against attacks.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechTargetingBooster</defName>
+		<label>Mech targeting booster</label>
+		<description>Build a remote targeting enhancement device. Any friendly mechanoids in its effect radius will have reduced weapon cooldown.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PersistentMechBooster</defName>
+		<label>Persistent mech booster</label>
+		<description>Build a remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. This boost will be overwritten if the mech enters the range of a standard mech booster. The effect of the persistent mech booster will remain on the mech up to 3 hours after leaving its area of effect.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechEfficiencyBooster</li>
+			<li>Ferny_MechProtectionBooster</li>
+			<li>Ferny_MechTargetingBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechDisruptor</defName>
+		<label>Mech disruptor</label>
+		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechEfficiencyBooster</li>
+			<li>Ferny_MechProtectionBooster</li>
+			<li>Ferny_MechTargetingBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechMasterHelmet</defName>
+		<label>Mech master helmet</label>
+		<description>Manufacture a heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor's bandwidth, while being as protective as a marine helmet.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechCommanderHelmet</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BeamcasterBandNode</defName>
+		<label>Beamcaster band node</label>
+		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_BandNode</li>
+			<li>AM_MechanoidBeamcasting</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_VoidlinkPack</defName>
+		<label>Voidlink pack</label>
+		<description>Manufacture a backpack containing a voidlink relay to access the vast amounts of data present on this system's mechanoid voidlink network. It can vastly increase a mechanitor's maximum total bandwidth.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_VoidLinkConnectivity</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Apoptosis</defName>
+		<label>Apoptosis</label>
+		<description>Build a hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_Cryptoharmonization</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Infernus</defName>
+		<label>Infernus</label>
+		<description>Build a hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_Cryptoharmonization</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Siegemelter</defName>
+		<label>Siegemelter</label>
+		<description>Build a variant of the siegebreaker armed with a powerful flamethrower. Their movement is incredibly slow, but their siegemelter turret has a considerable range, so they should be treated as priority targets in most cases.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_UltraHeavyMechtech</li>
+			<li>AM_QuantumPulseMessaging</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

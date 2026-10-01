@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/prerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>Smithing</li>
+					<li>Ferny_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+				</prerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+			<value>
+				<prerequisites>
+					<li>Smithing</li>
+					<li>Ferny_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

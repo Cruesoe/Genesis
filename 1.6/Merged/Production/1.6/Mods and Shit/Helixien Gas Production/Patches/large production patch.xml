@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="VFE_TableStoveLargeGas"]/researchPrerequisites/li[text()="VFE_Manufacturing"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFE_TableSmithyLargeGas"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>VFE_Manufacturing</li>
+				<li>VHGE_GasExtraction</li>
+				<li>Smithing</li>
+				
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

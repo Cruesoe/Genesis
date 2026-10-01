@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_FluVaccine</defName>
+		<label>Vaccines</label>
+		<description>Manufacture vaccines against common and deadly diseases.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Research_BasicImmunology</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<tab>Immunology</tab>
+	</ResearchProjectDef>
+</Defs>

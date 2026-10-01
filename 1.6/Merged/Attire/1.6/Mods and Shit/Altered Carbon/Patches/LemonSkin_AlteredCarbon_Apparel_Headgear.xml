@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- AC_ApparelArmorHelmetChrysalisMakeableBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="AC_ApparelArmorHelmetChrysalisMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- AC_EnviroSuitHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AC_EnviroSuitHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

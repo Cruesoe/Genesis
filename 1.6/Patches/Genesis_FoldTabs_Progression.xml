@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Research tabs of the merged Progression mods fold onto the era tabs -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchTabDef[defName="Ferny_Arsenal" or defName="Ferny_Hospitality"]</xpath>
+    <value>
+      <li Class="Genesis.FoldIntoEras" />
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>Ferny_VanityTable</li>
+      <li>Ferny_CostumingTable</li>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[
+      defName="Apparel_Beret" or 
+      @Name="ApparelHatRoyalTier2" or 
+      @Name="ApparelVestRoyalTier5Base" or 
+      @Name="ApparelShirtRoyalTier2Base"
+      ]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>NobleApparel</li>
+        <li>ComplexClothing</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <!-- Apparel_RobeRoyal -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_RobeRoyal"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.2</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Apparel_HatLadies -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_HatLadies"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.15</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Apparel_HatTop -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_HatTop"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.15</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Apparel_Coronet -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Coronet"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Coronet"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>RoyalApparel</li>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+  </Operation>
+  <!-- Apparel_Crown -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Crown"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Crown"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>RoyalApparel</li>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+  </Operation>
+  <!-- Apparel_Beret -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Beret"]/label</xpath>
+      <value>
+        <label>ceremonial beret</label>
+      </value>
+    </match>
+  </Operation>
+</Patch>

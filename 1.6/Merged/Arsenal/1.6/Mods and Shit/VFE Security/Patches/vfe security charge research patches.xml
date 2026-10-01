@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VFES_Turret_ChargeTurret"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_ChargeTurret</li><li>HeavyTurrets</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VFES_Complex_Charge"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_ChargeTurret</li></researchPrerequisites></value></Operation>
+</Patch>

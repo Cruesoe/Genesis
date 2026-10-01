@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="PFS_DoorFrameA"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="PFS_DoorFrameA"]/researchPrerequisites</xpath>
+            <value>
+                <researchPrerequisites Inherit="False">
+                    <li>Smithing</li>
+                    <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                    <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+                </researchPrerequisites>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="PFS_DoorFrameA"]</xpath>
+            <value>
+                <researchPrerequisites Inherit="False">
+                    <li>Smithing</li>
+                    <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                    <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+                </researchPrerequisites>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>

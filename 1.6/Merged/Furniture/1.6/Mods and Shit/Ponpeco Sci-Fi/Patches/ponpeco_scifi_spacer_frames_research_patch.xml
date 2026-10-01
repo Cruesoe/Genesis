@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]/researchPrerequisites</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </nomatch>
+            </li>
+
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]/researchPrerequisites</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </nomatch>
+            </li>
+
+            <li Class="PatchOperationConditional">
+                <xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]/researchPrerequisites</xpath>
+                <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>Ferny_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                        </researchPrerequisites>
+                    </value>
+                </nomatch>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ResearchProjectDef[defName="VWE_TrenchWarfare"]</xpath>
+      <value>
+        <VFETribals.TribalResearchProjectDef>
+          <defName>VWE_TrenchWarfare</defName>
+          <label>trench</label>
+          <description>Dig fortified defensive earthworks that shelter fighters from incoming fire.</description>
+          <baseCost>15</baseCost>
+          <tab>VFET_Basics</tab>
+          <techLevel>Animal</techLevel>
+          <researchViewX>2.00</researchViewX>
+          <researchViewY>2.10</researchViewY>
+          <prerequisites><li>VFET_Mining</li></prerequisites>
+          <generalRules>
+            <rulesStrings>
+              <li>subject-&gt;trenches</li>
+              <li>subject_story-&gt;dug defensive earthworks to shelter its warriors</li>
+              <li>subject_gerund-&gt;digging fortified trenches</li>
+            </rulesStrings>
+          </generalRules>
+        </VFETribals.TribalResearchProjectDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Cigarettes</defName>
+		<label>Tobacco</label>
+		<description>Roll cigarettes and cigars.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>12.40</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

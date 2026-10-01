@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="SD_BeardWax"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="SD_BeardWax"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="SD_BeardWax"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="SD_MinersDelight"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="SD_MinersDelight"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="SD_MinersDelight"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="SD_Redspice"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="SD_Redspice"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="SD_Redspice"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BeardWax</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

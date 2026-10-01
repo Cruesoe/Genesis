@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]/costList/RB_Glass</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]/costList/RB_Glass</xpath>
+            <value>
+                <RB_Glass>10</RB_Glass>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]/costList</xpath>
+            <value>
+                <RB_Glass>10</RB_Glass>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>

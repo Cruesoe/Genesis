@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- RBPApparel_Smock -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]/label</xpath>
+    <value>
+      <label>artist's smock</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]</xpath>
+    <value>
+      <techLevel>Medieval</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>120</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_Smock"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- RBPApparel_CreativeBeret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]/label</xpath>
+    <value>
+      <label>artist's beret</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]/techLevel</xpath>
+    <value>
+      <techLevel>Medieval</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>35</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>900</WorkToMake>
+        <Mass>0.1</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.07</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBPApparel_CreativeBeret"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalHeadgear</li>
+        <li>LemonSkin_WorkwearHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Fix annoying red warnings -->
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPArtCabinet"]/fillPercent</xpath>
+    <value>
+      <fillPercent>1.0</fillPercent>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBPGalleryBarrier"]/fillPercent</xpath>
+    <value>
+      <fillPercent>1.0</fillPercent>
+    </value>
+  </Operation> -->
+</Patch>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VQE_Apparel_Parka - ancient tight parka -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VQE_Apparel_Parka"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<APM_MechamancerPack.label>make mechmancer pack</APM_MechamancerPack.label>
+	<APM_MechamancerPack.description>Make a mechmancer pack.</APM_MechamancerPack.description>
+	<APM_MechamancerPack.jobString>Making mechmancer pack.</APM_MechamancerPack.jobString>
+	<APM_Apparel_MechamancerSuit.label>make mechmancer suit</APM_Apparel_MechamancerSuit.label>
+	<APM_Apparel_MechamancerSuit.description>Make a mechmancer suit.</APM_Apparel_MechamancerSuit.description>
+	<APM_Apparel_MechamancerSuit.jobString>Making mechmancer suit.</APM_Apparel_MechamancerSuit.jobString>
+	<APM_Apparel_ArmorHelmetMechamancerHelmet.label>make mechmancer helmet</APM_Apparel_ArmorHelmetMechamancerHelmet.label>
+	<APM_Apparel_ArmorHelmetMechamancerHelmet.description>Make a mechmancer helmet.</APM_Apparel_ArmorHelmetMechamancerHelmet.description>
+	<APM_Apparel_ArmorHelmetMechamancerHelmet.jobString>Making mechmancer helmet.</APM_Apparel_ArmorHelmetMechamancerHelmet.jobString>
+</LanguageData>

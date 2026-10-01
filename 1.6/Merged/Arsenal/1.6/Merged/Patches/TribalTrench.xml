@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- With VFE Tribals the trench project folds into construction; every link to it moves there -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VWE_TrenchWarfare"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs//researchPrerequisite[normalize-space(text())="VWE_TrenchWarfare"]</xpath>
+          <value>
+            <researchPrerequisite>VFET_Construction</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <success>Always</success>
+          <xpath>Defs//*[self::prerequisites or self::hiddenPrerequisites or self::researchPrerequisites]/li[normalize-space(text())="VWE_TrenchWarfare" and ../li[normalize-space(text())="VFET_Construction"]]</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs//*[self::prerequisites or self::hiddenPrerequisites or self::researchPrerequisites]/li[normalize-space(text())="VWE_TrenchWarfare"]</xpath>
+          <value>
+            <li>VFET_Construction</li>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VWE_TrenchWarfare"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

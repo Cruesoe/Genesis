@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Research these recipes needed beyond their merged research project -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]</xpath>
+      <value>
+        <researchPrerequisites>
+          <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]</xpath>
+      <value>
+        <researchPrerequisites>
+          <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef MayRequireAnyOf="kaitorisenkou.BallGames,Aelanna.EccentricTech.BeachStuff">
+		<defName>Ferny_Basketball</defName>
+		<label>Sports</label>
+		<description>Build goals, nets and balls for sports.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>8.90</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,oskarpotocki.vanillafactionsexpanded.settlersmodule">
+		<defName>Ferny_Brazier</defName>
+		<label>Braziers and lamps</label>
+		<description>Build braziers and chemlamps to light your colony without electricity.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="Ludeon.RimWorld.Biotech,ponpeco.pfkidsroom">
+		<defName>Ferny_Crib</defName>
+		<label>Nursery</label>
+		<description>Build cribs, toys, mobiles and buntings for children.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>8.90</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="VanillaExpanded.VFECore,Ludeon.RimWorld.Ideology">
+		<defName>Ferny_PersonalComputer</defName>
+		<label>Electronics</label>
+		<description>Build personal computers, industrial radios, arcade machines and loudspeakers.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>7.50</researchViewY>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="scurvyez.stevesdoors,ponpeco.PFSF">
+		<defName>Ferny_SpacerDoors</defName>
+		<label>Spacer doors and frames</label>
+		<description>Build spacer glass doors and door frames.</description>
+		<baseCost>900</baseCost>
+		<tab>Main</tab>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>11.00</researchViewX>
+		<researchViewY>6.80</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef MayRequireAnyOf="rebuild.cotr.doorsandcorners,kongkim.panelsframes,eeg.architecture">
+		<defName>Ferny_WindowWall</defName>
+		<label>Architecture</label>
+		<description>Build window walls, prison walls, door frames and eaves.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>10.30</researchViewY>
+	</ResearchProjectDef>
+</Defs>

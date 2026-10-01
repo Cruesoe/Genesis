@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Clozapine</defName>
+		<label>Medicines</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Manufacture clozapine, morphine and penicillin.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MP_BaseResearch</li>
+		</prerequisites>
+		<researchViewY>0</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Heroin</defName>
+		<label>Refined drugs</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Refine crimson bulb and other crops into heroin, joy, thornweed serum and tyrox.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewY>3</researchViewY>
+		<researchViewX>4</researchViewX>
+		<prerequisites>
+			<li>MP_CrimsonBulbRefinement</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_OpiumInfusion</defName>
+		<label>Herbal infusions</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Prepare opium, peyote and thornweed infusions and smelling salts.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewY>8</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_DroneAutofactory"]/label</xpath>
+    <value>
+        <label>automated drone assembler</label>
+    </value>
+</Operation>
+
+<!-- Automated crafting, keeping the drone research the assembler needed -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEFactory_DroneAutofactory"]/researchPrerequisites</xpath>
+    <value>
+        <researchPrerequisites>
+            <li>Ferny_AutomatedLoom</li>
+            <li>VQE_Dronetech</li>
+        </researchPrerequisites>
+    </value>
+</Operation>
+
+</Patch>

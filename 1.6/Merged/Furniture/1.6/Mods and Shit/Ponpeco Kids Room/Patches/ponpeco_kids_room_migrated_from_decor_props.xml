@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<xpath>
+		/Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_EndTable"]
+		| /Defs/ThingDef[defName="HospitalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_EndTable"]
+		| /Defs/ThingDef[defName="Bedroll"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_EndTable"]
+		| /Defs/ThingDef[defName="BedrollDouble"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_EndTable"]
+	</xpath>
+		</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>
+		/Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_Dresser"]
+		| /Defs/ThingDef[defName="HospitalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_Dresser"]
+		| /Defs/ThingDef[defName="Bedroll"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_Dresser"]
+		| /Defs/ThingDef[defName="BedrollDouble"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_Dresser"]
+	</xpath>
+		</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>
+		/Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_DeepClothingRack"]
+		| /Defs/ThingDef[defName="HospitalBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_DeepClothingRack"]
+		| /Defs/ThingDef[defName="Bedroll"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_DeepClothingRack"]
+		| /Defs/ThingDef[defName="BedrollDouble"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities/li[text()="PFK_DeepClothingRack"]
+	</xpath>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_Ball"]/label</xpath>
+		<value>
+			<label>ball</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_Bunting"]/label</xpath>
+		<value>
+			<label>bunting (colorful)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_BuntingAb"]/label</xpath>
+		<value>
+			<label>bunting (gray)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_BuntingB"]/label</xpath>
+		<value>
+			<label>bunting (stars)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_Cushion"]/label</xpath>
+		<value>
+			<label>fluffy cushion</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_Mobile"]/label</xpath>
+		<value>
+			<label>baby mobile</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToySD"]/label</xpath>
+		<value>
+			<label>small toy bike</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToySC"]/label</xpath>
+		<value>
+			<label>small doll house</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToyS"]/label</xpath>
+		<value>
+			<label>small toy train</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToySB"]/label</xpath>
+		<value>
+			<label>small puzzle box</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_PKCDog"]/label</xpath>
+		<value>
+			<label>plush dog</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_PKCRobo"]/label</xpath>
+		<value>
+			<label>plush robot</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_PKCRobo"]/label</xpath>
+		<value>
+			<label>plush robot</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToyD"]/label</xpath>
+		<value>
+			<label>toy bike</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToyB"]/label</xpath>
+		<value>
+			<label>puzzle box</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToyC"]/label</xpath>
+		<value>
+			<label>doll house</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_WoodenToy"]/label</xpath>
+		<value>
+			<label>toy train</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_GiantPlushieB"]/label</xpath>
+		<value>
+			<label>giant bunny plush</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_GiantPlushieM"]/label</xpath>
+		<value>
+			<label>giant sloth plushie</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_GiantPlushie"]/label</xpath>
+		<value>
+			<label>giant teddy bear</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_Curtain"]/label</xpath>
+		<value>
+			<label>cute curtain</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_BigCurtain"]/label</xpath>
+		<value>
+			<label>cute big curtain</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_FluffyRug_A"]/label</xpath>
+		<value>
+			<label>fluffy rug (1x1)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_FluffyRug_B"]/label</xpath>
+		<value>
+			<label>fluffy rug (2x2)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_FluffyRug_C"]/label</xpath>
+		<value>
+			<label>fluffy rug (3x3)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_FluffyRug_D"]/label</xpath>
+		<value>
+			<label>fluffy rug (4x4)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_ShaggyRug_A"]/label</xpath>
+		<value>
+			<label>shaggy rug (1x1)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_ShaggyRug_B"]/label</xpath>
+		<value>
+			<label>shaggy rug (2x2)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_ShaggyRug_C"]/label</xpath>
+		<value>
+			<label>shaggy rug (3x3)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_ShaggyRug_D"]/label</xpath>
+		<value>
+			<label>shaggy rug (4x4)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_FairyLights"]/label</xpath>
+		<value>
+			<label>fairy lights</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_RingTossB"]/label</xpath>
+		<value>
+			<label>ring toss (monkey)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_RingTossC"]/label</xpath>
+		<value>
+			<label>ring toss (giraffe)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_RingTossD"]/label</xpath>
+		<value>
+			<label>ring toss (rocket)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_AnimalLamp"]/label</xpath>
+		<value>
+			<label>chick lamp</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_AnimalLampC"]/label</xpath>
+		<value>
+			<label>jellyfish lamp</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PFK_AnimalLampD"]/label</xpath>
+		<value>
+			<label>star buddies lamp</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_TilesBlueSky"]/label</xpath>
+		<value>
+			<label>sky tiles</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_TilesColorful"]/label</xpath>
+		<value>
+			<label>cute tiles (warm with animals)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_TilesColorfulB"]/label</xpath>
+		<value>
+			<label>cute tiles (warm)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_TilesColorfulC"]/label</xpath>
+		<value>
+			<label>cute tiles (cold)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_TilesStars"]/label</xpath>
+		<value>
+			<label>star tiles</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetDot"]/label</xpath>
+		<value>
+			<label>polka dot carpet (light)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetDotB"]/label</xpath>
+		<value>
+			<label>polka dot carpet (dark)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetSky"]/label</xpath>
+		<value>
+			<label>sky carpet</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetStarNavy"]/label</xpath>
+		<value>
+			<label>star carpet (navy)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetStarGray"]/label</xpath>
+		<value>
+			<label>star carpet (gray)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetStarWhite"]/label</xpath>
+		<value>
+			<label>star carpet (white a)</label>
+			</value>
+		</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="PFK_CarpetStarWhiteB"]/label</xpath>
+		<value>
+			<label>star carpet (white b)</label>
+			</value>
+		</Operation>
+	</Patch>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Change Research Requirement Without Medieval Overhaul -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "VFEM2_LeatherBoilpot"]/researchPrerequisites/li[text()="ComplexClothing"]</xpath>
+		<value>
+			<li>LemonSkin_RusticClothing</li>
+		</value>
+		</Operation>
+
+</Patch>

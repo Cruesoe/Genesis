@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="Wanzi_BigSarcophagus" or defName="BigDA_GrandSarcophagus" or defName="BigDA_Coffin"]/researchPrerequisites</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Wanzi_BigSarcophagus" or defName="BigDA_GrandSarcophagus"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Sarcophagus</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BigDA_Coffin"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Coffin</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

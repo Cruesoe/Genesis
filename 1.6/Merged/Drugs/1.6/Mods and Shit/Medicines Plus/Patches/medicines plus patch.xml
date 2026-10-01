@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Plants Expanded - Succulents</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+      <ReplaceLib.ReplacerDef>
+        <defName>ProgDrugs_MedicinesPlus_VPESucculents</defName>
+        <replacers>
+          <li>
+            <replace>VCE_Plant_PeyotePlant</replace>
+            <with>PlantPeyote</with>
+          </li>
+        </replacers>
+      </ReplaceLib.ReplacerDef>
+    </value>
+  </match>
+</Operation>
+
+
+<!-- OPIUM/POPPY OVERLAP PRIORITY
+     Lowest: Vanilla Factions Expanded - Classical.
+     Medium: Medieval Overhaul's poppy plant.
+     Highest: Medicines+' opium product.
+     Losing cultivated plants have sowTags removed so they stop appearing as grow-zone options. -->
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Factions Expanded - Classical</li>
+  </mods>
+  <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ReplaceLib.ReplacerDef>
+              <defName>ProgDrugs_MedicinesPlus_PoppyPriority_VFEC</defName>
+              <replacers>
+                <li>
+                  <replace>VFEC_Opium</replace>
+                  <with>PoppyLatex</with>
+                </li>
+                <li>
+                  <replace>VFEC_Plant_Poppy</replace>
+                  <with>PlantPapaver</with>
+                </li>
+              </replacers>
+            </ReplaceLib.ReplacerDef>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="VFEC_Plant_Poppy"]/plant/sowTags</xpath>
+        </li>
+      </operations>
+    </match>
+</Operation>
+
+
+
+
+
+
+
+
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BaseResearch"]/label</xpath>
+  <!-- Original: <label>Medicine basics</label> -->
+  <value><label>cyanide</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BaseResearch"]/description</xpath>
+  <!-- Original: <description>Base</description> -->
+  <value><description>Produce cyanide, a highly dangerous poison that usually kills its victim within an hour.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_CrimsonBulbRefinement"]/label</xpath>
+  <!-- Original: <label>Crimson bulb refining</label> -->
+  <value><label>hydra</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_CrimsonBulbRefinement"]/description</xpath>
+  <!-- Original: <description>Find ways to grow crimson bulbs in hydroponics, powerful semi-synthetic crops that are required for advanced medicines.</description> -->
+  <value><description>Produce hydra, a dense, mechanite-based powder that helps heal wounds and scars, similar to the healing properties of luciferium. Take once every 15 days for the effect to occur.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BasicCashCrops"]/label</xpath>
+  <!-- Original: <label>Basic profit drugs</label> -->
+  <value><label>upper</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BasicCashCrops"]/description</xpath>
+  <!-- Original: <description>Research into the development of basic profitable drugs, made mostly for their high trading value, such as upper.</description> -->
+  <value><description>Produce upper, a stimulant that gives the user a short burst of immense speed. It is moderately addictive, with long-term use leading to kidney failure and muscle spasms.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BasicUtilityMedicine"]/label</xpath>
+  <!-- Original: <label>Basic utility medicine</label> -->
+  <value><label>antitox</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_BasicUtilityMedicine"]/description</xpath>
+  <!-- Original: <description>Research into the development of basic utility based drugs for use in medicine, such as painkillers.</description> -->
+  <value><description>Produce antitox, a medicine that reduces the amount of toxic particles absorbed from the air by coating the lungs with a chemical filter.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_AdvUtilityMedicine"]/label</xpath>
+  <!-- Original: <label>Advanced utility medicine</label> -->
+  <value><label>aniracetam</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_AdvUtilityMedicine"]/description</xpath>
+  <!-- Original: <description>Developing further on the previous research, this project will look into advanced utility medicines that require rare materials, such as Tyrox - a powerful immune system booster.</description> -->
+  <value><description>Produce aniracetam, a nootropic known to help increase memory capacity, learning ability, and focus. It causes extreme mental decline after use, which may be lethal when combined with other health problems.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_AdvCashCrops"]/label</xpath>
+  <!-- Original: <label>Advanced profit drugs</label> -->
+  <value><label>addictol</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="MP_AdvCashCrops"]/description</xpath>
+  <!-- Original: <description>Developing further on the previous research, this project will look into advanced drugs that have very high profit margins and require complex materials to make, such as heroin</description> -->
+  <value><description>Produce addictol, a synthetic medicine used for addiction replacement therapy. It replicates the effects of other drugs without the high, helping addicts remove their addictions more quickly. However, addictol is very addictive itself.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Clozapine"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Clozapine</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Morphine"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Clozapine</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Penicillin"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Clozapine</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ThornWeedExtract"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Heroin</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Tyrox"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Heroin</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Heroin"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Heroin</researchPrerequisite></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Joy"]/recipeMaker/researchPrerequisite</xpath>
+  <value><researchPrerequisite>Ferny_Heroin</researchPrerequisite></value>
+</Operation>
+
+
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="SSalts"]/recipeMaker/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="SSalts"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="SSalts"]/recipeMaker</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakeThornWeedNeedle"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeThornWeedNeedle"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakeThornWeedNeedle"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakeBulkThornWeedNeedle"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkThornWeedNeedle"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkThornWeedNeedle"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakePeyote"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakePeyote"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakePeyote"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakeBulkPeyote"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkPeyote"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkPeyote"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakePoppyLatex"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakePoppyLatex"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakePoppyLatex"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/RecipeDef[defName="MakeBulkPoppyLatex"]/researchPrerequisite</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkPoppyLatex"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </match>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MakeBulkPoppyLatex"]</xpath>
+    <value><researchPrerequisite>Ferny_OpiumInfusion</researchPrerequisite></value>
+  </nomatch>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Cyanide"]/description</xpath>
+  <!-- Original: <description>A highy dangerous poison that usually kills it's victim within an hour.</description> -->
+  <value><description>A highly dangerous poison that usually kills its victim within an hour.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Clozapine"]/description</xpath>
+  <!-- Original: <description>A common anti-psychotic medicine, commonly used to treat bipolar and other mental disorders. Can be used to prevent some pawns from fully acting out impulsive behaviour and extreme mental breaks. May cause vomitting in large doses.</description> -->
+  <value><description>A common antipsychotic medicine used to treat bipolar disorder and other mental conditions. It can help prevent some pawns from fully acting out impulsive behavior and extreme mental breaks. Large doses may cause vomiting.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="PoppyLatex"]/label</xpath>
+  <!-- Original: <label>Opium</label> -->
+  <value><label>opium</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="AntiTox"]/label</xpath>
+  <!-- Original: <label>AntiTox</label> -->
+  <value><label>antitox</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="AntiTox"]/description</xpath>
+  <!-- Original: <description>AntiTox reduces the amount of absorbed toxic particules in the air by coating the lungs with a chemical filter.</description> -->
+  <value><description>Antitox reduces the amount of toxic particles absorbed from the air by coating the lungs with a chemical filter.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="RoseTea"]/description</xpath>
+  <!-- Original: <description>Tea made from either dehydrated or fresh rose petals. A non-caffienated subsitute for other hot beverages.</description> -->
+  <value><description>Tea made from dehydrated or fresh rose petals. A non-caffeinated substitute for other hot beverages.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Morphine"]/label</xpath>
+  <!-- Original: <label>Morphine</label> -->
+  <value><label>morphine</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Morphine"]/description</xpath>
+  <!-- Original: <description>A derivative taken from opium poppy latex. This is a much more powerful opioid that also acts as a strong painkiller. Usually lasting between 2-3 hours.</description> -->
+  <value><description>A derivative of opium poppy latex. This much stronger opioid also acts as a powerful painkiller, usually lasting 2 to 3 hours.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Hydra"]/description</xpath>
+  <!-- Original: <description>A dense Mechanite based powder that helps in the healing of wounds and scars. Similar to the healing properties of luciferium. Take once every 15 days for effect to take place.</description> -->
+  <value><description>A dense, mechanite-based powder that helps heal wounds and scars, similar to the healing properties of luciferium. Take once every 15 days for the effect to occur.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="AddictiveHypnotol"]/label</xpath>
+  <!-- Original: <label>Hypnotol</label> -->
+  <value><label>hypnotol</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="AddictiveHypnotol"]/description</xpath>
+  <!-- Original: <description>Synthetically produced Hypnotol, an extremely addictive substance that causes mild cognitive decline. Hypnotol is used as a blackmail drug used to force users to do things they wouldn't otherwise do. Hypnotol is often used by advanced pirates to recruit leaders of other factions into their gangs.\n\nCan be used to temporarily recruit prisoners, as long as they keep their addiction.</description> -->
+  <value><description>Synthetically produced hypnotol, an extremely addictive substance that causes mild cognitive decline. Hypnotol is used as a blackmail drug to force users to do things they would not otherwise do. It is often used by advanced pirates to recruit leaders of other factions into their gangs.\n\nCan be used to temporarily recruit prisoners, as long as they keep their addiction.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Joy"]/label</xpath>
+  <!-- Original: <label>Joy</label> -->
+  <value><label>joy</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Joy"]/description</xpath>
+  <!-- Original: <description>A drug developed by UrbWorld governments to keep it's citizens in check; It produces a strong euphoric high. Very Addictive.</description> -->
+  <value><description>A drug developed by Urbworld governments to keep their citizens in check. It produces a strong euphoric high and is very addictive.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="SSalts"]/description</xpath>
+  <!-- Original: <description>Also known as Ammonia Salts help to stimulate the respiratory system of creatures by causing a reflex to very small amounts of ammonia gas.</description> -->
+  <value><description>Also known as ammonia salts, smelling salts help stimulate a creature's respiratory system by causing a reflex response to very small amounts of ammonia gas.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Aniracetam"]/label</xpath>
+  <!-- Original: <label>Aniracetam</label> -->
+  <value><label>aniracetam</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Aniracetam"]/description</xpath>
+  <!-- Original: <description>One of the most-proven Nootropics. Known to help promote an increase in memory capacity, learning ability, as well as increases in focus. As such this drug was used heavily by glitterworld students.\n\nCauses extreme mental decline after use that may be lethal if combined with other health problems.</description> -->
+  <value><description>One of the most proven nootropics. Known to help increase memory capacity, learning ability, and focus. As such, this drug was used heavily by glitterworld students.\n\nCauses extreme mental decline after use, which may be lethal when combined with other health problems.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Penicillin"]/description</xpath>
+  <!-- Original: <description>One of the earliest effective medications for treating bacterial infections. Take once every day for max effect.</description> -->
+  <value><description>One of the earliest effective medications for treating bacterial infections. Take once per day for maximum effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Tyrox"]/label</xpath>
+  <!-- Original: <label>Tyrox</label> -->
+  <value><label>tyrox</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Tyrox"]/description</xpath>
+  <!-- Original: <description>Vastly boosts the metabolism and therefore the immune response of any lifeform that injects this medicine. Take once per day for max effect.</description> -->
+  <value><description>Vastly boosts the metabolism and therefore the immune response of any lifeform that injects this medicine. Take once per day for maximum effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="MP_Addictol"]/description</xpath>
+  <!-- Original: <description>A synthetic medicine used for addiction replacement therapy, addictol replicates the effects of other drugs without the high, helping addicts remove their addictions quicker. Addictol is however, very addictive itself.</description> -->
+  <value><description>A synthetic medicine used for addiction replacement therapy. Addictol replicates the effects of other drugs without the high, helping addicts remove their addictions more quickly. However, addictol is very addictive itself.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ThornWeedNeedle"]/label</xpath>
+  <!-- Original: <label>ThornWeed Needle</label> -->
+  <value><label>thornweed needle</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ThornWeedNeedle"]/description</xpath>
+  <!-- Original: <description>A small naturally occuring needle coated in a numbing toxin. Quite innefective however, harmless in small doses.</description> -->
+  <value><description>A small, naturally occurring needle coated in a numbing toxin. It is fairly ineffective, but harmless in small doses.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ThornWeedExtract"]/label</xpath>
+  <!-- Original: <label>ThornWeed Serum</label> -->
+  <value><label>thornweed serum</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="ThornWeedExtract"]/description</xpath>
+  <!-- Original: <description>The active numbing chemical found within ThornWeed needles refined into a much more potent syrum that also creates less unwanted side effects.</description> -->
+  <value><description>The active numbing chemical found within thornweed needles, refined into a much more potent serum with fewer unwanted side effects.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Heroin"]/label</xpath>
+  <!-- Original: <label>Heroin</label> -->
+  <value><label>heroin</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Heroin"]/description</xpath>
+  <!-- Original: <description>Heroin, through makeshift experimentation with morphine, a more potent and highly addictive variant was developed. Heroin delivers intense euphoria and heavy sedation. Highly sought after by traders, it's a valuable commodity almost guaranteed to sell. Usually lasting between 4-5 hours. Extremely addictive.</description> -->
+  <value><description>Developed through makeshift experimentation with morphine, heroin is a more potent and highly addictive variant. It delivers intense euphoria and heavy sedation. Highly sought after by traders, it is a valuable commodity almost guaranteed to sell. It usually lasts 4 to 5 hours and is extremely addictive.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Peyote"]/label</xpath>
+  <!-- Original: <label>Peyote</label> -->
+  <value><label>peyote</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Peyote"]/description</xpath>
+  <!-- Original: <description>The fruit of the peyote crop; known to have hallucinogenic properties.</description> -->
+  <value><description>The fruit of the peyote crop, known to have hallucinogenic properties.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Upper"]/label</xpath>
+  <!-- Original: <label>Upper</label> -->
+  <value><label>upper</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThingDef[defName="Upper"]/description</xpath>
+  <!-- Original: <description>The most commonly abused substance within glitterworld olympic games. Upper gives the user a short burst of immense speed. Moderately addictive, with long term use leading to kidney failure and muscle spasms.</description> -->
+  <value><description>The most commonly abused substance in glitterworld Olympic games. Upper gives the user a short burst of immense speed. It is moderately addictive, with long-term use leading to kidney failure and muscle spasms.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/description</xpath>
+  <!-- Original: <description>Extremely toxic cyanide compounds in the bloodstream. Causes extreme convulsions, trouble breathing and eventual death.</description> -->
+  <value><description>Extremely toxic cyanide compounds in the bloodstream. Causes severe convulsions, trouble breathing, and eventual death.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="ClozapineHigh"]/description</xpath>
+  <!-- Original: <description>Active anti-psychotic compounds within the bloodstream, helps control extreme mental breaks and impulsive behaviour.</description> -->
+  <value><description>Active antipsychotic compounds in the bloodstream. Helps control extreme mental breaks and impulsive behavior.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="opioidHigh"]/description</xpath>
+  <!-- Original: <description>Moderate opioids within the bloodstream, creates a somewhat strong numbing, euphoric effect.</description> -->
+  <value><description>Moderate opioids in the bloodstream create a somewhat strong numbing, euphoric effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="AntiToxHigh"]/label</xpath>
+  <!-- Original: <label>AntiTox</label> -->
+  <value><label>antitox</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="AntiToxHigh"]/description</xpath>
+  <!-- Original: <description>Anti-tox coating lining the lungs. Helps to negate health effects of toxic substance inhalation.</description> -->
+  <value><description>An antitox coating lining the lungs. Helps reduce the health effects of inhaled toxic substances.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="TeaHigh"]/description</xpath>
+  <!-- Original: <description>Rose tea helps improve the immune system slightly, helping to retain heat.</description> -->
+  <value><description>Rose tea helps improve the immune system slightly, helping the body retain heat.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="opioid2High"]/description</xpath>
+  <!-- Original: <description>High dose of opioids in the bloodstream. Creates a moderate high, but mainly supresses pain.</description> -->
+  <value><description>A high dose of opioids in the bloodstream. Creates a moderate high, but mainly suppresses pain.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="HydraHigh"]/description</xpath>
+  <!-- Original: <description>Hydra mechanites working within the bloodstream. Slowly removes scar tissue, without the addiction of luciferium.</description> -->
+  <value><description>Hydra mechanites working within the bloodstream. Slowly removes scar tissue without the addiction of luciferium.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="HypnotolHigh"]/description</xpath>
+  <value><description>Recently ingested hypnotol in the bloodstream. Results in reduced cognitive function. May cause fatigue and mood swings.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="HypnotolTolerance"]/description</xpath>
+  <value><description>A built-up tolerance to hypnotol. The more severe this tolerance is, the more hypnotol it takes to get the same effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="HypnotolAddiction"]/description</xpath>
+  <!-- Original: <description>Because of a Hypnotol addiction, this person needs to regularly consume the drug to avoid its brainwashing effects wearing off.</description> -->
+  <value><description>Because of a hypnotol addiction, this person needs to regularly consume the drug to avoid its brainwashing effects wearing off.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="JoyHigh"]/description</xpath>
+  <!-- Original: <description>Active chemical joy in the bloodstream. Exhibits intense psychedelic and antidepressants properties.</description> -->
+  <value><description>Active joy chemicals in the bloodstream. Exhibits intense psychedelic and antidepressant properties.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="SaltsHigh"]/description</xpath>
+  <!-- Original: <description>A quick burst of immonia in the lungs. Causes respiratory distress and provides a brief surge of energy</description> -->
+  <value><description>A quick burst of ammonia in the lungs. Causes respiratory distress and provides a brief surge of energy.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="AniracetamHigh"]/label</xpath>
+  <!-- Original: <label>Aniracetam</label> -->
+  <value><label>aniracetam</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="AniracetamHigh"]/description</xpath>
+  <!-- Original: <description>Active nootopics in the bloodstream. Helps improve mental capabilities. May cause fatigue or increased appetite.</description> -->
+  <value><description>Active nootropics in the bloodstream. Helps improve mental capabilities. May cause fatigue or increased appetite.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="AniracetamBrainFog"]/description</xpath>
+  <!-- Original: <description>An unpleasant delayed after-effect of aniracetam consumption. Causes laboured thinking.</description> -->
+  <value><description>An unpleasant delayed after-effect of aniracetam consumption. Causes labored thinking.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="PenicillinHigh"]/description</xpath>
+  <!-- Original: <description>Active antibiotics in the bloodstream. Helps fight against general bacterial infections.</description> -->
+  <value><description>Active antibiotics in the bloodstream. Helps fight general bacterial infections.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="TyroxHigh"]/description</xpath>
+  <!-- Original: <description>Active Tyrox in the bloodstream, boosting the metabolism and therefore the immune response</description> -->
+  <value><description>Active tyrox in the bloodstream, boosting metabolism and therefore the immune response.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="MP_AddictolHigh"]/description</xpath>
+  <!-- Original: <description>Active addictol in the brain and bloodstream, replicates the effects of other drugs.</description> -->
+  <value><description>Active addictol in the brain and bloodstream, replicating the effects of other drugs.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/description</xpath>
+  <!-- Original: <description>Thornweed's active numbing agent in the bloodstream, provides a faint paralysing effect</description> -->
+  <value><description>Thornweed's active numbing agent in the bloodstream provides a faint paralyzing effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/description</xpath>
+  <!-- Original: <description>Refined thornweed numbing toxin in the bloodstream, providing strong analgesic effects</description> -->
+  <value><description>Refined thornweed numbing toxin in the bloodstream, providing strong analgesic effects.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="opioid3High"]/description</xpath>
+  <!-- Original: <description>Active strong opioids in the bloodstream. Creates an intense trance-like feeling and high resistance to pain.</description> -->
+  <value><description>Strong opioids active in the bloodstream. Creates an intense trance-like feeling and high resistance to pain.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="PeyoteHigh"]/description</xpath>
+  <!-- Original: <description>Peyote's psychoactive chemicals in the bloodstream. Induces a slight hallucinogenic effect.</description> -->
+  <value><description>Peyote's psychoactive chemicals in the bloodstream induce a slight hallucinogenic effect.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="UpperHigh"]/label</xpath>
+  <!-- Original: <label>Filled with Upper</label> -->
+  <value><label>filled with upper</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="UpperHigh"]/description</xpath>
+  <!-- Original: <description>Active upper in the bloodstream. Generates an intense, blood pumping effect that numbs pain.</description> -->
+  <value><description>Active upper in the bloodstream. Generates an intense blood-pumping effect that numbs pain.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/NeedDef[defName="Chemical_Hypnotol"]/description</xpath>
+  <!-- Original: <description>Because of a Hypnotol addiction, this person needs to regularly consume the drug to avoid its brainwashing effects wearing off.</description> -->
+  <value><description>Because of a hypnotol addiction, this person needs to regularly consume the drug to avoid its brainwashing effects wearing off.</description></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/stages/li[1]/label</xpath>
+  <!-- Original: <label>Butterfly sensation.</label> -->
+  <value><label>butterfly sensation</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/stages/li[2]/label</xpath>
+  <!-- Original: <label>Slightly Numb</label> -->
+  <value><label>slightly numb</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/stages/li[3]/label</xpath>
+  <!-- Original: <label>Moderately Numb</label> -->
+  <value><label>moderately numb</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/stages/li[4]/label</xpath>
+  <!-- Original: <label>Strongly Numb</label> -->
+  <value><label>strongly numb</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingHigh"]/stages/li[5]/label</xpath>
+  <!-- Original: <label>Near Paralytic</label> -->
+  <value><label>near paralytic</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/stages/li[1]/label</xpath>
+  <!-- Original: <label>Butterfly sensation.</label> -->
+  <value><label>butterfly sensation</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/stages/li[2]/label</xpath>
+  <!-- Original: <label>Slightly Analgesic</label> -->
+  <value><label>slightly analgesic</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/stages/li[3]/label</xpath>
+  <!-- Original: <label>Moderately Analgesic</label> -->
+  <value><label>moderately analgesic</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/stages/li[4]/label</xpath>
+  <!-- Original: <label>Strongly Analgesic</label> -->
+  <value><label>strongly analgesic</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="NumbingSerumHigh"]/stages/li[5]/label</xpath>
+  <!-- Original: <label>Fully Deadened</label> -->
+  <value><label>fully deadened</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/stages/li[1]/label</xpath>
+  <!-- Original: <label>Difficulty Breathing</label> -->
+  <value><label>difficulty breathing</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/stages/li[2]/label</xpath>
+  <!-- Original: <label>Trembling</label> -->
+  <value><label>trembling</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/stages/li[3]/label</xpath>
+  <!-- Original: <label>Shaking</label> -->
+  <value><label>shaking</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/stages/li[4]/label</xpath>
+  <!-- Original: <label>Convulsing</label> -->
+  <value><label>convulsing</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/HediffDef[defName="CyanideHigh"]/stages/li[5]/label</xpath>
+  <!-- Original: <label>Death</label> -->
+  <value><label>death</label></value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ThoughtDef[defName="HypnotolAddictionThought"]/stages/li[1]/label</xpath>
+  <!-- Original: <label>Hypnotol resistance</label> -->
+  <value><label>hypnotol resistance</label></value>
+</Operation>
+
+</Patch>

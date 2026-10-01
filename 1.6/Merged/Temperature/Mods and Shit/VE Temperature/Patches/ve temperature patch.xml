@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                    <li>Replace Stuff - Continued</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                    <operations>
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+                            <VEF.Buildings.HiddenDesignatorsDef>
+                                <defName>FernyVETemperatureReplaceStuffProgTemperature_HiddenDesignators</defName>
+                                <hiddenDesignators>			
+                                    <li>Cooler_Over</li>
+                                    <li>Vent_Over</li>
+                                </hiddenDesignators>							
+                            </VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
+                    </operations>
+                    </match>
+                </Operation>
+
+
+	<!--  Relabel shit     -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Heater"]/label</xpath>
+                    <value>
+                        <label>standing heater</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VTE_WallHeater"]/label</xpath>
+                    <value>
+                        <label>heater</label>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Heater"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Heater"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>AirConditioning</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Heater"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>AirConditioning</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]</xpath>
+                    <value>
+                      <researchPrerequisites Inherit="False">
+                        <li>Ferny_CeilingFans</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VTE_IndustrialCooler"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialCooler"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialCooling</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialCooler"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialCooling</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialHeating</li>
+                      </researchPrerequisites>
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_IndustrialHeating</li>
+                      </researchPrerequisites>
+                    </value>
+                  </nomatch>
+                </Operation>
+
+</Patch>

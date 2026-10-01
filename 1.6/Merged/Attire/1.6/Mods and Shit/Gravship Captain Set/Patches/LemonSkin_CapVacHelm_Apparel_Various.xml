@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- GravshipCaptainVacsuit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="GravshipCaptainVacsuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- PrestigeGravshipCaptainVacsuit -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="PrestigeGravshipCaptainVacsuit"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="PrestigeGravshipCaptainVacsuit"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

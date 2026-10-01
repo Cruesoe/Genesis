@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Flake</defName>
+		<label>Hard drugs</label>
+		<description>Manufacture flake and other cheap, powerful and exceptionally addictive drugs.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>12.40</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_SmokeleafJoint</defName>
+		<label>Smokeables</label>
+		<description>Prepare smokeleaf joints, chewing smokeleaf and other smokeables.</description>
+		<baseCost>150</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>12.40</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

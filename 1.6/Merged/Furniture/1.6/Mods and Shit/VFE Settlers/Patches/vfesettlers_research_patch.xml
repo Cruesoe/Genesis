@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="Chemlamp" or defName="ChemlampPost" or defName="TableFaro" or defName="TableFiveFingerFilet"]/researchPrerequisites</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Chemlamp"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_Brazier</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="ChemlampPost"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_Brazier</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="TableFaro"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChessTable</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="TableFiveFingerFilet"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_ChessTable</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

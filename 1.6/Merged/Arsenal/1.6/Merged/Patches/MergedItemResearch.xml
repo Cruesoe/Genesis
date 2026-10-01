@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Items keep research their merged project doesn't need -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_PumpShotgun</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Axe</li><li MayRequire="VanillaExpanded.VWE">Ferny_BattleAxe</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Axe</li><li MayRequire="VanillaExpanded.VWE">Ferny_BattleAxe</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>ToxGas</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>ToxGas</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_IncendiaryLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Axe</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_PumpShotgun</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li MayRequire="VanillaExpanded.VWE">Ferny_HighCaliberRevolver</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_HighCaliberRevolver</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_FragGrenades</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_FragGrenades</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_BoltActionRifle</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_BoltActionRifle</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_IncendiaryLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Smithing</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Smithing</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Spear</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Mace</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Mace</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Axe</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_PumpShotgun</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li MayRequire="vanillaexpanded.vwe">Ferny_RocketLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li MayRequire="vanillaexpanded.vwe">Ferny_RocketLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_SniperRifle</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_SniperRifle</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Axe</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Spear</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_Spear</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_PumpShotgun</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Ferny_SMG</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Ferny_SMG</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_DartGun"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_DartGun"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>DrugProduction</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_DartGun"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_DartGun"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>DrugProduction</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_Gun_Taser"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_Taser"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>VWE_NonLethal</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_Gun_Taser"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_Gun_Taser"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>VWE_NonLethal</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VWE_TearGasGrenade"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VWE_TearGasGrenade"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>VWE_NonLethal</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VWE_TearGasGrenade"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VWE_TearGasGrenade"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>VWE_NonLethal</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_SmokeLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_SmokeLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker/researchPrerequisites</xpath>
+      <value><li>Ferny_IncendiaryLauncher</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
+        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+
+</Patch>

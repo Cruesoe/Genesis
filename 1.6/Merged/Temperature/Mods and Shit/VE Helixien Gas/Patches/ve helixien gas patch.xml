@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+                <Operation Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs</xpath>
+                            <value>
+                                <ResearchProjectDef>
+                                    <defName>Ferny_GasCooler</defName>
+                                    <label>Gas cooler</label>
+                                    <description>Build gas coolers for cold rooms using helixien gas.</description>
+                                    <baseCost>400</baseCost>
+                                    <techLevel>Industrial</techLevel>
+                                    <researchViewX>24.00</researchViewX>
+                                    <researchViewY>7.00</researchViewY>
+                                    <prerequisites>
+                                        <li>VHGE_GasExtraction</li>
+                                        <li>AirConditioning</li>
+                                    </prerequisites>
+                                </ResearchProjectDef>
+                                <ResearchProjectDef>
+                                    <defName>Ferny_GasHeater</defName>
+                                    <label>Gas heater</label>
+                                    <description>Build gas heaters for warm rooms using helixien gas.</description>
+                                    <baseCost>400</baseCost>
+                                    <techLevel>Industrial</techLevel>
+                                    <researchViewX>24.00</researchViewX>
+                                    <researchViewY>8.00</researchViewY>
+                                    <prerequisites>
+                                        <li>VHGE_GasExtraction</li>
+                                        <li>AirConditioning</li>
+                                    </prerequisites>
+                                </ResearchProjectDef>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationConditional">
+                            <xpath>/Defs/ThingDef[defName="VHGE_GasCooler"]/researchPrerequisites</xpath>
+                            <match Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName="VHGE_GasCooler"]/researchPrerequisites</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_GasCooler</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </match>
+                            <nomatch Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[defName="VHGE_GasCooler"]</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_GasCooler</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </nomatch>
+                        </li>
+                        <li Class="PatchOperationConditional">
+                            <xpath>/Defs/ThingDef[defName="VHGE_GasHeater"]/researchPrerequisites</xpath>
+                            <match Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName="VHGE_GasHeater"]/researchPrerequisites</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_GasHeater</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </match>
+                            <nomatch Class="PatchOperationAdd">
+                                <xpath>/Defs/ThingDef[defName="VHGE_GasHeater"]</xpath>
+                                <value>
+                                    <researchPrerequisites>
+                                        <li>Ferny_GasHeater</li>
+                                    </researchPrerequisites>
+                                </value>
+                            </nomatch>
+                        </li>
+                    </operations>
+                </Operation>
+
+</Patch>

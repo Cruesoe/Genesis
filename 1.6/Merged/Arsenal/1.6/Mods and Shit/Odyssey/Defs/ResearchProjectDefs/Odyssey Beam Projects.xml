@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="Ludeon.RimWorld.Odyssey,Ludeon.RimWorld.Biotech">
+    <defName>Ferny_BeamRepeater</defName>
+    <label>beam repeater</label>
+    <description>Craft heavy rapid-fire weapons that emit tightly focused gamma-ray bursts.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>11.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+    <prerequisites><li>BeamWeapons</li></prerequisites>
+  </ResearchProjectDef>
+</Defs>

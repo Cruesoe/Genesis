@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VQEA_Apparel_PatientGown -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VQEA_Apparel_PatientGown"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

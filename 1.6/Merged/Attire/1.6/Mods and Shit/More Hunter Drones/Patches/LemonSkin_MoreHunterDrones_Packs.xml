@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Toxic"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Toxic"]/thingCategories</xpath>
+      <value>
+        <thingCategories>
+          <li>LemonSkin_SpacerUtility</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Toxic"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Toxic"]/label</xpath>
+      <value>
+        <label>hunter pack (toxic)</label>
+      </value>
+    </match>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_AntigrainWarhead"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_AntigrainWarhead"]/label</xpath>
+    <value>
+      <label>hunter pack (antigrain warhead)</label>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Incendiary"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Incendiary"]/label</xpath>
+    <value>
+      <label>hunter pack (incendiary)</label>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_EMP"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_EMP"]/label</xpath>
+    <value>
+      <label>hunter pack (EMP)</label>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Smoke"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackHunter_Smoke"]/label</xpath>
+    <value>
+      <label>hunter pack (smoke)</label>
+    </value>
+  </Operation>
+
+  <!-- Relabel the traps themselves for consistency -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Drone_HunterToxic_Trap"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Drone_HunterToxic_Trap"]/label</xpath>
+      <value>
+        <label>hunter trap (toxic)</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Drone_HunterAntigrainWarhead_Trap"]/label</xpath>
+    <value>
+      <label>hunter pack (antigrain warhead)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Drone_HunterIncendiary_Trap"]/label</xpath>
+    <value>
+      <label>hunter pack (incendiary)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Drone_HunterEMP_Trap"]/label</xpath>
+    <value>
+      <label>hunter pack (EMP)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Drone_HunterSmoke_Trap"]/label</xpath>
+    <value>
+      <label>hunter pack (smoke)</label>
+    </value>
+  </Operation>
+</Patch>

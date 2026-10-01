@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PlasmaGrenades</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_PlasmaBlaster"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PlasmaBlaster</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_PhotonSMG"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargePistol</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_NeutronStreamer"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_NeutronStreamer</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Weapon_GrenadeContact"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PlasmaGrenades</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Weapon_GrenadeThump"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PlasmaBlaster</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_MeleeWeapon_SparkSabre"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_Sparksabre</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_SonicStunner"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_Sparksabre</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ClashRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeShotgun</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ClashHMG"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ClashHMG</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_BruteRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ClashHMG</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_CoilgunLance"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_CoilLance</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_LaserpulseLongrifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_LaserpulseLongrifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSMG"]</xpath><match Class="PatchOperationSequence"><operations><li Class="PatchOperationConditional"><xpath>Defs/ThingDef[defName="DV_Gun_PhotonSMG"]/recipeMaker/researchPrerequisites</xpath><match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="DV_Gun_PhotonSMG"]/recipeMaker/researchPrerequisites</xpath><value><li>Ferny_ChargeSMG</li></value></match><nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="DV_Gun_PhotonSMG"]/recipeMaker</xpath><value><researchPrerequisites><li>Ferny_ChargeSMG</li></researchPrerequisites></value></nomatch></li></operations></match></Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Too Many Mods - Compats and Rebalances</li></mods>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadeThump" or defName="DV_Gun_BruteRifle" or defName="DV_Gun_ClashHMG" or defName="DV_Gun_ClashRifle" or defName="DV_Weapon_GrenadeContact"]/recipeMaker/researchPrerequisites</xpath>
+    </match>
+  </Operation>
+</Patch>

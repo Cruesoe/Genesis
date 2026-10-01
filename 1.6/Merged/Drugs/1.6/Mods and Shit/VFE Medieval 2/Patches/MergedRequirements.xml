@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Research these recipes needed beyond their merged research project -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_AmnesiaDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_AmnesiaDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_AmnesiaDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_AntitoxDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_AntitoxDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_AntitoxDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_ClarityDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ClarityDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ClarityDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_ComaDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ComaDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ComaDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_EfficiencyDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_EfficiencyDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_EfficiencyDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_FertilityDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_FertilityDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_FertilityDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_FocusDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_FocusDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_FocusDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_HemogenDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_HemogenDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_HemogenDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_ImmunizationDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ImmunizationDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_ImmunizationDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_InspirationDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_InspirationDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_InspirationDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_PainkillerDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_PainkillerDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_PainkillerDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_PoisonDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_PoisonDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_PoisonDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_RoyalJellyDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_RoyalJellyDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_RoyalJellyDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_StoneskinDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_StoneskinDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_StoneskinDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_StrengthDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_StrengthDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_StrengthDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEM2_TorturerDraught"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_TorturerDraught"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_TorturerDraught"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

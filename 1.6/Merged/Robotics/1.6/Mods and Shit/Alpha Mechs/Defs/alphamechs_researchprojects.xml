@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Artilleron</defName>
+		<label>Artilleron</label>
+		<description>Build a variation of the militor and bellicor, the artilleron stands at a height of around 5 feet and it is armed with a powerful mortar that fires explosive canisters with great accuracy. With its reduced durability, the Artilleron can't withstand intense battles and is often deployed in the rear lines to eliminate high priority targets and secure strategic objectives from afar. It can also swap weapons between its mortar and a low damage, high accuracy micro needle gun to avoid causing friendly fire with its explosives.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Bellicor</li>
+			<li>Ferny_Militor</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_Daggersnout</defName>
+		<label>Daggersnout</label>
+		<description>Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef> -->
+	<ResearchProjectDef>
+		<defName>Ferny_MechEfficiencyBooster</defName>
+		<label>Mech field boosters</label>
+		<description>Build devices that boost the efficiency, protection and targeting of nearby friendly mechs.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_MechDisruptor</defName>
+		<label>Advanced mech field devices</label>
+		<description>Build the mech disruptor and persistent mech booster.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>18.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechEfficiencyBooster</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_MechMasterHelmet</defName>
+		<label>Mech master helmet</label>
+		<description>Manufacture a heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor's bandwidth, while being as protective as a marine helmet.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_IntegratorHeadset</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_BeamcasterBandNode</defName>
+		<label>Beamcaster band node</label>
+		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>10.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_ControlSublinkHigh</li>
+			<li>AM_MechanoidBeamcasting</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_VoidlinkPack</defName>
+		<label>Voidlink pack</label>
+		<description>Manufacture a backpack containing a voidlink relay to access the vast amounts of data present on this system's mechanoid voidlink network. It can vastly increase a mechanitor's maximum total bandwidth.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>10.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_VoidLinkConnectivity</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Apoptosis</defName>
+		<label>Apocriton-class mechs</label>
+		<description>Summon the apoptosis and infernus mechanoids.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>18.00</researchViewX>
+		<researchViewY>8.60</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_Cryptoharmonization</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_Siegemelter</defName>
+		<label>Siegemelter</label>
+		<description>Build a variant of the siegebreaker armed with a powerful flamethrower. Their movement is incredibly slow, but their siegemelter turret has a considerable range, so they should be treated as priority targets in most cases.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>8.60</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AM_UltraHeavyMechtech</li>
+			<li>AM_QuantumPulseMessaging</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+</Defs>

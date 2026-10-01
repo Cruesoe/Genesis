@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="BMT_DisplayLight"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="BMT_DisplayLight"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_DisplayLight</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

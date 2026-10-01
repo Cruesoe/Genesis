@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TWRL_Apparel_RainbowCatcherArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TWRL_Apparel_RainbowCatcherArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TWRL_Apparel_RainbowCatcherArmor"]</xpath>
+    <value>
+      <techLevel>Spacer</techLevel>
+    </value>
+  </Operation>
+  <!-- TWRL_Apparel_RainbowCatcherHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TWRL_Apparel_RainbowCatcherHelmet"]/techLevel</xpath>
+    <value>
+      <techLevel>Spacer</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TWRL_Apparel_RainbowCatcherHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

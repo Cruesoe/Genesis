@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/ThingDef[defName="FueledStove"]</xpath>
+    <value>
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
+        <inheritRecipesFrom>
+          <li>MA_FlatCookingTable</li>
+        </inheritRecipesFrom>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/ThingDef[defName="ElectricStove"]</xpath>
+    <value>
+      <li Class="VEF.Buildings.RecipeInheritanceExtension">
+        <inheritRecipesFrom>
+          <li>MA_FlatCookingTable</li>
+        </inheritRecipesFrom>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="MA_FlatButcherBlock"]/label</xpath>
+    <value>
+      <label>butcher block</label>
+    </value>
+  </Operation> -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_Duskyakult"]</xpath>
+    <value>
+      <researchPrerequisite>Brewing</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_Caprodka"]</xpath>
+    <value>
+      <researchPrerequisite>Brewing</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_MegaBacon_x1"]/label</xpath>
+    <value>
+      <label>prepare mega bacon</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_MegaBacon_x4"]/label</xpath>
+    <value>
+      <label>prepare mega bacon x4</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_MegaBeef_x1"]/label</xpath>
+    <value>
+      <label>prepare mega beef</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="MA_Make_MegaBeef_x4"]/label</xpath>
+    <value>
+      <label>prepare mega beef x4</label>
+    </value>
+  </Operation>
+
+</Patch>

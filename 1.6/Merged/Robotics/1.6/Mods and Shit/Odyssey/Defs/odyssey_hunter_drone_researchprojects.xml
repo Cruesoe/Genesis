@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>Ferny_HunterPack</defName>
+        <label>Hunter pack</label>
+        <description>Build a wearable pack that deploys a hunter drone.</description>
+        <baseCost>300</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites><li>HunterDrones</li></prerequisites>
+        <researchViewX>14.00</researchViewX>
+        <researchViewY>1.20</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

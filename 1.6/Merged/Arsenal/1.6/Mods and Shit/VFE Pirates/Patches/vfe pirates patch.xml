@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>          
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[@Name="VFEP_BaseCannonBuilding"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>Ferny_Cannon</li>
+            </researchPrerequisites>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]/prerequisites</xpath>
+          <value>
+            <prerequisites>
+              <li>Ferny_Cannon</li>
+            </prerequisites>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEP_Turret_FieldGun"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VFEP_Turret_FieldGun"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_Artillery</li></researchPrerequisites></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VFEP_Turret_FieldGun"]</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_Artillery</li></researchPrerequisites></value></nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Vanilla Weapons Expanded - Laser</li></mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEP_Box_SalvagedLaserEradicator"]/researchPrerequisites</xpath>
+      <value><researchPrerequisites><li>Ferny_SalvagedLaserSniperRifle</li><li>VFEP_SpacerWarcasketWeaponry</li></researchPrerequisites></value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_Vest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Vest"]/label</xpath>
+    <value>
+      <label>cowboy vest</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Vest"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_GreatDress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_GreatDress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

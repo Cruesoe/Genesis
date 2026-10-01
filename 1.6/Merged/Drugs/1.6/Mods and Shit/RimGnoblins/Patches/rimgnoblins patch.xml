@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DregMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DregMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DregMethamphetamine"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="ShardMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="ShardMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="ShardMethamphetamine"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="RG_DregCoffin"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_Flake</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="RG_ShardDistilleryAndWeaponry"]/prerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ResearchProjectDef[defName="RG_ShardDistilleryAndWeaponry"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>Ferny_Flake</li>
+				</prerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="RG_ShardDistilleryAndWeaponry"]</xpath>
+			<value>
+				<prerequisites>
+					<li>Ferny_Flake</li>
+				</prerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

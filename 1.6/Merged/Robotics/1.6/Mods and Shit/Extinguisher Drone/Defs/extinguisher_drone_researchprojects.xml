@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>Ferny_ExtinguisherDrone</defName>
+        <label>Extinguisher drone</label>
+        <description>Build an extinguisher drone trap that launches a firefoam drone when it detects nearby flames.</description>
+        <baseCost>300</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Firefoam</li>
+            <li>HunterDrones</li>
+        </prerequisites>
+        <researchViewX>16.00</researchViewX>
+        <researchViewY>1.40</researchViewY>
+    </ResearchProjectDef>
+</Defs>

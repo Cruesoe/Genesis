@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- CAT_Apparel_CrossBikiniTop -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/label</xpath>
+    <value>
+      <label>cross bikini top</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Apparel_CrossBikiniBottom -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/label</xpath>
+    <value>
+      <label>cross bikini bottom</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>40</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Apparel_ImperialDancerTop -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Apparel_ImperialDancerBottom -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>40</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Apparel_LuxuryLingerie -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_Apparel_LuxuryPanty -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>40</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <!-- CAT_MagusHood -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CAT_MagusHood"]</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_MagusHoodOpen -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_MagusHoodOpen"]/label</xpath>
+    <value>
+      <label>magus hood (open)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CAT_MagusHoodOpen"]</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_PrestigeStellicKnightArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_UltraArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_PrestigeStellicKnightHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- CAT_PrestigeStellicKnightHelmetOpen -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightHelmetOpen"]/label</xpath>
+    <value>
+      <label>prestige stellic knight helmet (open)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightHelmetOpen"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit='False'>
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Meal tier descriptions include the bakes and desserts they unlock with Vanilla Cooking Expanded -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_FueledStove"]/description</xpath>
+    <value>
+      <description>Learn to build a simple cooking station that can be fueled with wood or other materials to cook meals, simple bakes and simple desserts.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_FineMeals"]/description</xpath>
+    <value>
+      <description>Learn to prepare improved meals, bakes and desserts that will satisfy your colonists while improving their mood.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_LavishMeals"]/description</xpath>
+    <value>
+      <description>Refine your cooking to cook fantastic meals, bakes and desserts that will massively satisfy your colonists while greatly improving their mood.</description>
+    </value>
+  </Operation>
+
+</Patch>

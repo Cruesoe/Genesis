@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Node Research: mark the first production projects as research foundations -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+    </value>
+  </Operation>
+
+  
+
+  <!-- Node Research: campfire icon for VFE Tribals' fire research; does nothing without VFE Tribals -->
+  <Operation Class="PatchOperationAddModExtension">
+    <success>Always</success>
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Fire"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchIconExtension">
+        <texPath>ResearchIcons/Campfire</texPath>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

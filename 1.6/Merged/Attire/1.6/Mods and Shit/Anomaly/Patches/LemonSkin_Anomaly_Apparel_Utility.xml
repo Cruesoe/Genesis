@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_ShardPsychicShockLance -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ShardPsychicShockLance"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_ShardPsychicInsanityLance -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_ShardPsychicInsanityLance"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_BiomutationLance -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BiomutationLance"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+</Patch>

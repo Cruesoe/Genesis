@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VGE_Apparel_Vacsuit_Prestige -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VGE_Apparel_Vacsuit_Prestige"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VGE_Apparel_Vacsuit_Prestige"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmor</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+  <!-- VGE_Apparel_VacsuitHelmet_Prestige -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VGE_Apparel_VacsuitHelmet_Prestige"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VGE_Apparel_VacsuitHelmet_Prestige"]</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_SpacerArmorHeadgear</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

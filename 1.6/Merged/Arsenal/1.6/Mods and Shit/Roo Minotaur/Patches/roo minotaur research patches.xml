@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Roo's Minotaur Xenotype Expanded</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationConditional">
+                                <xpath>Defs/ThingDef[defName="RBME_Sling"]/recipeMaker/researchPrerequisite</xpath>
+                                <match Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName="RBME_Sling"]/recipeMaker/researchPrerequisite</xpath>
+                                    <value>
+                                        <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                    </value>
+                                </match>
+                                <nomatch Class="PatchOperationAdd">
+                                    <xpath>Defs/ThingDef[defName="RBME_Sling"]/recipeMaker</xpath>
+                                    <value>
+                                        <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                    </value>
+                                </nomatch>
+                            </li>
+                            <li Class="PatchOperationConditional">
+                                <xpath>Defs/ThingDef[defName="RBME_Sling"]/researchPrerequisites</xpath>
+                                <match Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName="RBME_Sling"]/researchPrerequisites</xpath>
+                                    <value>
+                                        <researchPrerequisites>
+                                            <li>Ferny_Sling</li>
+                                        </researchPrerequisites>
+                                    </value>
+                                </match>
+                            </li>
+                        </operations>
+                    </match>
+                </Operation>
+</Patch>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Coffin</defName>
+		<label>Coffin</label>
+		<description>Build enclosed coffins for solemn burials and funerary spaces.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
+		<prerequisites>
+			<li>Ferny_Sarcophagus</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+</Defs>

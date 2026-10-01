@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+<!-- CHEMFUEL PRODUCTION -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CA_ChemfuelCrematorium"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_ChemfuelSmelter</li>
+				<li MayRequire="oskarpotocki.vfe.classical">VFEC_WoodfiredCrematorium</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="CA_ChemfuelSmelter"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_ChemfuelSmelter</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+
+</Patch>

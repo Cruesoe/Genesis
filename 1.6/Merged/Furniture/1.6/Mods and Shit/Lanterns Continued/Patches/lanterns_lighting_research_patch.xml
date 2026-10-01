@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="ErokLanternMixedRE" or defName="ErokLanternWhiteSE" or defName="ErokLanternRedSE" or defName="ErokLanternYellowSE" or defName="ErokLanternWhiteE" or defName="ErokLanternRedE" or defName="ErokLanternYellowE" or defName="ErokLanternMixede"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="ErokLanternMixedRE" or defName="ErokLanternWhiteSE" or defName="ErokLanternRedSE" or defName="ErokLanternYellowSE" or defName="ErokLanternWhiteE" or defName="ErokLanternRedE" or defName="ErokLanternYellowE" or defName="ErokLanternMixede"]</xpath>
+		<value>
+			<researchPrerequisites Inherit="False">
+				<li>Ferny_StandingLamp</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+</Patch>

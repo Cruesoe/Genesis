@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Prepare_SkyfeatherPipe"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Make_MossmireDraught"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_MossmireDraught"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HerbalExtract</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_MossmireDraught"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HerbalExtract</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Refine_SivaDustIvory"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_ScarodonHeartPotion"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_HellboarLiverPotion"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_SivaDustIvoryPotion"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="MA_Make_AmineSerum"]/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_AmineSerum"]/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HerbalExtract</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="MA_Make_AmineSerum"]</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HerbalExtract</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	
+
+</Patch>

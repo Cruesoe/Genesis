@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- RS_Apparel_SlaveOutfit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RS_Apparel_SlaveOutfit"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="RS_Apparel_SlaveOutfit"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RS_Apparel_SlaveOutfit"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="RS_Apparel_SlaveOutfit"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RS_Apparel_SlaveOutfit"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_VanityApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

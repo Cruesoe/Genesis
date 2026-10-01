@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Vanilla Chemfuel Expanded</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationAdd">
+                                <xpath>Defs</xpath>
+                                <value>
+                                    <ResearchProjectDef>
+                                        <defName>Ferny_ChemfuelHeater</defName>
+                                        <label>Chemfuel heater</label>
+                                        <description>Build chemfuel heaters for warm rooms without relying on the power grid.</description>
+                                        <baseCost>400</baseCost>
+                                        <techLevel>Industrial</techLevel>
+                                        <researchViewX>24.00</researchViewX>
+                                        <researchViewY>6.00</researchViewY>
+                                        <prerequisites>
+                                            <li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
+                                            <li>AirConditioning</li>
+                                        </prerequisites>
+                                    </ResearchProjectDef>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationConditional">
+                                <xpath>/Defs/ThingDef[defName="CAS_ChemfuelHeater"]/researchPrerequisites</xpath>
+                                <match Class="PatchOperationReplace">
+                                    <xpath>/Defs/ThingDef[defName="CAS_ChemfuelHeater"]/researchPrerequisites</xpath>
+                                    <value>
+                                        <researchPrerequisites>
+                                            <li>Ferny_ChemfuelHeater</li>
+                                        </researchPrerequisites>
+                                    </value>
+                                </match>
+                                <nomatch Class="PatchOperationAdd">
+                                    <xpath>/Defs/ThingDef[defName="CAS_ChemfuelHeater"]</xpath>
+                                    <value>
+                                        <researchPrerequisites>
+                                            <li>Ferny_ChemfuelHeater</li>
+                                        </researchPrerequisites>
+                                    </value>
+                                </nomatch>
+                            </li>
+                        </operations>
+                    </match>
+                </Operation>
+
+</Patch>

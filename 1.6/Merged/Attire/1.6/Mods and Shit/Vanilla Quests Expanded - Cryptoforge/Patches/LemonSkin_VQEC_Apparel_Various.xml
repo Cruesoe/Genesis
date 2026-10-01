@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VQE_ApparelArmorCryptoBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="VQE_ApparelArmorCryptoBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VQE_ApparelCryptoHelmetPowerBase -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="VQE_ApparelCryptoHelmetPowerBase"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

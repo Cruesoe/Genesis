@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Research_BasicImmunology"]/description</xpath>
+    <value>
+      <!-- Original: Study the fundamental principles of the immune system. Develop techniques to culture weakened pathogens and stimulate preventive immune responses. Unlocks flu, plague, and wound infection vaccines. -->
+      <description>Study the fundamental principles of the immune system. Develop techniques to culture weakened pathogens and stimulate preventive immune responses. Unlocks wound infection vaccine.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Research_TropicalPathogens"]/baseCost</xpath>
+    <value>
+      <baseCost>1000</baseCost>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Research_TropicalPathogens"]/description</xpath>
+    <value>
+      <!-- Original: Expand vaccine research to cover parasitic diseases common in tropical and jungle biomes. Develop specialized vaccines against vector-borne parasites and gut parasites. Unlocks malaria, sleeping sickness, gut worms, and lung rot vaccines. -->
+      <description>Expand vaccine research to cover malaria, a parasite common in tropical and jungle biomes. Unlocks malaria vaccine.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Research_AggressiveViral"]/baseCost</xpath>
+    <value>
+      <baseCost>1800</baseCost>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="Research_AggressiveViral"]/description</xpath>
+    <value>
+      <!-- Original: Study viruses that turn animals and pawns into feral, aggressive threats. Develop vaccines to protect your colonists from scaria, a highly contagious disease spread through animal attacks. Unlocks scaria vaccine. -->
+      <description>Study viruses that turn animals and pawns into feral, aggressive threats. Unlocks scaria vaccine.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Flu_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Plague_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_GutWorms_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_LungRot_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_MuscleParasites_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x5"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x5"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x5"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x10"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x10"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_Vaccine_SleepingSickness_x10"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x5"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x5"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x5"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x10"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x10"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x10"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x5"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x5"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x5"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x10"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x10"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x10"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ushankas Necroa Archovirus</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x5"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x5"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x5"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x10"]/researchPrerequisite</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x10"]/researchPrerequisite</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x10"]</xpath>
+            <value>
+              <researchPrerequisite>Ferny_FluVaccine</researchPrerequisite>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

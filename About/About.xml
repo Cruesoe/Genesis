@@ -6,42 +6,61 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>A progression overhaul built around the Vanilla Expanded series.
+  <description>A progression overhaul that takes your colony through the eras, from tribal beginnings to spacer technology. Each era ends in a capstone project; finishing it advances your colony to the next era, with a short celebration as it happens.
 
-Research moves through the eras, from tribal beginnings to spacer technology, with fewer and bigger projects. Each one unlocks a whole family of related items across your mods, so everything from the same stage arrives together. Finishing an era's capstone project advances your colony to the next era.
+Genesis brings ferny&apos;s Progression mods and the ProgressionLESS forks together in one mod: Core, Temperature, Hospitality, Furniture, Storage, Kitchen, Production, Drugs, Robotics, Attire, Arsenal, Factories and Gravship. Support for other mods is only touched when they&apos;re active.
 
-Works with any mix of the supported mods; each is only touched when it's active.
-
-Replaces the Progression and ProgressionLESS mods; do not use them together.</description>
+Built on ferny&apos;s Progression mods. Huge thanks to ferny for the original mods and all the Progression work this builds on. Replaces the Progression and ProgressionLESS mods it includes; do not use them together.</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>oskarpotocki.vfe.tribals</packageId>
+      <displayName>Vanilla Factions Expanded - Tribals</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3079786283</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.betterarchitect</packageId>
+      <displayName>Better Architect Menu</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3563882422</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>adaptive.storage.framework</packageId>
+      <displayName>Adaptive Storage Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3033901359</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1854607105</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.ReplaceLib</packageId>
+      <displayName>ReplaceLib</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.nofactoryfloorrequirement</packageId>
+      <displayName>No Factory Floor Requirement</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3687039048</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>vanillaexpanded.vfefactory</packageId>
+      <displayName>Vanilla Furniture Expanded - Factory</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3686924415</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Odyssey</packageId>
+      <displayName>Odyssey</displayName>
+    </li>
   </modDependencies>
   <incompatibleWith>
-    <li>ferny.progressionagriculture</li>
-    <li>ferny.progressionammunition</li>
-    <li>ferny.progressionarsenal</li>
-    <li>ferny.progressionattire</li>
-    <li>ferny.progressioncore</li>
-    <li>ferny.progressiondrugs</li>
-    <li>ferny.progressioneducation</li>
-    <li>ferny.progressionfactories</li>
-    <li>ferny.progressionfurniture</li>
-    <li>ferny.progressiongravship</li>
-    <li>ferny.progressionhospitality</li>
-    <li>ferny.progressionkitchen</li>
-    <li>ferny.progressionproduction</li>
-    <li>ferny.progressionrobotics2</li>
-    <li>ferny.progressionscenarios</li>
-    <li>ferny.progressionstorage</li>
-    <li>ferny.progressiontemperature</li>
     <li>cruesoe.progressionlessarsenal</li>
     <li>cruesoe.progressionlessattire</li>
     <li>cruesoe.progressionlessdrugs</li>
-    <li>cruesoe.progressionlesseducation</li>
     <li>cruesoe.progressionlessfactories</li>
     <li>cruesoe.progressionlessfurniture</li>
     <li>cruesoe.progressionlessgravship</li>
@@ -49,6 +68,21 @@ Replaces the Progression and ProgressionLESS mods; do not use them together.</de
     <li>cruesoe.progressionlessproduction</li>
     <li>cruesoe.progressionlessrobotics</li>
     <li>cruesoe.progressionlessstorage</li>
+    <li>ferny.progressionarsenal</li>
+    <li>ferny.progressionattire</li>
+    <li>ferny.progressioncore</li>
+    <li>ferny.progressiondrugs</li>
+    <li>ferny.progressionfactories</li>
+    <li>ferny.progressionfurniture</li>
+    <li>ferny.progressiongravship</li>
+    <li>ferny.progressionhospitality</li>
+    <li>ferny.progressionkitchen</li>
+    <li>ferny.progressionproduction</li>
+    <li>ferny.progressionrobotics2</li>
+    <li>ferny.progressionstorage</li>
+    <li>ferny.progressiontemperature</li>
+    <li>ferny.progressionwarfare</li>
+    <li>Mewn.CashRegister</li>
   </incompatibleWith>
   <loadAfter>
     <li>brrainz.harmony</li>
@@ -60,5 +94,298 @@ Replaces the Progression and ProgressionLESS mods; do not use them together.</de
     <li>Ludeon.RimWorld.Odyssey</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     <li>OskarPotocki.VFE.Tribals</li>
+    <li>Dubwise.DubsBadHygiene</li>
+    <li>uuugggg.replacestuff</li>
+    <li>OskarPotocki.VFE.Classical</li>
+    <li>vanillaexpanded.temperature</li>
+    <li>rebuild.cotr.doorsandcorners</li>
+    <li>dev.tobot.vpe.betterautocast</li>
+    <li>erin.cottagecollection</li>
+    <li>memegoddess.replacestuff</li>
+    <li>Aoba.Tent</li>
+    <li>onyxae.dragonsdescent</li>
+    <li>TribalCrib.Mod</li>
+    <li>balistafreak.StandaloneHotSpring</li>
+    <li>Mlie.SomeThingsFloat</li>
+    <li>dracoix.zars.spots</li>
+    <li>zal.vweusefultools</li>
+    <li>Mud.TribalApparel</li>
+    <li>Mlie.SimplyMoreMelee</li>
+    <li>DeadGoatWeapons.velcroboy333</li>
+    <li>Mlie.TribalSignalFire</li>
+    <li>Argon.TribalMedicineRemake</li>
+    <li>Hol.NeolStuff</li>
+    <li>primitiveproduction.velcroboy333</li>
+    <li>sarg.alphabiomes</li>
+    <li>zal.simplefish</li>
+    <li>dracoix.doormat.r12a</li>
+    <li>dismarzero.VGP.VGPGardenFabrics</li>
+    <li>LWM.DeepStorage</li>
+    <li>jecrell.doorsexpanded</li>
+    <li>Aoba.Fortress.Neolithic</li>
+    <li>Trickity.WC.Rags</li>
+    <li>ETRT.TribalApparel</li>
+    <li>Owlchemist.SeedsPleaseLite</li>
+    <li>n7huntsman.palisades</li>
+    <li>Fluffy.StuffedFloors</li>
+    <li>BiomesTeam.BiomesCaverns</li>
+    <li>BiomesTeam.BiomesCore</li>
+    <li>BiomesTeam.BiomesIslands</li>
+    <li>zal.PrimitiveFloorsCheap</li>
+    <li>sarg.alphavehiclesneolithic</li>
+    <li>Fuu.UncompromisingTribalFaction</li>
+    <li>Ogliss.TheWhiteCrayon.Quarry</li>
+    <li>Van.DATools</li>
+    <li>sihv.rombones</li>
+    <li>Usgiyi.SlaveOutfits</li>
+    <li>HideWalls.velcroboy333</li>
+    <li>Mlie.AnimalFeedTrough</li>
+    <li>Mlie.JPTSoftWarmBeds</li>
+    <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
+    <li>RD.EarlyTimes</li>
+    <li>PrimitiveStorage.velcroboy333</li>
+    <li>Aoba.Architecture</li>
+    <li>Shork.Torpedo.Architecture</li>
+    <li>gomi.simplestairs</li>
+    <li>Owlchemist.Windows</li>
+    <li>Neronix17.Outland.Core</li>
+    <li>Neronix17.Outland.MoreFloors</li>
+    <li>Neronix17.Outland.FurnitureAndDecor</li>
+    <li>ComigoGames.Farming.Pots</li>
+    <li>Haplo.Miscellaneous.Training</li>
+    <li>Wemd.ExpandedFloors</li>
+    <li>Solaris.FurnitureBase</li>
+    <li>Owlchemist.AnimalGear.Equipment</li>
+    <li>Aoba.Tent.Igloo</li>
+    <li>Owlchemist.SimpleChains.Leather</li>
+    <li>Owlchemist.SimpleChains.Lumber</li>
+    <li>Owlchemist.SimpleChains.Steel</li>
+    <li>spoonshortage.rimkea</li>
+    <li>Erin.JapaneseFurniture</li>
+    <li>DerekBickley.PrisonWalls</li>
+    <li>RX97.Medieval.Cart.Cammel</li>
+    <li>Mlie.AncientRimCore</li>
+    <li>Sixdd.BurialUrns</li>
+    <li>Owlchemist.ChickenNests</li>
+    <li>Orion.CashRegister</li>
+    <li>Gunmar.TribalWarriorSet</li>
+    <li>3HSTltd.BerryExpanded</li>
+    <li>Dorely.BetaTraps</li>
+    <li>Mlie.TrapsPlus</li>
+    <li>River.Tribal.Mittens</li>
+    <li>River.Tribal.Shoes</li>
+    <li>NunahurAlShamikh.LightingAndHeat</li>
+    <li>DBL.AwningsAndRoofs</li>
+    <li>sixdd.cloth.production.expanded</li>
+    <li>BlackMarket420.TAOFC</li>
+    <li>animal.bedsnew</li>
+    <li>scpchemfuel.appliances</li>
+    <li>det.epochsincense</li>
+    <li>RedMattis.Dryads</li>
+    <li>telardo.multifloors</li>
+    <li>drilledhead.chute</li>
+    <li>Adaptive.PrimitiveStorage</li>
+    <li>zal.animalcages</li>
+    <li>ferny.progressionagriculture</li>
+    <li>zal.jianghujin</li>
+    <li>van.dacrypts</li>
+    <li>vanillaexpanded.vfecore</li>
+    <li>ks.flooringfloors</li>
+    <li>drilledhead.mydogshouse</li>
+    <li>ferny.worldbuilder</li>
+    <li>redmattis.bsfurniture</li>
+    <li>sgtbruce.barbsandmoats</li>
+    <li>Adamas.VendingMachines</li>
+    <li>nightmare.museums</li>
+    <li>biomesteam.biomesfossils</li>
+    <li>adamas.hospitalitycasino</li>
+    <li>adamas.hospitalityspa</li>
+    <li>orion.gastronomy</li>
+    <li>ferny.progressionaesthetics</li>
+    <li>rooboid.paintings.ex</li>
+    <li>nightmare.aquariums</li>
+    <li>adamas.hospital</li>
+    <li>DSP.HalituisAmaricanous</li>
+    <li>Inggo.AdvancedPolyBeds</li>
+    <li>Mumei.Signs</li>
+    <li>ReGrowth.BOTR.Core</li>
+    <li>Scurvyez.StevesWalls</li>
+    <li>Wanzi.BigGraves</li>
+    <li>zal.lanterns</li>
+    <li>VanillaExpanded.HelixienGas</li>
+    <li>VanillaExpanded.VFESpacer</li>
+    <li>cixwow.vfespaceraddon</li>
+    <li>dark.signs</li>
+    <li>erin.decorations</li>
+    <li>farxmai2.vanillafurnitureexpandedpack</li>
+    <li>icepickgma.invisibledisplaycase</li>
+    <li>lm.lustechcamostyles</li>
+    <li>lmgginspace.repairbed</li>
+    <li>mlie.amnabisflags</li>
+    <li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+    <li>pphhyy.GuldenNew</li>
+    <li>rimsenal.Sophian</li>
+    <li>rimsenal.techist</li>
+    <li>sarg.alphapropsparks</li>
+    <li>scurvyez.stevesdoors</li>
+    <li>vanillaexpanded.vfearchitect</li>
+    <li>vanillaexpanded.vfeart</li>
+    <li>vanillaexpanded.vgeneticse</li>
+    <li>vanillaquestsexpanded.ancients</li>
+    <li>zylle.clocks</li>
+    <li>ponpeco.pfkidsroom</li>
+    <li>yayoflake.mahjong</li>
+    <li>reel.expanded.storage</li>
+    <li>VanillaExpanded.Recycling</li>
+    <li>ferny.propscore</li>
+    <li>ferny.fuckextfurniture</li>
+    <li>silkcircuit.passitthroughthewindow</li>
+    <li>sarg.alphabooks</li>
+    <li>sbz.neatstorage</li>
+    <li>OskarPotocki.VFE.Mechanoid</li>
+    <li>oskarpotocki.vfe.medieval2</li>
+    <li>jdgg.adaptive.cargoholds</li>
+    <li>sbz.gravshipstorage</li>
+    <li>ponpeco.PFSF</li>
+    <li>sbz.Bookcase</li>
+    <li>natsuki.manipulatorbeam</li>
+    <li>det.sbdelights</li>
+    <li>vanillaexpanded.vcookestews</li>
+    <li>vanillaexpanded.vcookesushi</li>
+    <li>vanillaexpanded.vbrewe</li>
+    <li>vanillaexpanded.vbrewecandt</li>
+    <li>vanillaexpanded.vcooke</li>
+    <li>VanillaExpanded.VChemfuelE</li>
+    <li>ferny.generallymoreresearch</li>
+    <li>talias.VFEHardleatherConcrete</li>
+    <li>argon.vcemp</li>
+    <li>vanillaexpanded.vfeproduction</li>
+    <li>CiXwOw.HelixienGasProduction</li>
+    <li>syrchalis.processor.framework</li>
+    <li>det.keshig</li>
+    <li>ferny.replacelib</li>
+    <li>sarg.alphacrafts</li>
+    <li>VanillaExpanded.VCookEHaute</li>
+    <li>Van.Beasts</li>
+    <li>veterano.mythicages.megafaunabestiary</li>
+    <li>ponpeco.PonpecoPajamas</li>
+    <li>Papito.MedicinesPlus.AT</li>
+    <li>badoaks.MeatOnAStick</li>
+    <li>badoaks.MeatOnAStick.expansion</li>
+    <li>kentington.saveourship2</li>
+    <li>kvr.beamconstructor</li>
+    <li>vanillaracesexpanded.genie</li>
+    <li>VexedTrees980.RimGnoblinsBiotech</li>
+    <li>Matsay.ForsakenFaction</li>
+    <li>onofre150.me.vaccines</li>
+    <li>onofre150.me.addictions</li>
+    <li>as1aw.morehunterdrones</li>
+    <li>rabiosus.extinguisherdrone</li>
+    <li>vanillaquestsexpanded.dronefactory</li>
+    <li>sarg.alphamechs</li>
+    <li>el.mow</li>
+    <li>pal5k.huntermechanoid</li>
+    <li>pal5k.scramblermechanoid</li>
+    <li>pal5k.logisticsmechanoid</li>
+    <li>smxrez.sastarfireboss</li>
+    <li>gondragon.mechanoidwaiter</li>
+    <li>sov.det.surrogatemech</li>
+    <li>el.invmech</li>
+    <li>bart.em</li>
+    <li>mortis.apexmechanoids</li>
+    <li>VanillaExpanded.VAPPE</li>
+    <li>VanillaExpanded.VARME</li>
+    <li>Gunmar.VictorianEraApparels</li>
+    <li>tug.SatyrFaun.Expanded</li>
+    <li>tug.Minotaur.Expanded</li>
+    <li>VanillaExpanded.VIEHAR</li>
+    <li>Trickity.Samurai.Faction</li>
+    <li>matte.rimstuff.tacticoolops</li>
+    <li>cyanobot.toddlers</li>
+    <li>Gerrymon.StylizedSlaveCollar</li>
+    <li>SK.BandageWrap</li>
+    <li>sd.leafskirt</li>
+    <li>ocarina.prisonerjumpsuits</li>
+    <li>det.epochsgolems</li>
+    <li>OskarPotocki.VFE.Pirates</li>
+    <li>vanillaquestsexpanded.cryptoforge</li>
+    <li>vanillaquestsexpanded.generator</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+    <li>Kilo.CapVacHelm</li>
+    <li>TW.TangsBiome.RainbowForest</li>
+    <li>det.spacerarsenal</li>
+    <li>vanillaquestsexpanded.deadlife</li>
+    <li>hlx.UltratechAlteredCarbon</li>
+    <li>OskarPotocki.VFE.Empire</li>
+    <li>sarg.alphagenes</li>
+    <li>KidApparelExpanded.Goblins4Lyfe</li>
+    <li>vanillaracesexpanded.fungoid</li>
+    <li>UNAGI.huyuhuku.SET</li>
+    <li>VanillaExpanded.VAnomalyEInsanity</li>
+    <li>det.avaloi</li>
+    <li>det.venators</li>
+    <li>det.brawnum</li>
+    <li>det.halffoot</li>
+    <li>det.boglegs</li>
+    <li>vanillaexpanded.gravship</li>
+    <li>yamazaki.PreschoolerOutfits</li>
+    <li>Ushanka.BiologicalWarfare</li>
+    <li>CatLover366.BootsAndGloves</li>
+    <li>unagi.ap.dress</li>
+    <li>mo.size.valentine.apparel</li>
+    <li>mouse.gloomydress</li>
+    <li>ponpeco.ponpecoaccessories</li>
+    <li>needy.girl.overdose</li>
+    <li>hartarok.dresses</li>
+    <li>loopus.primhairs</li>
+    <li>unagi.a.d.coat</li>
+    <li>mo.decorationsluxury</li>
+    <li>pu.lunartikaaa</li>
+    <li>resplice.xotr.charmweavers</li>
+    <li>oracle.miscellania</li>
+    <li>zal.bananasuit</li>
+    <li>dress.cinderella</li>
+    <li>cat.imperial.attires</li>
+    <li>smiley.faced.mask</li>
+    <li>BotchJob.divineorder</li>
+    <li>Wara.toomanymods</li>
+    <li>vanillaexpanded.vfesecurity</li>
+    <li>Reel.TurretPipeline</li>
+    <li>Mlie.ReinforcedMechanoid2</li>
+    <li>VanillaExpanded.vwe</li>
+    <li>VanillaExpanded.VWEMS</li>
+    <li>VanillaExpanded.VWEFT</li>
+    <li>VanillaExpanded.VWEQ</li>
+    <li>det.vanillaarsenal</li>
+    <li>Smxrez.nonlethalreexamined</li>
+    <li>tug.Minotaur</li>
+    <li>tug.Satyr</li>
+    <li>VexedTrees980.RimElvesBiotech</li>
+    <li>lts.I</li>
+    <li>det.epochspyrinth</li>
+    <li>ElSov.Highborn</li>
+    <li>BiomesTeam.GeneticsMushkin</li>
+    <li>VanillaExpanded.VWETB</li>
+    <li>ferny.noderesearch</li>
+    <li>mosi.FirefoamThings</li>
+    <li>VanillaExpanded.VWENL</li>
+    <li>ICC.AOV.OSEC</li>
+    <li>VanillaExpanded.VWEHW</li>
+    <li>VanillaExpanded.VWEL</li>
+    <li>Smxrez.LaserReexamined</li>
+    <li>MRK.rimpackjoyride</li>
+    <li>MrKociak.YABEMBionicModularity</li>
+    <li>zal.eltexweaponry</li>
+    <li>notdvd.eventide</li>
+    <li>VanillaExpanded.VWEBF</li>
+    <li>CETeam.CombatExtended</li>
+    <li>vanillaexpanded.vfefactory</li>
+    <li>ferny.nofactoryfloorrequirement</li>
+    <li>ferny.progressionscenarios</li>
+    <li>rer.gravshiploanscenario</li>
+    <li>alt4s.OrbitalStationStart</li>
+    <li>vanillaexpanded.gravship2</li>
+    <li>OELS.VehicleMapFramework</li>
+    <li>OELS.VehicleMapFramework.dev</li>
   </loadAfter>
 </ModMetaData>

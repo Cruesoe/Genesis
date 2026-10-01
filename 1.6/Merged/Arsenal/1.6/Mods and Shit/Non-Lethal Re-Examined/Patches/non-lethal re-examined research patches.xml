@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker</xpath>
+    <value><researchPrerequisite>Ferny_RubberPistol</researchPrerequisite></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/researchPrerequisites</xpath>
+    <value><researchPrerequisites><li>Ferny_RubberPistol</li><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Turret_TaserTurret"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_NonLethalTurret</li><li MayRequireAnyOf="smxrez.nonlethalreexamined,vanillaexpanded.vwenl">Ferny_RubberPistol</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Turret_TearTurret"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_NonLethalTurret</li><li MayRequire="vanillaexpanded.vwenl">Ferny_TearGasLauncher</li></researchPrerequisites></value></Operation>
+</Patch>

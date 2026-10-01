@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- AC_Apparel_HayabusaArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AC_Apparel_HayabusaArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- AC_Apparel_HayabusaHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AC_Apparel_HayabusaHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

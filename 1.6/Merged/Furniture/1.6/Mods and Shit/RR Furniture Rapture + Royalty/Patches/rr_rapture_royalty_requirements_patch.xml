@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things/li[text()="RRRoyalBed" or text()="RRFelzenEndtable" or text()="RRKarvinaEndtable" or text()="RRHeronaWardrobe" or text()="RRTaragonaWardrobe" or text()="RRDresser" or text()="RRDresserTwo"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/label</xpath>
+		<value>
+			<label>Healing draught</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/description</xpath>
+		<value>
+			<description>Produce a vibrant red liquid. When the user drinks it, it greatly enhances their injury healing rate, speeding up the process of wound closure and tissue repair. This potion works by boosting the body’s natural healing mechanisms, making recovery from injuries much quicker.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/baseCost</xpath>
+		<value>
+			<baseCost>500</baseCost>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]/prerequisites</xpath>
+		<value>
+			<prerequisites>
+				
+			</prerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_HealingDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_ImmunizationDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_StrengthDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_EfficiencyDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_PainkillerDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_TorturerDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_FocusDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_FertilityDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_InspirationDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_StoneskinDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_AmnesiaDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_ComaDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_PoisonDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="VFEM2_AntitoxDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFEM2_ClarityDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFEM2_ClarityDraught"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFEM2_HemogenDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFEM2_HemogenDraught"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="VFEM2_RoyalJellyDraught"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VFEM2_RoyalJellyDraught"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>VFEM2_Alchemy</researchPrerequisite>
+			</value>
+		</match>
+	</Operation>
+
+
+</Patch>

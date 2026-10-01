@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- DV_Headgear_AvaloiGlasses -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]</xpath>
+    <value>
+      <stuffCategories>
+        <li>Metallic</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]</xpath>
+    <value>
+      <costStuffCount>15</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1500</WorkToMake>
+        <Mass>0.02</Mass>
+        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <EquipDelay>0.4</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_Headgear_AvaloiGlasses"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

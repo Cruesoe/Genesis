@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef MayRequire="VanillaExpanded.VWEMS">
+    <defName>Ferny_MakeshiftShotgun</defName>
+    <label>makeshift shotgun</label>
+    <description>Assemble crude scatterguns that throw unpredictable pellet clouds from salvaged barrels.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <prerequisites>
+      <li>VWE_MakeshiftWeapons</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- OCARINA_PrisonerJumpsuitBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_PrisonerApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="VAE_WorkAttire"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VAE_WorkAttire</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+</Patch>

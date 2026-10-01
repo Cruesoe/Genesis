@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="SlabBed"]/researchPrerequisites</xpath>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs/ThingDef[defName="SlabBed"]</xpath>
+  <value>
+    <researchPrerequisites Inherit="False">
+      <li>Ferny_ClothBeds</li>
+    </researchPrerequisites>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="SlabDoubleBed"]/researchPrerequisites</xpath>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs/ThingDef[defName="SlabDoubleBed"]</xpath>
+  <value>
+    <researchPrerequisites Inherit="False">
+      <li>Ferny_ClothBeds</li>
+    </researchPrerequisites>
+  </value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_ChemfuelSmelter</defName>
+		<label>Chemfuel appliances</label>
+		<description>Build chemfuel-powered smelters and crematoriums.</description>
+		<baseCost>700</baseCost>
+		<tab>Main</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>8.20</researchViewY>
+		<prerequisites>
+			<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
+			<li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

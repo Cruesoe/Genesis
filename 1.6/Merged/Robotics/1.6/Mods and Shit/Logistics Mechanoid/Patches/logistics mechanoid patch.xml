@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Logistic"]/label</xpath>
+		<value>
+			<label>dozer</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Mech_Logistic"]/description</xpath>
+		<value>
+			<description>A heavy hauling mechanoid built around an armored cargo bay and rugged six-legged frame. Dozers move bulky loads over rough ground, keep colony logistics flowing, and can force their way through danger with hydraulic loading claws and emergency smoke vents.\n\nIt is still a worker mech rather than a dedicated combat platform, but its armor, mass, and utility systems let it survive trouble long enough to finish the job.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="Mech_Logistic"]/label</xpath>
+		<value>
+			<label>dozer</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="Logistic"]/label</xpath>
+		<value>
+			<label>gestate dozer</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="Logistic"]/description</xpath>
+		<value>
+			<description>Gestate a dozer mechanoid.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="Logistic"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Excavator</researchPrerequisite>
+		</value>
+	</Operation>
+
+</Patch>

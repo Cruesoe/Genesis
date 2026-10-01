@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  
+
+  <VFETribals.TribalResearchProjectDef MayRequire="OskarPotocki.VFE.Medieval2">
+    <defName>Ferny_TorchBelt</defName>
+    <label>torch belt</label>
+    <description>Craft belts carrying ready-to-light torches that can be thrown to ignite distant targets.</description>
+    <baseCost>5</baseCost>
+    <tab>VFET_Basics</tab>
+    <techLevel>Animal</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+    <prerequisites>
+      <li>VFET_Weapons</li>
+    </prerequisites>
+  </VFETribals.TribalResearchProjectDef>
+
+</Defs>

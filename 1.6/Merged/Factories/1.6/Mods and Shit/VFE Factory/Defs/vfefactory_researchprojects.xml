@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- First stage: Fabrication only -->
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedSmelter</defName>
+		<label>Automated extraction</label>
+		<description>Build automated machines that extract and refine raw materials: the automated smelter, drill platform, heavy-duty saw and biofuel refinery.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>5.35</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedFarmer</defName>
+		<label>Automated food production</label>
+		<description>Build automated machines that grow, catch and process food, such as the automated farmer and automated mincer.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>6.00</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedLoom</defName>
+		<label>Automated crafting</label>
+		<description>Build automated machines that craft finished goods, such as the automated loom and automated ammunition press. They can only output goods of normal quality.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>6.65</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!-- Second stage: Fabrication and Conveyor belts -->
+
+	<ResearchProjectDef>
+		<defName>Ferny_ConveyorOven</defName>
+		<label>Factory processing</label>
+		<description>Build conveyor-fed factories that process goods in bulk: the conveyor oven, conveyor crematorium, automated distillery, drug granulator and neutroamine synthesizer.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>7.30</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AutomatedAssembler</defName>
+		<label>Factory manufacturing</label>
+		<description>Build conveyor-fed factories for precision manufacturing: the automated alloy forge, automated assembler and automated machining bay. The machining bay can only output goods of normal quality.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>7.95</researchViewY>
+		<tab>VanillaExpanded</tab>
+		<prerequisites>
+			<li>Fabrication</li>
+			<li>VFE_BasicFactories</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

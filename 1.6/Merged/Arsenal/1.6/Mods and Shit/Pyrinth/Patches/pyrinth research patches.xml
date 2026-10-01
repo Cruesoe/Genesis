@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DV_MeleeWeapon_PyrinthBlade"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

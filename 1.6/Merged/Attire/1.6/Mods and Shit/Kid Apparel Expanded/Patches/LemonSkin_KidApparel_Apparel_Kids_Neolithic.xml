@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_KidWarMask -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_KidWarMask"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

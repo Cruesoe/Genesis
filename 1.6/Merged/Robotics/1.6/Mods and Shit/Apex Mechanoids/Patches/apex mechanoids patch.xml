@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="AdvancedMechtech"]/label</xpath>
+		<value>
+			<label>Advanced mechtech</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="ApexMechtech"]/label</xpath>
+		<value>
+			<label>Apex mechtech</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_Apparel_MechamancerSuit"]/label</xpath>
+		<value>
+			<label>mechmancer suit</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/label</xpath>
+		<value>
+			<label>mechmancer helmet</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_Apparel_MechamancerPack"]/label</xpath>
+		<value>
+			<label>mechmancer pack</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_Apparel_MechamancerPack"]/description</xpath>
+		<value>
+			<description>A backpack containing an advanced bandwidth-expansion computer and antenna. Increases a mechanitor's maximum total bandwidth and control groups. When fueled with steel, it can construct small mechanoids that operate independently without consuming bandwidth. Each mechanitor can deploy up to two satellite mechanoids simultaneously.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechbandAntenna_Dominus"]/label</xpath>
+		<value>
+			<label>dominus invoker</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechbandAntenna_Terminus"]/label</xpath>
+		<value>
+			<label>terminus invoker</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechbandAntenna_Celerus"]/label</xpath>
+		<value>
+			<label>celerus invoker</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechbandAntenna_United"]/label</xpath>
+		<value>
+			<label>three-lord invoker</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Conqueror_AR"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_BlasterConqueror</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Conqueror_DMR"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_BlasterConqueror</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Frostivus"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Tinker</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_GazerEmplacement"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_GazerEmplacement</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Haze"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Lasher</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Lasher"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Lasher</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Pulse"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Lasher</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Tinker"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Tinker</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Vassal"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Tinker</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Conqueror_SMG"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_BlasterConqueror</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_Building_ToxicPurifier"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_MechRepairStation</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_GestatorAmplifier"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_MechRepairStation</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_RepairStation_Small"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_MechRepairStation</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechanoidContainer_Player"]/label</xpath>
+		<value>
+			<label>mechanoid stasis chamber</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_MechanoidContainer_Player"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_MechRepairStation</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Weapon_PlasmaWhip"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_PlasmaWhip</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="APM_RepairStation_Advanced"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Ferny_AdvancedMechRepairStation</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Aegis"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Celerus"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Dominus</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Dominus"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Dominus</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="Make_DuelistPsyspear"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_DominionPsyspear</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Dynamo"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Gazer"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Ravager</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Ingestor"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Ravager</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Javelin"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Javelin</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Mantis"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Maul"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Ravager"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Ravager</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Terminus"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Dominus</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Weapon_SeveringBlade"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_DominionPsyspear</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Solus"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Solus</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Siren"]/researchPrerequisite</xpath>
+		<value>
+			<researchPrerequisite>Ferny_Javelin</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Weapon_Skipblade"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_DominionPsyspear</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_MechmancerSuit</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/label</xpath>
+		<value>
+			<label>make mechmancer suit</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/description</xpath>
+		<value>
+			<description>Make a mechmancer suit.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_MechamancerSuit"]/jobString</xpath>
+		<value>
+			<jobString>Making mechmancer suit.</jobString>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_MechmancerSuit</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/label</xpath>
+		<value>
+			<label>make mechmancer helmet</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/description</xpath>
+		<value>
+			<description>Make a mechmancer helmet.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_Apparel_ArmorHelmetMechamancerHelmet"]/jobString</xpath>
+		<value>
+			<jobString>Making mechmancer helmet.</jobString>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName="APM_MechamancerPack"]</xpath>
+		<value>
+			<researchPrerequisite>Ferny_MechmancerPack</researchPrerequisite>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_MechamancerPack"]/label</xpath>
+		<value>
+			<label>make mechmancer pack</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_MechamancerPack"]/description</xpath>
+		<value>
+			<description>Make a mechmancer pack.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="APM_MechamancerPack"]/jobString</xpath>
+		<value>
+			<jobString>Making mechmancer pack.</jobString>
+		</value>
+	</Operation>
+
+</Patch>

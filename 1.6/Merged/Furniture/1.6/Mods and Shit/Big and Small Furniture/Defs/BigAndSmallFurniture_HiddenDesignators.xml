@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyBigSmallFurniture_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>BS_BigTribalBed</li>
+			<li>BS_SmolTribalBed</li>
+			<li>BS_BigTribalDoubleBed</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

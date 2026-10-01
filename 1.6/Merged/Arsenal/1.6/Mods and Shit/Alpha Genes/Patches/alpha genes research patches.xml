@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenBow"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Crossbow</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Halberd</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenBulkSword"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_Longsword</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenLongBlade"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AG_ForsakenShotgun"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Ferny_SawedOffShotgun</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="AG_ForsakenAssaultRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ServiceRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="AG_ForsakenSniper"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_SniperRifle</researchPrerequisite></value></Operation>
+</Patch>

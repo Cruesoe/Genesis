@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Research bench -->
+	<ResearchProjectDef>
+		<defName>Ferny_ResearchBench</defName>
+		<label>Research bench</label>
+		<description>Construct a station capable of researching technologies.</description>
+		<baseCost>650</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+<!-- Sculpting bench -->
+	<ResearchProjectDef>
+		<defName>Ferny_SculptingBench</defName>
+		<label>Sculpting bench</label>
+		<description>Construct a bench capable of sculpting art.</description>
+		<baseCost>400</baseCost>
+		<tab>Main</tab>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>9.60</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<prerequisites>
+			<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Tables</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+<!-- Electric smelter -->
+
+</Defs>

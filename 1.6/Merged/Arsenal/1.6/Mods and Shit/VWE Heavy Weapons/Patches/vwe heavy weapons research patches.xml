@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="SniperTurret"]/prerequisites</xpath><value><prerequisites><li>HeavyTurrets</li><li>PrecisionRifling</li></prerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_UraniumSlugRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_UraniumSlugRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_HandheldMortar"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_Artillery</researchPrerequisite></value></Operation>
+</Patch>

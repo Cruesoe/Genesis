@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoSqGranite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqGranite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqGranite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoSqLimestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqLimestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqLimestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSlate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSlate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqSlate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoSqMarble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqMarble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoSqMarble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSandstone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSandstone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSandstone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaGranite"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaGranite"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaGranite"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaLimestone"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaLimestone"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaLimestone"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSlate"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSlate"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaSlate"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+
+		<li Class="PatchOperationConditional">
+			<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaMarble"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaMarble"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="oracle_DecoDiaMarble"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+							<li>Ferny_Floors</li>
+							<li>Stonecutting</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</li>
+		</operations>
+	</Operation>
+</Patch>

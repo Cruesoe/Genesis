@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="FOF_Drugs"]/label</xpath>
+		<value>
+			<label>razor</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="FOF_Drugs"]/description</xpath>
+		<value>
+			<description>Produce razor, a synthetic combat-enhancing drug developed by Forsakens to counter their weaknesses in combat.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="FOF_Drugs"]/baseCost</xpath>
+		<value>
+			<baseCost>500</baseCost>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="FOF_Vitaminf"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="FOF_Vitaminf"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_VitaminF</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="FOF_Vitaminf"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_VitaminF</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

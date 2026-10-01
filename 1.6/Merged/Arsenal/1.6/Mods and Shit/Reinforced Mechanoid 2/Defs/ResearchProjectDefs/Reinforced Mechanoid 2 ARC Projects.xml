@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="Mlie.ReinforcedMechanoid2">
+    <defName>Ferny_ARCRifle</defName>
+    <label>ARC rifle</label>
+    <description>Craft accurate tesla-coil rifles that launch chaining electrical discharges across multiple targets.</description>
+    <baseCost>2200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>12.00</researchViewX>
+    <researchViewY>3.50</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>RM_ARCShot</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

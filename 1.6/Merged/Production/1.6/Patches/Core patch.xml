@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- RENAME -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="TableSculpting"]/label</xpath>
+        <value>
+            <label>sculpting bench</label>
+        </value>
+    </Operation>        
+
+
+
+    <!-- drug production -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DrugProduction"]/label</xpath>
+        <value>
+            <label>drug lab</label>
+        </value>
+    </Operation>
+
+<!-- ADJUSTMENTS -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="Smithing"]/techLevel</xpath>
+		<value>
+			<techLevel>Neolithic</techLevel>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/techLevel</xpath>
+		<value>
+			<techLevel>Neolithic</techLevel>
+		</value>
+	</Operation>
+
+<!-- NEW RESEARCH -->
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/researchPrerequisites</xpath>
+                    <value>
+						<researchPrerequisites>
+							<li>Ferny_ResearchBench</li>
+						</researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]</xpath>
+                    <value>
+						<researchPrerequisites>
+							<li>Ferny_ResearchBench</li>
+						</researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="TableSculpting"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="TableSculpting"]/researchPrerequisites</xpath>
+                    <value>
+						<researchPrerequisites>
+							<li>Ferny_SculptingBench</li>
+						</researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="TableSculpting"]</xpath>
+                    <value>
+						<researchPrerequisites>
+							<li>Ferny_SculptingBench</li>
+						</researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+<!-- ELECTRIC SMELTER / BIOFUEL REFINERY -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]/label</xpath>
+		<value>
+			<label>Biofuel refinery</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ElectricSmelter"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>Electricity</li>
+				<li MayRequire="vanillaexpanded.vfeproduction">Smithing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+</Patch>

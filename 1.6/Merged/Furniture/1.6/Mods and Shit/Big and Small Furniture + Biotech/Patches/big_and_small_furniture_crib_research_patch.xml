@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]</xpath>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]/researchPrerequisites</xpath>
+			<match Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Crib</li>
+						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
+					</researchPrerequisites>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Crib</li>
+						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
+					</researchPrerequisites>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+
+</Patch>

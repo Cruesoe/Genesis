@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="BeachStuff_BeachBall" or defName="BeachStuff_BeachChair" or defName="BeachStuff_BeachUmbrella"]/researchPrerequisites</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BeachStuff_BeachBall"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Basketball</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BeachStuff_BeachChair"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>ComplexFurniture</li>
+						<li>Ferny_Chair</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BeachStuff_BeachUmbrella"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>ComplexFurniture</li>
+						<li>Ferny_Chair</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

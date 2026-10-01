@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VQED_Apparel_MilitaryCoat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VQED_Apparel_MilitaryCoat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VQED_Apparel_GeneralsInsignia -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VQED_Apparel_GeneralsInsignia"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VQED_Apparel_GeneralsCap -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VQED_Apparel_GeneralsCap"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

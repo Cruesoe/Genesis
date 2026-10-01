@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AT_AddictionPharmacology"]/label</xpath>
+    <value>
+      <!-- Original: addiction pharmacology -->
+      <label>basic addiction pharmacology</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AT_AddictionPharmacology"]/description</xpath>
+    <value>
+      <!-- Original: Develop pharmaceutical compounds capable of satisfying neurochemical cravings without producing the harmful effects of the original addictive substance. Allows the production of targeted treatment pills for the most common addictions in the colony. -->
+      <description>Develop pharmaceutical compounds capable of satisfying neurochemical cravings without producing the harmful effects of the original addictive substance. Allows the production of alcohol treatment pills.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="AT_AddictionPharmacology"]/baseCost</xpath>
+    <value>
+      <baseCost>1500</baseCost>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="AT_Make_AmbrosiaTreatment"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_AmbrosiaTreatment"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_AmbrosiaTreatment"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="AT_Make_GoJuiceTreatment"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_GoJuiceTreatment"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_GoJuiceTreatment"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="AT_Make_PsychiteTreatment"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_PsychiteTreatment"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_PsychiteTreatment"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="AT_Make_SmokeleafTreatment"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_SmokeleafTreatment"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_SmokeleafTreatment"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="AT_Make_WakeUpTreatment"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_WakeUpTreatment"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="AT_Make_WakeUpTreatment"]</xpath>
+      <value>
+        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

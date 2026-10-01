@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="VanillaExpanded.VWENL">
+    <defName>Ferny_TearGasLauncher</defName>
+    <label>tear gas launcher</label>
+    <description>Craft single-shot weapons that launch irritant canisters beyond throwing distance.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+    <prerequisites><li>Ferny_SmokeGrenades</li><li>Ferny_SmokeLauncher</li></prerequisites>
+  </ResearchProjectDef>
+</Defs>

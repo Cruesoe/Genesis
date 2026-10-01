@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Research these recipes needed beyond their merged research project -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="SD_FeywingJoint"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

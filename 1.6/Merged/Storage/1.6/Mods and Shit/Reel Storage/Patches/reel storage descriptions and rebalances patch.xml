@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Large Container: 40 to 32 total -->
+	<!-- Original maxItemsInCell: 10 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ReelStorageNewLargeWoodCrate"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>8</maxItemsInCell>
+		</value>
+	</Operation>
+	<!-- Large Metal Crate: 52 to 40 total -->
+	<!-- Original maxItemsInCell: 13 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="ReelStorageLargeMetalCrate"]/building/maxItemsInCell</xpath>
+		<value>
+			<maxItemsInCell>10</maxItemsInCell>
+		</value>
+	</Operation>
+	<!-- Vanilla Bookcase (2x1, 5/tile, 10 total) -->
+	<!-- Vanilla Small Bookcase (1x1, 5/tile, 5 total) -->
+	<!-- VFE Weapon Rack (2x1, 3/tile, 6 total) -->
+</Patch>

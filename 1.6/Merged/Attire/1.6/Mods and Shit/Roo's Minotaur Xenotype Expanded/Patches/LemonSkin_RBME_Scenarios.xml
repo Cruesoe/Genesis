@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="RBME_MinotaurNomads"]/scenario/parts</xpath>
+    <order>Append</order>
+    <value>
+      <li Class="ScenPart_StartingResearch">
+        <def>StartingResearch</def>
+        <project>LemonSkin_RBME_MinotaurCraftables</project>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="RBME_MinotaurTribe"]/scenario/parts</xpath>
+    <order>Append</order>
+    <value>
+      <li Class="ScenPart_StartingResearch">
+        <def>StartingResearch</def>
+        <project>LemonSkin_RBME_MinotaurCraftables</project>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="RBME_ThePovertyTourists"]/scenario/parts</xpath>
+    <order>Append</order>
+    <value>
+      <li Class="ScenPart_StartingResearch">
+        <def>StartingResearch</def>
+        <project>LemonSkin_RBME_MinotaurCraftables</project>
+      </li>
+    </value>
+  </Operation> -->
+</Patch>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_LabCoat"]/label</xpath>
+    <value>
+      <label>researcher's lab coat</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_LabCoat"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>VAE_SterileAttire</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

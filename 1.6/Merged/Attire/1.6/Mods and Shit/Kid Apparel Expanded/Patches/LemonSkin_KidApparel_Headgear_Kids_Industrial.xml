@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_AdvancedKidHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_AdvancedKidHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_KidPsychicFoil -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_KidPsychicFoil"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- Apparel_KidEltexHelmet -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_KidEltexHelmet"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_KidEltexHelmet"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidArmorHeadgear</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+  <!-- Apparel_KidEltexSkullcap -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_KidEltexSkullcap"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_KidEltexSkullcap"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidHeadgear</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

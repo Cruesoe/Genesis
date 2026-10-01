@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Standard mechtech -->
+	<!-- High mechtech -->
+	<ResearchProjectDef>
+		<defName>Ferny_Berserker</defName>
+		<label>Invader mechs</label>
+		<description>Gestate berserker, bombardier, constrictor, infiltrator and templar mechanoids.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>8.60</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>Ferny_SystemInterlink</defName>
+		<label>System interlink</label>
+		<description>Build a mechlink upgrade which allows the mechanitor to interface with a mechanoid to boost its performance and reduce incoming damage. The user psychically links with their target, using their own brain as a backup for critical subsystems.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>10.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+</Defs>

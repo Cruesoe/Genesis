@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX1Seamlessly"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX1Old"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="DoorFrameX2Old"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKOrnateDoorFrame"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="KKDoorPanels"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKDoorPanels"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKDoorPanels"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKPanelsStraight"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName="KKPanelsCorner"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_WindowWall</li>
+					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Barricade"]/label</xpath>
+				<value>
+					<label>barricade</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Shelf"]/label</xpath>
+				<value>
+					<label>shelf</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ShelfSmall"]/label</xpath>
+				<value>
+					<label>small shelf</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DisplayPod"]/label</xpath>
+				<value>
+					<label>display pod</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_PanelTile"]/label</xpath>
+				<value>
+					<label>hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_Tile"]/label</xpath>
+				<value>
+					<label>tiles</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LFDropdown"]/label</xpath>
+				<value>
+					<label>luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_WhitePanel"]/label</xpath>
+				<value>
+					<label>white hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_GrayPanel"]/label</xpath>
+				<value>
+					<label>gray hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_BlackPanel"]/label</xpath>
+				<value>
+					<label>black hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_WhitePanelB"]/label</xpath>
+				<value>
+					<label>white hull plating B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_GrayPanelB"]/label</xpath>
+				<value>
+					<label>gray hull plating B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_BlackPanelB"]/label</xpath>
+				<value>
+					<label>black hull plating B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_CompositePanel"]/label</xpath>
+				<value>
+					<label>composite hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_CompositePanel_Gray"]/label</xpath>
+				<value>
+					<label>gray composite hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_CompositePanel_Black"]/label</xpath>
+				<value>
+					<label>black composite hull plating</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_RustGrate"]/label</xpath>
+				<value>
+					<label>rust grate</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_HexaTile"]/label</xpath>
+				<value>
+					<label>hexa tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_HexaTileB"]/label</xpath>
+				<value>
+					<label>hexa tile B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_TRONTile"]/label</xpath>
+				<value>
+					<label>TRON tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_WhiteTile"]/label</xpath>
+				<value>
+					<label>white tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_GrayTile"]/label</xpath>
+				<value>
+					<label>gray tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_BlackTile"]/label</xpath>
+				<value>
+					<label>black tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_ClearBlueTile"]/label</xpath>
+				<value>
+					<label>clear blue tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_ClearGrayTile"]/label</xpath>
+				<value>
+					<label>clear gray tile</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LuminousFlooring"]/label</xpath>
+				<value>
+					<label>luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LF_CoolGray"]/label</xpath>
+				<value>
+					<label>cool gray luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LF_Black"]/label</xpath>
+				<value>
+					<label>cold black luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LF_DustyAmethyst"]/label</xpath>
+				<value>
+					<label>dusty amethyst luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LF_Mint"]/label</xpath>
+				<value>
+					<label>mint luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/TerrainDef[defName="PFS_LF_Cyan"]/label</xpath>
+				<value>
+					<label>cyan luminous flooring</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Crib"]/label</xpath>
+				<value>
+					<label>crib</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Heater"]/label</xpath>
+				<value>
+					<label>heater</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_FirefoamPopper"]/label</xpath>
+				<value>
+					<label>firefoam popper</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DecoTableware"]/label</xpath>
+				<value>
+					<label>tableware</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DecoTablewareA"]/label</xpath>
+				<value>
+					<label>pitcher</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DecoTablewareB"]/label</xpath>
+				<value>
+					<label>fruit bowl</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DecoTablewareC"]/label</xpath>
+				<value>
+					<label>teacup</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DecoTablewareD"]/label</xpath>
+				<value>
+					<label>blue glass</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TabletopPlant"]/label</xpath>
+				<value>
+					<label>tabletop plant</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_MetalTeddyBear"]/label</xpath>
+				<value>
+					<label>metal teddy bear</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ObsidianFigurine"]/label</xpath>
+				<value>
+					<label>obsidian figurine</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_HoloGlassPanel"]/label</xpath>
+				<value>
+					<label>holo glass panel</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_MiniHoloGlass"]/label</xpath>
+				<value>
+					<label>mini holo glass</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_HoloGlassDesktop"]/label</xpath>
+				<value>
+					<label>holo glass desktop</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoorFrames"]/label</xpath>
+				<value>
+					<label>door frames</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoorFrameA"]/label</xpath>
+				<value>
+					<label>industrial frame</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]/label</xpath>
+				<value>
+					<label>vault frame</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]/label</xpath>
+				<value>
+					<label>spacer frame</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]/label</xpath>
+				<value>
+					<label>door slope</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_SteelDoor"]/label</xpath>
+				<value>
+					<label>steel door</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_AutodoorB"]/label</xpath>
+				<value>
+					<label>autodoor B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_AutodoorC"]/label</xpath>
+				<value>
+					<label>autodoor C</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]/label</xpath>
+				<value>
+					<label>holo glass autodoor</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ColumnA"]/label</xpath>
+				<value>
+					<label>column A</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ColumnB"]/label</xpath>
+				<value>
+					<label>column B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ColumnC"]/label</xpath>
+				<value>
+					<label>column C</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_PokerTable"]/label</xpath>
+				<value>
+					<label>poker table</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_BilliardsTable"]/label</xpath>
+				<value>
+					<label>billiards table</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Bed"]/label</xpath>
+				<value>
+					<label>bed</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoubleBed"]/label</xpath>
+				<value>
+					<label>double bed</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_BedB"]/label</xpath>
+				<value>
+					<label>bed B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DoubleBedB"]/label</xpath>
+				<value>
+					<label>double bed B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_RoyalBed"]/label</xpath>
+				<value>
+					<label>royal bed</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_AnimalBed"]/label</xpath>
+				<value>
+					<label>animal bed</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_EndTable"]/label</xpath>
+				<value>
+					<label>end table</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TableMini"]/label</xpath>
+				<value>
+					<label>table (1x1) A</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TableMiniB"]/label</xpath>
+				<value>
+					<label>table (1x1) B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TableB"]/label</xpath>
+				<value>
+					<label>table (2x1)</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TableC"]/label</xpath>
+				<value>
+					<label>table (2x1) B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_HexaTable"]/label</xpath>
+				<value>
+					<label>hexatable (2x2)</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ZFrameTable"]/label</xpath>
+				<value>
+					<label>Z-frame table (2x2)</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Table3x2a"]/label</xpath>
+				<value>
+					<label>table (3x2)</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Stool"]/label</xpath>
+				<value>
+					<label>stool A</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_StoolB"]/label</xpath>
+				<value>
+					<label>stool B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DiningChair"]/label</xpath>
+				<value>
+					<label>dining chair</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Armchair"]/label</xpath>
+				<value>
+					<label>armchair A</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_ArmchairB"]/label</xpath>
+				<value>
+					<label>armchair B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_Couch"]/label</xpath>
+				<value>
+					<label>couch</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_CubeLight"]/label</xpath>
+				<value>
+					<label>cube light</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_TriLight"]/label</xpath>
+				<value>
+					<label>tri-light</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_FloorlineLight"]/label</xpath>
+				<value>
+					<label>floorline light</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DresserA"]/label</xpath>
+				<value>
+					<label>dresser A</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="PFS_DresserB"]/label</xpath>
+				<value>
+					<label>dresser B</label>
+					</value>
+				</li>
+			<li Class="PatchOperationReplace">
+				<success>Always</success>
+				<xpath>/Defs/DesignationCategoryDef[defName="PonpecoFurniture"]/label</xpath>
+				<value>
+					<label>sci-fi furniture</label>
+					</value>
+				</li>
+			</operations>
+		</Operation>
+	</Patch>

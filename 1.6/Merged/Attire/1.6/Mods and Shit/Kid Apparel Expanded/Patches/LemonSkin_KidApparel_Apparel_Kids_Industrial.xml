@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_KidFlakVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakVest"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_KidFlakVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakPants"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_KidFlakJacket -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_KidArmorPowerBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="Apparel_KidArmorPowerBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- ApparelKidArmorCataphractBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelKidArmorCataphractBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- Apparel_KidArmorReconBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="Apparel_KidArmorReconBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_KidEltexRobe -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_KidEltexRobe"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_KidEltexRobe"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidApparel</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Apparel_KidEltexShirt -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_KidEltexShirt"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_KidEltexShirt"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidApparel</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Apparel_KidEltexShirt -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_KidEltexVest"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_KidEltexVest"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidApparel</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+
+
+</Patch>

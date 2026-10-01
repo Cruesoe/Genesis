@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Cloth beds -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigBed"
+						or defName="BS_BigDoubleBed"
+						or defName="BS_BigTribalBed"
+						or defName="BS_BigTribalDoubleBed"
+						or defName="BS_SmolBed"
+						or defName="BS_SmolTribalBed"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigBed"
+						or defName="BS_BigDoubleBed"
+						or defName="BS_BigTribalBed"
+						or defName="BS_BigTribalDoubleBed"
+						or defName="BS_SmolBed"
+						or defName="BS_SmolTribalBed"
+					]
+				</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_ClothBeds</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Bedrolls -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigBedroll"
+						or defName="BS_BigDoubleBedroll"
+						or defName="BS_SmolBedroll"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigBedroll"
+						or defName="BS_BigDoubleBedroll"
+						or defName="BS_SmolBedroll"
+					]
+				</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Bedroll</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Royal beds: no research, like the vanilla royal bed; VE Furniture's folder links them to Royal furniture -->
+
+	<!-- Hospital and titan beds -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigHospitalBed"
+						or defName="BS_MegaUniversalBed"
+						or defName="BS_SmolHospitalBed"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_BigHospitalBed"
+						or defName="BS_MegaUniversalBed"
+						or defName="BS_SmolHospitalBed"
+					]
+				</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>HospitalBed</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Animal beds -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>
+					/Defs/ThingDef[
+						defName="BS_Giant_AnimalSleepingBox"
+						or defName="BS_Giant_AnimalBed"
+					]/researchPrerequisites
+				</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalSleepingBox"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Bedroll</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalBed"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>Ferny_Bedroll</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Balance -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalSleepingBox"]/costStuffCount</xpath>
+		<value>
+			<costStuffCount>50</costStuffCount>
+		</value>
+	</Operation>
+</Patch>

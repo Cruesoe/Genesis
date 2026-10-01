@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="MU_MiniTurret"]/label</xpath><value><label>mechanoid mini-turret</label></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="MU_MiniTurret"]/recipeMaker/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_ArmoredTurret</li><li>MU_BasicUpgrades</li></researchPrerequisites></value></Operation>
+</Patch>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_InfernusMechlinkBooster"]/label</xpath>
+    <value>
+        <label>infernus invoker</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_WarEmpressMechlinkBooster"]/label</xpath>
+    <value>
+        <label>war empress invoker</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_ApoptosisMechlinkBooster"]/label</xpath>
+    <value>
+        <label>apoptosis invoker</label>
+    </value>
+</Operation>
+
+<!-- repurposing -->
+
+<!-- Light alpha mechs -> Daggersnout -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/label</xpath>
+    <value>
+        <label>Daggersnout</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/description</xpath>
+    <value>
+		<description>Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/baseCost</xpath>
+    <value>
+		<baseCost>500</baseCost>
+    </value>
+</Operation>
+
+<!-- Standard alpha mechs -> Sagittarius -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/label</xpath>
+    <value>
+        <label>Sagittarius</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/description</xpath>
+    <value>
+        <description>Build a humanoid mechanoid equipped with a powerful tesla gun, a fearsome energy weapon designed to unleash a cascade of electromagnetic energy upon its targets. Capable of generating a burst of EMP energy that can stun and disable mechanoids with a single shot. At the same time, it unleashes a searing bolt of electrical energy that can burn through organic targets, leaving them smoldering and vulnerable.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/baseCost</xpath>
+    <value>
+		<baseCost>1000</baseCost>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/prerequisites</xpath>
+    <value>
+		<prerequisites><li>StandardMechtech</li></prerequisites>
+    </value>
+</Operation>
+
+<!-- Heavy alpha mechs -> Goliath -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/label</xpath>
+    <value>
+        <label>Goliath</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/description</xpath>
+    <value>
+		<description>Build a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If built by the player, it will have a "Swap weapon" ability to choose between the charge blaster and the Needle gun. If toggled to not spawn via mod options, they will get replaced by a Centipede Gunner.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/baseCost</xpath>
+    <value>
+		<baseCost>1500</baseCost>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_HeavyMechtech"]/prerequisites</xpath>
+    <value>
+		<prerequisites><li>HighMechtech</li></prerequisites>
+    </value>
+</Operation>
+
+<!-- Ultra-heavy alpha mechs -> Siegebreaker -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/label</xpath>
+    <value>
+        <label>Siegebreaker</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/description</xpath>
+    <value>
+		<description>Build a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosive shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/baseCost</xpath>
+    <value>
+		<baseCost>3000</baseCost>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_UltraHeavyMechtech"]/prerequisites</xpath>
+    <value>
+		<prerequisites><li>UltraMechtech</li></prerequisites>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+        <researchPrerequisite>Ferny_VoidlinkPack</researchPrerequisite>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+        <researchPrerequisite>Ferny_MechMasterHelmet</researchPrerequisite>
+    </value>
+</Operation>
+
+
+<!-- new projects -->
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_BlitzkriegRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Militor</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_BellicorRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Bellicor</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Mech_TurboCleanerRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Hunter</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_AuraRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_PristineStriderRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_PristineSlurrypedeRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_PristineAssemblerRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_LuxRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_MunifexRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_OptioRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_PolychoronRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_ArtilleronRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Artilleron</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_DemolisherRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_FirewormRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_PhalanxRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_ApoptosisRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Apoptosis</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_InfernusRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Apoptosis</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_SiegemelterRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Siegemelter</researchPrerequisite>
+        </value>
+    </Operation>
+    
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Mech_LegateRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>AM_VoidLinkConnectivity</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_WarEmpressRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>AM_QuantumPulseMessaging</researchPrerequisite>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_MechEfficiencyBooster"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechEfficiencyBooster</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_MechTargettingBooster"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechEfficiencyBooster</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_MechArmorBooster"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechEfficiencyBooster</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_GreaterMechBooster"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechDisruptor</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_MechDisruptor"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechDisruptor</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_BeamcasterBandNode"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_BeamcasterBandNode</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+
+
+
+<!-- TEXT -->
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Daggersnout"]/description</xpath>
+        <value>
+		<description>The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Aura"]/description</xpath>
+        <value>
+		<description>The Aura, also known as Avenging Angels, are angel-shaped mechanoids surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Auras don't have much health, but they will regenerate damage quite fast.\n\nRegeneration is 0.1 damage to a random wound every 10 ticks, 1/6th of a second.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Demolisher"]/description</xpath>
+        <value>
+		<description>The strange demolisher mechanoid looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony's outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Demolishers will only appear in breach raids.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Fireworm"]/description</xpath>
+        <value>
+		<description>A huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like...\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 15 Bomb damage on a 1.9 tile radius.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Goliath"]/description</xpath>
+        <value>
+		<description>The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If built by the player, it will have a "Swap weapon" ability to choose between the charge blaster and the Needle gun.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="AM_Phalanx"]/description</xpath>
+        <value>
+		<description>A hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 10 Frostbite damage on a 2.9 tile radius.</description>
+        </value>
+    </Operation>
+
+
+<!-- ROYALTY -->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Royalty</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/recipeMaker/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+				</value>
+			</li>
+
+			<!-- AM_MechCommanderHelm_Prestige
+			AM_PrestigeMechBreakerHelm
+			AM_PrestigeMechCommanderSuit
+			AM_PrestigeMechBreakerArmor -->
+
+		</operations>
+	</match>
+</Operation>
+
+
+
+
+</Patch>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="Doghouse" or defName="Dogbowl"]/researchPrerequisites</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="Doghouse" or defName="Dogbowl"]</xpath>
+				<value>
+					<researchPrerequisites Inherit="False">
+						<li>ComplexFurniture</li>
+						<li>Ferny_Bedroll</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

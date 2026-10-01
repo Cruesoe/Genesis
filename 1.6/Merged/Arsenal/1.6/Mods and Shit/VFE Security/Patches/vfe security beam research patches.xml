@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Odyssey</li><li>Biotech</li></mods>
+    <match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VFES_Complex_GraserCannon"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_GraserCannonComplex</li></researchPrerequisites></value></match>
+  </Operation>
+</Patch>

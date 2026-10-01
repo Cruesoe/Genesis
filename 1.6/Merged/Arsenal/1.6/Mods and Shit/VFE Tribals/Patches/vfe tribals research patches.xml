@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+                <Operation Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker/researchPrerequisite</xpath>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker/researchPrerequisite</xpath>
+                        <value>
+                            <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                        </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker</xpath>
+                        <value>
+                            <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                        </value>
+                    </nomatch>
+                </Operation>
+                <Operation Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="TrapSpike"]/researchPrerequisites</xpath>
+                    <match Class="PatchOperationReplace">
+                        <xpath>Defs/ThingDef[defName="TrapSpike"]/researchPrerequisites</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>VFET_Weapons</li>
+                            </researchPrerequisites>
+                        </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="TrapSpike"]</xpath>
+                        <value>
+                            <researchPrerequisites>
+                                <li>VFET_Weapons</li>
+                            </researchPrerequisites>
+                        </value>
+                    </nomatch>
+                </Operation>
+                <Operation Class="PatchOperationConditional">
+                    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]</xpath>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationConditional">
+                                <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/recipeMaker/researchPrerequisite</xpath>
+                                <match Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/recipeMaker/researchPrerequisite</xpath>
+                                    <value>
+                                        <researchPrerequisite>Ferny_TorchBelt</researchPrerequisite>
+                                    </value>
+                                </match>
+                                <nomatch Class="PatchOperationAdd">
+                                    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/recipeMaker</xpath>
+                                    <value>
+                                        <researchPrerequisite>Ferny_TorchBelt</researchPrerequisite>
+                                    </value>
+                                </nomatch>
+                            </li>
+                            <li Class="PatchOperationConditional">
+                                <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/researchPrerequisites</xpath>
+                                <match Class="PatchOperationReplace">
+                                    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/researchPrerequisites</xpath>
+                                    <value>
+                                        <researchPrerequisites>
+                                            <li>Ferny_TorchBelt</li>
+                                        </researchPrerequisites>
+                                    </value>
+                                </match>
+                                <nomatch Class="PatchOperationAdd">
+                                    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]</xpath>
+                                    <value>
+                                        <researchPrerequisites>
+                                            <li>Ferny_TorchBelt</li>
+                                        </researchPrerequisites>
+                                    </value>
+                                </nomatch>
+                            </li>
+                        </operations>
+                    </match>
+                </Operation>
+</Patch>

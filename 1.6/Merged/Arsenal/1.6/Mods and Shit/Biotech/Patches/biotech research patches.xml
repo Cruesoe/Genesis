@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>Ferny_Flamebow</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker[not(@IsNull)]</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>Ferny_Flamebow</researchPrerequisite>
+        </value>
+      </match>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/label</xpath>
+    <value><label>tox grenades</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ToxGas"]/description</xpath>
+    <value><description>Craft hand-thrown canisters that release a lingering cloud of caustic tox gas.</description></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackTox"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_ToxPack</researchPrerequisite></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_SmokeShell</researchPrerequisite></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_ToxPack</researchPrerequisite></value>
+  </Operation>
+</Patch>

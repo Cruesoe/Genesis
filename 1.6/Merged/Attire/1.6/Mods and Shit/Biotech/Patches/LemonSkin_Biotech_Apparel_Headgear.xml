@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_GasMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_GasMask"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_GasMask</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <!-- Apparel_AirwireHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/apparel/layers</xpath>
+      <value>
+        <layers>
+          <li>DankPyon_InnerHelmet</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Apparel_ArrayHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]/apparel/layers</xpath>
+      <value>
+        <layers>
+          <li>DankPyon_InnerHelmet</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+
+
+  <!-- Apparel_IntegratorHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]/apparel</xpath>
+      <value>
+        <layers Inherit="False">
+          <li>DankPyon_InnerHelmet</li>
+        </layers>
+      </value>
+    </match>
+  </Operation>
+</Patch>

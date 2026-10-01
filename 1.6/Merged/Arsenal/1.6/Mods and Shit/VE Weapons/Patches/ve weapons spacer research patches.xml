@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargePistol"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargePistol</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSMG"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeSMG</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeShotgun</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_LaserTargetingSystems"]/label</xpath><value><label>charge blaster</label></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_LaserTargetingSystems"]/description</xpath><value><description>Craft heavy pulse-charged blasters that focus sustained bursts through advanced targeting systems.</description></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeMinigun"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeSniperRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeSniperRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ChargeSniperRifle</researchPrerequisite></value></Operation>
+</Patch>

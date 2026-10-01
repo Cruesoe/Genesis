@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Apparel -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_SamuraiApparel</defName>
+    <label>samurai apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SamuraiApparelHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SamuraiApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SamuraiApparelUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_SamuraiApparel</parent>
+  </ThingCategoryDef>
+  <!-- Armour -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_SamuraiArmor</defName>
+    <label>samurai armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SamuraiArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SamuraiArmor</parent>
+  </ThingCategoryDef>
+</Defs>

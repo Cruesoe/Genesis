@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+
+    <!-- Rename ReBuild glass walls into window walls -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_GlassWall"]/label</xpath>
+        <value>
+            <label>window wall</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_ReinforcedGlassWall"]/label</xpath>
+        <value>
+            <label>reinforced window wall</label>
+        </value>
+    </Operation>
+
+    <!-- Window wall family research -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_GlassWall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_ReinforcedGlassWall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_ClerestoryWall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RB_ReinforcedClerestoryWall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>Ferny_WindowWall</li>
+                <li>Smithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Ponpeco Kids Room rugs -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[@Name="PFKRugBase"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[@Name="PFKRugBase"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>VFE_Res_Rugs</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[@Name="PFKRugBase"]</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>VFE_Res_Rugs</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

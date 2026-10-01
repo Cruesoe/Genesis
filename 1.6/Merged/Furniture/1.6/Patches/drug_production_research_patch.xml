@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]/prerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
+		<value>
+			<prerequisites Inherit="False">
+				<li>Ferny_Tables</li>
+			</prerequisites>
+		</value>
+	</Operation>
+</Patch>

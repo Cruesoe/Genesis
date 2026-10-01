@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GR_HugeBearCatRug"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="GR_HugeBearCatRug"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GR_HugeBearCatRug"]</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GR_HugeBearRug"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="GR_HugeBearRug"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GR_HugeBearRug"]</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GR_WolfRug"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="GR_WolfRug"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GR_WolfRug"]</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GR_MuffaloRug"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="GR_MuffaloRug"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GR_MuffaloRug"]</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </nomatch>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GR_ScalyBearRug"]</xpath>
+          <value>
+            <researchPrerequisites>
+              <li>VFE_Res_Rugs</li>
+            </researchPrerequisites>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

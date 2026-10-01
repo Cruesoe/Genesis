@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="FusionWeapons"]/label</xpath><value><label>fusion pistol</label></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="FusionWeapons"]/description</xpath><value><description>Craft charged sidearms that burn through armor and short-circuit shields and machinery.</description></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="FusionWeapons"]/baseCost</xpath><value><baseCost>1200</baseCost></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Gun_FusionRepeater"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_FusionRepeater</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Gun_FusionCaster"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_FusionRepeater</researchPrerequisite></value></Operation>
+</Patch>

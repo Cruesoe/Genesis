@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Antibiotics</defName>
+		<label>Antibiotics</label>
+		<description>Develop a method for producing antibiotics that boost the immune system after infections take hold.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>12.40</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

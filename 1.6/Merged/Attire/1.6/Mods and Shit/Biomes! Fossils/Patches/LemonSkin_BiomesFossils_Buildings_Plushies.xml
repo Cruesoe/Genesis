@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BMT_PlushiesSculptureBase"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>BMT_Paleontology</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+</Patch>

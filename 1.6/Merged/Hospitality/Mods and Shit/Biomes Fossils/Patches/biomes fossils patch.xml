@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BMT_DisplaySmall"]/label</xpath>
+                    <value>
+                        <label>small fossil display</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BMT_DisplayMedium"]/label</xpath>
+                    <value>
+                        <label>medium fossil display</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BMT_DisplayLarge"]/label</xpath>
+                    <value>
+                        <label>large fossil display</label>
+                    </value>
+                </Operation>
+
+</Patch>

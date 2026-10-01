@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VPE_Apparel_EltexMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Apparel_EltexMask"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VPE_Apparel_EltexCape -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VPE_Apparel_EltexCape"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

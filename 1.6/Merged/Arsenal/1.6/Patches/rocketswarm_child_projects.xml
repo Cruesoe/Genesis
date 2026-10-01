@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd"><xpath>Defs/ResearchProjectDef[defName="RocketswarmLauncher"]</xpath><value><prerequisites><li>HeavyTurrets</li><li MayRequire="VanillaExpanded.VWE">Ferny_TripleRocketLauncher</li></prerequisites></value></Operation>
+  <Operation Class="PatchOperationFindMod"><mods><li>Alpha Genes</li></mods><match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="AG_ForsakenHydra"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ForsakenBlackHydra</researchPrerequisite></value></match></Operation>
+  <Operation Class="PatchOperationFindMod"><mods><li>Integrated Implants</li></mods><match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="LTS_ShoulderRocketPod"]/recipeMaker/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>I_ShoulderTurrets</li></researchPrerequisites></value></match></Operation>
+  <Operation Class="PatchOperationFindMod"><mods><li>Ushankas Biological Warfare</li></mods><match Class="PatchOperationSequence"><operations>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_FleshBreakerMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_FleshBreakerOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_FluMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_FluOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_MalariaMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_MalariaOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_NecroaMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_NecroaOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_PlagueMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_PlagueOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_ScariaMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_ScariaOperationRes</li></researchPrerequisites></value></li>
+    <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="USH_SleepingSicknessMissileLauncher"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ForsakenBlackHydra</li><li>USH_SleepingSicknessOperationRes</li></researchPrerequisites></value></li>
+  </operations></match></Operation>
+</Patch>

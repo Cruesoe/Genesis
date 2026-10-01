@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Node Research: mark the first furniture projects as research foundations -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_Tables" or defName="Ferny_Chair" or defName="Ferny_Floors"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+    </value>
+  </Operation>
+
+  <!-- Node Research: icon for Floors -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Ferny_Floors"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchIconExtension">
+        <texPath>ResearchIcons/Floors</texPath>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

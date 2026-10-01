@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitter"]/label</xpath>
+		<value>
+			<label>constructor beam emitter</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitterAuto"]/label</xpath>
+		<value>
+			<label>automatic constructor beam emitter</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitter"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites Inherit="false">
+				<li>Ferny_BeamConstructor</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitterAuto"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites Inherit="false">
+				<li>Ferny_BeamConstructor</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitter"]/costList</xpath>
+		<value>
+			<costList Inherit="false">
+				<Steel>800</Steel>
+				<Plasteel>100</Plasteel>
+				<ComponentSpacer>100</ComponentSpacer>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitterAuto"]/costList</xpath>
+		<value>
+			<costList Inherit="false">
+				<Steel>800</Steel>
+				<Plasteel>100</Plasteel>
+				<ComponentSpacer>100</ComponentSpacer>
+				<AIPersonaCore>1</AIPersonaCore>
+			</costList>
+		</value>
+	</Operation>
+</Patch>

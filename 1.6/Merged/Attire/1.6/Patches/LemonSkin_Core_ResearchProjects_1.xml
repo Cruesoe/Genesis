@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ComplexClothing: Move, adjust tech level, and relink -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewX</xpath>
+    <value>
+      <researchViewX>1.0</researchViewX>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+    <value>
+      <prerequisites>
+        <li>LemonSkin_RusticClothing</li>
+      </prerequisites>
+    </value>
+  </Operation>
+  <!-- PlateArmor: Move, remove ComplexClothing as prereq, add RusticClothing as hidden prereq -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites/li[.="ComplexClothing"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]/prerequisites/li[.="ComplexClothing"]</xpath>
+      <value>
+        <li>LemonSkin_RusticClothing</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

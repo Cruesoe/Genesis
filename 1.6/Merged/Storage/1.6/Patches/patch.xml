@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Shelf"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Shelf"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Shelf"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="ShelfSmall"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="ShelfSmall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="ShelfSmall"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </nomatch>
+    </Operation>
+
+
+
+
+
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Bookcase"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Bookcase"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bookcase"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="BookcaseSmall"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="BookcaseSmall"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="BookcaseSmall"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="false">
+            <li>Ferny_Shelves</li>
+            </researchPrerequisites> 
+        </value>
+        </nomatch>
+    </Operation>
+
+
+
+
+</Patch>

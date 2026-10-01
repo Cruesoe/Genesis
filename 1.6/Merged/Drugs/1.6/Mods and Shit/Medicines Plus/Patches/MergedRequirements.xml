@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Research these recipes needed beyond their merged research project -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Heroin"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Heroin"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>MP_BasicCashCrops</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Heroin"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>MP_BasicCashCrops</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Joy"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Joy"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>MP_BasicCashCrops</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Joy"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>MP_BasicCashCrops</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="ThornWeedExtract"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="ThornWeedExtract"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>MP_BasicUtilityMedicine</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="ThornWeedExtract"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>MP_BasicUtilityMedicine</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Tyrox"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Tyrox"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>MP_BasicUtilityMedicine</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Tyrox"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>MP_BasicUtilityMedicine</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods><li>Vanilla Factions Expanded - Pirates</li></mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_AdvancedWarcaskets"]/label</xpath><value><label>marine warcaskets</label></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_AdvancedWarcaskets"]/description</xpath><value><description>Construct balanced advanced warcaskets with improved protection and dependable mobility.</description></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_AdvancedWarcaskets"]/baseCost</xpath><value><baseCost>1400</baseCost></value></li>
+
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_SpecialisedWarcaskets"]/label</xpath><value><label>aerial warcaskets</label></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_SpecialisedWarcaskets"]/description</xpath><value><description>Construct aerodynamic warcaskets fitted with rocket boosters for rapid aerial deployment.</description></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VFEP_SpecialisedWarcaskets"]/baseCost</xpath><value><baseCost>1200</baseCost></value></li>
+
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Marine" or defName="VFEP_WarcasketHelmet_Marine" or defName="VFEP_WarcasketShoulders_Marine"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>VFEP_AdvancedWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Recon" or defName="VFEP_WarcasketHelmet_Recon" or defName="VFEP_WarcasketShoulders_Recon"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ReconWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Cataphract" or defName="VFEP_WarcasketHelmet_Cataphract" or defName="VFEP_WarcasketShoulders_Cataphract"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ReconWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Aerial" or defName="VFEP_WarcasketHelmet_Aerial" or defName="VFEP_WarcasketShoulders_Aerial"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>VFEP_SpecialisedWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Barrage" or defName="VFEP_WarcasketHelmet_Barrage" or defName="VFEP_WarcasketShoulders_Barrage"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_HazardWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Hazard" or defName="VFEP_WarcasketHelmet_Hazard" or defName="VFEP_WarcasketShoulders_Hazard"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_HazardWarcaskets</li></researchPrerequisites></value></li>
+        <li Class="PatchOperationReplace"><xpath>Defs/VFEPirates.WarcasketDef[defName="VFEP_Warcasket_Shock" or defName="VFEP_WarcasketHelmet_Shock" or defName="VFEP_WarcasketShoulders_Shock"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_ShockWarcaskets</li></researchPrerequisites></value></li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

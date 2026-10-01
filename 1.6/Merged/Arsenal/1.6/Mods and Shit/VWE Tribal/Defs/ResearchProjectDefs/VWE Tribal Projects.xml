@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef MayRequire="VanillaExpanded.VWETB">
+    <defName>Ferny_FireBombs</defName>
+    <label>fire bombs</label>
+    <description>Craft small clay vessels packed with flammable fuel for thrown incendiary attacks.</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Ferny_Arsenal</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+    <prerequisites>
+      <li MayRequire="OskarPotocki.VFE.Tribals">VFET_Weapons</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

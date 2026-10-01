@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HandTailoringBench"]/researchPrerequisites/li[.="ComplexClothing"]</xpath>
+    <value>
+      <li>LemonSkin_RusticClothing</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ElectricTailoringBench"]/researchPrerequisites/li[.="ComplexClothing"]</xpath>
+    <value>
+      <li>LemonSkin_ElectricTailoringBench</li>
+    </value>
+  </Operation>
+</Patch>
