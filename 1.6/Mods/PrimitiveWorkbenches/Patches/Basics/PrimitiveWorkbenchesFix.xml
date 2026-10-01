@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Primitive Workbenches</li>
+        </mods>
+		
+        <match Class="PatchOperationSequence">
+            <!--<success>Always</success>-->
+            <operations> 
+
+
+
+
+
+
+
+<li Class="PatchOperationAdd">	
+  <xpath>Defs/ThingDef[defName="VFET_Chunk"]/recipeMaker</xpath>
+  <value>
+   <researchPrerequisite />
+  </value>
+</li>
+
+</operations>
+</match>
+</Operation>
+
+</Patch>

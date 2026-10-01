@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Mythic Ages: Megafauna Bestiary</li>
+		</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+
+
+
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="MA_Make_VerdantBow"]</xpath>
+						<value>
+							<researchPrerequisite>VFET_Bow</researchPrerequisite>
+						</value>
+					</li>
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+				</operations>
+		</match>
+	</Operation>
+
+
+
+</Patch>

@@ -8,9 +8,9 @@
   </supportedVersions>
   <description>A progression overhaul that takes your colony through the eras, from tribal beginnings to spacer technology. Each era ends in a capstone project; finishing it advances your colony to the next era, with a short celebration as it happens.
 
-Genesis brings ferny&apos;s Progression mods and the ProgressionLESS forks together in one mod: Core, Temperature, Hospitality, Furniture, Storage, Kitchen, Production, Drugs, Robotics, Attire, Arsenal, Factories and Gravship. Support for other mods is only touched when they&apos;re active.
+Research covers everything from furniture, storage, cooking and production to drugs, mechanoids, apparel, weapons, factories and gravships, and fits in with a wide range of other mods. Support for other mods is only touched when they&apos;re active.
 
-Built on ferny&apos;s Progression mods. Huge thanks to ferny for the original mods and all the Progression work this builds on. Replaces the Progression and ProgressionLESS mods it includes; do not use them together.</description>
+Built on ferny&apos;s Progression mods. Huge thanks to ferny for the original mods and all the Progression work this builds on. Do not use it alongside the Progression or ProgressionLESS mods.</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>

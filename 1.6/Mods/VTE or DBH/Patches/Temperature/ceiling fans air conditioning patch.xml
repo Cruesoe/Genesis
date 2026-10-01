@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+                <Operation Class="PatchOperationConditional">
+                    <xpath>/Defs/ResearchProjectDef[defName="Ferny_CeilingFans"]</xpath>
+                    <match Class="PatchOperationConditional">
+                        <xpath>/Defs/ResearchProjectDef[defName="AirConditioning"]/prerequisites</xpath>
+                        <match Class="PatchOperationReplace">
+                            <xpath>/Defs/ResearchProjectDef[defName="AirConditioning"]/prerequisites</xpath>
+                            <value>
+                                <prerequisites>
+                                    <li>Ferny_CeilingFans</li>
+                                </prerequisites>
+                            </value>
+                        </match>
+                        <nomatch Class="PatchOperationAdd">
+                            <xpath>/Defs/ResearchProjectDef[defName="AirConditioning"]</xpath>
+                            <value>
+                                <prerequisites>
+                                    <li>Ferny_CeilingFans</li>
+                                </prerequisites>
+                            </value>
+                        </nomatch>
+                    </match>
+                </Operation>
+
+</Patch>
