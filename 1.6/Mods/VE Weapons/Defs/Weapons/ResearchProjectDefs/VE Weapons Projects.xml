@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="VanillaExpanded.VWE">
-    <defName>Ferny_CompoundBow</defName>
+    <defName>Genesis_CompoundBow</defName>
     <label>compound bow</label>
     <description>Craft precision bows with cams and cables that store high draw energy for accurate armor-piercing shots.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>0.70</researchViewY>
-    <prerequisites><li>Ferny_Longbow</li><li>Machining</li></prerequisites>
+    <prerequisites><li>Genesis_Longbow</li><li>Machining</li></prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef MayRequire="VanillaExpanded.VWE">
-    <defName>Ferny_Flamethrower</defName>
+    <defName>Genesis_Flamethrower</defName>
     <label>flamethrower</label>
     <description>Craft portable incendiary weapons that project pressurized burning fuel into enclosed positions.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>6.30</researchViewY>
-    <prerequisites><li>Ferny_IncendiaryLauncher</li></prerequisites>
+    <prerequisites><li>Genesis_IncendiaryLauncher</li></prerequisites>
   </ResearchProjectDef>
-  <ResearchProjectDef MayRequire="VanillaExpanded.VWE"><defName>Ferny_AntiMaterielRifle</defName><label>anti-materiel rifle</label><description>Craft extremely heavy precision rifles designed to defeat armored targets and fortified positions at long range.</description><baseCost>1000</baseCost><techLevel>Industrial</techLevel><tab>Ferny_Arsenal</tab><researchViewX>5.00</researchViewX><researchViewY>2.10</researchViewY><requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><prerequisites><li>VWE_HeavyWeapons</li><li>PrecisionRifling</li></prerequisites></ResearchProjectDef>
-  <ResearchProjectDef MayRequire="VanillaExpanded.VWE"><defName>Ferny_RocketLauncher</defName><label>rocket launcher</label><description>Craft single-use launchers that deliver heavy explosive warheads against structures and armored targets.</description><baseCost>700</baseCost><techLevel>Industrial</techLevel><tab>Ferny_Arsenal</tab><researchViewX>7.00</researchViewX><researchViewY>2.80</researchViewY><requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><prerequisites><li>VWE_HeavyWeapons</li><li>Mortars</li></prerequisites></ResearchProjectDef>
+  <ResearchProjectDef MayRequire="VanillaExpanded.VWE"><defName>Genesis_AntiMaterielRifle</defName><label>anti-materiel rifle</label><description>Craft extremely heavy precision rifles designed to defeat armored targets and fortified positions at long range.</description><baseCost>1000</baseCost><techLevel>Industrial</techLevel><tab>Genesis_Arsenal</tab><researchViewX>5.00</researchViewX><researchViewY>2.10</researchViewY><requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><prerequisites><li>VWE_HeavyWeapons</li><li>PrecisionRifling</li></prerequisites></ResearchProjectDef>
+  <ResearchProjectDef MayRequire="VanillaExpanded.VWE"><defName>Genesis_RocketLauncher</defName><label>rocket launcher</label><description>Craft single-use launchers that deliver heavy explosive warheads against structures and armored targets.</description><baseCost>700</baseCost><techLevel>Industrial</techLevel><tab>Genesis_Arsenal</tab><researchViewX>7.00</researchViewX><researchViewY>2.80</researchViewY><requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding><prerequisites><li>VWE_HeavyWeapons</li><li>Mortars</li></prerequisites></ResearchProjectDef>
 </Defs>

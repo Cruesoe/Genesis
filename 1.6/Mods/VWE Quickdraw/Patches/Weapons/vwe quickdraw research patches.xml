@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]/label</xpath><value><label>lightweight pistol</label></value></Operation>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]/description</xpath><value><description>Craft fully automatic sidearms built from lightweight alloys for nearly instantaneous deployment.</description></value></Operation>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWE_Quickdraw"]/baseCost</xpath><value><baseCost>500</baseCost></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_PDW"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PDW</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_BullpupRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_PDW</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_BullpupDMR"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_BullpupDMR</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_PDW"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_PDW</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_BullpupRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_PDW</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWE_Gun_BullpupDMR"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_BullpupDMR</researchPrerequisite></value></Operation>
 </Patch>

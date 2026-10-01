@@ -5,7 +5,7 @@
 		<xpath>Defs/ThingDef[defName="Seat_ModernChair"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Couches</li>
+				<li>Genesis_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -16,7 +16,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Bench"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Chair</li>
+					<li>Genesis_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -25,7 +25,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Bench"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Chair</li>
+					<li>Genesis_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -47,7 +47,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>MF_ModernFurniture</li>
-						<li>Ferny_ClothBeds</li>
+						<li>Genesis_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -61,7 +61,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>MF_ModernFurniture</li>
-						<li>Ferny_ClothBeds</li>
+						<li>Genesis_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -80,7 +80,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PlantPots</li>
+					<li>Genesis_PlantPots</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -88,7 +88,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PlantPots</li>
+					<li>Genesis_PlantPots</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -99,7 +99,7 @@
 			<xpath>/Defs/ThingDef[defName="Table_1x1c"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -107,7 +107,7 @@
 			<xpath>/Defs/ThingDef[defName="Table_1x1c"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -119,7 +119,7 @@
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>ComplexFurniture</li>
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -128,7 +128,7 @@
 			<value>
 				<researchPrerequisites Inherit="False">
 					<li>ComplexFurniture</li>
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -139,7 +139,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_CoffeeTable"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -147,7 +147,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_CoffeeTable"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Tables</li>
+					<li>Genesis_Tables</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -158,7 +158,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Sarcophagus</li>
+					<li>Genesis_Sarcophagus</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -166,7 +166,7 @@
 			<xpath>/Defs/ThingDef[defName="VFE_AnimalSarcophagus"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Sarcophagus</li>
+					<li>Genesis_Sarcophagus</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -177,7 +177,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Chair</li>
+					<li>Genesis_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -185,7 +185,7 @@
 			<xpath>/Defs/ThingDef[defName="Seat_Cushion"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_Chair</li>
+					<li>Genesis_Chair</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -196,7 +196,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -204,7 +204,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_Arcade"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -236,7 +236,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PokerTable</li>
+					<li>Genesis_PokerTable</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -245,7 +245,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_RouletteTable"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PokerTable</li>
+					<li>Genesis_PokerTable</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -257,7 +257,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -265,7 +265,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -276,7 +276,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModernComputer</li>
+					<li>Genesis_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -284,7 +284,7 @@
 			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModernComputer</li>
+					<li>Genesis_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -295,7 +295,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -303,7 +303,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_PersonalComputer</li>
+					<li>Genesis_PersonalComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -314,7 +314,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModernComputer</li>
+					<li>Genesis_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -322,7 +322,7 @@
 			<xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="False">
-					<li>Ferny_ModernComputer</li>
+					<li>Genesis_ModernComputer</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

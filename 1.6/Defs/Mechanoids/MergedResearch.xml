@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
-		<defName>Ferny_Agrihand</defName>
+		<defName>Genesis_Agrihand</defName>
 		<label>Light labor mechs</label>
 		<description>Gestate small mechanoids built for farming, cleaning and cooking.</description>
 		<baseCost>500</baseCost>
@@ -17,7 +17,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="sarg.alphamechs,pal5k.scramblermechanoid">
-		<defName>Ferny_Bellicor</defName>
+		<defName>Genesis_Bellicor</defName>
 		<label>Light combat mech variants</label>
 		<description>Gestate specialist light combat mechanoids built on the militor pattern.</description>
 		<baseCost>800</baseCost>
@@ -29,11 +29,11 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_Militor</li>
+			<li>Genesis_Militor</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
-		<defName>Ferny_Centipedes</defName>
+		<defName>Genesis_Centipedes</defName>
 		<label>Heavy combat mechs</label>
 		<description>Gestate heavy and ultra-heavy combat mechanoids.</description>
 		<baseCost>1500</baseCost>
@@ -49,7 +49,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs,el.invmech">
-		<defName>Ferny_Cyclops</defName>
+		<defName>Genesis_Cyclops</defName>
 		<label>Front-line mechs</label>
 		<description>Gestate medium combat mechanoids that fight up close.</description>
 		<baseCost>1000</baseCost>
@@ -65,7 +65,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,bart.em,pal5k.logisticsmechanoid">
-		<defName>Ferny_Excavator</defName>
+		<defName>Genesis_Excavator</defName>
 		<label>Heavy labor mechs</label>
 		<description>Gestate mechanoids built for mining, drilling and hauling.</description>
 		<baseCost>1500</baseCost>
@@ -81,7 +81,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,el.invmech">
-		<defName>Ferny_Fabricor</defName>
+		<defName>Genesis_Fabricor</defName>
 		<label>Advanced labor mechs</label>
 		<description>Gestate advanced worker mechanoids for crafting and medical care.</description>
 		<baseCost>1500</baseCost>
@@ -97,7 +97,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="sarg.alphamechs,pal5k.huntermechanoid">
-		<defName>Ferny_Hunter</defName>
+		<defName>Genesis_Hunter</defName>
 		<label>Light labor mech variants</label>
 		<description>Gestate specialist light worker mechanoids for hunting and fast cleaning.</description>
 		<baseCost>1000</baseCost>
@@ -109,12 +109,12 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_Agrihand</li>
-			<li>Ferny_Militor</li>
+			<li>Genesis_Agrihand</li>
+			<li>Genesis_Militor</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
-		<defName>Ferny_Militor</defName>
+		<defName>Genesis_Militor</defName>
 		<label>Light combat mechs</label>
 		<description>Gestate small combat mechanoids such as the militor.</description>
 		<baseCost>500</baseCost>
@@ -130,7 +130,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs,el.invmech">
-		<defName>Ferny_Pikeman</defName>
+		<defName>Genesis_Pikeman</defName>
 		<label>Ranged mechs</label>
 		<description>Gestate medium combat mechanoids that fight from range.</description>
 		<baseCost>1000</baseCost>
@@ -146,7 +146,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="sov.det.surrogatemech,gondragon.mechanoidwaiter,sarg.alphamechs">
-		<defName>Ferny_Surrogate</defName>
+		<defName>Genesis_Surrogate</defName>
 		<label>Service mechs</label>
 		<description>Gestate mechanoids that care for children, serve customers and tend to the colony's daily needs.</description>
 		<baseCost>1000</baseCost>

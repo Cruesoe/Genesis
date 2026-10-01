@@ -8,8 +8,8 @@
 			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -18,8 +18,8 @@
 			<xpath>/Defs/TerrainDef[defName="WoodenDeck"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

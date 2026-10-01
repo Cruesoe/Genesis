@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ScenarioDef[defName="GravshipEarth"]/scenario/playerFaction/factionDef</xpath>
         <value>
-            <factionDef>Ferny_GravshipSpacers</factionDef>
+            <factionDef>Genesis_GravshipSpacers</factionDef>
         </value>
     </Operation>
 

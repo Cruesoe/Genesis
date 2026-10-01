@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_PsyfocusHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_UltraHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_EltexSkullcap -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_EltexSkullcap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_UltraHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_PsyfocusShirt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_PsyfocusVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusVest"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_PsyfocusRobe -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PsyfocusRobe"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_UltraApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

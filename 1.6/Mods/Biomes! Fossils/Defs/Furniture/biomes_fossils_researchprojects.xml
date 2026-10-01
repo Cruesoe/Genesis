@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_DisplayLight</defName>
+		<defName>Genesis_DisplayLight</defName>
 		<label>Display light</label>
 		<description>Highlight museum exhibits with focused illumination that brings their details into view.</description>
 		<baseCost>300</baseCost>
@@ -9,7 +9,7 @@
 		<researchViewX>9.00</researchViewX>
 		<researchViewY>6.80</researchViewY>
 		<prerequisites>
-			<li>Ferny_StandingLamp</li>
+			<li>Genesis_StandingLamp</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>

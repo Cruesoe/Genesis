@@ -8,7 +8,7 @@
 		<xpath>/Defs/ThingDef[defName="LightBall"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -20,7 +20,7 @@
 		<xpath>/Defs/ThingDef[defName="Loudspeaker"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_PersonalComputer</li>
+				<li>Genesis_PersonalComputer</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

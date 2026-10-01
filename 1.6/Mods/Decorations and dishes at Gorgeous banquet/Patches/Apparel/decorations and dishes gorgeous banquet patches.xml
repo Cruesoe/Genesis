@@ -7,9 +7,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -20,9 +20,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -33,9 +33,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>

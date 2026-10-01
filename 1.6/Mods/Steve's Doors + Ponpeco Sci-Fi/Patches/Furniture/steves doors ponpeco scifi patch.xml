@@ -6,7 +6,7 @@
             <xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]/researchPrerequisites</xpath>
             <value>
                 <researchPrerequisites>
-                    <li>Ferny_SpacerDoors</li>
+                    <li>Genesis_SpacerDoors</li>
                     <li>MicroelectronicsBasics</li>
                 </researchPrerequisites>
             </value>
@@ -15,7 +15,7 @@
             <xpath>/Defs/ThingDef[defName="PFS_HoloGlassAutodoor"]</xpath>
             <value>
                 <researchPrerequisites>
-                    <li>Ferny_SpacerDoors</li>
+                    <li>Genesis_SpacerDoors</li>
                     <li>MicroelectronicsBasics</li>
                 </researchPrerequisites>
             </value>

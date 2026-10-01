@@ -3,19 +3,19 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Bow_ElvenLong"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_Crossbow</researchPrerequisite>
+      <researchPrerequisite>Genesis_Crossbow</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="MeleeWeapon_ElvenScimitar"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_Longsword</researchPrerequisite>
+      <researchPrerequisite>Genesis_Longsword</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Bow_ElvenCharge"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_ChargeBow</researchPrerequisite>
+      <researchPrerequisite>Genesis_ChargeBow</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

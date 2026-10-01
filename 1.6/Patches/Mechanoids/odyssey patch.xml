@@ -12,7 +12,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_PackHunter"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-        <researchPrerequisite>Ferny_HunterPack</researchPrerequisite>
+        <researchPrerequisite>Genesis_HunterPack</researchPrerequisite>
     </value>
 </Operation>
 

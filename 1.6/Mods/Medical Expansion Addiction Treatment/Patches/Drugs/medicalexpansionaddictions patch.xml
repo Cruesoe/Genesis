@@ -25,13 +25,13 @@
     <match Class="PatchOperationReplace">
       <xpath>/Defs/RecipeDef[defName="AT_Make_AmbrosiaTreatment"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName="AT_Make_AmbrosiaTreatment"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -40,13 +40,13 @@
     <match Class="PatchOperationReplace">
       <xpath>/Defs/RecipeDef[defName="AT_Make_GoJuiceTreatment"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName="AT_Make_GoJuiceTreatment"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -55,13 +55,13 @@
     <match Class="PatchOperationReplace">
       <xpath>/Defs/RecipeDef[defName="AT_Make_PsychiteTreatment"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName="AT_Make_PsychiteTreatment"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -70,13 +70,13 @@
     <match Class="PatchOperationReplace">
       <xpath>/Defs/RecipeDef[defName="AT_Make_SmokeleafTreatment"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName="AT_Make_SmokeleafTreatment"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -85,13 +85,13 @@
     <match Class="PatchOperationReplace">
       <xpath>/Defs/RecipeDef[defName="AT_Make_WakeUpTreatment"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName="AT_Make_WakeUpTreatment"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_PsychiteTreatmentPill</researchPrerequisite>
+        <researchPrerequisite>Genesis_PsychiteTreatmentPill</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>

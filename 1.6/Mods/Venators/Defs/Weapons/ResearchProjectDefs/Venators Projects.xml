@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="det.venators">
-    <defName>Ferny_PrecisionLongrifle</defName>
+    <defName>Genesis_PrecisionLongrifle</defName>
     <label>precision longrifle</label>
     <description>Craft extreme-range rifles with powered optics and high-velocity ammunition for farsighted marksmen.</description>
     <baseCost>1200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
-    <prerequisites><li>Ferny_SniperRifle</li></prerequisites>
+    <prerequisites><li>Genesis_SniperRifle</li></prerequisites>
   </ResearchProjectDef>
 </Defs>

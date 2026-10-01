@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="VanillaExpanded.VWEHW">
-    <defName>Ferny_UraniumSlugRifle</defName>
+    <defName>Genesis_UraniumSlugRifle</defName>
     <label>uranium slug rifle</label>
     <description>Craft man-portable uranium slug cannons that punch through heavy armor with ultra-dense long-range projectiles.</description>
     <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>

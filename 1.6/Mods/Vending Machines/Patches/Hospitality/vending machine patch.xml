@@ -25,7 +25,7 @@
                     <xpath>Defs/ThingDef[defName="VendingMachine"]</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Ferny_BasicRetail</li>
+                            <li>Genesis_BasicRetail</li>
                             <li>Electricity</li>
                         </researchPrerequisites>
                     </value>
@@ -34,7 +34,7 @@
                     <xpath>Defs/ThingDef[defName="MedievalVendingMachine"]</xpath>
                     <value>
                         <researchPrerequisites>
-                            <li>Ferny_BasicRetail</li>
+                            <li>Genesis_BasicRetail</li>
                         </researchPrerequisites>
                     </value>
                 </Operation>

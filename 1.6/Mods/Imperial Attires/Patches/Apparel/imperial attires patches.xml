@@ -34,7 +34,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -43,9 +43,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -88,7 +88,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -97,9 +97,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -136,7 +136,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -145,9 +145,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -184,7 +184,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -193,9 +193,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -223,7 +223,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -232,9 +232,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -268,7 +268,7 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -277,9 +277,9 @@
     <value>
       <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -289,7 +289,7 @@
     <xpath>Defs/ThingDef[defName="CAT_MagusHood"]</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_UltraArmorHeadgear</li>
+        <li>Genesis_UltraArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -306,7 +306,7 @@
     <xpath>Defs/ThingDef[defName="CAT_MagusHoodOpen"]</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_UltraArmorHeadgear</li>
+        <li>Genesis_UltraArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -317,7 +317,7 @@
     <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightArmor"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_UltraArmor</li>
+        <li>Genesis_UltraArmor</li>
       </thingCategories>
     </value>
   </Operation>
@@ -328,7 +328,7 @@
     <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_UltraArmorHeadgear</li>
+        <li>Genesis_UltraArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -345,7 +345,7 @@
     <xpath>Defs/ThingDef[defName="CAT_PrestigeStellicKnightHelmetOpen"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit='False'>
-        <li>LemonSkin_UltraArmorHeadgear</li>
+        <li>Genesis_UltraArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

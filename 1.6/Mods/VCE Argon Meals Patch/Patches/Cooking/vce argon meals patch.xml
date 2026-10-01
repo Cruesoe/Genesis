@@ -6,13 +6,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine_Veg"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine_Veg"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -22,13 +22,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine_Veg_bulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine_Veg_bulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -38,13 +38,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish_Veg"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish_Veg"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -54,13 +54,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish_Veg_bulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish_Veg_bulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -70,13 +70,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeGourmet_Veg"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeGourmet_Veg"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -86,13 +86,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet_Veg"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet_Veg"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -102,13 +102,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet_Carn"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet_Carn"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>

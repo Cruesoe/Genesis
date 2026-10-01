@@ -4,7 +4,7 @@
   
 
   <VFETribals.TribalResearchProjectDef MayRequire="OskarPotocki.VFE.Medieval2">
-    <defName>Ferny_TorchBelt</defName>
+    <defName>Genesis_TorchBelt</defName>
     <label>torch belt</label>
     <description>Craft belts carrying ready-to-light torches that can be thrown to ignite distant targets.</description>
     <baseCost>5</baseCost>

@@ -2,7 +2,7 @@
 <Defs>
 
     <ResearchProjectDef>
-        <defName>Ferny_HunterPack</defName>
+        <defName>Genesis_HunterPack</defName>
         <label>Hunter pack</label>
         <description>Build a wearable pack that deploys a hunter drone.</description>
         <baseCost>300</baseCost>

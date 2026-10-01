@@ -6,9 +6,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
         <workSkill>Crafting</workSkill>
       </recipeMaker>
     </value>
@@ -43,7 +43,7 @@
     <xpath>Defs/ThingDef[@Name="GD_ApparelCustomBase"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation> -->
@@ -77,7 +77,7 @@
     <xpath>Defs/ThingDef[@Name="GD_HatCustomBase"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityHeadgear</li>
+        <li>Genesis_VanityHeadgear</li>
       </thingCategories>
     </value>
   </Operation> -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>       
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "Ferny_MerchantBox"]/inspectorTabs</xpath>
+		<xpath>/Defs/ThingDef[defName = "Genesis_MerchantBox"]/inspectorTabs</xpath>
 		<value>
 			<li>Storefront.Store.ITab_Register_Store</li>		
 		</value>

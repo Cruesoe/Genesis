@@ -15,7 +15,7 @@
     <xpath>Defs/ThingDef[defName="VFEFactory_DroneAutofactory"]/researchPrerequisites</xpath>
     <value>
         <researchPrerequisites>
-            <li>Ferny_AutomatedLoom</li>
+            <li>Genesis_AutomatedLoom</li>
             <li>VQE_Dronetech</li>
         </researchPrerequisites>
     </value>

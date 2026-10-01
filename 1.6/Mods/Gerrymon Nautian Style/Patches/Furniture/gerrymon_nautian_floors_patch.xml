@@ -10,7 +10,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -20,7 +20,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -34,7 +34,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -44,7 +44,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -58,7 +58,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -68,7 +68,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -82,7 +82,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -92,7 +92,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -106,7 +106,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -116,7 +116,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanFineTile_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -130,7 +130,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -140,7 +140,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -154,7 +154,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -164,7 +164,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -178,7 +178,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -188,7 +188,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -202,7 +202,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -212,7 +212,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -226,7 +226,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -236,7 +236,7 @@
 				<xpath>/Defs/TerrainDef[defName="OceanPavestone_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -250,7 +250,7 @@
 				<xpath>/Defs/ThingDef[defName="GM_Mer_Slab_Medium"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -260,7 +260,7 @@
 				<xpath>/Defs/ThingDef[defName="GM_Mer_Slab_Medium"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -274,7 +274,7 @@
 				<xpath>/Defs/ThingDef[defName="GM_Mer_Slab_Broad"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -284,7 +284,7 @@
 				<xpath>/Defs/ThingDef[defName="GM_Mer_Slab_Broad"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-							<li>Ferny_Floors</li>
+							<li>Genesis_Floors</li>
 							<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>

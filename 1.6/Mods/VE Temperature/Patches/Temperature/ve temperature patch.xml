@@ -67,7 +67,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_CeilingFans</li>
+                        <li>Genesis_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -75,7 +75,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_LargeCeilingFan"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_CeilingFans</li>
+                        <li>Genesis_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -87,7 +87,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_CeilingFans</li>
+                        <li>Genesis_CeilingFans</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -95,7 +95,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_SmallCeilingFan"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_CeilingFans</li>
+                        <li>Genesis_CeilingFans</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -109,7 +109,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_IndustrialCooler"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_IndustrialCooling</li>
+                        <li>Genesis_IndustrialCooling</li>
                       </researchPrerequisites>
                    </value>
                   </match>
@@ -117,7 +117,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_IndustrialCooler"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_IndustrialCooling</li>
+                        <li>Genesis_IndustrialCooling</li>
                       </researchPrerequisites>
                     </value>
                   </nomatch>
@@ -130,7 +130,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_IndustrialHeating</li>
+                        <li>Genesis_IndustrialHeating</li>
                       </researchPrerequisites>
                    </value>
                   </match>
@@ -138,7 +138,7 @@
                     <xpath>/Defs/ThingDef[defName="VTE_IndustrialHeater"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_IndustrialHeating</li>
+                        <li>Genesis_IndustrialHeating</li>
                       </researchPrerequisites>
                     </value>
                   </nomatch>

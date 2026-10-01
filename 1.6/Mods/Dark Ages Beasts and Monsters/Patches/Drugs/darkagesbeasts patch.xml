@@ -6,13 +6,13 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="DA_Make_ScarletScent"]/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+				<researchPrerequisite>Genesis_SivaDustIvory</researchPrerequisite>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/RecipeDef[defName="DA_Make_ScarletScent"]</xpath>
 			<value>
-				<researchPrerequisite>Ferny_SivaDustIvory</researchPrerequisite>
+				<researchPrerequisite>Genesis_SivaDustIvory</researchPrerequisite>
 			</value>
 		</nomatch>
 	</Operation>

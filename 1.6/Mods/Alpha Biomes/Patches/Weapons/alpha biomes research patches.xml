@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="AB_Shell_Tar"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_SmokeShell</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="AB_Shell_Tar"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_SmokeShell</researchPrerequisite></value></Operation>
 </Patch>

@@ -3,32 +3,32 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Tomahawk"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_Hatchet</researchPrerequisite>
+      <researchPrerequisite>Genesis_Hatchet</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Gun_DoubleActionRevolver"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_HighCaliberRevolver</researchPrerequisite>
+      <researchPrerequisite>Genesis_HighCaliberRevolver</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Gun_DoubleBarreledShotgun"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_PumpShotgun</researchPrerequisite>
+      <researchPrerequisite>Genesis_PumpShotgun</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFES_Gun_HuntingRifle"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_LeverActionRifle</researchPrerequisite>
+      <researchPrerequisite>Genesis_LeverActionRifle</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Turret_GatlingGun"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites>
-        <li>Ferny_ArmoredTurret</li><li MayRequire="VanillaExpanded.VWE">Ferny_LeverActionRifle</li><li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Ferny_HighCaliberRevolver</li>
+        <li>Genesis_ArmoredTurret</li><li MayRequire="VanillaExpanded.VWE">Genesis_LeverActionRifle</li><li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Genesis_HighCaliberRevolver</li>
       </researchPrerequisites>
     </value>
   </Operation>

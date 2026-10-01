@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_Apparel_PeltCoat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/label</xpath>
+    <value>
+      <label>pelt coat</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>160</MaxHitPoints>
+        <WorkToMake>10000</WorkToMake>
+        <Mass>3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="Genesis_VFET_HeavyTribalwear"]</xpath>
+    <match Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/recipeMaker/researchPrerequisite</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>Genesis_VFET_HeavyTribalwear</researchPrerequisite>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>Genesis_VFET_HeavyTribalwear</researchPrerequisite>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+  <!-- VAE_Apparel_TribalPoncho -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/label</xpath>
+    <value>
+      <label>tribal poncho</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_TribalKilt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/label</xpath>
+    <value>
+      <label>tribal kilt</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -37,7 +37,7 @@
                     <xpath>/Defs/ThingDef[defName="PlantPot"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_PlantPots</li>
+                        <li>Genesis_PlantPots</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -45,7 +45,7 @@
                     <xpath>/Defs/ThingDef[defName="PlantPot"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_PlantPots</li>
+                        <li>Genesis_PlantPots</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -58,7 +58,7 @@
                     <xpath>/Defs/ThingDef[defName="Bed"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ClothBeds</li>
+                        <li>Genesis_ClothBeds</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -66,7 +66,7 @@
                     <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ClothBeds</li>
+                        <li>Genesis_ClothBeds</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -78,7 +78,7 @@
                     <xpath>/Defs/ThingDef[defName="DoubleBed"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ClothBeds</li>
+                        <li>Genesis_ClothBeds</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -86,7 +86,7 @@
                     <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ClothBeds</li>
+                        <li>Genesis_ClothBeds</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -155,7 +155,7 @@
                     <xpath>/Defs/ThingDef[defName="Couch"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Couches</li>
+                        <li>Genesis_Couches</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -163,7 +163,7 @@
                     <xpath>/Defs/ThingDef[defName="Couch"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Couches</li>
+                        <li>Genesis_Couches</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -175,7 +175,7 @@
                     <xpath>/Defs/ThingDef[defName="Armchair"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Couches</li>
+                        <li>Genesis_Couches</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -183,7 +183,7 @@
                     <xpath>/Defs/ThingDef[defName="Armchair"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Couches</li>
+                        <li>Genesis_Couches</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -195,7 +195,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -203,7 +203,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -215,7 +215,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -223,7 +223,7 @@
                     <xpath>/Defs/ThingDef[defName="AnimalBed"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -236,7 +236,7 @@
                     <xpath>/Defs/ThingDef[defName="Column"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Column</li>
+                        <li>Genesis_Column</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -244,7 +244,7 @@
                     <xpath>/Defs/ThingDef[defName="Column"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Column</li>
+                        <li>Genesis_Column</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -252,7 +252,7 @@
 
 
 
-<!-- Ferny_Tables research prerequisites -->
+<!-- Genesis_Tables research prerequisites -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="Table1x2c"]/researchPrerequisites</xpath>
@@ -260,7 +260,7 @@
                     <xpath>/Defs/ThingDef[defName="Table1x2c"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -268,7 +268,7 @@
                     <xpath>/Defs/ThingDef[defName="Table1x2c"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -280,7 +280,7 @@
                     <xpath>/Defs/ThingDef[defName="Table2x2c"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -288,7 +288,7 @@
                     <xpath>/Defs/ThingDef[defName="Table2x2c"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -300,7 +300,7 @@
                     <xpath>/Defs/ThingDef[defName="Table2x4c"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -308,7 +308,7 @@
                     <xpath>/Defs/ThingDef[defName="Table2x4c"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -320,7 +320,7 @@
                     <xpath>/Defs/ThingDef[defName="Table3x3c"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -328,14 +328,14 @@
                     <xpath>/Defs/ThingDef[defName="Table3x3c"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
                 </Operation>
 
 
-<!-- Ferny_Bedroll research prerequisite -->
+<!-- Genesis_Bedroll research prerequisite -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="Bedroll"]/researchPrerequisites</xpath>
@@ -343,7 +343,7 @@
                     <xpath>/Defs/ThingDef[defName="Bedroll"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -351,7 +351,7 @@
                     <xpath>/Defs/ThingDef[defName="Bedroll"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Bedroll</li>
+                        <li>Genesis_Bedroll</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -366,7 +366,7 @@
                       <xpath>/Defs/ThingDef[defName="BedrollDouble"]/researchPrerequisites</xpath>
                       <value>
                         <researchPrerequisites Inherit="False">
-                          <li>Ferny_Bedroll</li>
+                          <li>Genesis_Bedroll</li>
                         </researchPrerequisites> 
                       </value>
                     </match>
@@ -374,7 +374,7 @@
                       <xpath>/Defs/ThingDef[defName="BedrollDouble"]</xpath>
                       <value>
                         <researchPrerequisites Inherit="False">
-                          <li>Ferny_Bedroll</li>
+                          <li>Genesis_Bedroll</li>
                         </researchPrerequisites> 
                       </value>
                     </nomatch>
@@ -382,7 +382,7 @@
                 </Operation>
 
 
-<!-- Ferny_Chair research prerequisite -->
+<!-- Genesis_Chair research prerequisite -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="DiningChair"]/researchPrerequisites</xpath>
@@ -390,7 +390,7 @@
                     <xpath>/Defs/ThingDef[defName="DiningChair"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Genesis_Chair</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -398,7 +398,7 @@
                     <xpath>/Defs/ThingDef[defName="DiningChair"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Genesis_Chair</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -411,7 +411,7 @@
                     <xpath>/Defs/ThingDef[defName="Stool"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Genesis_Chair</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -419,7 +419,7 @@
                     <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_Chair</li>
+                        <li>Genesis_Chair</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -460,7 +460,7 @@
                 <Operation Class="PatchOperationReplace">
                   <xpath>/Defs/ResearchProjectDef[defName="HospitalBed"]/hiddenPrerequisites/li[text()="ComplexFurniture"]</xpath>
                   <value>
-                    <li>Ferny_ClothBeds</li>
+                    <li>Genesis_ClothBeds</li>
                   </value>
                 </Operation>
 
@@ -470,7 +470,7 @@
     <xpath>/Defs/ThingDef[defName="HoopstoneRing"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_HoopstoneRing</li>
+        <li>Genesis_HoopstoneRing</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -478,7 +478,7 @@
     <xpath>/Defs/ThingDef[defName="HoopstoneRing"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_HoopstoneRing</li>
+        <li>Genesis_HoopstoneRing</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -490,8 +490,8 @@
     <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_HoopstoneRing</li>
-        <li>Ferny_Tables</li>
+        <li>Genesis_HoopstoneRing</li>
+        <li>Genesis_Tables</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -499,8 +499,8 @@
     <xpath>/Defs/ThingDef[defName="GameOfUrBoard"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_HoopstoneRing</li>
-        <li>Ferny_Tables</li>
+        <li>Genesis_HoopstoneRing</li>
+        <li>Genesis_Tables</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -512,7 +512,7 @@
     <xpath>/Defs/ThingDef[defName="BilliardsTable"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_PokerTable</li>
+        <li>Genesis_PokerTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -520,7 +520,7 @@
     <xpath>/Defs/ThingDef[defName="BilliardsTable"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_PokerTable</li>
+        <li>Genesis_PokerTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -539,7 +539,7 @@
   <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
   <value>
     <researchPrerequisites Inherit="False">
-      <li>Ferny_ClothBeds</li>
+      <li>Genesis_ClothBeds</li>
     </researchPrerequisites>
   </value>
 </Operation>
@@ -553,7 +553,7 @@
   <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
   <value>
     <researchPrerequisites Inherit="False">
-      <li>Ferny_ClothBeds</li>
+      <li>Genesis_ClothBeds</li>
     </researchPrerequisites>
   </value>
 </Operation>

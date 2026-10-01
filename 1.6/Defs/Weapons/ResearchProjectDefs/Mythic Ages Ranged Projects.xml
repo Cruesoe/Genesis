@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="veterano.mythicages.megafaunabestiary">
-    <defName>Ferny_CapryakScatterbow</defName>
+    <defName>Genesis_CapryakScatterbow</defName>
     <label>capryak scatterbow</label>
     <description>Craft horn-backed skirmish bows that trade long-range accuracy for rapid close volleys.</description>
     <baseCost>100</baseCost>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>1.40</researchViewY>

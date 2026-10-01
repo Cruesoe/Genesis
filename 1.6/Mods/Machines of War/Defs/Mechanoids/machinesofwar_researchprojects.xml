@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_Cicada</defName>
+		<defName>Genesis_Cicada</defName>
 		<label>War machines</label>
 		<description>Gestate the cicada, demolisher and enforcer war machines.</description>
 		<baseCost>1500</baseCost>

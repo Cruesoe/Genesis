@@ -7,8 +7,8 @@
 			<xpath>/Defs/TerrainDef[@Name="StoneBridgeBase"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -17,8 +17,8 @@
 			<xpath>/Defs/TerrainDef[@Name="StoneBridgeBase"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

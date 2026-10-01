@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_Bandolier -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Bandolier"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Sash -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Sash"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Sash"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <!-- Child shit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ChildApparelMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_KidApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_KidHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_KidArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Patch research technology -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_KidRomper"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

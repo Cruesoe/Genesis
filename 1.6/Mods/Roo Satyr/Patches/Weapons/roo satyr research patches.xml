@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RBSF_Lute"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_Lute</researchPrerequisite>
+      <researchPrerequisite>Genesis_Lute</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RBSF_Lyre"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_Lute</researchPrerequisite>
+      <researchPrerequisite>Genesis_Lute</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

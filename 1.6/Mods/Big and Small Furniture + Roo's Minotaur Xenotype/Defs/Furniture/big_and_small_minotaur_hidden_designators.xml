@@ -2,7 +2,7 @@
 <Defs>
 
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyBigSmallMinotaur_HiddenDesignators</defName>
+		<defName>Genesis_BigSmallMinotaurHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>RBM_MinotaurCrib</li>
 		</hiddenDesignators>

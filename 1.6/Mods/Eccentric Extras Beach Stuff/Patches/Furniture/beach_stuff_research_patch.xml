@@ -10,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName="BeachStuff_BeachBall"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Basketball</li>
+						<li>Genesis_Basketball</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -19,7 +19,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>ComplexFurniture</li>
-						<li>Ferny_Chair</li>
+						<li>Genesis_Chair</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -28,7 +28,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>ComplexFurniture</li>
-						<li>Ferny_Chair</li>
+						<li>Genesis_Chair</li>
 					</researchPrerequisites>
 				</value>
 			</li>

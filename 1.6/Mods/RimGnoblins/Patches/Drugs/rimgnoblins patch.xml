@@ -6,13 +6,13 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="DregMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+				<researchPrerequisite>Genesis_Flake</researchPrerequisite>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="DregMethamphetamine"]/recipeMaker</xpath>
 			<value>
-				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+				<researchPrerequisite>Genesis_Flake</researchPrerequisite>
 			</value>
 		</nomatch>
 	</Operation>
@@ -22,13 +22,13 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="ShardMethamphetamine"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+				<researchPrerequisite>Genesis_Flake</researchPrerequisite>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="ShardMethamphetamine"]/recipeMaker</xpath>
 			<value>
-				<researchPrerequisite>Ferny_Flake</researchPrerequisite>
+				<researchPrerequisite>Genesis_Flake</researchPrerequisite>
 			</value>
 		</nomatch>
 	</Operation>
@@ -37,7 +37,7 @@
 		<xpath>/Defs/ThingDef[defName="RG_DregCoffin"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_Flake</li>
+				<li>Genesis_Flake</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -48,7 +48,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="RG_ShardDistilleryAndWeaponry"]/prerequisites</xpath>
 			<value>
 				<prerequisites>
-					<li>Ferny_Flake</li>
+					<li>Genesis_Flake</li>
 				</prerequisites>
 			</value>
 		</match>
@@ -56,7 +56,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="RG_ShardDistilleryAndWeaponry"]</xpath>
 			<value>
 				<prerequisites>
-					<li>Ferny_Flake</li>
+					<li>Genesis_Flake</li>
 				</prerequisites>
 			</value>
 		</nomatch>

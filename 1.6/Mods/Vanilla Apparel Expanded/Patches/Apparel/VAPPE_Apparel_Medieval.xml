@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_Apparel_Tunic -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2000</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.32</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_Blouse -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/stuffCategories</xpath>
+    <value>
+      <stuffCategories>
+        <li>Fabric</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2000</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_Apron -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>3600</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalApparel</li>
+        <li>Genesis_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

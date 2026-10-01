@@ -7,7 +7,7 @@
       <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="BeamWeapons"]/description</xpath><value><description>Craft sweeping gamma-ray lasers that pierce heavy armor and ignite exposed targets.</description></value></li>
       <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="BeamWeapons"]/baseCost</xpath><value><baseCost>1400</baseCost></value></li>
       <li Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="BeamWeapons"]/generalRules/rulesStrings</xpath><value><rulesStrings><li>subject-&gt;beam grasers</li><li>subject_story-&gt;armed its forces with sweeping gamma-ray lasers</li><li>subject_gerund-&gt;crafting beam grasers</li></rulesStrings></value></li>
-      <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Gun_BeamRepeater"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_BeamRepeater</researchPrerequisite></value></li>
+      <li Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Gun_BeamRepeater"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_BeamRepeater</researchPrerequisite></value></li>
     </operations></match>
   </Operation>
 </Patch>

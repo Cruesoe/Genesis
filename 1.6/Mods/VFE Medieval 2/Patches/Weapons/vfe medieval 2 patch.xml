@@ -4,25 +4,25 @@
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_HeavyMace"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_HeavyMace</researchPrerequisite>
+              <researchPrerequisite>Genesis_HeavyMace</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Flail"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_HeavyMace</researchPrerequisite>
+              <researchPrerequisite>Genesis_HeavyMace</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_ThrowingAxe"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Axe</researchPrerequisite>
+              <researchPrerequisite>Genesis_Axe</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_Warbow"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Longbow</researchPrerequisite>
+              <researchPrerequisite>Genesis_Longbow</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
@@ -66,51 +66,51 @@
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_Gun_Arquebus"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Arquebus</researchPrerequisite>
+              <researchPrerequisite>Genesis_Arquebus</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_Gun_Musket"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Arquebus</researchPrerequisite>
+              <researchPrerequisite>Genesis_Arquebus</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_Gun_Flintlock"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Flintlock</researchPrerequisite>
+              <researchPrerequisite>Genesis_Flintlock</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_Turret_WallMountedArquebus"]/researchPrerequisites</xpath>
             <value>
               <researchPrerequisites>
-                <li>Ferny_Arquebus</li>
+                <li>Genesis_Arquebus</li>
               </researchPrerequisites>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Claymore"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+              <researchPrerequisite>Genesis_MOLongsword</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_DaneAxe</researchPrerequisite>
+              <researchPrerequisite>Genesis_DaneAxe</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_Halberd</researchPrerequisite>
+              <researchPrerequisite>Genesis_Halberd</researchPrerequisite>
             </value>
           </Operation>
           <Operation Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisite</xpath>
             <value>
-              <researchPrerequisite>Ferny_BattleAxe</researchPrerequisite>
+              <researchPrerequisite>Genesis_BattleAxe</researchPrerequisite>
             </value>
           </Operation>
 </Patch>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>Ferny_DisplayPod</defName>
+		<defName>Genesis_DisplayPod</defName>
 		<label>Display pod</label>
 		<description>Build display pods to showcase special items.</description>
 		<baseCost>600</baseCost>

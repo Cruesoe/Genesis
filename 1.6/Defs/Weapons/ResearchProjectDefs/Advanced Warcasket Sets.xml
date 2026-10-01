@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="OskarPotocki.VFE.Pirates">
-    <defName>Ferny_ShockWarcaskets</defName>
+    <defName>Genesis_ShockWarcaskets</defName>
     <label>shock warcaskets</label>
     <description>Construct assault warcaskets equipped with impact mitigation and powerful propulsion systems.</description>
     <baseCost>1200</baseCost><techLevel>Industrial</techLevel>

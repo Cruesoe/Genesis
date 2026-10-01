@@ -38,7 +38,7 @@
 		<xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_AlarmClock</li>
+				<li>Genesis_AlarmClock</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -47,7 +47,7 @@
 		<xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_AlarmClock</li>
+				<li>Genesis_AlarmClock</li>
 				<li>Electricity</li>
 			</researchPrerequisites>
 		</value>

@@ -5,7 +5,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>MicroelectronicsBasics</li>
-                            <li>Ferny_SlotMachines</li>
+                            <li>Genesis_SlotMachines</li>
                         </researchPrerequisites>
                     </value>
                 </Operation>

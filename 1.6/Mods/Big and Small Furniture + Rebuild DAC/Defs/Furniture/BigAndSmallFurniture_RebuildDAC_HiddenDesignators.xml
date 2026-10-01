@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyBigSmallFurnitureRebuildDAC_HiddenDesignators</defName>
+		<defName>Genesis_BigSmallFurnitureRebuildDACHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>BS_GiantDoor</li>
 			<li>BS_GiantAutoDoor</li>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="Reel.TurretPipeline">
-    <defName>Ferny_AmmunitionLogistics</defName>
+    <defName>Genesis_AmmunitionLogistics</defName>
     <label>ammunition logistics</label>
     <description>Manufacture turret ammunition and build storage hubs, pipes, injectors, and dispensers for automated resupply.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <prerequisites><li>GunTurrets</li></prerequisites>

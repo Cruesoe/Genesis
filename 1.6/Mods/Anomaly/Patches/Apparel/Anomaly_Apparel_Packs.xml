@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_DisruptorFlarePack -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_DisruptorFlarePack"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_IndustrialUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_PackTurret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackTurret"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_IndustrialUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_DeadlifePack -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_DeadlifePack"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_IndustrialUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+</Patch>

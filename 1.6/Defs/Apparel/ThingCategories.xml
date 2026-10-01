@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Neolithic -->
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicApparel</defName>
+    <label>neolithic apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_NeolithicArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicShields</defName>
+    <label>shields</label>
+    <parent>Genesis_NeolithicApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_NeolithicUtility</defName>
+    <label>utility</label>
+    <parent>Genesis_NeolithicApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Medieval -->
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalApparel</defName>
+    <label>medieval apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_MedievalArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalShields</defName>
+    <label>shields</label>
+    <parent>Genesis_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_MedievalUtility</defName>
+    <label>utility</label>
+    <parent>Genesis_MedievalApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Industrial -->
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialApparel</defName>
+    <label>industrial apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_IndustrialArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialShields</defName>
+    <label>shields</label>
+    <parent>Genesis_IndustrialApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_IndustrialUtility</defName>
+    <label>utility</label>
+    <parent>Genesis_IndustrialApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Spacer -->
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerApparel</defName>
+    <label>spacer apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_SpacerArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerShields</defName>
+    <label>shields</label>
+    <parent>Genesis_SpacerApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_SpacerUtility</defName>
+    <label>utility</label>
+    <parent>Genesis_SpacerApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Ultra-tech -->
+  <ThingCategoryDef>
+    <defName>Genesis_UltraApparel</defName>
+    <label>ultra-tech apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_UltraHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_UltraArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_UltraArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_UltraArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_UltraShields</defName>
+    <label>shields</label>
+    <parent>Genesis_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_UltraUtility</defName>
+    <label>utility</label>
+    <parent>Genesis_UltraApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Prisoner -->
+  <ThingCategoryDef>
+    <defName>Genesis_PrisonerApparel</defName>
+    <label>prisoner apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_PrisonerHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_PrisonerApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Workwear -->
+  <ThingCategoryDef>
+    <defName>Genesis_Workwear</defName>
+    <label>workwear</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_WorkwearHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_Workwear</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Costumes -->
+  <ThingCategoryDef>
+    <defName>Genesis_Costume</defName>
+    <label>costumes</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_CostumeHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_Costume</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Vanity -->
+  <ThingCategoryDef>
+    <defName>Genesis_VanityApparel</defName>
+    <label>vanity apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Genesis_VanityHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_VanityApparel</parent>
+  </ThingCategoryDef>
+
+
+  <!-- Kid -->
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Genesis_KidApparel</defName>
+    <label>kid apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Genesis_KidHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_KidApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Genesis_KidArmor</defName>
+    <label>armor</label>
+    <parent>Genesis_KidApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Genesis_KidArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>Genesis_KidArmor</parent>
+  </ThingCategoryDef>
+</Defs>

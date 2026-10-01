@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>Ferny_IndustrialCooling</defName>
+		<defName>Genesis_IndustrialCooling</defName>
 		<label>Industrial cooler</label>
 		<description>Build hefty coolers for larger walk-in freezers and demanding temperature control.</description>
 		<baseCost>700</baseCost>
@@ -15,7 +15,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Ferny_IndustrialHeating</defName>
+		<defName>Genesis_IndustrialHeating</defName>
 		<label>Industrial heater</label>
 		<description>Build hefty heaters for large rooms and demanding temperature control.</description>
 		<baseCost>700</baseCost>

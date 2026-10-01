@@ -14,10 +14,10 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DV_Gun_PhaseRifle"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_PhaseSaw</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_PhaseSaw</researchPrerequisite></value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DV_Gun_PhasePrecisionRifle"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_PhaseSaw</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_PhaseSaw</researchPrerequisite></value>
   </Operation>
 </Patch>

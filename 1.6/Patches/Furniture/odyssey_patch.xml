@@ -8,8 +8,8 @@
 			<value>
 				<prerequisites>
 					<li>Smithing</li>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</prerequisites>
 			</value>
 		</match>
@@ -19,8 +19,8 @@
 			<value>
 				<prerequisites>
 					<li>Smithing</li>
-					<li>Ferny_Floors</li>
-					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_Platform</li>
+					<li>Genesis_Floors</li>
+					<li MayRequire="vanillaexpanded.vfesecurity" MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_Platform</li>
 				</prerequisites>
 			</value>
 		</nomatch>

@@ -7,7 +7,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_TwoTierBookcase"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -15,7 +15,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_TwoTierBookcase"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -27,7 +27,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_NarrowTwoTierBookcase"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -35,7 +35,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_NarrowTwoTierBookcase"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -47,7 +47,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_Bookshelf"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -55,7 +55,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_Bookshelf"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -67,7 +67,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_BookshelfSmall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -75,7 +75,7 @@
 			<xpath>Defs/ThingDef[defName="sbz_BookshelfSmall"]</xpath>
 			<value>
 				<researchPrerequisites Inherit="false">
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

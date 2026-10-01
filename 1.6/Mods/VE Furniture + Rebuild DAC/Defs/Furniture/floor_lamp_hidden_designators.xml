@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyVFERebuildFloorLamp_HiddenDesignators</defName>
+		<defName>Genesis_VFERebuildFloorLampHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>RB_FloorLamp</li>
 		</hiddenDesignators>

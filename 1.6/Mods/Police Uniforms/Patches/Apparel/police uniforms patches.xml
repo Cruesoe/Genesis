@@ -34,8 +34,8 @@
     <xpath>Defs/ThingDef[defName="PU_ClassB"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparel</li>
-        <li>LemonSkin_Workwear</li>
+        <li>Genesis_IndustrialApparel</li>
+        <li>Genesis_Workwear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -82,8 +82,8 @@
     <xpath>Defs/ThingDef[defName="PU_ClassA"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparel</li>
-        <li>LemonSkin_Workwear</li>
+        <li>Genesis_IndustrialApparel</li>
+        <li>Genesis_Workwear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -130,8 +130,8 @@
     <xpath>Defs/ThingDef[defName="PU_CapA"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialHeadgear</li>
-        <li>LemonSkin_WorkwearHeadgear</li>
+        <li>Genesis_IndustrialHeadgear</li>
+        <li>Genesis_WorkwearHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

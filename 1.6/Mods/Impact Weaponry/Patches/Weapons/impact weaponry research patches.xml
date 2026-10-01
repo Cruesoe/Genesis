@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="DV_ImpactShot"]/label</xpath><value><label>impact stubber</label></value></Operation>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="DV_ImpactShot"]/description</xpath><value><description>Craft compact sidearms that fire explosive impact-tip cartridges for close-range stopping power.</description></value></Operation>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="DV_ImpactShot"]/baseCost</xpath><value><baseCost>1200</baseCost></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSMG"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ImpactSMG</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ImpactRifle</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSlugger"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ImpactSMG</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactCannon"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ImpactRifle</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSlinger"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_ImpactSlinger</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSMG"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_ImpactSMG</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_ImpactRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSlugger"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_ImpactSMG</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactCannon"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_ImpactRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Gun_ImpactSlinger"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_ImpactSlinger</researchPrerequisite></value></Operation>
   <Operation Class="PatchOperationFindMod">
     <mods><li>Vanilla Factions Expanded - Pirates</li></mods>
-    <match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Box_ImpactBolter"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Ferny_ImpactSlinger</li><li>VFEP_SpacerWarcasketWeaponry</li></researchPrerequisites></value></match>
+    <match Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="DV_Box_ImpactBolter"]/researchPrerequisites</xpath><value><researchPrerequisites><li>Genesis_ImpactSlinger</li><li>VFEP_SpacerWarcasketWeaponry</li></researchPrerequisites></value></match>
   </Operation>
 </Patch>

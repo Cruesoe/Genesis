@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<ResearchProjectDef DBHLite="true">
-		<defName>Ferny_SolarWaterHeating</defName>
+		<defName>Genesis_SolarWaterHeating</defName>
 		<label>Solar water heater</label>
 		<description>Build solar powered heating for hot water tanks and radiators.</description>
 		<baseCost>600</baseCost>

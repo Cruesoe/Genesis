@@ -22,7 +22,7 @@
                     <xpath>/Defs/ThingDef[defName="TableButcher"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ButcherTable</li>
+                        <li>Genesis_ButcherTable</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -30,7 +30,7 @@
                     <xpath>/Defs/ThingDef[defName="TableButcher"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_ButcherTable</li>
+                        <li>Genesis_ButcherTable</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -43,7 +43,7 @@
                     <xpath>/Defs/ThingDef[defName="FueledStove"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_FueledStove</li>
+                        <li>Genesis_FueledStove</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -51,7 +51,7 @@
                     <xpath>/Defs/ThingDef[defName="FueledStove"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_FueledStove</li>
+                        <li>Genesis_FueledStove</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -66,7 +66,7 @@
                     <value>
                       <researchPrerequisites>
                         <li>Electricity</li>
-                        <li>Ferny_FueledStove</li>
+                        <li>Genesis_FueledStove</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -75,7 +75,7 @@
                     <value>
                       <researchPrerequisites>
                         <li>Electricity</li>
-                        <li>Ferny_FueledStove</li>
+                        <li>Genesis_FueledStove</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>
@@ -85,14 +85,14 @@
                 <Operation Class="PatchOperationAdd">
                   <xpath>/Defs/RecipeDef[defName="CookMealSimple"]</xpath>
                   <value>
-                    <researchPrerequisite>Ferny_SimpleMeals</researchPrerequisite>
+                    <researchPrerequisite>Genesis_SimpleMeals</researchPrerequisite>
                   </value>
                 </Operation>
 
                 <Operation Class="PatchOperationAdd">
                   <xpath>/Defs/RecipeDef[defName="CookMealSimpleBulk"]</xpath>
                   <value>
-                    <researchPrerequisite>Ferny_SimpleMeals</researchPrerequisite>
+                    <researchPrerequisite>Genesis_SimpleMeals</researchPrerequisite>
                   </value>
                 </Operation>
 
@@ -101,13 +101,13 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/RecipeDef[starts-with(@Name, "CookMealFine")]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_FineMeals</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_FineMeals</researchPrerequisite> 
                    </value>
                   </match>
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/RecipeDef[starts-with(@Name, "CookMealFine")]</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_FineMeals</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_FineMeals</researchPrerequisite> 
                     </value>
                   </nomatch>
                 </Operation>
@@ -117,13 +117,13 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/RecipeDef[starts-with(@Name, "CookMealLavish")]/researchPrerequisites</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite> 
                    </value>
                   </match>
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/RecipeDef[starts-with(@Name, "CookMealLavish")]</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite> 
                     </value>
                   </nomatch>
                 </Operation>

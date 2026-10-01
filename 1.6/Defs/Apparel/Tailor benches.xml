@@ -6,14 +6,14 @@
   <ThingDef Name="VanityMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
     <recipeMaker>
       <recipeUsers Inherit="False">
-        <li>Ferny_VanityTable</li>
+        <li>Genesis_VanityTable</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
 
 <!-- The Buildings -->
   <ThingDef ParentName="BenchBase">
-    <defName>Ferny_VanityTable</defName>
+    <defName>Genesis_VanityTable</defName>
     <label>vanity table</label>
     <description>A workbench for tailoring feminine fashion by hand.</description>
     <thingClass>Building_WorkTable</thingClass>
@@ -74,13 +74,13 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Ferny_VanityTable</li>
+      <li>Genesis_VanityTable</li>
     </researchPrerequisites>
   </ThingDef>
 
 
   <ThingDef ParentName="BenchBase">
-    <defName>Ferny_CostumingTable</defName>
+    <defName>Genesis_CostumingTable</defName>
     <label>costuming table</label>
     <description>A workbench for tailoring costumes by hand.</description>
     <thingClass>Building_WorkTable</thingClass>
@@ -141,7 +141,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Ferny_VanityTable</li>
+      <li>Genesis_VanityTable</li>
     </researchPrerequisites>
     <uiIconScale>0.5</uiIconScale>
     <uiIconOffset>(0, 0.15)</uiIconOffset>

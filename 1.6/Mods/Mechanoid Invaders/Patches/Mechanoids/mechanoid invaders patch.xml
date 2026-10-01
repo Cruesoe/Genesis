@@ -5,7 +5,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Skirmisher"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Genesis_Pikeman</researchPrerequisite>
         </value>
     </Operation>
 
@@ -13,7 +13,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Ripper"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+            <researchPrerequisite>Genesis_Cyclops</researchPrerequisite>
         </value>
     </Operation>
 
@@ -21,7 +21,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Aide"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+            <researchPrerequisite>Genesis_Fabricor</researchPrerequisite>
         </value>
     </Operation>
 
@@ -29,7 +29,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Berserker"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Berserker</researchPrerequisite>
+            <researchPrerequisite>Genesis_Berserker</researchPrerequisite>
         </value>
     </Operation>
 
@@ -37,7 +37,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Bombardier"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Berserker</researchPrerequisite>
+            <researchPrerequisite>Genesis_Berserker</researchPrerequisite>
         </value>
     </Operation>
 
@@ -45,7 +45,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Constrictor"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Berserker</researchPrerequisite>
+            <researchPrerequisite>Genesis_Berserker</researchPrerequisite>
         </value>
     </Operation>
 
@@ -53,7 +53,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Infiltrator"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Berserker</researchPrerequisite>
+            <researchPrerequisite>Genesis_Berserker</researchPrerequisite>
         </value>
     </Operation>
 
@@ -61,14 +61,14 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="IM_Templar"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Berserker</researchPrerequisite>
+            <researchPrerequisite>Genesis_Berserker</researchPrerequisite>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="IM_SystemInterlink"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_SystemInterlink</researchPrerequisite>
+            <researchPrerequisite>Genesis_SystemInterlink</researchPrerequisite>
         </value>
     </Operation>
 

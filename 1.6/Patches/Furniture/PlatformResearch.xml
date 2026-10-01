@@ -3,12 +3,12 @@
 
   <!-- Progression: Arsenal's platform research requires Floors -->
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Platform"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Platform"]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ResearchProjectDef[defName="Ferny_Platform"]/prerequisites</xpath>
+      <xpath>Defs/ResearchProjectDef[defName="Genesis_Platform"]/prerequisites</xpath>
       <value>
         <prerequisites>
-          <li>Ferny_Floors</li>
+          <li>Genesis_Floors</li>
         </prerequisites>
       </value>
     </match>

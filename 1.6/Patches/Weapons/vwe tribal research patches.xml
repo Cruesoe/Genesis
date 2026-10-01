@@ -15,43 +15,43 @@
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_HeavyClub"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_HeavyClub</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_HeavyClub</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_LightClub"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_Club</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_TribalAxe"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_Club</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shiv"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_Club</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_Sling"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_Sling</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_Throwing_Shards"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_Sling</researchPrerequisite>
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
                                 <xpath>Defs/ThingDef[defName="VWE_Weapon_FireBomb"]/recipeMaker/researchPrerequisite</xpath>
                                 <value>
-                                    <researchPrerequisite>Ferny_FireBombs</researchPrerequisite>
+                                    <researchPrerequisite>Genesis_FireBombs</researchPrerequisite>
                                 </value>
                             </li>
                         </operations>

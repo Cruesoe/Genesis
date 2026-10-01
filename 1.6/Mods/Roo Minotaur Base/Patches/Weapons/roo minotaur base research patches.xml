@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RBME_EpsilonAxe"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_BattleAxe</researchPrerequisite>
+      <researchPrerequisite>Genesis_BattleAxe</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -12,7 +12,7 @@
       <xpath>Defs/ThingDef[defName="RBM_Labrys"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites>
-          <li>Ferny_DaneAxe</li>
+          <li>Genesis_DaneAxe</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -20,7 +20,7 @@
       <xpath>Defs/ThingDef[defName="RBM_Labrys"]</xpath>
       <value>
         <researchPrerequisites>
-          <li>Ferny_DaneAxe</li>
+          <li>Genesis_DaneAxe</li>
         </researchPrerequisites>
       </value>
     </nomatch>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_Flake</defName>
+		<defName>Genesis_Flake</defName>
 		<label>Hard drugs</label>
 		<description>Manufacture flake and other cheap, powerful and exceptionally addictive drugs.</description>
 		<baseCost>300</baseCost>
@@ -13,7 +13,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_SmokeleafJoint</defName>
+		<defName>Genesis_SmokeleafJoint</defName>
 		<label>Smokeables</label>
 		<description>Prepare smokeleaf joints, chewing smokeleaf and other smokeables.</description>
 		<baseCost>150</baseCost>

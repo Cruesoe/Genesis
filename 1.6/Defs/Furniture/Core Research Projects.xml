@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_PlantPots</defName>
+		<defName>Genesis_PlantPots</defName>
 		<label>Plant pots</label>
 		<description>Build small pots capable of displaying beautiful decorative flowers.</description>
 		<baseCost>200</baseCost>
@@ -17,7 +17,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_ClothBeds</defName>
+		<defName>Genesis_ClothBeds</defName>
 		<label>Cloth beds</label>
 		<description>Build comfortable cloth beds, including comfy beds.</description>
 		<baseCost>550</baseCost>
@@ -29,7 +29,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Couches</defName>
+		<defName>Genesis_Couches</defName>
 		<label>Comfort furniture</label>
 		<description>Build couches, armchairs, ergonomic chairs and padded benches.</description>
 		<baseCost>700</baseCost>
@@ -37,14 +37,14 @@
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>7.50</researchViewY>
 		<prerequisites>
-			<li>Ferny_Chair</li>
+			<li>Genesis_Chair</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Tables</defName>
+		<defName>Genesis_Tables</defName>
 		<label>Tables</label>
 		<description>Build tables for colonists to gather, eat, and spend time around.</description>
 		<baseCost>300</baseCost>
@@ -59,7 +59,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Bedroll</defName>
+		<defName>Genesis_Bedroll</defName>
 		<label>Beds</label>
 		<description>Build bedrolls, simple beds, and sleeping boxes and beds for animals.</description>
 		<baseCost>300</baseCost>
@@ -74,7 +74,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Chair</defName>
+		<defName>Genesis_Chair</defName>
 		<label>Chairs</label>
 		<description>Build chairs, stools, benches and sitting cushions.</description>
 		<baseCost>150</baseCost>
@@ -90,7 +90,7 @@
 	</ResearchProjectDef>
 	<!-- Game of ur -->
 	<ResearchProjectDef>
-		<defName>Ferny_HoopstoneRing</defName>
+		<defName>Genesis_HoopstoneRing</defName>
 		<label>Games</label>
 		<description>Build simple games such as hoopstone rings and Game-of-Ur boards.</description>
 		<baseCost>100</baseCost>
@@ -102,7 +102,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Column</defName>
+		<defName>Genesis_Column</defName>
 		<label>Columns and walls</label>
 		<description>Build columns and decorative walls.</description>
 		<baseCost>200</baseCost>
@@ -117,7 +117,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Floors</defName>
+		<defName>Genesis_Floors</defName>
 		<label>Floors</label>
 		<description>Build floors, bridges and decks.</description>
 		<baseCost>200</baseCost>
@@ -132,7 +132,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Sarcophagus</defName>
+		<defName>Genesis_Sarcophagus</defName>
 		<label>Sarcophagus</label>
 		<description>Build burial chambers for colonists, nobles, and beloved dead.</description>
 		<baseCost>400</baseCost>
@@ -147,7 +147,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_ChessTable</defName>
+		<defName>Genesis_ChessTable</defName>
 		<label>Table games</label>
 		<description>Build tables for chess, cards, dice and other table games.</description>
 		<baseCost>500</baseCost>
@@ -155,14 +155,14 @@
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>6.80</researchViewY>
 		<prerequisites>
-			<li>Ferny_Tables</li>
+			<li>Genesis_Tables</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_PokerTable</defName>
+		<defName>Genesis_PokerTable</defName>
 		<label>Gaming tables</label>
 		<description>Build poker, billiards and roulette tables.</description>
 		<baseCost>700</baseCost>
@@ -170,14 +170,14 @@
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>6.80</researchViewY>
 		<prerequisites>
-			<li>Ferny_Tables</li>
+			<li>Genesis_Tables</li>
 		</prerequisites>
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_StandingLamp</defName>
+		<defName>Genesis_StandingLamp</defName>
 		<label>Electric lights</label>
 		<description>Build electric standing, wall, desk and sun lamps and decorative lights.</description>
 		<baseCost>300</baseCost>

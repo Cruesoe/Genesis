@@ -2,16 +2,16 @@
 <Defs>
 
   <ResearchProjectDef MayRequire="OskarPotocki.VFE.Medieval2">
-    <defName>Ferny_Flintlock</defName>
+    <defName>Genesis_Flintlock</defName>
     <label>flintlock</label>
     <description>Craft compact firearms with spark-lock mechanisms for faster close-range shots.</description>
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>4.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <prerequisites>
-      <li>Ferny_Arquebus</li>
+      <li>Genesis_Arquebus</li>
     </prerequisites>
   </ResearchProjectDef>
 

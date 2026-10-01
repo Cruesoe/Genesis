@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- BMT_Apparel_MascotOutfit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_Costume</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

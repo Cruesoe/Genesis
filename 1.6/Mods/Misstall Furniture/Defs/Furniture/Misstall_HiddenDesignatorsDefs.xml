@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyMisstallProgFurniture_HiddenDesignators</defName>
+		<defName>Genesis_MisstallHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>MF_PartitionB</li>
 			<li>MF_ToxPoweredGenerator</li>

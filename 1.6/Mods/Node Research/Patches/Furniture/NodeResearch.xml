@@ -3,7 +3,7 @@
 
   <!-- Node Research: mark the first furniture projects as research foundations -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Tables" or defName="Ferny_Chair" or defName="Ferny_Floors"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Tables" or defName="Genesis_Chair" or defName="Genesis_Floors"]</xpath>
     <value>
       <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
     </value>
@@ -11,7 +11,7 @@
 
   <!-- Node Research: icon for Floors -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Floors"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Floors"]</xpath>
     <value>
       <li Class="BetterResearchMenu.ResearchIconExtension">
         <texPath>ResearchIcons/Floors</texPath>

@@ -9,7 +9,7 @@
 		<xpath>/Defs/ThingDef[defName="Chemlamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_Brazier</li>
+				<li>Genesis_Brazier</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -18,7 +18,7 @@
 		<xpath>/Defs/ThingDef[defName="ChemlampPost"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_Brazier</li>
+				<li>Genesis_Brazier</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -27,7 +27,7 @@
 		<xpath>/Defs/ThingDef[defName="TableFaro"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChessTable</li>
+				<li>Genesis_ChessTable</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -36,7 +36,7 @@
 		<xpath>/Defs/ThingDef[defName="TableFiveFingerFilet"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChessTable</li>
+				<li>Genesis_ChessTable</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

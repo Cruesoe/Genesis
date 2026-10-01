@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_Footwear_PlateBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>7</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>6000</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>2.5</Mass>
+        <StuffEffectMultiplierArmor>0.438</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+  <!-- MO Compatibility -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]</xpath>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/*[*]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>/Defs/*[*]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
+        <value>
+          <li>DankPyon_Footwear_BootsPlate</li>
+        </value>
+      </match>
+    </match>
+  </Operation>
+
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]</xpath>
+    </match>
+  </Operation>
+
+  <!-- VAE_Footwear_MarineBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_MarineBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

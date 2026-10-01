@@ -14,6 +14,6 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RM_ARCRifle"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_ARCRifle</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_ARCRifle</researchPrerequisite></value>
   </Operation>
 </Patch>

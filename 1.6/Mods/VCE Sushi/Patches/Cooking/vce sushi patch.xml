@@ -21,7 +21,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>ComplexFurniture</li>
-                            <li>Ferny_FueledStove</li>
+                            <li>Genesis_FueledStove</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -34,7 +34,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>ComplexFurniture</li>
-                            <li>Ferny_FueledStove</li>
+                            <li>Genesis_FueledStove</li>
                         </researchPrerequisites>
                     </value>
                 </li>
@@ -57,7 +57,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="VCE_SoyFermentation"]/prerequisites</xpath>
 				<value>
 					<prerequisites>
-						<li>Ferny_GourmetMeals</li>
+						<li>Genesis_GourmetMeals</li>
 					</prerequisites>
 				</value>
 			</match>
@@ -65,7 +65,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="VCE_SoyFermentation"]</xpath>
 				<value>
 					<prerequisites>
-						<li>Ferny_GourmetMeals</li>
+						<li>Genesis_GourmetMeals</li>
 					</prerequisites>
 				</value>
 			</nomatch>

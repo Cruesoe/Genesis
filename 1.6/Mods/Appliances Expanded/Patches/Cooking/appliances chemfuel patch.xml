@@ -6,14 +6,14 @@
     <match Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName="CE_ChemfuelStove"]/researchPrerequisites</xpath>
       <value>
-        <li>Ferny_ChemfuelStove</li>
+        <li>Genesis_ChemfuelStove</li>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>/Defs/ThingDef[defName="CE_ChemfuelStove"]</xpath>
       <value>
         <researchPrerequisites>
-          <li>Ferny_ChemfuelStove</li>
+          <li>Genesis_ChemfuelStove</li>
         </researchPrerequisites>
       </value>
     </nomatch>

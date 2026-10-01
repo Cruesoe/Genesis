@@ -2,10 +2,10 @@
 <Patch>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWEFT_FrontierWeapons"]/label</xpath><value><label>frontier pistol</label></value></Operation>
   <Operation Class="PatchOperationReplace"><xpath>Defs/ResearchProjectDef[defName="VWEFT_FrontierWeapons"]/description</xpath><value><description>Craft dependable short-barreled sidearms suited to close and medium-range frontier fighting.</description></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_HeavyRevolver"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_RollingBlockRifle</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_VolcanicPistol"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_RollingBlockRifle</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_RollingBlockRifle</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_RollingBlockRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_HeavyRevolver"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_RollingBlockRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_VolcanicPistol"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_RollingBlockRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_RollingBlockRifle</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_RollingBlockRifle</researchPrerequisite></value></Operation>
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Vanilla Weapons Expanded - Quickdraw</li>
@@ -13,7 +13,7 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="VWEFT_Gun_LeverActionShotgun"]/recipeMaker/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_SawedOffShotgun</researchPrerequisite>
+        <researchPrerequisite>Genesis_SawedOffShotgun</researchPrerequisite>
       </value>
     </match>
   </Operation>
@@ -28,12 +28,12 @@
     <mods><li>Vanilla Weapons Expanded - Quickdraw</li></mods>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="VWEFT_Gun_Derringer"]/recipeMaker/researchPrerequisite</xpath>
-      <value><researchPrerequisite>Ferny_HighCaliberRevolver</researchPrerequisite></value>
+      <value><researchPrerequisite>Genesis_HighCaliberRevolver</researchPrerequisite></value>
     </match>
   </Operation>
   <Operation Class="PatchOperationFindMod"><mods><li>Vanilla Weapons Expanded - Laser</li></mods><match Class="PatchOperationSequence"><operations>
-    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRevolver"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserRifle</researchPrerequisite></recipeMaker></value></li>
-    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRepeater"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserSniperRifle</researchPrerequisite></recipeMaker></value></li>
-    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserHuntingRifle"]</xpath><value><recipeMaker><researchPrerequisite>Ferny_SalvagedLaserSniperRifle</researchPrerequisite></recipeMaker></value></li>
+    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRevolver"]</xpath><value><recipeMaker><researchPrerequisite>Genesis_SalvagedLaserRifle</researchPrerequisite></recipeMaker></value></li>
+    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserRepeater"]</xpath><value><recipeMaker><researchPrerequisite>Genesis_SalvagedLaserSniperRifle</researchPrerequisite></recipeMaker></value></li>
+    <li Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="VWEFT_Gun_SalvagedLaserHuntingRifle"]</xpath><value><recipeMaker><researchPrerequisite>Genesis_SalvagedLaserSniperRifle</researchPrerequisite></recipeMaker></value></li>
   </operations></match></Operation>
 </Patch>

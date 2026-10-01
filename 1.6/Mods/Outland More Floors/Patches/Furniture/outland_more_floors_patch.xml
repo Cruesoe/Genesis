@@ -10,7 +10,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -20,7 +20,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -34,7 +34,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -44,7 +44,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -58,7 +58,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -68,7 +68,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -82,7 +82,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -92,7 +92,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -106,7 +106,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -116,7 +116,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoadCracked_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -130,7 +130,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -140,7 +140,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -154,7 +154,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -164,7 +164,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -178,7 +178,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -188,7 +188,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -202,7 +202,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -212,7 +212,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -226,7 +226,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -236,7 +236,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_BrickRoad_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -250,7 +250,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -260,7 +260,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -274,7 +274,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -284,7 +284,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -298,7 +298,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -308,7 +308,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -322,7 +322,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -332,7 +332,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -346,7 +346,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -356,7 +356,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Cobblestone_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -370,7 +370,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -380,7 +380,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -394,7 +394,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -404,7 +404,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -418,7 +418,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -428,7 +428,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -442,7 +442,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -452,7 +452,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -466,7 +466,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -476,7 +476,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedPatternedTiles_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -490,7 +490,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -500,7 +500,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -514,7 +514,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -524,7 +524,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -538,7 +538,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -548,7 +548,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -562,7 +562,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -572,7 +572,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -586,7 +586,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -596,7 +596,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrackedTiles_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -610,7 +610,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -620,7 +620,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -634,7 +634,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -644,7 +644,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -658,7 +658,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -668,7 +668,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -682,7 +682,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -692,7 +692,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -706,7 +706,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -716,7 +716,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeaveMulti_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -730,7 +730,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -740,7 +740,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -754,7 +754,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -764,7 +764,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -778,7 +778,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -788,7 +788,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -802,7 +802,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -812,7 +812,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -826,7 +826,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -836,7 +836,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_CrazyWeave_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -850,7 +850,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoards"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -859,7 +859,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoards"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -872,7 +872,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoardsNeat"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -881,7 +881,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoardsNeat"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -894,7 +894,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoardsNeat_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -903,7 +903,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoardsNeat_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -916,7 +916,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoards_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -925,7 +925,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodBoards_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -938,7 +938,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloor"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -947,7 +947,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloor"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -960,7 +960,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorAlt"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -969,7 +969,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorAlt"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -982,7 +982,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorRuined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -991,7 +991,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorRuined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -1004,7 +1004,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorRuinedAlt"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -1013,7 +1013,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorRuinedAlt"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -1026,7 +1026,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorWarped"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -1035,7 +1035,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_HorizontalWoodFloorWarped"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -1048,7 +1048,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1058,7 +1058,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1072,7 +1072,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1082,7 +1082,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1096,7 +1096,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1106,7 +1106,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1120,7 +1120,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1130,7 +1130,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1144,7 +1144,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1154,7 +1154,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMultiTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1168,7 +1168,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1178,7 +1178,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1192,7 +1192,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1202,7 +1202,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1216,7 +1216,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1226,7 +1226,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1240,7 +1240,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1250,7 +1250,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1264,7 +1264,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1274,7 +1274,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesMulti_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1288,7 +1288,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1298,7 +1298,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1312,7 +1312,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1322,7 +1322,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1336,7 +1336,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1346,7 +1346,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1360,7 +1360,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1370,7 +1370,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1384,7 +1384,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1394,7 +1394,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTilesTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1408,7 +1408,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1418,7 +1418,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1432,7 +1432,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1442,7 +1442,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1456,7 +1456,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1466,7 +1466,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1480,7 +1480,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1490,7 +1490,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1504,7 +1504,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1514,7 +1514,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_SmallTiles_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1528,7 +1528,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1538,7 +1538,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1552,7 +1552,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1562,7 +1562,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1576,7 +1576,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1586,7 +1586,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1600,7 +1600,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1610,7 +1610,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1624,7 +1624,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1634,7 +1634,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMultiTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1648,7 +1648,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1658,7 +1658,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1672,7 +1672,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1682,7 +1682,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1696,7 +1696,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1706,7 +1706,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1720,7 +1720,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1730,7 +1730,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1744,7 +1744,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1754,7 +1754,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesMulti_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1768,7 +1768,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1778,7 +1778,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1792,7 +1792,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1802,7 +1802,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1816,7 +1816,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1826,7 +1826,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1840,7 +1840,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1850,7 +1850,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1864,7 +1864,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1874,7 +1874,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TilesTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1888,7 +1888,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1898,7 +1898,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1912,7 +1912,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1922,7 +1922,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1936,7 +1936,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1946,7 +1946,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1960,7 +1960,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1970,7 +1970,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1984,7 +1984,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -1994,7 +1994,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Tiles_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2008,7 +2008,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2018,7 +2018,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2032,7 +2032,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2042,7 +2042,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2056,7 +2056,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2066,7 +2066,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2080,7 +2080,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2090,7 +2090,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2104,7 +2104,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2114,7 +2114,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTilesMulti_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2128,7 +2128,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2138,7 +2138,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2152,7 +2152,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2162,7 +2162,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2176,7 +2176,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2186,7 +2186,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2200,7 +2200,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2210,7 +2210,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2224,7 +2224,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2234,7 +2234,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_TinyTiles_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2248,7 +2248,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2258,7 +2258,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2272,7 +2272,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2282,7 +2282,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2296,7 +2296,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2306,7 +2306,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2320,7 +2320,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2330,7 +2330,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2344,7 +2344,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2354,7 +2354,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMultiTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2368,7 +2368,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2378,7 +2378,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2392,7 +2392,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2402,7 +2402,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2416,7 +2416,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2426,7 +2426,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2440,7 +2440,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2450,7 +2450,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2464,7 +2464,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2474,7 +2474,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveMulti_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2488,7 +2488,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2498,7 +2498,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2512,7 +2512,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2522,7 +2522,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2536,7 +2536,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2546,7 +2546,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2560,7 +2560,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2570,7 +2570,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2584,7 +2584,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2594,7 +2594,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WeaveTriangle_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2608,7 +2608,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Granite"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2618,7 +2618,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Granite"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2632,7 +2632,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Limestone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2642,7 +2642,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Limestone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2656,7 +2656,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Marble"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2666,7 +2666,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Marble"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2680,7 +2680,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Sandstone"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2690,7 +2690,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Sandstone"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2704,7 +2704,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Slate"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2714,7 +2714,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_Weave_Slate"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 						<li>Stonecutting</li>
 					</researchPrerequisites>
 				</value>
@@ -2728,7 +2728,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoards"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2737,7 +2737,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoards"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2750,7 +2750,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsCheckered"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2759,7 +2759,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsCheckered"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2772,7 +2772,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsCheckered_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2781,7 +2781,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsCheckered_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2794,7 +2794,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiagonal"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2803,7 +2803,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiagonal"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2816,7 +2816,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiagonal_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2825,7 +2825,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiagonal_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2838,7 +2838,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiamond"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2847,7 +2847,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiamond"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2860,7 +2860,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiamond_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2869,7 +2869,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsDiamond_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2882,7 +2882,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsNeat"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2891,7 +2891,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsNeat"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2904,7 +2904,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsNeat_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2913,7 +2913,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsNeat_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2926,7 +2926,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsStaggered"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2935,7 +2935,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsStaggered"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2948,7 +2948,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsStaggered_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2957,7 +2957,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoardsStaggered_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2970,7 +2970,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoards_Ruined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -2979,7 +2979,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodBoards_Ruined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -2992,7 +2992,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloor"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -3001,7 +3001,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloor"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -3014,7 +3014,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorAlt"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -3023,7 +3023,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorAlt"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -3036,7 +3036,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorRuined"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -3045,7 +3045,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorRuined"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -3058,7 +3058,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorRuinedAlt"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -3067,7 +3067,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorRuinedAlt"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>
@@ -3080,7 +3080,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorWarped"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</match>
@@ -3089,7 +3089,7 @@
 				<xpath>/Defs/TerrainDef[defName="Outland_WoodFloorWarped"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Floors</li>
+						<li>Genesis_Floors</li>
 					</researchPrerequisites>
 				</value>
 			</nomatch>

@@ -8,7 +8,7 @@
 		<xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]</xpath>
 		<value>
 			<prerequisites Inherit="False">
-				<li>Ferny_Tables</li>
+				<li>Genesis_Tables</li>
 			</prerequisites>
 		</value>
 	</Operation>

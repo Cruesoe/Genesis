@@ -8,8 +8,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </match>
@@ -17,8 +17,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorFrameB"]</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </nomatch>
@@ -30,8 +30,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </match>
@@ -39,8 +39,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorFrameC"]</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </nomatch>
@@ -52,8 +52,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </match>
@@ -61,8 +61,8 @@
                     <xpath>/Defs/ThingDef[defName="PFS_DoorSlope"]</xpath>
                     <value>
                         <researchPrerequisites Inherit="False">
-                            <li>Ferny_SpacerDoors</li>
-                            <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                            <li>Genesis_SpacerDoors</li>
+                            <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                         </researchPrerequisites>
                     </value>
                 </nomatch>

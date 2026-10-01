@@ -7,7 +7,7 @@
 			<researchPrerequisites>
 				<li>Fabrication</li>
 				<li>VHGE_GasExtraction</li>
-				<li>Ferny_FueledStove</li>
+				<li>Genesis_FueledStove</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

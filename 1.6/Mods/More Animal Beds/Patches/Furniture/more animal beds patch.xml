@@ -6,7 +6,7 @@
 			<xpath>/Defs/ThingDef[defName="GSAnimalBedBig"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Bedroll</li>
+					<li>Genesis_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -14,7 +14,7 @@
 			<xpath>/Defs/ThingDef[defName="GSAnimalBedBig"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Bedroll</li>
+					<li>Genesis_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -26,7 +26,7 @@
 			<xpath>/Defs/ThingDef[defName="GSAnimalBedBigPrestige"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Bedroll</li>
+					<li>Genesis_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -34,7 +34,7 @@
 			<xpath>/Defs/ThingDef[defName="GSAnimalBedBigPrestige"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Bedroll</li>
+					<li>Genesis_Bedroll</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

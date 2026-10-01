@@ -33,7 +33,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef> -->
 	<ResearchProjectDef>
-		<defName>Ferny_ControlSublink</defName>
+		<defName>Genesis_ControlSublink</defName>
 		<label>Mechanitor gear</label>
 		<description>Manufacture headsets, packs and implants that extend a mechanitor's bandwidth, control groups and gestation speed.</description>
 		<baseCost>1000</baseCost>
@@ -49,7 +49,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_ControlSublinkHigh</defName>
+		<defName>Genesis_ControlSublinkHigh</defName>
 		<label>Advanced mechanitor gear</label>
 		<description>Manufacture array headsets, band nodes and high control sublinks.</description>
 		<baseCost>1500</baseCost>
@@ -61,11 +61,11 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_ControlSublink</li>
+			<li>Genesis_ControlSublink</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_IntegratorHeadset</defName>
+		<defName>Genesis_IntegratorHeadset</defName>
 		<label>Elite mechanitor gear</label>
 		<description>Manufacture integrator headsets and mechcommander helmets.</description>
 		<baseCost>1500</baseCost>
@@ -77,11 +77,11 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_ControlSublinkHigh</li>
+			<li>Genesis_ControlSublinkHigh</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_MechBooster</defName>
+		<defName>Genesis_MechBooster</defName>
 		<label>Mech booster</label>
 		<description>Build a remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster.</description>
 		<baseCost>1500</baseCost>
@@ -97,7 +97,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_RemoteRepairer</defName>
+		<defName>Genesis_RemoteRepairer</defName>
 		<label>Remote mechlink upgrades</label>
 		<description>Manufacture mechlink upgrades that let a mechanitor repair and shield mechs from a distance.</description>
 		<baseCost>1500</baseCost>
@@ -113,7 +113,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_MechlordSuit</defName>
+		<defName>Genesis_MechlordSuit</defName>
 		<label>Ultra mechanitor gear</label>
 		<description>Manufacture the mechlord suit and repair probe.</description>
 		<baseCost>3000</baseCost>
@@ -129,7 +129,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_WarQueen</defName>
+		<defName>Genesis_WarQueen</defName>
 		<label>War queen</label>
 		<description>Build an ultra-heavy mech with a built-in mech gestator. Fed with appropriate resources, the war queen can form small war urchin combat mechs within its massive carapace and deploy them into combat.\n\nEven more than other mechanoids, the war queen resembles a giant, living insect. All war mechs can be terrifying, but humans tend to find the war queen disturbing on a deeper level.</description>
 		<baseCost>3000</baseCost>
@@ -145,7 +145,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Legionary</defName>
+		<defName>Genesis_Legionary</defName>
 		<label>Ultra combat mechs</label>
 		<description>Gestate ultra-tier combat mechanoids such as the legionary and tesseron.</description>
 		<baseCost>3000</baseCost>

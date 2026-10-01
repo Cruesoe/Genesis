@@ -2,7 +2,7 @@
 <Defs>
   
 	<ResearchProjectDef>
-		<defName>Ferny_Shelves</defName>
+		<defName>Genesis_Shelves</defName>
 		<label>Basic storage</label>
 		<description>Build shelves, pallets, racks, baskets and other simple storage.</description>
 		<baseCost>400</baseCost>

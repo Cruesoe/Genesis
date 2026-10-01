@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="HBX_Rapier"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+      <researchPrerequisite>Genesis_MOLongsword</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ResearchProjectDef[defName = "BotchJob_DivineOrderSmithing"]/prerequisites/li[text()="ComplexClothing"]</xpath>
 		<value>
-			<li>LemonSkin_RusticClothing</li>
+			<li>Genesis_RusticClothing</li>
 		</value>
 	</Operation>
 

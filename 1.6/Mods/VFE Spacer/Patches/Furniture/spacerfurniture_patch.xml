@@ -34,7 +34,7 @@
 			<researchPrerequisites>
 				<li>SpacerFurniture</li>
 				<li>Fabrication</li>
-				<li>Ferny_Couches</li>
+				<li>Genesis_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -44,7 +44,7 @@
 		<value>
 			<researchPrerequisites>
 				<li>SpacerFurniture</li>
-				<li>Ferny_Couches</li>
+				<li>Genesis_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -54,7 +54,7 @@
 		<value>
 			<researchPrerequisites>
 				<li>SpacerFurniture</li>
-				<li>Ferny_Couches</li>
+				<li>Genesis_Couches</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -68,7 +68,7 @@
 			<xpath>/Defs/ResearchProjectDef[defName="SpacerFurniture"]/prerequisites</xpath>
 			<value>
 				<li>MF_ModernFurniture</li>
-				<li>Ferny_ClothBeds</li>
+				<li>Genesis_ClothBeds</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
@@ -76,7 +76,7 @@
 			<value>
 				<prerequisites>
 					<li>MF_ModernFurniture</li>
-					<li>Ferny_ClothBeds</li>
+					<li>Genesis_ClothBeds</li>
 				</prerequisites>
 			</value>
 		</nomatch>

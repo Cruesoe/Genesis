@@ -5,9 +5,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_CostumingTable</li>
+          <li>Genesis_CostumingTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -15,7 +15,7 @@
     <xpath>Defs/ThingDef[defName="BananaSuit_TheSuit"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
+        <li>Genesis_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -28,9 +28,9 @@
       <value>
         <recipeMaker>
           <recipeUsers Inherit="False">
-            <li>Ferny_CostumingTable</li>
+            <li>Genesis_CostumingTable</li>
           </recipeUsers>
-          <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+          <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
         </recipeMaker>
       </value>
     </match>

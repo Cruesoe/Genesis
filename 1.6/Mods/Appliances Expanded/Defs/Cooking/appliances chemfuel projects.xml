@@ -2,7 +2,7 @@
 <Defs>
 
   <ResearchProjectDef>
-    <defName>Ferny_ChemfuelStove</defName>
+    <defName>Genesis_ChemfuelStove</defName>
     <label>Chemfuel stove</label>
     <description>Learn to build a chemfuel-powered stove connected to modern chemfuel systems.</description>
     <baseCost>500</baseCost>
@@ -11,7 +11,7 @@
     <researchViewX>3.00</researchViewX>
     <researchViewY>11.70</researchViewY>
     <prerequisites>
-      <li>Ferny_FueledStove</li>
+      <li>Genesis_FueledStove</li>
       <li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
     </prerequisites>
   </ResearchProjectDef>

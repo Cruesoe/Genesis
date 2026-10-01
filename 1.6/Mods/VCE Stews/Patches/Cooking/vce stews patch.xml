@@ -6,7 +6,7 @@
     <xpath>Defs/ResearchProjectDef[defName="VCE_StewCooking"]/prerequisites</xpath>
     <value>
     <prerequisites>
-      <li>Ferny_FueledStove</li>
+      <li>Genesis_FueledStove</li>
     </prerequisites>
     </value>
   </Operation>

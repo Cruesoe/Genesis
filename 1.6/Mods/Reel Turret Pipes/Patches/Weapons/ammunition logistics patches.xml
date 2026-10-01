@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoPipe"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_SubAmmoPipe"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="REEL_AmmoTank"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoOutput"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoDrain"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Ferny_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/RecipeDef[defName="Make_TurretAmmo"]/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_AmmunitionLogistics</researchPrerequisite></value></Operation>
-  <Operation Class="PatchOperationReplace"><xpath>Defs/RecipeDef[defName="Make_TurretAmmoBulk"]/researchPrerequisite</xpath><value><researchPrerequisite>Ferny_AmmunitionLogistics</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoPipe"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Genesis_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_SubAmmoPipe"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Genesis_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="REEL_AmmoTank"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Genesis_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoOutput"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Genesis_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/ThingDef[defName="Reel_AmmoDrain"]/researchPrerequisites</xpath><value><researchPrerequisites Inherit="False"><li>Genesis_AmmunitionLogistics</li></researchPrerequisites></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/RecipeDef[defName="Make_TurretAmmo"]/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_AmmunitionLogistics</researchPrerequisite></value></Operation>
+  <Operation Class="PatchOperationReplace"><xpath>Defs/RecipeDef[defName="Make_TurretAmmoBulk"]/researchPrerequisite</xpath><value><researchPrerequisite>Genesis_AmmunitionLogistics</researchPrerequisite></value></Operation>
 </Patch>

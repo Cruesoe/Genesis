@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_Cigarettes</defName>
+		<defName>Genesis_Cigarettes</defName>
 		<label>Tobacco</label>
 		<description>Roll cigarettes and cigars.</description>
 		<baseCost>400</baseCost>

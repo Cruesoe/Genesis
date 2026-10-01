@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DV_MeleeWeapon_PyrinthBlade"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+      <researchPrerequisite>Genesis_MOLongsword</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

@@ -7,7 +7,7 @@
         <xpath>/Defs/ThingDef[defName="Shelf"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </match>
@@ -15,7 +15,7 @@
         <xpath>/Defs/ThingDef[defName="Shelf"]</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </nomatch>
@@ -27,7 +27,7 @@
         <xpath>/Defs/ThingDef[defName="ShelfSmall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </match>
@@ -35,7 +35,7 @@
         <xpath>/Defs/ThingDef[defName="ShelfSmall"]</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </nomatch>
@@ -52,7 +52,7 @@
         <xpath>/Defs/ThingDef[defName="Bookcase"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </match>
@@ -60,7 +60,7 @@
         <xpath>/Defs/ThingDef[defName="Bookcase"]</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </nomatch>
@@ -72,7 +72,7 @@
         <xpath>/Defs/ThingDef[defName="BookcaseSmall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </match>
@@ -80,7 +80,7 @@
         <xpath>/Defs/ThingDef[defName="BookcaseSmall"]</xpath>
         <value>
             <researchPrerequisites Inherit="false">
-            <li>Ferny_Shelves</li>
+            <li>Genesis_Shelves</li>
             </researchPrerequisites> 
         </value>
         </nomatch>

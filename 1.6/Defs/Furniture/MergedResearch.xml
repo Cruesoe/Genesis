@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef MayRequireAnyOf="kaitorisenkou.BallGames,Aelanna.EccentricTech.BeachStuff">
-		<defName>Ferny_Basketball</defName>
+		<defName>Genesis_Basketball</defName>
 		<label>Sports</label>
 		<description>Build goals, nets and balls for sports.</description>
 		<baseCost>500</baseCost>
@@ -16,7 +16,7 @@
 		</tags>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,oskarpotocki.vanillafactionsexpanded.settlersmodule">
-		<defName>Ferny_Brazier</defName>
+		<defName>Genesis_Brazier</defName>
 		<label>Braziers and lamps</label>
 		<description>Build braziers and chemlamps to light your colony without electricity.</description>
 		<baseCost>300</baseCost>
@@ -31,7 +31,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="Ludeon.RimWorld.Biotech,ponpeco.pfkidsroom">
-		<defName>Ferny_Crib</defName>
+		<defName>Genesis_Crib</defName>
 		<label>Nursery</label>
 		<description>Build cribs, toys, mobiles and buntings for children.</description>
 		<baseCost>400</baseCost>
@@ -46,7 +46,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="VanillaExpanded.VFECore,Ludeon.RimWorld.Ideology">
-		<defName>Ferny_PersonalComputer</defName>
+		<defName>Genesis_PersonalComputer</defName>
 		<label>Electronics</label>
 		<description>Build personal computers, industrial radios, arcade machines and loudspeakers.</description>
 		<baseCost>500</baseCost>
@@ -58,7 +58,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="scurvyez.stevesdoors,ponpeco.PFSF">
-		<defName>Ferny_SpacerDoors</defName>
+		<defName>Genesis_SpacerDoors</defName>
 		<label>Spacer doors and frames</label>
 		<description>Build spacer glass doors and door frames.</description>
 		<baseCost>900</baseCost>
@@ -68,7 +68,7 @@
 		<researchViewY>6.80</researchViewY>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="rebuild.cotr.doorsandcorners,kongkim.panelsframes,eeg.architecture">
-		<defName>Ferny_WindowWall</defName>
+		<defName>Genesis_WindowWall</defName>
 		<label>Architecture</label>
 		<description>Build window walls, prison walls, door frames and eaves.</description>
 		<baseCost>300</baseCost>

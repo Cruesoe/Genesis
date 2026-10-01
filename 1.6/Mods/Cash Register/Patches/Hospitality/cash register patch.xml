@@ -9,7 +9,7 @@
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="CashRegister_CashRegister"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_BasicRetail</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_BasicRetail</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
@@ -17,7 +17,7 @@
                     <value>
                         <researchPrerequisites>
                             <li>Electricity</li>
-                            <li>Ferny_BasicRetail</li>
+                            <li>Genesis_BasicRetail</li>
                         </researchPrerequisites>
                     </value>
                 </Operation>

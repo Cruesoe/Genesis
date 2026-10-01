@@ -8,7 +8,7 @@
 		<xpath>/Defs/ThingDef[defName="CA_ChemfuelFloodlight"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChemfuelStandingLamp</li>
+				<li>Genesis_ChemfuelStandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -20,7 +20,7 @@
 		<xpath>/Defs/ThingDef[defName="CA_Sunlamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChemfuelStandingLamp</li>
+				<li>Genesis_ChemfuelStandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -32,7 +32,7 @@
 		<xpath>/Defs/ThingDef[defName="CAS_ChemfuelWallLight"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChemfuelStandingLamp</li>
+				<li>Genesis_ChemfuelStandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -44,7 +44,7 @@
 		<xpath>/Defs/ThingDef[defName="CA_ChemfuelStandingLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChemfuelStandingLamp</li>
+				<li>Genesis_ChemfuelStandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

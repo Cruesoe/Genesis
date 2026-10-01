@@ -4,25 +4,25 @@
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_TourGatheringSpot"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_Barrier"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_Sign"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_DonationBox"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -35,7 +35,7 @@
                         <li Class="PatchOperationAdd">
                             <xpath>Defs/ThingDef[defName="Museums_DisplayCase_Small"]</xpath>
                             <value>
-                                <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                                <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                             </value>
                         </li>
                     </operations>
@@ -45,31 +45,31 @@
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_DisplayCase_Medium"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_PedestalRectangular"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_PedestalCircular"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_PedestalCircular"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_PedestalHexagonal"]</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                        <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -96,7 +96,7 @@
         <li Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[@Name="Museums_GlassWall"]</xpath>
             <value>
-                <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                <researchPrerequisites><li>Genesis_Museums</li></researchPrerequisites>
             </value>
         </li>
         <li Class="PatchOperationReplace">

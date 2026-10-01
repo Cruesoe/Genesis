@@ -2,7 +2,7 @@
 <Defs>
 
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyErinDecorationsProgFurniture_HiddenDesignators</defName>
+		<defName>Genesis_ErinDecorationsHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>ED_Candles</li>
 		</hiddenDesignators>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Bandagewraps_Bodywrap -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/label</xpath>
+    <value>
+      <label>body bandage</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.2</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <InjuryHealingFactor>0.07</InjuryHealingFactor>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Bandagewraps_BodywrapA -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/label</xpath>
+    <value>
+      <label>sterile body bandage</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.2</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ImmunityGainSpeed>.07</ImmunityGainSpeed>
+        <InjuryHealingFactor>0.07</InjuryHealingFactor>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Bandagewraps_BodywrapA"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>VAE_SterileAttire</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+
+
+  <Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Bandagewraps_HeadBandage"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>Genesis_TribalHeaddress</researchPrerequisite>
+      </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>Genesis_TribalHeaddress</researchPrerequisite>
+      </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
+          <value>
+          <prerequisites>
+            <li>Genesis_TribalHeaddress</li>
+          </prerequisites>          
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

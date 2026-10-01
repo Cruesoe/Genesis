@@ -29,7 +29,7 @@
 				</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_ClothBeds</li>
+						<li>Genesis_ClothBeds</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -59,7 +59,7 @@
 				</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Bedroll</li>
+						<li>Genesis_Bedroll</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -114,7 +114,7 @@
 				<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalSleepingBox"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Bedroll</li>
+						<li>Genesis_Bedroll</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -122,7 +122,7 @@
 				<xpath>/Defs/ThingDef[defName="BS_Giant_AnimalBed"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Bedroll</li>
+						<li>Genesis_Bedroll</li>
 					</researchPrerequisites>
 				</value>
 			</li>

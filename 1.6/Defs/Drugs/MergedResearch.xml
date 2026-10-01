@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef MayRequireAnyOf="veterano.mythicages.megafaunabestiary">
-		<defName>Ferny_HerbalExtract</defName>
+		<defName>Genesis_HerbalExtract</defName>
 		<label>Alchemical remedies</label>
 		<description>Brew herbal extracts, elixirs, powders and draughts through alchemy.</description>
 		<baseCost>500</baseCost>
@@ -13,7 +13,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="veterano.mythicages.megafaunabestiary,Van.Beasts">
-		<defName>Ferny_SivaDustIvory</defName>
+		<defName>Genesis_SivaDustIvory</defName>
 		<label>Beast remedies</label>
 		<description>Refine sivadust ivory and brew remedies and scents from the parts of great beasts.</description>
 		<baseCost>500</baseCost>

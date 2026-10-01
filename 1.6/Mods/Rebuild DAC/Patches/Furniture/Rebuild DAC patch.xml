@@ -23,7 +23,7 @@
                     <xpath>Defs/ThingDef[defName="RB_CellWall"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites>
-                        	<li>Ferny_WindowWall</li>
+                        	<li>Genesis_WindowWall</li>
                         	<li>Smithing</li>
                         </researchPrerequisites>
                     </value>

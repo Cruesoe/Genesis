@@ -7,14 +7,14 @@
         <success>Always</success>
         <xpath>Defs//*[self::researchPrerequisites or self::prerequisites or self::hiddenPrerequisites]/li[normalize-space(text())="MF_BasicFurniture"]</xpath>
         <value>
-          <li>Ferny_Bedroll</li>
+          <li>Genesis_Bedroll</li>
         </value>
       </li>
       <li Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs//researchPrerequisite[normalize-space(text())="MF_BasicFurniture"]</xpath>
         <value>
-          <researchPrerequisite>Ferny_Bedroll</researchPrerequisite>
+          <researchPrerequisite>Genesis_Bedroll</researchPrerequisite>
         </value>
       </li>
       <li Class="PatchOperationRemove">

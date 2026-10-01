@@ -2,12 +2,12 @@
 <Defs>
 
   <ResearchProjectDef MayRequire="VanillaExpanded.VWETB">
-    <defName>Ferny_FireBombs</defName>
+    <defName>Genesis_FireBombs</defName>
     <label>fire bombs</label>
     <description>Craft small clay vessels packed with flammable fuel for thrown incendiary attacks.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>

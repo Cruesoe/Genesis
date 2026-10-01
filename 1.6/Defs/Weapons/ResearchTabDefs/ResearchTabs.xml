@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchTabDef>
-    <defName>Ferny_Arsenal</defName>
+    <defName>Genesis_Arsenal</defName>
     <label>Arsenal</label>
     <generalTitle>Arsenal research projects</generalTitle>
     <generalDescription>Unlock weapons and defensive technology at a research bench. You can only have one active project at a time.</generalDescription>

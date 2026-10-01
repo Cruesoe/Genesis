@@ -8,7 +8,7 @@
 		<xpath>Defs/ThingDef[defName="CA_ChemfuelCrematorium"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ChemfuelSmelter</li>
+				<li>Genesis_ChemfuelSmelter</li>
 				<li MayRequire="oskarpotocki.vfe.classical">VFEC_WoodfiredCrematorium</li>
 			</researchPrerequisites>
 		</value>
@@ -18,7 +18,7 @@
 		<xpath>Defs/ThingDef[defName="CA_ChemfuelSmelter"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ChemfuelSmelter</li>
+				<li>Genesis_ChemfuelSmelter</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

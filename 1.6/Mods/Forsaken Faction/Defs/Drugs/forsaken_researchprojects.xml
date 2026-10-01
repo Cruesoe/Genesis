@@ -2,7 +2,7 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>Ferny_VitaminF</defName>
+		<defName>Genesis_VitaminF</defName>
 		<label>vitamin f</label>
 		<description>Produce a synthetic combat-enhancing drug that reduces pain while slightly increasing consciousness, breathing, and manipulation.</description>
 		<baseCost>500</baseCost>

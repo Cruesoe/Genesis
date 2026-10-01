@@ -21,7 +21,7 @@
 			<xpath>/Defs/ThingDef[defName="VFEArch_FineWall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Column</li>
+					<li>Genesis_Column</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -29,7 +29,7 @@
 			<xpath>/Defs/ThingDef[defName="VFEArch_FineWall"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Column</li>
+					<li>Genesis_Column</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

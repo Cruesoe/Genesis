@@ -10,8 +10,8 @@
 				<xpath>/Defs/ThingDef[defName="CA_ChemfuelBrazier" or defName="CA_ChemfuelBrazierDark"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_ChemfuelStandingLamp</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">Ferny_Brazier</li>
+						<li>Genesis_ChemfuelStandingLamp</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">Genesis_Brazier</li>
 						<li MayRequire="ferny.generallymoreresearch">Ferny_ChemfuelLogistics</li>
 					</researchPrerequisites>
 				</value>

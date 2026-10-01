@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="VanillaExpanded.VWEQ">
-    <defName>Ferny_BullpupDMR</defName>
+    <defName>Genesis_BullpupDMR</defName>
     <label>bullpup DMR</label>
     <description>Craft compact marksman rifles combining long-range precision with fast handling.</description>
     <baseCost>1100</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>4.20</researchViewY>
-    <prerequisites><li>Ferny_PDW</li></prerequisites>
+    <prerequisites><li>Genesis_PDW</li></prerequisites>
   </ResearchProjectDef>
 </Defs>

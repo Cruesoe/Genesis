@@ -2,12 +2,12 @@
 <Defs>
 
   <ResearchProjectDef MayRequire="VanillaExpanded.VFESecurity">
-    <defName>Ferny_BearTrap</defName>
+    <defName>Genesis_BearTrap</defName>
     <label>bear trap</label>
     <description>Build rearmable metal jaw traps that clamp down on large prey and intruders.</description>
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>4.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
@@ -16,32 +16,32 @@
     </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef MayRequire="VanillaExpanded.VFESecurity">
-    <defName>Ferny_DoubleAutocannonTurret</defName>
+    <defName>Genesis_DoubleAutocannonTurret</defName>
     <label>double autocannon turret</label>
     <description>Build twin-barreled heavy emplacements that trade accuracy for a punishing volume of autocannon fire.</description>
-    <baseCost>1000</baseCost><techLevel>Industrial</techLevel><tab>Ferny_Arsenal</tab>
+    <baseCost>1000</baseCost><techLevel>Industrial</techLevel><tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX><researchViewY>7.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites><li>HeavyTurrets</li></prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef MayRequire="VanillaExpanded.VFESecurity">
-    <defName>Ferny_Searchlight</defName>
+    <defName>Genesis_Searchlight</defName>
     <label>searchlight</label>
     <description>Build motorized high-intensity lamps with parabolic reflectors to illuminate and dazzle targets.</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <prerequisites><li>Electricity</li></prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef MayRequire="VanillaExpanded.VFESecurity">
-    <defName>Ferny_Platform</defName>
+    <defName>Genesis_Platform</defName>
     <label>platform</label>
     <description>Build elevated firing positions that extend weapon range at the cost of reduced cover.</description>
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>0.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <prerequisites><li MayRequire="OskarPotocki.VFE.Tribals">VFET_Construction</li></prerequisites>

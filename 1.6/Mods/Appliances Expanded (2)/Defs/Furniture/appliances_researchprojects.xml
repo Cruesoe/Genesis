@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelStandingLamp</defName>
+		<defName>Genesis_ChemfuelStandingLamp</defName>
 		<label>Chemfuel lights</label>
 		<description>Build chemfuel-powered lamps, floodlights, sun lamps, wall lights and braziers.</description>
 		<baseCost>300</baseCost>

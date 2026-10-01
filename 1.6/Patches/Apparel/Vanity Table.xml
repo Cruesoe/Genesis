@@ -4,8 +4,8 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
     <value>
-      <li>Ferny_VanityTable</li>
-      <li>Ferny_CostumingTable</li>
+      <li>Genesis_VanityTable</li>
+      <li>Genesis_CostumingTable</li>
     </value>
   </Operation>
 

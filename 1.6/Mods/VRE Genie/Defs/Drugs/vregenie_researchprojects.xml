@@ -2,7 +2,7 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>Ferny_Antibiotics</defName>
+		<defName>Genesis_Antibiotics</defName>
 		<label>Antibiotics</label>
 		<description>Develop a method for producing antibiotics that boost the immune system after infections take hold.</description>
 		<baseCost>2000</baseCost>

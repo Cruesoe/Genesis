@@ -9,7 +9,7 @@
 		<xpath>/Defs/ThingDef[defName="DV_TongoTable"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_ChessTable</li>
+				<li>Genesis_ChessTable</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

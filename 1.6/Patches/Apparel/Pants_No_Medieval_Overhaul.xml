@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="Apparel_Pants"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+				<researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
 			</value>
 		</Operation>
 

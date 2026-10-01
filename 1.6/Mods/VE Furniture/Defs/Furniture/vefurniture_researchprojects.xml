@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_ModernComputer</defName>
+		<defName>Genesis_ModernComputer</defName>
 		<label>Advanced electronics</label>
 		<description>Build modern computers and longwave radios.</description>
 		<baseCost>1000</baseCost>
@@ -9,7 +9,7 @@
 		<researchViewX>9.00</researchViewX>
 		<researchViewY>7.50</researchViewY>
 		<prerequisites>
-			<li>Ferny_PersonalComputer</li>
+			<li>Genesis_PersonalComputer</li>
 		</prerequisites>
 	</ResearchProjectDef>
 </Defs>

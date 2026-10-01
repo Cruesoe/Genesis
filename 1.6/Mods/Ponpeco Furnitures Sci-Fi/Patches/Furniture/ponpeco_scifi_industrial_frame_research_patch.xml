@@ -7,7 +7,7 @@
             <value>
                 <researchPrerequisites Inherit="False">
                     <li>Smithing</li>
-                    <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                    <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                     <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
                 </researchPrerequisites>
             </value>
@@ -17,7 +17,7 @@
             <value>
                 <researchPrerequisites Inherit="False">
                     <li>Smithing</li>
-                    <li MayRequire="kongkim.panelsframes">Ferny_WindowWall</li>
+                    <li MayRequire="kongkim.panelsframes">Genesis_WindowWall</li>
                     <li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
                 </researchPrerequisites>
             </value>

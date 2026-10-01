@@ -14,7 +14,7 @@
 		<xpath>Defs/ThingDef[defName="PFS_DisplayPod"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites Inherit="false">
-				<li>Ferny_DisplayPod</li>
+				<li>Genesis_DisplayPod</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

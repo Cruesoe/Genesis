@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyErinJapanesePolyamoryProgFurniture_HiddenDesignators</defName>
+		<defName>Genesis_ErinJapanesePolyamoryHiddenDesignators</defName>
 		<hiddenDesignators>
 			<li>Erin_Futon_Triple_A</li>
 			<li>Erin_Futon_Quadra_A</li>

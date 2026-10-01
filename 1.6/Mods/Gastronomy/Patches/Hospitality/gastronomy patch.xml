@@ -2,7 +2,7 @@
 <Patch>
 	<!-- Add tab to merchant box -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName = "Ferny_MerchantBox"]/inspectorTabs</xpath>
+		<xpath>/Defs/ThingDef[defName = "Genesis_MerchantBox"]/inspectorTabs</xpath>
 		<value>
 			<li>Gastronomy.Restaurant.ITab_Register_Restaurant</li>		
 		</value>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingCategoryDef[defName="ApparelBaby"]/label</xpath>
+    <value>
+      <label>baby apparel</label>
+    </value>
+  </Operation>
+  <!-- BabyApparelMakeableBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="BabyApparelMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_KidApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_BabyOnesie -->
+  <!-- Apparel_BabyTuque -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BabyTuque"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_KidHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_BabyShadecone -->
+  <!-- I can't get this shit to work -->
+  <!-- <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparel_BabyShadecone"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>
+          <li>VFET_Tribalwear</li>
+        </researchPrerequisite>
+      </value>
+    </match>
+  </Operation> -->
+  <!-- <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BabyShadecone"]/recipeMaker</xpath>
+    <value>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BabyShadecone"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_KidHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_BabyTribal -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_BabyTribal"]/researchPrerequisites</xpath>
+      <value>
+        <researchPrerequisites Inherit="False">
+          <li>VFET_Tribalwear</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+  </Operation>
+</Patch>

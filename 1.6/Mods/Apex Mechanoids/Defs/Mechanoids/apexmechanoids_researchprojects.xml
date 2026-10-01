@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_BlasterConqueror</defName>
+		<defName>Genesis_BlasterConqueror</defName>
 		<label>Conquerors</label>
 		<description>Gestate conqueror infantry mechanoids armed with blasters, carbines or spitters.</description>
 		<baseCost>2000</baseCost>
@@ -17,7 +17,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_GazerEmplacement</defName>
+		<defName>Genesis_GazerEmplacement</defName>
 		<label>Gazer emplacement</label>
 		<description>Build a reinforced fixed laser emplacement around a salvaged gazer ocular emitter. When manually aimed within its frontal firing arc, it releases a devastating sun ray beam at extreme power cost.</description>
 		<baseCost>2000</baseCost>
@@ -33,7 +33,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Lasher</defName>
+		<defName>Genesis_Lasher</defName>
 		<label>Apex combat mechs</label>
 		<description>Gestate the haze, lasher and pulse combat mechanoids.</description>
 		<baseCost>2000</baseCost>
@@ -49,7 +49,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Tinker</defName>
+		<defName>Genesis_Tinker</defName>
 		<label>Apex support mechs</label>
 		<description>Gestate the frostivus, tinker and vassal support mechanoids.</description>
 		<baseCost>2000</baseCost>
@@ -65,7 +65,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_MechRepairStation</defName>
+		<defName>Genesis_MechRepairStation</defName>
 		<label>Mech facilities</label>
 		<description>Build mech repair stations, stasis chambers, gestator amplifiers and purifier stations.</description>
 		<baseCost>2000</baseCost>
@@ -81,7 +81,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_PlasmaWhip</defName>
+		<defName>Genesis_PlasmaWhip</defName>
 		<label>Plasma whip</label>
 		<description>Manufacture a plasma whip inspired by the Lasher mechanoid's weapon. It can damage and stun multiple targets at once, making it useful for holding back enemies at close range.</description>
 		<baseCost>2000</baseCost>
@@ -90,14 +90,14 @@
 		<researchViewY>11.40</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
-			<li>Ferny_Lasher</li>
+			<li>Genesis_Lasher</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_AdvancedMechRepairStation</defName>
+		<defName>Genesis_AdvancedMechRepairStation</defName>
 		<label>Advanced mech repair station</label>
 		<description>Build a powered station that repairs large mechanoids. The mechanoid enters the station to undergo repairs.</description>
 		<baseCost>4000</baseCost>
@@ -107,14 +107,14 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>ApexMechtech</li>
-			<li>Ferny_MechRepairStation</li>
+			<li>Genesis_MechRepairStation</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Dominus</defName>
+		<defName>Genesis_Dominus</defName>
 		<label>Commander mechs</label>
 		<description>Gestate the celerus, dominus and terminus commander mechanoids.</description>
 		<baseCost>4000</baseCost>
@@ -130,7 +130,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_DominionPsyspear</defName>
+		<defName>Genesis_DominionPsyspear</defName>
 		<label>Commander weapons</label>
 		<description>Craft the skipblade, dominion psy-spear and severing blade from commander mechanoid technology.</description>
 		<baseCost>4000</baseCost>
@@ -142,11 +142,11 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_Dominus</li>
+			<li>Genesis_Dominus</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Javelin</defName>
+		<defName>Genesis_Javelin</defName>
 		<label>Apex medium mechs</label>
 		<description>Gestate the javelin and siren mechanoids.</description>
 		<baseCost>4000</baseCost>
@@ -162,7 +162,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Maul</defName>
+		<defName>Genesis_Maul</defName>
 		<label>Apex heavy mechs</label>
 		<description>Gestate the aegis, dynamo, mantis and maul heavy mechanoids.</description>
 		<baseCost>4000</baseCost>
@@ -178,7 +178,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Ravager</defName>
+		<defName>Genesis_Ravager</defName>
 		<label>Apex ultra-heavy mechs</label>
 		<description>Gestate the gazer, ravager and ingestor ultra-heavy mechanoids.</description>
 		<baseCost>4000</baseCost>
@@ -194,7 +194,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Solus</defName>
+		<defName>Genesis_Solus</defName>
 		<label>Solus</label>
 		<description>Manufacture a reinforced gamma-ray emitter that produces a dense, destructive energy ball which discharges into nearby targets and ignites its surroundings.</description>
 		<baseCost>4000</baseCost>
@@ -210,7 +210,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_MechmancerSuit</defName>
+		<defName>Genesis_MechmancerSuit</defName>
 		<label>Mechmancer suit</label>
 		<description>Manufacture a mechmancer suit and matching helmet, power-assisted mechanitor armor that greatly expands bandwidth while providing serious protection.</description>
 		<baseCost>4000</baseCost>
@@ -226,7 +226,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_MechmancerPack</defName>
+		<defName>Genesis_MechmancerPack</defName>
 		<label>Mechmancer pack</label>
 		<description>Manufacture a mechmancer pack, an advanced bandwidth-expansion utility pack that can deploy independent satellite mechanoids.</description>
 		<baseCost>4000</baseCost>
@@ -235,7 +235,7 @@
 		<researchViewY>11.40</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
-			<li>Ferny_MechmancerSuit</li>
+			<li>Genesis_MechmancerSuit</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>

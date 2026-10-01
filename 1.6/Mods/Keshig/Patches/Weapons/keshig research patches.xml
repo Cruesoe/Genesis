@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DV_MeleeWeapon_SerratedScimitar"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+      <researchPrerequisite>Genesis_MOLongsword</researchPrerequisite>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DV_MeleeWeapon_CeremonialBlade"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <researchPrerequisite>Ferny_MOLongsword</researchPrerequisite>
+      <researchPrerequisite>Genesis_MOLongsword</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

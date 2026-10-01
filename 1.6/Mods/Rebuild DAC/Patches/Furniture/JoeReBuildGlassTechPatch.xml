@@ -23,7 +23,7 @@
         <xpath>/Defs/ThingDef[defName="RB_GlassWall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="False">
-                <li>Ferny_WindowWall</li>
+                <li>Genesis_WindowWall</li>
                 <li>Smithing</li>
             </researchPrerequisites>
         </value>
@@ -33,7 +33,7 @@
         <xpath>/Defs/ThingDef[defName="RB_ReinforcedGlassWall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="False">
-                <li>Ferny_WindowWall</li>
+                <li>Genesis_WindowWall</li>
                 <li>Smithing</li>
             </researchPrerequisites>
         </value>
@@ -43,7 +43,7 @@
         <xpath>/Defs/ThingDef[defName="RB_ClerestoryWall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="False">
-                <li>Ferny_WindowWall</li>
+                <li>Genesis_WindowWall</li>
                 <li>Smithing</li>
             </researchPrerequisites>
         </value>
@@ -53,7 +53,7 @@
         <xpath>/Defs/ThingDef[defName="RB_ReinforcedClerestoryWall"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites Inherit="False">
-                <li>Ferny_WindowWall</li>
+                <li>Genesis_WindowWall</li>
                 <li>Smithing</li>
             </researchPrerequisites>
         </value>

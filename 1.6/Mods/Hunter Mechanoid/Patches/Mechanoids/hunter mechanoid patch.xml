@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Hunter"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Hunter</researchPrerequisite>
+			<researchPrerequisite>Genesis_Hunter</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -20,7 +20,7 @@
 			<xpath>Defs/RecipeDef[defName="Hunter"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Bellicor</li>
+					<li>Genesis_Bellicor</li>
 				</researchPrerequisites>
 			</value>
 		</match>

@@ -16,7 +16,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>Electricity</li>
-					<li>Ferny_ButcherTable</li>
+					<li>Genesis_ButcherTable</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -25,7 +25,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>Electricity</li>
-					<li>Ferny_ButcherTable</li>
+					<li>Genesis_ButcherTable</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>
@@ -38,7 +38,7 @@
 			<researchPrerequisites>
 				<li>Fabrication</li>
 				<li>Electricity</li>
-				<li>Ferny_FueledStove</li>
+				<li>Genesis_FueledStove</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

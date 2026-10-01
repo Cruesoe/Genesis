@@ -10,7 +10,7 @@
     <xpath>/Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]</xpath>
     <value>
       <prerequisites>
-        <li>Ferny_Tables</li>
+        <li>Genesis_Tables</li>
       </prerequisites>
     </value>
   </Operation>

@@ -30,7 +30,7 @@
     <xpath>Defs/ThingDef[defName="Vneck_dress"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -73,7 +73,7 @@
     <xpath>Defs/ThingDef[defName="BellyDance_dress"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -125,7 +125,7 @@
     <xpath>Defs/ThingDef[defName="CountessCorset_dress"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>

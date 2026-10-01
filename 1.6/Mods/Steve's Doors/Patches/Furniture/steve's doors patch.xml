@@ -78,7 +78,7 @@
 		<xpath>Defs/ThingDef[defName="SD_GlassDoorDefault"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_SpacerDoors</li>
+				<li>Genesis_SpacerDoors</li>
 				<li>MicroelectronicsBasics</li>
 			</researchPrerequisites>
 		</value>
@@ -86,13 +86,13 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SD_LaserDoorDefault"]</xpath>
 		<value>
-			<designatorDropdown>Ferny_LaserDoors</designatorDropdown>
+			<designatorDropdown>Genesis_LaserDoors</designatorDropdown>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SD_LaserDoorDouble"]</xpath>
 		<value>
-			<designatorDropdown>Ferny_LaserDoors</designatorDropdown>
+			<designatorDropdown>Genesis_LaserDoors</designatorDropdown>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">

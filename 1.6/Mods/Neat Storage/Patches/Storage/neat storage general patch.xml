@@ -12,7 +12,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_HalfPallet"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                    </value>
@@ -21,7 +21,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_HalfPallet"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                     </value>
@@ -34,7 +34,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                    </value>
@@ -43,7 +43,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_MiniPallet"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                     </value>
@@ -56,7 +56,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_Pallet"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                    </value>
@@ -65,7 +65,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_Pallet"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                         
                       </researchPrerequisites> 
                     </value>
@@ -100,7 +100,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_WideHangerShelf"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                       </researchPrerequisites>
                     </value>
                   </match>
@@ -108,7 +108,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_WideHangerShelf"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                       </researchPrerequisites>
                     </value>
                   </nomatch>
@@ -121,7 +121,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_HangerShelf"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                       </researchPrerequisites>
                     </value>
                   </match>
@@ -129,7 +129,7 @@
                     <xpath>/Defs/ThingDef[defName="sbz_HangerShelf"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="false">
-                        <li>Ferny_Shelves</li>
+                        <li>Genesis_Shelves</li>
                       </researchPrerequisites>
                     </value>
                   </nomatch>
@@ -200,7 +200,7 @@
                         <xpath>Defs/ThingDef[@Name="sbzCrateBase"]/researchPrerequisites</xpath>
                         <value>
                             <researchPrerequisites>
-                                <li>Ferny_Boxes</li>
+                                <li>Genesis_Boxes</li>
                             </researchPrerequisites>
                         </value>
                     </li>
@@ -208,7 +208,7 @@
                         <xpath>Defs/ThingDef[@Name="sbzDisplayShelfBase"]/researchPrerequisites</xpath>
                         <value>
                             <researchPrerequisites>
-                                <li>Ferny_Shelves</li>
+                                <li>Genesis_Shelves</li>
                             </researchPrerequisites>
                         </value>
                     </li>
@@ -216,7 +216,7 @@
                         <xpath>Defs/ThingDef[@Name="sbzSmallDisplayShelfBase"]/researchPrerequisites</xpath>
                         <value>
                             <researchPrerequisites>
-                                <li>Ferny_Shelves</li>
+                                <li>Genesis_Shelves</li>
                             </researchPrerequisites>
                         </value>
                     </li>

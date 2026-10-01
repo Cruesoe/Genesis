@@ -10,7 +10,7 @@
   <xpath>/Defs/ThingDef[defName="SlabTripleBed"]</xpath>
   <value>
     <researchPrerequisites Inherit="False">
-      <li>Ferny_ClothBeds</li>
+      <li>Genesis_ClothBeds</li>
     </researchPrerequisites>
   </value>
 </Operation>
@@ -24,7 +24,7 @@
   <xpath>/Defs/ThingDef[defName="SlabQuadBed"]</xpath>
   <value>
     <researchPrerequisites Inherit="False">
-      <li>Ferny_ClothBeds</li>
+      <li>Genesis_ClothBeds</li>
     </researchPrerequisites>
   </value>
 </Operation>

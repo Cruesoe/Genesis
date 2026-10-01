@@ -586,9 +586,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_CostumingTable</li>
+          <li>Genesis_CostumingTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -616,9 +616,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -628,9 +628,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -640,9 +640,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -652,9 +652,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -664,9 +664,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -676,9 +676,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -688,9 +688,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -700,9 +700,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -712,9 +712,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -724,9 +724,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -736,9 +736,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -748,9 +748,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -760,9 +760,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -773,9 +773,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -785,9 +785,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -797,23 +797,23 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
 
-  <!-- PAM: force all these to craft ONLY at Ferny_VanityTable + set researchPrerequisite to Ferny_VanityTable -->
+  <!-- PAM: force all these to craft ONLY at Genesis_VanityTable + set researchPrerequisite to Genesis_VanityTable -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_PAMHairExtensions"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -823,9 +823,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -835,9 +835,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -847,9 +847,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -859,9 +859,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -871,9 +871,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -883,23 +883,23 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
 
-  <!-- PAN: force these to craft ONLY at Ferny_VanityTable + set researchPrerequisite to Ferny_VanityTable -->
+  <!-- PAN: force these to craft ONLY at Genesis_VanityTable + set researchPrerequisite to Genesis_VanityTable -->
 
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_PANMuffler"]</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -909,9 +909,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -921,9 +921,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>

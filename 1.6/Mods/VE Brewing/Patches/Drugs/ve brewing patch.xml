@@ -6,13 +6,13 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/RecipeDef[defName="VBE_MakeCigarettes"]/researchPrerequisite</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_Cigarettes</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_Cigarettes</researchPrerequisite> 
                    </value>
                   </match>
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/RecipeDef[defName="VBE_MakeCigarettes"]</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_Cigarettes</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_Cigarettes</researchPrerequisite> 
                     </value>
                   </nomatch>
                 </Operation>
@@ -22,13 +22,13 @@
                   <match Class="PatchOperationReplace">
                     <xpath>/Defs/RecipeDef[defName="VBE_MakeCigars"]/researchPrerequisite</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_Cigarettes</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_Cigarettes</researchPrerequisite> 
                    </value>
                   </match>
                   <nomatch Class="PatchOperationAdd">
                     <xpath>/Defs/RecipeDef[defName="VBE_MakeCigars"]</xpath>
                     <value>
-                      <researchPrerequisite>Ferny_Cigarettes</researchPrerequisite> 
+                      <researchPrerequisite>Genesis_Cigarettes</researchPrerequisite> 
                     </value>
                   </nomatch>
                 </Operation>

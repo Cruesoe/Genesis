@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_FluVaccine</defName>
+		<defName>Genesis_FluVaccine</defName>
 		<label>Vaccines</label>
 		<description>Manufacture vaccines against common and deadly diseases.</description>
 		<baseCost>1000</baseCost>

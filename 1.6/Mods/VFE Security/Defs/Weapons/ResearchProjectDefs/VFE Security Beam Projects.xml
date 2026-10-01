@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef MayRequire="VanillaExpanded.VFESecurity,Ludeon.RimWorld.Odyssey,Ludeon.RimWorld.Biotech">
-    <defName>Ferny_GraserCannonComplex</defName>
+    <defName>Genesis_GraserCannonComplex</defName>
     <label>graser cannon complex</label>
     <description>Build manned fortified emplacements carrying devastating sweeping gamma-ray cannons.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
-    <prerequisites><li>Ferny_BeamRepeater</li><li>HeavyTurrets</li></prerequisites>
+    <prerequisites><li>Genesis_BeamRepeater</li><li>HeavyTurrets</li></prerequisites>
   </ResearchProjectDef>
 </Defs>

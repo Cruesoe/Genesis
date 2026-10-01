@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>              
 
-<!-- Ferny_Tables research prerequisites -->
+<!-- Genesis_Tables research prerequisites -->
 
                 <Operation Class="PatchOperationConditional">
                   <xpath>/Defs/ThingDef[defName="TableCircular"]/researchPrerequisites</xpath>
@@ -9,7 +9,7 @@
                     <xpath>/Defs/ThingDef[defName="TableCircular"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                    </value>
                   </match>
@@ -17,7 +17,7 @@
                     <xpath>/Defs/ThingDef[defName="TableCircular"]</xpath>
                     <value>
                       <researchPrerequisites Inherit="False">
-                        <li>Ferny_Tables</li>
+                        <li>Genesis_Tables</li>
                       </researchPrerequisites> 
                     </value>
                   </nomatch>

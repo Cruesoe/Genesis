@@ -8,7 +8,7 @@
 		<xpath>/Defs/ThingDef[defName="VFE_DeskLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 				<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				<li>Smithing</li>
 			</researchPrerequisites>
@@ -22,7 +22,7 @@
 		<xpath>/Defs/ThingDef[defName="VFE_RoyalLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 				<li>MF_RoyalFurniture</li>
 			</researchPrerequisites>
 		</value>

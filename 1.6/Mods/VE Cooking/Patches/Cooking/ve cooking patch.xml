@@ -60,7 +60,7 @@
       <xpath>Defs/ResearchProjectDef[defName="VCE_CondimentsResearch"]</xpath>
       <value>
         <prerequisites>
-          <li>Ferny_GourmetMeals</li>
+          <li>Genesis_GourmetMeals</li>
         </prerequisites>      
       </value>
   </Operation>
@@ -185,13 +185,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookMealGourmet"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -201,13 +201,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertSimple"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertSimple"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -217,13 +217,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertSimpleBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertSimpleBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -233,13 +233,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertFine"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertFine"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -249,13 +249,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertFineBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertFineBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -265,13 +265,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertLavish"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertLavish"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -281,13 +281,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertLavishBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertLavishBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -297,13 +297,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertGourmet"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookDessertGourmet"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -313,13 +313,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeSimple"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeSimple"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -329,13 +329,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeSimpleBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeSimpleBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FueledStove</researchPrerequisite>
+        <researchPrerequisite>Genesis_FueledStove</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -346,13 +346,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFine"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -362,13 +362,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFineBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeFineBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_FineMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_FineMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -378,13 +378,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavish"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -394,13 +394,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavishBulk"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeLavishBulk"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_LavishMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_LavishMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -411,13 +411,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeGourmet"]/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/RecipeDef[defName="VCE_CookBakeGourmet"]</xpath>
       <value>
-        <researchPrerequisite>Ferny_GourmetMeals</researchPrerequisite>
+        <researchPrerequisite>Genesis_GourmetMeals</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>

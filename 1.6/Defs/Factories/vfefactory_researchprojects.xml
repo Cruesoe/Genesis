@@ -4,7 +4,7 @@
 	<!-- First stage: Fabrication only -->
 
 	<ResearchProjectDef>
-		<defName>Ferny_AutomatedSmelter</defName>
+		<defName>Genesis_AutomatedSmelter</defName>
 		<label>Automated extraction</label>
 		<description>Build automated machines that extract and refine raw materials: the automated smelter, drill platform, heavy-duty saw and biofuel refinery.</description>
 		<baseCost>2500</baseCost>
@@ -18,7 +18,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Ferny_AutomatedFarmer</defName>
+		<defName>Genesis_AutomatedFarmer</defName>
 		<label>Automated food production</label>
 		<description>Build automated machines that grow, catch and process food, such as the automated farmer and automated mincer.</description>
 		<baseCost>2500</baseCost>
@@ -32,7 +32,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Ferny_AutomatedLoom</defName>
+		<defName>Genesis_AutomatedLoom</defName>
 		<label>Automated crafting</label>
 		<description>Build automated machines that craft finished goods, such as the automated loom and automated ammunition press. They can only output goods of normal quality.</description>
 		<baseCost>2500</baseCost>
@@ -48,7 +48,7 @@
 	<!-- Second stage: Fabrication and Conveyor belts -->
 
 	<ResearchProjectDef>
-		<defName>Ferny_ConveyorOven</defName>
+		<defName>Genesis_ConveyorOven</defName>
 		<label>Factory processing</label>
 		<description>Build conveyor-fed factories that process goods in bulk: the conveyor oven, conveyor crematorium, automated distillery, drug granulator and neutroamine synthesizer.</description>
 		<baseCost>2500</baseCost>
@@ -63,7 +63,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Ferny_AutomatedAssembler</defName>
+		<defName>Genesis_AutomatedAssembler</defName>
 		<label>Factory manufacturing</label>
 		<description>Build conveyor-fed factories for precision manufacturing: the automated alloy forge, automated assembler and automated machining bay. The machining bay can only output goods of normal quality.</description>
 		<baseCost>2500</baseCost>

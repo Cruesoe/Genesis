@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_TribalA -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_TribalA"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Parka -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Parka"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Pants -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Pants"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_BasicShirt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BasicShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_CollarShirt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CollarShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Duster -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Duster"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Jacket -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Jacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_PlateArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>10</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>200</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_FlakVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_FlakVest"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_FlakPants -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_FlakPants"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_FlakJacket -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_IndustrialArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- ApparelArmorPowerBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- ApparelArmorReconBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorReconBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Cape -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Apparel_Cape"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+      </value>
+    </match>
+  </Operation>
+  <!-- Apparel_Robe -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Robe"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Robe"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Genesis_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

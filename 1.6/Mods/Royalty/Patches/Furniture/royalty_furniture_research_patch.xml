@@ -10,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName="Brazier" or defName="DarklightBrazier"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Brazier</li>
+						<li>Genesis_Brazier</li>
 						<li>Smithing</li>
 					</researchPrerequisites>
 				</value>

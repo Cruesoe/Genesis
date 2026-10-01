@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
   	<ThingDef ParentName="BuildingBase">
-		<defName>Ferny_MerchantBox</defName>
+		<defName>Genesis_MerchantBox</defName>
 		<label>Merchant box</label>
 		<description>A merchant box, a low-tech workplace. From here you can manage your restaurant or shop.</description>
 		<category>Building</category>
@@ -67,7 +67,7 @@
 		<clearBuildingArea>false</clearBuildingArea>
 		<minifiedDef>MinifiedThing</minifiedDef>		
         <researchPrerequisites>
-            <li>Ferny_BasicRetail</li>
+            <li>Genesis_BasicRetail</li>
         </researchPrerequisites>
 		<thingCategories>
 			<li>BuildingsFurniture</li>

@@ -4,7 +4,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Flake"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-    <researchPrerequisite>Ferny_Flake</researchPrerequisite>
+    <researchPrerequisite>Genesis_Flake</researchPrerequisite>
     </value>
 </Operation>
 
@@ -14,13 +14,13 @@
     <match Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+            <researchPrerequisite>Genesis_SmokeleafJoint</researchPrerequisite>
         </value>
     </match>
     <nomatch Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/recipeMaker</xpath>
         <value>
-            <researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+            <researchPrerequisite>Genesis_SmokeleafJoint</researchPrerequisite>
         </value>
     </nomatch>
 </Operation>

@@ -39,7 +39,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Logistic"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Excavator</researchPrerequisite>
+			<researchPrerequisite>Genesis_Excavator</researchPrerequisite>
 		</value>
 	</Operation>
 

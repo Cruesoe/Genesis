@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
 	<ResearchProjectDef>
-		<defName>Ferny_CeilingFans</defName>
+		<defName>Genesis_CeilingFans</defName>
 		<label>Ceiling fans</label>
 		<description>Build ceiling fans to cool down rooms.</description>
 		<baseCost>400</baseCost>

@@ -3,7 +3,7 @@
 
   <!-- Node Research: mark the first production projects as research foundations -->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_ResearchBench"]</xpath>
     <value>
       <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
     </value>

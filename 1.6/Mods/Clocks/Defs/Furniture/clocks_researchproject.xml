@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_AlarmClock</defName>
+		<defName>Genesis_AlarmClock</defName>
 		<label>Alarm clocks</label>
 		<description>Build mechanical and electronic alarm clocks.</description>
 		<baseCost>300</baseCost>

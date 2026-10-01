@@ -9,7 +9,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Rafter"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -19,7 +19,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Rafter"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -33,7 +33,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Eave"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -43,7 +43,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Eave"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -57,7 +57,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Eave_half"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -67,7 +67,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_Eave_half"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -81,7 +81,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -91,7 +91,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -105,7 +105,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveInnerCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -115,7 +115,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveInnerCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -129,7 +129,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveStony"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -139,7 +139,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveStony"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -153,7 +153,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveStony_half"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -163,7 +163,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveStony_half"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -177,7 +177,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCornerSmall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -187,7 +187,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCornerSmall"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -201,7 +201,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCornerSmall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -211,7 +211,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCornerSmall"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -225,7 +225,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -235,7 +235,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveInnerCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -249,7 +249,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -259,7 +259,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_StonyEaveOuterCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -273,7 +273,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveWoody"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -283,7 +283,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveWoody"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -297,7 +297,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveWoody_half"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -307,7 +307,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_EaveWoody_half"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -321,7 +321,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCornerSmall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -331,7 +331,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCornerSmall"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -345,7 +345,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCornerSmall"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -355,7 +355,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCornerSmall"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -369,7 +369,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -379,7 +379,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveInnerCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -393,7 +393,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCorner"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>
@@ -403,7 +403,7 @@
 			<xpath>/Defs/ThingDef[defName="AR_WoodyEaveOuterCorner"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_WindowWall</li>
+					<li>Genesis_WindowWall</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Furniture</li>
 				</researchPrerequisites>
 			</value>

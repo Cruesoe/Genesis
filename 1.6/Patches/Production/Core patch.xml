@@ -46,7 +46,7 @@
                     <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]/researchPrerequisites</xpath>
                     <value>
 						<researchPrerequisites>
-							<li>Ferny_ResearchBench</li>
+							<li>Genesis_ResearchBench</li>
 						</researchPrerequisites>
                     </value>
                 </li>
@@ -58,7 +58,7 @@
                     <xpath>/Defs/ThingDef[defName="SimpleResearchBench"]</xpath>
                     <value>
 						<researchPrerequisites>
-							<li>Ferny_ResearchBench</li>
+							<li>Genesis_ResearchBench</li>
 						</researchPrerequisites>
                     </value>
                 </li>
@@ -75,7 +75,7 @@
                     <xpath>/Defs/ThingDef[defName="TableSculpting"]/researchPrerequisites</xpath>
                     <value>
 						<researchPrerequisites>
-							<li>Ferny_SculptingBench</li>
+							<li>Genesis_SculptingBench</li>
 						</researchPrerequisites>
                     </value>
                 </li>
@@ -87,7 +87,7 @@
                     <xpath>/Defs/ThingDef[defName="TableSculpting"]</xpath>
                     <value>
 						<researchPrerequisites>
-							<li>Ferny_SculptingBench</li>
+							<li>Genesis_SculptingBench</li>
 						</researchPrerequisites>
                     </value>
                 </li>

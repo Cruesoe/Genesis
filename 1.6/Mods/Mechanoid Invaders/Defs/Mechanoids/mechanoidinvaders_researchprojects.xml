@@ -3,7 +3,7 @@
 	<!-- Standard mechtech -->
 	<!-- High mechtech -->
 	<ResearchProjectDef>
-		<defName>Ferny_Berserker</defName>
+		<defName>Genesis_Berserker</defName>
 		<label>Invader mechs</label>
 		<description>Gestate berserker, bombardier, constrictor, infiltrator and templar mechanoids.</description>
 		<baseCost>1500</baseCost>
@@ -19,7 +19,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_SystemInterlink</defName>
+		<defName>Genesis_SystemInterlink</defName>
 		<label>System interlink</label>
 		<description>Build a mechlink upgrade which allows the mechanitor to interface with a mechanoid to boost its performance and reduce incoming damage. The user psychically links with their target, using their own brain as a backup for critical subsystems.</description>
 		<baseCost>1500</baseCost>

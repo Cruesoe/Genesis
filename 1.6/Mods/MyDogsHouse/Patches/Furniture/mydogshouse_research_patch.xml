@@ -11,7 +11,7 @@
 				<value>
 					<researchPrerequisites Inherit="False">
 						<li>ComplexFurniture</li>
-						<li>Ferny_Bedroll</li>
+						<li>Genesis_Bedroll</li>
 					</researchPrerequisites>
 				</value>
 			</li>

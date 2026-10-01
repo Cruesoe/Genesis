@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ResearchProjectDef[defName="Ferny_Platform"]</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Platform"]</xpath>
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace">
           <xpath>Defs/ResearchProjectDef[defName="AB2_Stairs"]/prerequisites</xpath>
           <value>
             <prerequisites>
-              <li>Ferny_Platform</li>
+              <li>Genesis_Platform</li>
             </prerequisites>
           </value>
         </li>
@@ -16,7 +16,7 @@
           <xpath>Defs/ResearchProjectDef[defName="AB2_Ladders"]/prerequisites</xpath>
           <value>
             <prerequisites>
-              <li>Ferny_Platform</li>
+              <li>Genesis_Platform</li>
             </prerequisites>
           </value>
         </li>

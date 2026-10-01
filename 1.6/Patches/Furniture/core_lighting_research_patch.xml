@@ -8,7 +8,7 @@
 		<xpath>/Defs/ThingDef[defName="StandingLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -20,7 +20,7 @@
 		<xpath>/Defs/ThingDef[defName="SunLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -32,7 +32,7 @@
 		<xpath>/Defs/ThingDef[defName="WallLamp"]</xpath>
 		<value>
 			<researchPrerequisites Inherit="False">
-				<li>Ferny_StandingLamp</li>
+				<li>Genesis_StandingLamp</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

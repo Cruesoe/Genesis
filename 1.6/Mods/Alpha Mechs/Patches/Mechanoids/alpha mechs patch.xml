@@ -154,14 +154,14 @@
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AM_VoidlinkPack"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-        <researchPrerequisite>Ferny_VoidlinkPack</researchPrerequisite>
+        <researchPrerequisite>Genesis_VoidlinkPack</researchPrerequisite>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AM_MechCommanderHelm"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-        <researchPrerequisite>Ferny_MechMasterHelmet</researchPrerequisite>
+        <researchPrerequisite>Genesis_MechMasterHelmet</researchPrerequisite>
     </value>
 </Operation>
 
@@ -172,7 +172,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
+            <researchPrerequisite>Genesis_Agrihand</researchPrerequisite>
         </value>
     </Operation>
 
@@ -180,7 +180,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_BlitzkriegRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Militor</researchPrerequisite>
+            <researchPrerequisite>Genesis_Militor</researchPrerequisite>
         </value>
     </Operation>
 
@@ -188,28 +188,28 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_BellicorRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Bellicor</researchPrerequisite>
+            <researchPrerequisite>Genesis_Bellicor</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
+            <researchPrerequisite>Genesis_Agrihand</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_Mech_TurboCleanerRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Hunter</researchPrerequisite>
+            <researchPrerequisite>Genesis_Hunter</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_AuraRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+            <researchPrerequisite>Genesis_Cyclops</researchPrerequisite>
         </value>
     </Operation>
 
@@ -217,21 +217,21 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PristineStriderRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+            <researchPrerequisite>Genesis_Surrogate</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PristineSlurrypedeRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+            <researchPrerequisite>Genesis_Surrogate</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PristineAssemblerRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+            <researchPrerequisite>Genesis_Surrogate</researchPrerequisite>
         </value>
     </Operation>
 
@@ -239,35 +239,35 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_LuxRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+            <researchPrerequisite>Genesis_Cyclops</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_MunifexRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Genesis_Pikeman</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_OptioRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Genesis_Pikeman</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PolychoronRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Genesis_Pikeman</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_ArtilleronRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Artilleron</researchPrerequisite>
+            <researchPrerequisite>Genesis_Artilleron</researchPrerequisite>
         </value>
     </Operation>
 
@@ -275,7 +275,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_DemolisherRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+            <researchPrerequisite>Genesis_Centipedes</researchPrerequisite>
         </value>
     </Operation>
 
@@ -283,7 +283,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_FirewormRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+            <researchPrerequisite>Genesis_Centipedes</researchPrerequisite>
         </value>
     </Operation>
 
@@ -291,7 +291,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PhalanxRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+            <researchPrerequisite>Genesis_Centipedes</researchPrerequisite>
         </value>
     </Operation>
 
@@ -299,7 +299,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_ApoptosisRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Apoptosis</researchPrerequisite>
+            <researchPrerequisite>Genesis_Apoptosis</researchPrerequisite>
         </value>
     </Operation>
 
@@ -307,7 +307,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_InfernusRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Apoptosis</researchPrerequisite>
+            <researchPrerequisite>Genesis_Apoptosis</researchPrerequisite>
         </value>
     </Operation>
 
@@ -315,7 +315,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_SiegemelterRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Siegemelter</researchPrerequisite>
+            <researchPrerequisite>Genesis_Siegemelter</researchPrerequisite>
         </value>
     </Operation>
     
@@ -342,7 +342,7 @@
         <xpath>Defs/ThingDef[defName="AM_MechEfficiencyBooster"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_MechEfficiencyBooster</li>
+                <li>Genesis_MechEfficiencyBooster</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -352,7 +352,7 @@
         <xpath>Defs/ThingDef[defName="AM_MechTargettingBooster"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_MechEfficiencyBooster</li>
+                <li>Genesis_MechEfficiencyBooster</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -362,7 +362,7 @@
         <xpath>Defs/ThingDef[defName="AM_MechArmorBooster"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_MechEfficiencyBooster</li>
+                <li>Genesis_MechEfficiencyBooster</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -372,7 +372,7 @@
         <xpath>Defs/ThingDef[defName="AM_GreaterMechBooster"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_MechDisruptor</li>
+                <li>Genesis_MechDisruptor</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -382,7 +382,7 @@
         <xpath>Defs/ThingDef[defName="AM_MechDisruptor"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_MechDisruptor</li>
+                <li>Genesis_MechDisruptor</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -392,7 +392,7 @@
         <xpath>Defs/ThingDef[defName="AM_BeamcasterBandNode"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_BeamcasterBandNode</li>
+                <li>Genesis_BeamcasterBandNode</li>
             </researchPrerequisites>
         </value>
     </Operation>
@@ -463,14 +463,14 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="AM_Apparel_ArmorHelmetMechlordHelmet_Prestige"]/recipeMaker/researchPrerequisite</xpath>
 				<value>
-					<researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+					<researchPrerequisite>Genesis_MechlordSuit</researchPrerequisite>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="AM_Apparel_MechlordSuit_Prestige"]/recipeMaker/researchPrerequisite</xpath>
 				<value>
-					<researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+					<researchPrerequisite>Genesis_MechlordSuit</researchPrerequisite>
 				</value>
 			</li>
 

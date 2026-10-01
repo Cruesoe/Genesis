@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_BodyStrap -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BodyStrap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_PrisonerApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Burka -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Burka"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Burka"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+  <!-- Apparel_TortureCrown -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_TortureCrown"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Blindfold -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Blindfold"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_NeolithicHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_BodyStrap"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>Genesis_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
+</Patch>

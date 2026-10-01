@@ -8,7 +8,7 @@
                     <xpath>/Defs/ThingDef[defName="PlantPot_Bonsai"]/researchPrerequisites</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_PlantPots</li>
+                        <li>Genesis_PlantPots</li>
                         <li>TreeSowing</li>
                       </researchPrerequisites> 
                    </value>
@@ -17,7 +17,7 @@
                     <xpath>/Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
                     <value>
                       <researchPrerequisites>
-                        <li>Ferny_PlantPots</li>
+                        <li>Genesis_PlantPots</li>
                         <li>TreeSowing</li>
                       </researchPrerequisites> 
                     </value>

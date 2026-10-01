@@ -4,28 +4,28 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Cicada"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
+			<researchPrerequisite>Genesis_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Demolisher"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
+			<researchPrerequisite>Genesis_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Enforcer"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
+			<researchPrerequisite>Genesis_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="EnforcerBreacher"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
+			<researchPrerequisite>Genesis_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 

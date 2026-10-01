@@ -22,7 +22,7 @@
     <xpath>Defs/ThingDef[@Name="ApparelPonpecoPajamaBase"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -31,9 +31,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -94,9 +94,9 @@
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
+          <li>Genesis_VanityTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Genesis_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -104,7 +104,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_PonpecoPajamaParka"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VanityApparel</li>
+        <li>Genesis_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>

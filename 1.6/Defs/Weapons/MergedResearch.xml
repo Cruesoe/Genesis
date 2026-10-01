@@ -2,7 +2,7 @@
 <Defs>
 
   <VFETribals.TribalResearchProjectDef MayRequire="oskarpotocki.vfe.tribals">
-    <defName>Ferny_Club</defName>
+    <defName>Genesis_Club</defName>
     <label>melee weapons</label>
     <description>Craft simple clubs, shivs, axes, maces and spears from wood, bone and stone.</description>
     <baseCost>15</baseCost>
@@ -16,7 +16,7 @@
   </VFETribals.TribalResearchProjectDef>
 
   <VFETribals.TribalResearchProjectDef MayRequire="oskarpotocki.vfe.tribals" MayRequireAnyOf="tug.minotaur.expanded,vanillaexpanded.vwetb">
-    <defName>Ferny_Sling</defName>
+    <defName>Genesis_Sling</defName>
     <label>tribal ranged weapons</label>
     <description>Craft slings and throwing shards for striking from a distance.</description>
     <baseCost>15</baseCost>
@@ -30,7 +30,7 @@
   </VFETribals.TribalResearchProjectDef>
 
   <VFETribals.TribalResearchProjectDef MayRequire="oskarpotocki.vfe.tribals" MayRequireAnyOf="vanillaexpanded.vwetb,veterano.mythicages.megafaunabestiary">
-    <defName>Ferny_HeavyClub</defName>
+    <defName>Genesis_HeavyClub</defName>
     <label>heavy tribal weapons</label>
     <description>Craft heavy clubs, warmauls, hammers, sabers and daggers from dense wood and megafauna bone.</description>
     <baseCost>30</baseCost>
@@ -39,60 +39,60 @@
     <researchViewX>4.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <prerequisites>
-      <li>Ferny_Club</li>
+      <li>Genesis_Club</li>
     </prerequisites>
   </VFETribals.TribalResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vanillafactionsexpanded.settlersmodule,vanillaexpanded.vwe">
-    <defName>Ferny_Hatchet</defName>
+    <defName>Genesis_Hatchet</defName>
     <label>hatchets</label>
     <description>Craft light hatchets and tomahawks for chopping and throwing.</description>
     <baseCost>150</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>0.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
-      <li MayRequire="VanillaExpanded.VWETB">Ferny_Club</li>
+      <li MayRequire="VanillaExpanded.VWETB">Genesis_Club</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_Axe</defName>
+    <defName>Genesis_Axe</defName>
     <label>axes</label>
     <description>Craft sturdy axes and heavy breach axes.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Ferny_Hatchet</li>
+      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Genesis_Hatchet</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_Spear</defName>
+    <defName>Genesis_Spear</defName>
     <label>smithed blades</label>
     <description>Forge spears, ikwas, cleavers and staves with simple smithing.</description>
     <baseCost>150</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <prerequisites>
-      <li>Ferny_Knife</li>
+      <li>Genesis_Knife</li>
       <li>Smithing</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="tug.satyr">
-    <defName>Ferny_Lute</defName>
+    <defName>Genesis_Lute</defName>
     <label>string instruments</label>
     <description>Craft lutes and lyres.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <prerequisites>
@@ -101,86 +101,86 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_Longsword</defName>
+    <defName>Genesis_Longsword</defName>
     <label>swords</label>
     <description>Forge longswords, fencing swords, noble swords and scimitars.</description>
     <baseCost>250</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>3.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <prerequisites>
-      <li>Ferny_Gladius</li>
+      <li>Genesis_Gladius</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.epochspyrinth,det.keshig,elsov.highborn,oskarpotocki.vfe.medieval2,sarg.alphagenes">
-    <defName>Ferny_MOLongsword</defName>
+    <defName>Genesis_MOLongsword</defName>
     <label>great swords</label>
     <description>Forge bastard swords, claymores, rapiers and other masterwork blades.</description>
     <baseCost>300</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>4.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <prerequisites>
-      <li>Ferny_Longsword</li>
+      <li>Genesis_Longsword</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">
-    <defName>Ferny_BattleAxe</defName>
+    <defName>Genesis_BattleAxe</defName>
     <label>battle axes and pikes</label>
     <description>Forge battle axes, handaxes, longaxes and pikes for the line of battle.</description>
     <baseCost>200</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>2.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
-      <li>Ferny_Axe</li>
+      <li>Genesis_Axe</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">
-    <defName>Ferny_DaneAxe</defName>
+    <defName>Genesis_DaneAxe</defName>
     <label>great axes</label>
     <description>Forge dane axes, great axes, fighting axes and poleaxes.</description>
     <baseCost>250</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>3.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <prerequisites>
-      <li MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">Ferny_BattleAxe</li>
+      <li MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">Genesis_BattleAxe</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.medieval2,sarg.alphagenes">
-    <defName>Ferny_Halberd</defName>
+    <defName>Genesis_Halberd</defName>
     <label>war axes</label>
     <description>Forge halberds and heavy war axes.</description>
     <baseCost>300</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>4.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <prerequisites>
-      <li MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">Ferny_DaneAxe</li>
+      <li MayRequireAnyOf="oskarpotocki.vfe.medieval2,tug.minotaur,vanillaexpanded.vwe">Genesis_DaneAxe</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.medieval2,vanillaexpanded.vwe">
-    <defName>Ferny_HeavyMace</defName>
+    <defName>Genesis_HeavyMace</defName>
     <label>heavy maces</label>
     <description>Forge heavy maces, hammers and flails.</description>
     <baseCost>150</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>3.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
-      <li>Ferny_Mace</li>
+      <li>Genesis_Mace</li>
     </prerequisites>
   </ResearchProjectDef>
 
@@ -191,12 +191,12 @@
   
 
   <ResearchProjectDef MayRequireAnyOf="sarg.alphagenes,vanillaexpanded.vwe,vexedtrees980.rimelvesbiotech">
-    <defName>Ferny_Crossbow</defName>
+    <defName>Genesis_Crossbow</defName>
     <label>composite bows and crossbows</label>
     <description>Craft crossbows and layered composite bows.</description>
     <baseCost>200</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>2.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>
@@ -205,12 +205,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.medieval2,vanillaexpanded.vwe">
-    <defName>Ferny_Longbow</defName>
+    <defName>Genesis_Longbow</defName>
     <label>longbows</label>
     <description>Craft longbows and heavy warbows.</description>
     <baseCost>200</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>4.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>
@@ -219,12 +219,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="oskarpotocki.vfe.medieval2">
-    <defName>Ferny_Arquebus</defName>
+    <defName>Genesis_Arquebus</defName>
     <label>matchlock guns</label>
     <description>Craft arquebuses and muskets fired by a slow match.</description>
     <baseCost>600</baseCost>
     <techLevel>Medieval</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>3.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>
@@ -233,12 +233,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="hlx.ultratechalteredcarbon,oskarpotocki.vanillafactionsexpanded.settlersmodule,vanillaexpanded.vwe,vanillaexpanded.vweft,vanillaexpanded.vweq">
-    <defName>Ferny_HighCaliberRevolver</defName>
+    <defName>Genesis_HighCaliberRevolver</defName>
     <label>revolvers</label>
     <description>Craft revolvers and derringers.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <prerequisites>
@@ -247,12 +247,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vweft">
-    <defName>Ferny_RollingBlockRifle</defName>
+    <defName>Genesis_RollingBlockRifle</defName>
     <label>frontier guns</label>
     <description>Craft frontier rifles, revolvers, pistols and repeating shotguns.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <prerequisites>
@@ -261,12 +261,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">
-    <defName>Ferny_CombatHandgun</defName>
+    <defName>Genesis_CombatHandgun</defName>
     <label>blowback guns</label>
     <description>Craft blowback-operated handguns, pistols and light submachine guns.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -276,12 +276,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">
-    <defName>Ferny_SMG</defName>
+    <defName>Genesis_SMG</defName>
     <label>gas-operated SMGs</label>
     <description>Craft gas-operated submachine guns and makeshift rifles.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <prerequisites>
@@ -290,27 +290,27 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_LMG</defName>
+    <defName>Genesis_LMG</defName>
     <label>LMGs and carbines</label>
     <description>Craft light machine guns and carbines.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
-      <li>Ferny_BoltActionRifle</li>
+      <li>Genesis_BoltActionRifle</li>
       <li>GasOperation</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_PumpShotgun</defName>
+    <defName>Genesis_PumpShotgun</defName>
     <label>shotguns</label>
     <description>Craft pump-action and double-barreled shotguns.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>
@@ -319,55 +319,55 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,sarg.alphagenes,vanillaexpanded.vwe,vanillaexpanded.vweft,vanillaexpanded.vweq">
-    <defName>Ferny_SawedOffShotgun</defName>
+    <defName>Genesis_SawedOffShotgun</defName>
     <label>combat shotguns</label>
     <description>Craft sawed-off, lever-action and trench shotguns.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <prerequisites>
-      <li>Ferny_PumpShotgun</li>
+      <li>Genesis_PumpShotgun</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_ChainShotgun</defName>
+    <defName>Genesis_ChainShotgun</defName>
     <label>chain shotguns</label>
     <description>Craft automatic chain shotguns and combat shotguns.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <prerequisites>
-      <li>Ferny_PumpShotgun</li>
+      <li>Genesis_PumpShotgun</li>
       <li>GasOperation</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vanillafactionsexpanded.settlersmodule,vanillaexpanded.vwe">
-    <defName>Ferny_LeverActionRifle</defName>
+    <defName>Genesis_LeverActionRifle</defName>
     <label>hunting rifles</label>
     <description>Craft lever-action and hunting rifles.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <prerequisites>
-      <li>Ferny_BoltActionRifle</li>
+      <li>Genesis_BoltActionRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,sarg.alphagenes,vanillaexpanded.vwe">
-    <defName>Ferny_ServiceRifle</defName>
+    <defName>Genesis_ServiceRifle</defName>
     <label>precision rifles</label>
     <description>Craft service rifles, battle rifles and designated marksman rifles.</description>
     <baseCost>800</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -377,44 +377,44 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,vanillaexpanded.vwe">
-    <defName>Ferny_MarksmanRifle</defName>
+    <defName>Genesis_MarksmanRifle</defName>
     <label>marksman rifles</label>
     <description>Craft marksman rifles, carbines and thermorifles.</description>
     <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li MayRequireAnyOf="det.vanillaarsenal,sarg.alphagenes,vanillaexpanded.vwe">Ferny_ServiceRifle</li>
+      <li MayRequireAnyOf="det.vanillaarsenal,sarg.alphagenes,vanillaexpanded.vwe">Genesis_ServiceRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_SniperRifle</defName>
+    <defName>Genesis_SniperRifle</defName>
     <label>sniper rifles</label>
     <description>Craft long-range sniper rifles.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li>Ferny_BoltActionRifle</li>
-      <li MayRequire="VanillaExpanded.VWE">Ferny_MarksmanRifle</li>
-      <li MayRequire="det.vanillaarsenal">Ferny_ServiceRifle</li>
+      <li>Genesis_BoltActionRifle</li>
+      <li MayRequire="VanillaExpanded.VWE">Genesis_MarksmanRifle</li>
+      <li MayRequire="det.vanillaarsenal">Genesis_ServiceRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vweq">
-    <defName>Ferny_PDW</defName>
+    <defName>Genesis_PDW</defName>
     <label>PDW and bullpup rifle</label>
     <description>Craft personal defense weapons and bullpup rifles.</description>
     <baseCost>900</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <prerequisites>
@@ -423,41 +423,41 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="vanillaexpanded.vwe,vanillaexpanded.vwenl">
-    <defName>Ferny_SmokeGrenades</defName>
+    <defName>Genesis_SmokeGrenades</defName>
     <label>smoke and tear gas grenades</label>
     <description>Craft smoke grenades and tear gas grenades.</description>
     <baseCost>300</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <prerequisites>
-      <li>Ferny_FragGrenades</li>
+      <li>Genesis_FragGrenades</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,vanillaexpanded.vwe">
-    <defName>Ferny_GrenadeLauncher</defName>
+    <defName>Genesis_GrenadeLauncher</defName>
     <label>grenade launchers</label>
     <description>Craft grenade launchers and grenade throwers.</description>
     <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <prerequisites>
-      <li>Ferny_FragGrenades</li>
-      <li>Ferny_SmokeLauncher</li>
+      <li>Genesis_FragGrenades</li>
+      <li>Genesis_SmokeLauncher</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Ferny_SmokeShell</defName>
+    <defName>Genesis_SmokeShell</defName>
     <label>mortar shells</label>
     <description>Craft smoke, incendiary, tar and tox mortar shells.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>7.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <prerequisites>
@@ -466,12 +466,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="oskarpotocki.vfe.pirates,vanillaexpanded.vfesecurity,vanillaexpanded.vwehw">
-    <defName>Ferny_Artillery</defName>
+    <defName>Genesis_Artillery</defName>
     <label>artillery</label>
     <description>Build field guns and artillery, and craft handheld mortars.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <prerequisites>
@@ -480,43 +480,43 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwe">
-    <defName>Ferny_TripleRocketLauncher</defName>
+    <defName>Genesis_TripleRocketLauncher</defName>
     <label>heavy rocket launchers</label>
     <description>Craft triple and doomsday rocket launchers.</description>
     <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li>Ferny_RocketLauncher</li>
+      <li>Genesis_RocketLauncher</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="icc.aov.osec">
-    <defName>Ferny_DualRocketLauncher</defName>
+    <defName>Genesis_DualRocketLauncher</defName>
     <label>combat launchers</label>
     <description>Craft dual rocket launchers and multi-combat rifles.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li>
+      <li MayRequire="VanillaExpanded.VWE">Genesis_GrenadeLauncher</li>
       <li>PrecisionRifling</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="turkler.advanced.armaments">
-    <defName>Ferny_ChainGrenadeLauncher</defName>
+    <defName>Genesis_ChainGrenadeLauncher</defName>
     <label>powered weapons</label>
     <description>Craft powered grenade launchers, missile pods, assault shotguns and grenade sniper rifles.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -526,12 +526,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.vanillaarsenal,vanillaexpanded.vweft">
-    <defName>Ferny_HandheldGatlingGun</defName>
+    <defName>Genesis_HandheldGatlingGun</defName>
     <label>multi-barrel guns</label>
     <description>Craft handheld gatling guns and chainguns.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -541,12 +541,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vfesecurity">
-    <defName>Ferny_MinigunTurret</defName>
+    <defName>Genesis_MinigunTurret</defName>
     <label>multi-barrel turrets</label>
     <description>Build minigun turrets, anti-air turrets and minigun complexes.</description>
     <baseCost>900</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -557,12 +557,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="gogatio.mechanoidupgrades,oskarpotocki.vanillafactionsexpanded.settlersmodule,vanillaexpanded.vfesecurity">
-    <defName>Ferny_ArmoredTurret</defName>
+    <defName>Genesis_ArmoredTurret</defName>
     <label>gun turrets</label>
     <description>Build armored, shotgun, flamer, military and gatling turrets and HMG complexes.</description>
     <baseCost>800</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <prerequisites>
@@ -573,12 +573,12 @@
   
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwenl" MayRequireAnyOf="smxrez.nonlethalreexamined,vanillaexpanded.vfesecurity">
-    <defName>Ferny_NonLethalTurret</defName>
+    <defName>Genesis_NonLethalTurret</defName>
     <label>non-lethal turrets</label>
     <description>Build non-lethal, taser and tear gas turrets.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <prerequisites>
@@ -587,12 +587,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="smxrez.securityreexamined,vanillaexpanded.vfesecurity">
-    <defName>Ferny_ConcealedTurret</defName>
+    <defName>Genesis_ConcealedTurret</defName>
     <label>concealed turrets</label>
     <description>Build retractable turrets hidden beneath the floor.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -602,7 +602,7 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="oskarpotocki.vfe.pirates">
-    <defName>Ferny_ReconWarcaskets</defName>
+    <defName>Genesis_ReconWarcaskets</defName>
     <label>warcasket sets</label>
     <description>Build recon and cataphract warcaskets.</description>
     <baseCost>1400</baseCost>
@@ -617,7 +617,7 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="oskarpotocki.vfe.pirates">
-    <defName>Ferny_HazardWarcaskets</defName>
+    <defName>Genesis_HazardWarcaskets</defName>
     <label>heavy warcasket sets</label>
     <description>Build hazard and barrage warcaskets.</description>
     <baseCost>1200</baseCost>
@@ -627,17 +627,17 @@
     <researchViewY>4.65</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li>Ferny_ReconWarcaskets</li>
+      <li>Genesis_ReconWarcaskets</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="oskarpotocki.vfe.pirates">
-    <defName>Ferny_WarcasketBroadsword</defName>
+    <defName>Genesis_WarcasketBroadsword</defName>
     <label>warcasket melee weapons</label>
     <description>Build warcasket broadswords, combat knives and gravity hammers.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>9.00</researchViewX>
     <researchViewY>0.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -647,12 +647,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="oskarpotocki.vfe.pirates">
-    <defName>Ferny_WarcasketSlugthrower</defName>
+    <defName>Genesis_WarcasketSlugthrower</defName>
     <label>warcasket guns</label>
     <description>Build heavy guns, cannons, flamers and launchers sized for warcaskets.</description>
     <baseCost>900</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -662,12 +662,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="smxrez.nonlethalreexamined,vanillaexpanded.vwenl">
-    <defName>Ferny_RubberPistol</defName>
+    <defName>Genesis_RubberPistol</defName>
     <label>non-lethal guns</label>
     <description>Craft rubber-bullet guns, tasers and dart guns.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <prerequisites>
@@ -676,12 +676,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="mosi.firefoamthings">
-    <defName>Ferny_FirefoamLauncher</defName>
+    <defName>Genesis_FirefoamLauncher</defName>
     <label>firefoam weapons</label>
     <description>Craft firefoam launchers and sprayers.</description>
     <baseCost>300</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <prerequisites>
@@ -691,12 +691,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,vanillaracesexpanded.waster">
-    <defName>Ferny_ToxPack</defName>
+    <defName>Genesis_ToxPack</defName>
     <label>tox weapons</label>
     <description>Craft tox packs, toxbomb launchers and burn barrels.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>6.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <prerequisites>
@@ -705,26 +705,26 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwe">
-    <defName>Ferny_CombatKnife</defName>
+    <defName>Genesis_CombatKnife</defName>
     <label>military melee weapons</label>
     <description>Craft combat knives, shovels and batons.</description>
     <baseCost>250</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>5.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <prerequisites>
-      <li>Ferny_Knife</li>
+      <li>Genesis_Knife</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vfesecurity">
-    <defName>Ferny_RazorWire</defName>
+    <defName>Genesis_RazorWire</defName>
     <label>field fortifications</label>
     <description>Build razor wire and dugouts.</description>
     <baseCost>250</baseCost>
     <techLevel>Industrial</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>8.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <prerequisites>
@@ -733,12 +733,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.spacerarsenal,mlie.reinforcedmechanoid2,oskarpotocki.vfe.deserters,turkler.advanced.armaments,vanillaexpanded.vwe">
-    <defName>Ferny_ChargePistol</defName>
+    <defName>Genesis_ChargePistol</defName>
     <label>charge pistols</label>
     <description>Craft charge pistols, handguns, carbines and photon SMGs.</description>
     <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -751,12 +751,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="mlie.reinforcedmechanoid2,vanillaexpanded.vwe">
-    <defName>Ferny_ChargeSMG</defName>
+    <defName>Genesis_ChargeSMG</defName>
     <label>charge SMGs</label>
     <description>Craft charge SMGs and charge lance pistols.</description>
     <baseCost>1100</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -764,17 +764,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li MayRequireAnyOf="det.spacerarsenal,mlie.reinforcedmechanoid2,oskarpotocki.vfe.deserters,turkler.advanced.armaments,vanillaexpanded.vwe">Ferny_ChargePistol</li>
+      <li MayRequireAnyOf="det.spacerarsenal,mlie.reinforcedmechanoid2,oskarpotocki.vfe.deserters,turkler.advanced.armaments,vanillaexpanded.vwe">Genesis_ChargePistol</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.spacerarsenal,oskarpotocki.vfe.empire,turkler.advanced.armaments,vanillaexpanded.vwe">
-    <defName>Ferny_ChargeShotgun</defName>
+    <defName>Genesis_ChargeShotgun</defName>
     <label>charge rifles and shotguns</label>
     <description>Craft charge rifles, shotguns and thumpers.</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -787,12 +787,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="det.spacerarsenal">
-    <defName>Ferny_ClashHMG</defName>
+    <defName>Genesis_ClashHMG</defName>
     <label>heavy charge rifles</label>
     <description>Craft clash HMGs and brute rifles.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -800,17 +800,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_ChargeShotgun</li>
+      <li>Genesis_ChargeShotgun</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="det.spacerarsenal,mlie.reinforcedmechanoid2">
-    <defName>Ferny_CoilLance</defName>
+    <defName>Genesis_CoilLance</defName>
     <label>lance rifles</label>
     <description>Craft coil lances and charge lance rifles.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>2.10</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -818,17 +818,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_ChargeLance</li>
+      <li>Genesis_ChargeLance</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="det.spacerarsenal">
-    <defName>Ferny_PlasmaGrenades</defName>
+    <defName>Genesis_PlasmaGrenades</defName>
     <label>spacer grenades</label>
     <description>Craft plasma and contact grenades.</description>
     <baseCost>1200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -841,12 +841,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="det.spacerarsenal">
-    <defName>Ferny_PlasmaBlaster</defName>
+    <defName>Genesis_PlasmaBlaster</defName>
     <label>plasma blaster and thump grenades</label>
     <description>Craft plasma blasters and thump grenades.</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -854,17 +854,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_PlasmaGrenades</li>
+      <li>Genesis_PlasmaGrenades</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="det.spacerarsenal">
-    <defName>Ferny_Sparksabre</defName>
+    <defName>Genesis_Sparksabre</defName>
     <label>sparksabre and sonic stunner</label>
     <description>Craft sparksabres and sonic stunners.</description>
     <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -877,12 +877,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwe">
-    <defName>Ferny_ChargeSniperRifle</defName>
+    <defName>Genesis_ChargeSniperRifle</defName>
     <label>targeted charge weapons</label>
     <description>Craft laser-targeted charge sniper rifles, missile launchers and heavy blasters.</description>
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -895,12 +895,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="smxrez.securityreexamined,vanillaexpanded.vfesecurity">
-    <defName>Ferny_ChargeTurret</defName>
+    <defName>Genesis_ChargeTurret</defName>
     <label>charge turrets</label>
     <description>Build charge turrets, concealed charge turrets and charge complexes.</description>
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -913,12 +913,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="detvisor.impactweaponryreloaded">
-    <defName>Ferny_ImpactSMG</defName>
+    <defName>Genesis_ImpactSMG</defName>
     <label>impact guns</label>
     <description>Craft impact SMGs and sluggers.</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -931,12 +931,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="detvisor.impactweaponryreloaded">
-    <defName>Ferny_ImpactRifle</defName>
+    <defName>Genesis_ImpactRifle</defName>
     <label>heavy impact guns</label>
     <description>Craft impact rifles and cannons.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>0.70</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -944,17 +944,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_ImpactSMG</li>
+      <li>Genesis_ImpactSMG</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="detvisor.impactweaponryreloaded">
-    <defName>Ferny_ImpactSlinger</defName>
+    <defName>Genesis_ImpactSlinger</defName>
     <label>impact heavy weapons</label>
     <description>Craft impact slingers, warcasket impact bolters and impact catapults.</description>
     <baseCost>2600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>1.40</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -962,17 +962,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_ImpactRifle</li>
+      <li>Genesis_ImpactRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="zal.ionweaponry">
-    <defName>Ferny_IonPDW</defName>
+    <defName>Genesis_IonPDW</defName>
     <label>ion guns</label>
     <description>Craft ion PDWs and rifles.</description>
     <baseCost>1200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>3.50</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -985,12 +985,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="zal.ionweaponry">
-    <defName>Ferny_IonLMG</defName>
+    <defName>Genesis_IonLMG</defName>
     <label>heavy ion guns</label>
     <description>Craft ion LMGs and DMRs.</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -998,17 +998,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_IonPDW</li>
+      <li>Genesis_IonPDW</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="zal.ionweaponry">
-    <defName>Ferny_IonSlugthrower</defName>
+    <defName>Genesis_IonSlugthrower</defName>
     <label>ion lances</label>
     <description>Craft ion slugthrowers and heavy ion lances.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1016,17 +1016,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_IonLMG</li>
+      <li>Genesis_IonLMG</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="smxrez.laserreexamined">
-    <defName>Ferny_LaserSMG</defName>
+    <defName>Genesis_LaserSMG</defName>
     <label>laser weapons</label>
     <description>Craft laser SMGs, shotguns, revolvers, swords and tesla guns.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1039,12 +1039,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="smxrez.laserreexamined">
-    <defName>Ferny_LaserRifle</defName>
+    <defName>Genesis_LaserRifle</defName>
     <label>laser rifles</label>
     <description>Craft laser rifles, repeaters and miniguns.</description>
     <baseCost>2400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>6.30</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1052,17 +1052,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_LaserSMG</li>
+      <li>Genesis_LaserSMG</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="smxrez.laserreexamined">
-    <defName>Ferny_LaserSniperRifle</defName>
+    <defName>Genesis_LaserSniperRifle</defName>
     <label>laser long rifles</label>
     <description>Craft laser sniper and hunting rifles, and warcasket laser blasters.</description>
     <baseCost>2800</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1070,17 +1070,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_LaserRifle</li>
+      <li>Genesis_LaserRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="smxrez.laserreexamined">
-    <defName>Ferny_LasercannonTurret</defName>
+    <defName>Genesis_LasercannonTurret</defName>
     <label>laser turrets</label>
     <description>Build lasercannon and disintegrator turrets.</description>
     <baseCost>3000</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1093,12 +1093,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwel">
-    <defName>Ferny_SalvagedLaserRifle</defName>
+    <defName>Genesis_SalvagedLaserRifle</defName>
     <label>salvaged lasers</label>
     <description>Craft salvaged laser rifles, shotguns and revolvers.</description>
     <baseCost>1400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>12.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1111,12 +1111,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwel">
-    <defName>Ferny_SalvagedLaserSniperRifle</defName>
+    <defName>Genesis_SalvagedLaserSniperRifle</defName>
     <label>salvaged laser rifles</label>
     <description>Craft salvaged laser sniper rifles, repeaters, hunting rifles and warcasket eradicators.</description>
     <baseCost>2400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1124,17 +1124,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_SalvagedLaserRifle</li>
+      <li>Genesis_SalvagedLaserRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwec">
-    <defName>Ferny_GaussRifle</defName>
+    <defName>Genesis_GaussRifle</defName>
     <label>gauss guns</label>
     <description>Craft gauss rifles, carbines and revolvers.</description>
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1147,12 +1147,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="vanillaexpanded.vwec">
-    <defName>Ferny_GaussLance</defName>
+    <defName>Genesis_GaussLance</defName>
     <label>heavy gauss guns</label>
     <description>Craft gauss lances, sluggers, SAWs, repeaters and DMRs.</description>
     <baseCost>2400</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>2.80</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1160,17 +1160,17 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
     <prerequisites>
-      <li>Ferny_GaussRifle</li>
+      <li>Genesis_GaussRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="detvisor.pulseweaponry">
-    <defName>Ferny_PulseRifle</defName>
+    <defName>Genesis_PulseRifle</defName>
     <label>pulse weapons</label>
     <description>Craft pulse rifles and stunsticks.</description>
     <baseCost>1600</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1180,27 +1180,27 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="detvisor.pulseweaponry">
-    <defName>Ferny_PulseSuppressor</defName>
+    <defName>Genesis_PulseSuppressor</defName>
     <label>heavy pulse weapons</label>
     <description>Craft pulse suppressors and pulse autoguns.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>11.00</researchViewX>
     <researchViewY>7.00</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
-      <li>Ferny_PulseRifle</li>
+      <li>Genesis_PulseRifle</li>
     </prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="det.phaseweaponry">
-    <defName>Ferny_PhaseSaw</defName>
+    <defName>Genesis_PhaseSaw</defName>
     <label>phase weapons</label>
     <description>Craft phase saws and phase scalpels.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>5.60</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1210,12 +1210,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequire="icc.aov.osec">
-    <defName>Ferny_FusionRepeater</defName>
+    <defName>Genesis_FusionRepeater</defName>
     <label>fusion weapons</label>
     <description>Craft fusion repeaters and fusion casters.</description>
     <baseCost>2200</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>13.00</researchViewX>
     <researchViewY>4.90</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -1228,12 +1228,12 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef MayRequireAnyOf="lts.i,sarg.alphagenes,ushanka.biologicalwarfare">
-    <defName>Ferny_ForsakenBlackHydra</defName>
+    <defName>Genesis_ForsakenBlackHydra</defName>
     <label>rocketswarm launchers</label>
     <description>Craft rocketswarm launchers, including gas missile launchers and shoulder rocket pods.</description>
     <baseCost>1800</baseCost>
     <techLevel>Spacer</techLevel>
-    <tab>Ferny_Arsenal</tab>
+    <tab>Genesis_Arsenal</tab>
     <researchViewX>10.00</researchViewX>
     <researchViewY>4.20</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>

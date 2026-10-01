@@ -5,13 +5,13 @@
                     <match Class="PatchOperationReplace">
                         <xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker/researchPrerequisite</xpath>
                         <value>
-                            <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                            <researchPrerequisite>Genesis_Club</researchPrerequisite>
                         </value>
                     </match>
                     <nomatch Class="PatchOperationAdd">
                         <xpath>Defs/ThingDef[defName="MeleeWeapon_Club"]/recipeMaker</xpath>
                         <value>
-                            <researchPrerequisite>Ferny_Club</researchPrerequisite>
+                            <researchPrerequisite>Genesis_Club</researchPrerequisite>
                         </value>
                     </nomatch>
                 </Operation>
@@ -43,13 +43,13 @@
                                 <match Class="PatchOperationReplace">
                                     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/recipeMaker/researchPrerequisite</xpath>
                                     <value>
-                                        <researchPrerequisite>Ferny_TorchBelt</researchPrerequisite>
+                                        <researchPrerequisite>Genesis_TorchBelt</researchPrerequisite>
                                     </value>
                                 </match>
                                 <nomatch Class="PatchOperationAdd">
                                     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/recipeMaker</xpath>
                                     <value>
-                                        <researchPrerequisite>Ferny_TorchBelt</researchPrerequisite>
+                                        <researchPrerequisite>Genesis_TorchBelt</researchPrerequisite>
                                     </value>
                                 </nomatch>
                             </li>
@@ -59,7 +59,7 @@
                                     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]/researchPrerequisites</xpath>
                                     <value>
                                         <researchPrerequisites>
-                                            <li>Ferny_TorchBelt</li>
+                                            <li>Genesis_TorchBelt</li>
                                         </researchPrerequisites>
                                     </value>
                                 </match>
@@ -67,7 +67,7 @@
                                     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_TorchBelt"]</xpath>
                                     <value>
                                         <researchPrerequisites>
-                                            <li>Ferny_TorchBelt</li>
+                                            <li>Genesis_TorchBelt</li>
                                         </researchPrerequisites>
                                     </value>
                                 </nomatch>

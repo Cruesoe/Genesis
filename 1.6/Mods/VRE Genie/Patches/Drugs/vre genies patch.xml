@@ -4,7 +4,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VRE_Antibiotics"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-    <researchPrerequisite>Ferny_Antibiotics</researchPrerequisite>
+    <researchPrerequisite>Genesis_Antibiotics</researchPrerequisite>
     </value>
 </Operation>
 

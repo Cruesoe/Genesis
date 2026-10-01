@@ -11,13 +11,13 @@
                                 <match Class="PatchOperationReplace">
                                     <xpath>Defs/ThingDef[defName="RBME_Sling"]/recipeMaker/researchPrerequisite</xpath>
                                     <value>
-                                        <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                        <researchPrerequisite>Genesis_Sling</researchPrerequisite>
                                     </value>
                                 </match>
                                 <nomatch Class="PatchOperationAdd">
                                     <xpath>Defs/ThingDef[defName="RBME_Sling"]/recipeMaker</xpath>
                                     <value>
-                                        <researchPrerequisite>Ferny_Sling</researchPrerequisite>
+                                        <researchPrerequisite>Genesis_Sling</researchPrerequisite>
                                     </value>
                                 </nomatch>
                             </li>
@@ -27,7 +27,7 @@
                                     <xpath>Defs/ThingDef[defName="RBME_Sling"]/researchPrerequisites</xpath>
                                     <value>
                                         <researchPrerequisites>
-                                            <li>Ferny_Sling</li>
+                                            <li>Genesis_Sling</li>
                                         </researchPrerequisites>
                                     </value>
                                 </match>

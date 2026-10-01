@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_Clozapine</defName>
+		<defName>Genesis_Clozapine</defName>
 		<label>Medicines</label>
 		<tab>MP_MedicinesPlus</tab>
 		<description>Manufacture clozapine, morphine and penicillin.</description>
@@ -14,7 +14,7 @@
 		<researchViewX>2</researchViewX>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_Heroin</defName>
+		<defName>Genesis_Heroin</defName>
 		<label>Refined drugs</label>
 		<tab>MP_MedicinesPlus</tab>
 		<description>Refine crimson bulb and other crops into heroin, joy, thornweed serum and tyrox.</description>
@@ -27,7 +27,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_OpiumInfusion</defName>
+		<defName>Genesis_OpiumInfusion</defName>
 		<label>Herbal infusions</label>
 		<tab>MP_MedicinesPlus</tab>
 		<description>Prepare opium, peyote and thornweed infusions and smelling salts.</description>

@@ -10,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName="Wanzi_BigSarcophagus" or defName="BigDA_GrandSarcophagus"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Sarcophagus</li>
+						<li>Genesis_Sarcophagus</li>
 					</researchPrerequisites>
 				</value>
 			</li>
@@ -18,7 +18,7 @@
 				<xpath>/Defs/ThingDef[defName="BigDA_Coffin"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Coffin</li>
+						<li>Genesis_Coffin</li>
 					</researchPrerequisites>
 				</value>
 			</li>

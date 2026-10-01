@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyNeatStorageProgStorage_HiddenDesignators</defName>
+		<defName>Genesis_NeatStorageHiddenDesignators</defName>
 		<hiddenDesignators>			
 			<li>sbz_CorpseSpot</li>
 		</hiddenDesignators>							

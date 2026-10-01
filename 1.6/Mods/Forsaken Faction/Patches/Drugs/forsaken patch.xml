@@ -27,13 +27,13 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="FOF_Vitaminf"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
-				<researchPrerequisite>Ferny_VitaminF</researchPrerequisite>
+				<researchPrerequisite>Genesis_VitaminF</researchPrerequisite>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="FOF_Vitaminf"]/recipeMaker</xpath>
 			<value>
-				<researchPrerequisite>Ferny_VitaminF</researchPrerequisite>
+				<researchPrerequisite>Genesis_VitaminF</researchPrerequisite>
 			</value>
 		</nomatch>
 	</Operation>

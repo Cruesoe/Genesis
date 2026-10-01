@@ -7,7 +7,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_A"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -15,7 +15,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_A"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -27,7 +27,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_B"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -35,7 +35,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_B"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -47,7 +47,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_AA"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -55,7 +55,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_AA"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>
@@ -67,7 +67,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_BA"]/researchPrerequisites</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </match>
@@ -75,7 +75,7 @@
     <xpath>/Defs/ThingDef[defName="YF_MahjongTable_BA"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_ChessTable</li>
+        <li>Genesis_ChessTable</li>
       </researchPrerequisites>
     </value>
   </nomatch>

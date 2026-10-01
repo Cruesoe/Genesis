@@ -10,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Crib</li>
+						<li>Genesis_Crib</li>
 						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
 					</researchPrerequisites>
 				</value>
@@ -20,7 +20,7 @@
 				<xpath>/Defs/ThingDef[defName="BS_GiantCrib"]</xpath>
 				<value>
 					<researchPrerequisites Inherit="False">
-						<li>Ferny_Crib</li>
+						<li>Genesis_Crib</li>
 						<li MayRequireAnyOf="ferny.ProgressionEducation,cruesoe.progressionlesseducation">Ferny_RoughCrib</li>
 					</researchPrerequisites>
 				</value>

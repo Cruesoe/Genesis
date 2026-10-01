@@ -54,7 +54,7 @@
         <value>
             <prerequisites>
                 <li>MicroelectronicsBasics</li>
-                <li MayRequire="rebuild.cotr.doorsandcorners">Ferny_WindowWall</li>
+                <li MayRequire="rebuild.cotr.doorsandcorners">Genesis_WindowWall</li>
                 <li>Smithing</li>
             </prerequisites>
         </value>

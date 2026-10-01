@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_BeamConstructor</defName>
+		<defName>Genesis_BeamConstructor</defName>
 		<label>Constructor beam emitter</label>
 		<description>Build constructor beam emitters that build with beams, operated from a console or automated.</description>
 		<baseCost>80000</baseCost>

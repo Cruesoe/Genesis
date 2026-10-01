@@ -5,7 +5,7 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>Ferny_Flamebow</researchPrerequisite>
+        <researchPrerequisite>Genesis_Flamebow</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationConditional">
@@ -13,7 +13,7 @@
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Flamebow"]/recipeMaker</xpath>
         <value>
-          <researchPrerequisite>Ferny_Flamebow</researchPrerequisite>
+          <researchPrerequisite>Genesis_Flamebow</researchPrerequisite>
         </value>
       </match>
     </nomatch>
@@ -28,14 +28,14 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_PackTox"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_ToxPack</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_ToxPack</researchPrerequisite></value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Shell_Toxic"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_SmokeShell</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_SmokeShell</researchPrerequisite></value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_ToxPack</researchPrerequisite></value>
+    <value><researchPrerequisite>Genesis_ToxPack</researchPrerequisite></value>
   </Operation>
 </Patch>

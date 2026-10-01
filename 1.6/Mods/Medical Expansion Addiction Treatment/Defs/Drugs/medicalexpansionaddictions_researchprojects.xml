@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_PsychiteTreatmentPill</defName>
+		<defName>Genesis_PsychiteTreatmentPill</defName>
 		<label>Addiction treatment</label>
 		<description>Manufacture pills that treat addiction to psychite, go-juice, wake-up, smokeleaf and ambrosia.</description>
 		<baseCost>1500</baseCost>

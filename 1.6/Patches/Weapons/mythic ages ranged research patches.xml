@@ -5,10 +5,10 @@
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ResearchProjectDef[defName="Ferny_CapryakScatterbow"]</xpath>
+          <xpath>Defs/ResearchProjectDef[defName="Genesis_CapryakScatterbow"]</xpath>
           <value>
             <VFETribals.TribalResearchProjectDef>
-              <defName>Ferny_CapryakScatterbow</defName>
+              <defName>Genesis_CapryakScatterbow</defName>
               <label>capryak scatterbow</label>
               <description>Craft horn-backed skirmish bows that trade long-range accuracy for rapid close volleys.</description>
               <baseCost>15</baseCost>
@@ -17,7 +17,7 @@
               <researchViewX>4.00</researchViewX>
               <researchViewY>4.20</researchViewY>
               <prerequisites>
-                <li MayRequire="VanillaExpanded.VWETB">Ferny_Sling</li>
+                <li MayRequire="VanillaExpanded.VWETB">Genesis_Sling</li>
                 <li>VFET_Bow</li>
               </prerequisites>
             </VFETribals.TribalResearchProjectDef>
@@ -25,11 +25,11 @@
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs/RecipeDef[defName="MA_Make_CapryakScatterbow"]</xpath>
-          <value><researchPrerequisite>Ferny_CapryakScatterbow</researchPrerequisite></value>
+          <value><researchPrerequisite>Genesis_CapryakScatterbow</researchPrerequisite></value>
         </li>
         <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[defName="MA_CapryakScatterbow"]</xpath>
-          <value><recipeMaker><researchPrerequisite>Ferny_CapryakScatterbow</researchPrerequisite></recipeMaker></value>
+          <value><recipeMaker><researchPrerequisite>Genesis_CapryakScatterbow</researchPrerequisite></recipeMaker></value>
         </li>
       </operations>
     </match>

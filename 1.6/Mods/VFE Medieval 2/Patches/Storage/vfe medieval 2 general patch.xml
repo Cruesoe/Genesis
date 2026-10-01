@@ -8,7 +8,7 @@
       <xpath>Defs/ThingDef[defName="VFEM2_AilmentsShelf"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites Inherit="false">
-          <li>Ferny_Shelves</li>
+          <li>Genesis_Shelves</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -16,7 +16,7 @@
       <xpath>Defs/ThingDef[defName="VFEM2_AilmentsShelf"]</xpath>
       <value>
         <researchPrerequisites Inherit="false">
-          <li>Ferny_Shelves</li>
+          <li>Genesis_Shelves</li>
         </researchPrerequisites>
       </value>
     </nomatch>

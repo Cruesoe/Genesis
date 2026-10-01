@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="BMT_FungalStaff"]/recipeMaker</xpath>
     <value>
-      <researchPrerequisite>Ferny_Spear</researchPrerequisite>
+      <researchPrerequisite>Genesis_Spear</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

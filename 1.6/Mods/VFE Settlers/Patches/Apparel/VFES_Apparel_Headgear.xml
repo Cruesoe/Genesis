@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VFES_Headgear_Bandana -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFES_Headgear_Bandana"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_IndustrialHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFES_Headgear_Sombrero -->
+  <!-- VFES_Headgear_FlatCap -->
+</Patch>

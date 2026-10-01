@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_ChemfuelSmelter</defName>
+		<defName>Genesis_ChemfuelSmelter</defName>
 		<label>Chemfuel appliances</label>
 		<description>Build chemfuel-powered smelters and crematoriums.</description>
 		<baseCost>700</baseCost>

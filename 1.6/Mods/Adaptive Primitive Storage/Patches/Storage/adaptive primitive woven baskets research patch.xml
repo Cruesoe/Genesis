@@ -7,7 +7,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasket"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -16,7 +16,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasket"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -30,7 +30,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasketDouble"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -39,7 +39,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasketDouble"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -53,7 +53,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasketTriple"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -62,7 +62,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_WovenBasketTriple"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -76,7 +76,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_Granary"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -85,7 +85,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_Granary"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 				</researchPrerequisites>
 			</value>
@@ -99,7 +99,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_StorageTent"]/researchPrerequisites</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
 				</researchPrerequisites>
 			</value>
@@ -108,7 +108,7 @@
 			<xpath>Defs/ThingDef[defName="ASF_StorageTent"]</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>Ferny_Shelves</li>
+					<li>Genesis_Shelves</li>
 					<li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
 				</researchPrerequisites>
 			</value>

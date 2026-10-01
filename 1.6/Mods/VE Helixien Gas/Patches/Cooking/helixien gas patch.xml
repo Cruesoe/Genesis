@@ -9,7 +9,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>VHGE_GasExtraction</li>
-					<li>Ferny_FueledStove</li>
+					<li>Genesis_FueledStove</li>
 				</researchPrerequisites>
 			</value>
 		</match>
@@ -18,7 +18,7 @@
 			<value>
 				<researchPrerequisites>
 					<li>VHGE_GasExtraction</li>
-					<li>Ferny_FueledStove</li>
+					<li>Genesis_FueledStove</li>
 				</researchPrerequisites>
 			</value>
 		</nomatch>

@@ -27,7 +27,7 @@
     <value>
       <prerequisites>
         <li>Machining</li>
-        <li MayRequire="OskarPotocki.VFE.Medieval2">Ferny_Flintlock</li>
+        <li MayRequire="OskarPotocki.VFE.Medieval2">Genesis_Flintlock</li>
       </prerequisites>
     </value>
   </Operation>
@@ -55,7 +55,7 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftShotgun"]</xpath>
     <value>
       <recipeMaker>
-        <researchPrerequisite>Ferny_MakeshiftShotgun</researchPrerequisite>
+        <researchPrerequisite>Genesis_MakeshiftShotgun</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -63,7 +63,7 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftRifle"]</xpath>
     <value>
       <recipeMaker>
-        <researchPrerequisite>Ferny_SMG</researchPrerequisite>
+        <researchPrerequisite>Genesis_SMG</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -71,7 +71,7 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftSMG"]</xpath>
     <value>
       <recipeMaker>
-        <researchPrerequisite>Ferny_CombatHandgun</researchPrerequisite>
+        <researchPrerequisite>Genesis_CombatHandgun</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -79,7 +79,7 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]</xpath>
     <value>
       <recipeMaker>
-        <researchPrerequisite>Ferny_LMG</researchPrerequisite>
+        <researchPrerequisite>Genesis_LMG</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>

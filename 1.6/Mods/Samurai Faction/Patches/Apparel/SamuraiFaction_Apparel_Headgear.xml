@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- TSFApparel_Headband -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/label</xpath>
+    <value>
+      <label>hachimaki</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>15</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisite>TSF_Bushido_Code</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- TSFApparel_NinjaMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_NinjaMask"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- TSFApparel_AshigaruHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>6</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>60</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>11200</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- TSFApparel_SamuraiHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>7</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        <PainShockThreshold>0.10</PainShockThreshold>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- TSFApparel_DaimyoHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>9</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>19200</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        <PainShockThreshold>0.10</PainShockThreshold>
+        <SocialImpact>0.3</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>TSF_SamuraiArmor</li>
+        <li MayRequire="Ludeon.Rimworld.Royalty">NobleApparel</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- TSFApparel_OniHelmet -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TSFApparel_OniHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>Genesis_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

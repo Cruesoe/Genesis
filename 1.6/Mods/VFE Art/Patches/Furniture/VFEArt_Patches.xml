@@ -188,14 +188,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -207,14 +207,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Pottery"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -226,14 +226,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_WallCarvings"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -245,14 +245,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -264,14 +264,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Statues"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_Statues"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>
@@ -283,14 +283,14 @@
 			<success>Always</success>
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]/prerequisites</xpath>
 			<value>
-				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+				<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ResearchProjectDef[defName="VFE_Res_ArtfulDisplay"]</xpath>
 			<value>
 				<prerequisites>
-					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Ferny_SculptingBench</li>
+					<li MayRequireAnyOf="cruesoe.genesis,cruesoe.genesis">Genesis_SculptingBench</li>
 				</prerequisites>
 			</value>
 		</nomatch>

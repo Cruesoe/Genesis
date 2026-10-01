@@ -5,7 +5,7 @@
 		<xpath>/Defs/ThingDef[defName="CA_ChemfuelStoveLarge"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_ChemfuelStove</li>
+				<li>Genesis_ChemfuelStove</li>
 				<li>Fabrication</li>
 			</researchPrerequisites>
 		</value>

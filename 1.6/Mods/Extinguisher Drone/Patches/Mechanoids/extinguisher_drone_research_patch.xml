@@ -4,7 +4,7 @@
         <xpath>Defs/ThingDef[defName="ExtinguisherHunterDrone"]/researchPrerequisites</xpath>
         <value>
             <researchPrerequisites>
-                <li>Ferny_ExtinguisherDrone</li>
+                <li>Genesis_ExtinguisherDrone</li>
             </researchPrerequisites>
         </value>
     </Operation>

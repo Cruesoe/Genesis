@@ -6,13 +6,13 @@
     <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_PumpShotgun</li></value>
+      <value><li>Genesis_PumpShotgun</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SEX_AutoShotgun"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_PumpShotgun</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -20,13 +20,13 @@
     <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></value>
+      <value><li MayRequire="VanillaExpanded.VWE">Genesis_GrenadeLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SEX_GrenadeLauncher"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Genesis_GrenadeLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -34,13 +34,13 @@
     <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></value>
+      <value><li MayRequire="VanillaExpanded.VWE">Genesis_GrenadeLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="SEX_MissilePod"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_GrenadeLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Genesis_GrenadeLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -48,13 +48,13 @@
     <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Axe</li><li MayRequire="VanillaExpanded.VWE">Ferny_BattleAxe</li></value>
+      <value><li>Genesis_Axe</li><li MayRequire="VanillaExpanded.VWE">Genesis_BattleAxe</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="AG_ForsakenBattleAxe"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Axe</li><li MayRequire="VanillaExpanded.VWE">Ferny_BattleAxe</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Axe</li><li MayRequire="VanillaExpanded.VWE">Genesis_BattleAxe</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -76,13 +76,13 @@
     <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_IncendiaryLauncher</li></value>
+      <value><li>Genesis_IncendiaryLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_ToxbombLauncher"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_IncendiaryLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -90,13 +90,13 @@
     <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Axe</li></value>
+      <value><li>Genesis_Axe</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="DankPyon_MeleeWeapon_RoxWaraxe"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Axe</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -104,13 +104,13 @@
     <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_PumpShotgun</li></value>
+      <value><li>Genesis_PumpShotgun</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_RubberShotgun"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_PumpShotgun</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -118,13 +118,13 @@
     <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li MayRequire="VanillaExpanded.VWE">Ferny_HighCaliberRevolver</li></value>
+      <value><li MayRequire="VanillaExpanded.VWE">Genesis_HighCaliberRevolver</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Gun_MagnumPistol"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Ferny_HighCaliberRevolver</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li MayRequire="VanillaExpanded.VWE">Genesis_HighCaliberRevolver</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -132,13 +132,13 @@
     <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_FragGrenades</li></value>
+      <value><li>Genesis_FragGrenades</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="DV_Weapon_GrenadePlasma"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_FragGrenades</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_FragGrenades</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -146,13 +146,13 @@
     <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_BoltActionRifle</li></value>
+      <value><li>Genesis_BoltActionRifle</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="DV_Gun_DMR"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_BoltActionRifle</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_BoltActionRifle</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -160,13 +160,13 @@
     <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_IncendiaryLauncher</li></value>
+      <value><li>Genesis_IncendiaryLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="DV_Gun_ThermoRifle"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_IncendiaryLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -188,13 +188,13 @@
     <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Spear</li></value>
+      <value><li>Genesis_Spear</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Halberd"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Spear</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -202,13 +202,13 @@
     <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Mace</li></value>
+      <value><li>Genesis_Mace</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Baton"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Mace</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Mace</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -216,13 +216,13 @@
     <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Axe</li></value>
+      <value><li>Genesis_Axe</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_MeleeWeapon_Shovel"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Axe</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -230,13 +230,13 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_PumpShotgun</li></value>
+      <value><li>Genesis_PumpShotgun</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_PumpShotgun</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -244,13 +244,13 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li MayRequire="vanillaexpanded.vwe">Ferny_RocketLauncher</li></value>
+      <value><li MayRequire="vanillaexpanded.vwe">Genesis_RocketLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li MayRequire="vanillaexpanded.vwe">Ferny_RocketLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li MayRequire="vanillaexpanded.vwe">Genesis_RocketLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -258,13 +258,13 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_SniperRifle</li></value>
+      <value><li>Genesis_SniperRifle</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_SniperRifle</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_SniperRifle</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -272,13 +272,13 @@
     <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Axe</li></value>
+      <value><li>Genesis_Axe</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_DaneAxe"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Axe</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Axe</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -286,13 +286,13 @@
     <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Spear</li></value>
+      <value><li>Genesis_Spear</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Halberd"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Spear</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -300,13 +300,13 @@
     <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_Spear</li></value>
+      <value><li>Genesis_Spear</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VFEM2_MeleeWeapon_Pike"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_Spear</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_Spear</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -314,13 +314,13 @@
     <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_PumpShotgun</li></value>
+      <value><li>Genesis_PumpShotgun</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_PumpShotgun</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_PumpShotgun</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -328,13 +328,13 @@
     <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Ferny_SMG</li></value>
+      <value><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Genesis_SMG</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Ferny_SMG</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li MayRequireAnyOf="icc.aov.osec,vanillaexpanded.vwe,vanillaexpanded.vwems">Genesis_SMG</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -384,13 +384,13 @@
     <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_SmokeLauncher</li></value>
+      <value><li>Genesis_SmokeLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_SmokeLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_SmokeLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>
@@ -398,13 +398,13 @@
     <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker/researchPrerequisites</xpath>
-      <value><li>Ferny_IncendiaryLauncher</li></value>
+      <value><li>Genesis_IncendiaryLauncher</li></value>
     </match>
     <nomatch Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
       <match Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
-        <value><researchPrerequisites><li>Ferny_IncendiaryLauncher</li></researchPrerequisites></value>
+        <value><researchPrerequisites><li>Genesis_IncendiaryLauncher</li></researchPrerequisites></value>
       </match>
     </nomatch>
   </Operation>

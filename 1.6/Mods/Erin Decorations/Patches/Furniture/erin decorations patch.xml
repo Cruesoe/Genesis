@@ -47,7 +47,7 @@
       <xpath>/Defs/ThingDef[defName="ED_CatTower"]/researchPrerequisites</xpath>
       <value>
         <researchPrerequisites>
-          <li>Ferny_Bedroll</li>
+          <li>Genesis_Bedroll</li>
         </researchPrerequisites>
       </value>
     </match>
@@ -56,7 +56,7 @@
       <xpath>/Defs/ThingDef[defName="ED_CatTower"]</xpath>
       <value>
         <researchPrerequisites>
-          <li>Ferny_Bedroll</li>
+          <li>Genesis_Bedroll</li>
         </researchPrerequisites>
       </value>
     </nomatch>

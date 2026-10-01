@@ -18,7 +18,7 @@
 		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitter"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites Inherit="false">
-				<li>Ferny_BeamConstructor</li>
+				<li>Genesis_BeamConstructor</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -27,7 +27,7 @@
 		<xpath>Defs/ThingDef[defName="BC_BeamConstructorEmitterAuto"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites Inherit="false">
-				<li>Ferny_BeamConstructor</li>
+				<li>Genesis_BeamConstructor</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>

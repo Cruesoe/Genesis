@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchProjectDef>
-		<defName>Ferny_HunterAntigrainTrap</defName>
+		<defName>Genesis_HunterAntigrainTrap</defName>
 		<label>Hunter drone traps</label>
 		<description>Build traps that release hunter drones and wasp drones when enemies come near.</description>
 		<baseCost>600</baseCost>
@@ -13,7 +13,7 @@
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
-		<defName>Ferny_HunterAntigrainPack</defName>
+		<defName>Genesis_HunterAntigrainPack</defName>
 		<label>Hunter drone packs</label>
 		<description>Manufacture hunter packs armed with EMP, incendiary, smoke, toxic and antigrain warheads.</description>
 		<baseCost>600</baseCost>
@@ -21,8 +21,8 @@
 		<researchViewX>17.00</researchViewX>
 		<researchViewY>2.70</researchViewY>
 		<prerequisites>
-			<li>Ferny_HunterAntigrainTrap</li>
-			<li>Ferny_HunterPack</li>
+			<li>Genesis_HunterAntigrainTrap</li>
+			<li>Genesis_HunterPack</li>
 		</prerequisites>
 	</ResearchProjectDef>
 </Defs>
