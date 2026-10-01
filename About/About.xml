@@ -10,7 +10,7 @@
 
 Research moves through the eras, from tribal beginnings to spacer technology, with fewer and bigger projects. Each one unlocks a whole family of related items across your mods, so everything from the same stage arrives together. Finishing an era's capstone project advances your colony to the next era.
 
-Built on Vanilla Factions Expanded - Tribals and Vanilla Factions Expanded - Medieval 2, which it requires. Works with any mix of the other supported mods; each is only touched when it's active.
+Works with any mix of the supported mods; each is only touched when it's active.
 
 Replaces the Progression and ProgressionLESS mods; do not use them together.</description>
   <modDependencies>
@@ -18,16 +18,6 @@ Replaces the Progression and ProgressionLESS mods; do not use them together.</de
       <packageId>brrainz.harmony</packageId>
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-    </li>
-    <li>
-      <packageId>OskarPotocki.VFE.Tribals</packageId>
-      <displayName>Vanilla Factions Expanded - Tribals</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/3079786283</steamWorkshopUrl>
-    </li>
-    <li>
-      <packageId>OskarPotocki.VFE.Medieval2</packageId>
-      <displayName>Vanilla Factions Expanded - Medieval 2</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/3444347874</steamWorkshopUrl>
     </li>
   </modDependencies>
   <incompatibleWith>
@@ -70,6 +60,5 @@ Replaces the Progression and ProgressionLESS mods; do not use them together.</de
     <li>Ludeon.RimWorld.Odyssey</li>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     <li>OskarPotocki.VFE.Tribals</li>
-    <li>OskarPotocki.VFE.Medieval2</li>
   </loadAfter>
 </ModMetaData>

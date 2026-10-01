@@ -11,7 +11,7 @@
     </modExtensions>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="Genesis_CapstoneBase">
+  <ResearchProjectDef ParentName="Genesis_CapstoneBase" MayRequire="OskarPotocki.VFE.Tribals">
     <defName>Genesis_Capstone_Neolithic</defName>
     <label>settled life</label>
     <description>Bring together everything your people have learned to live off the land, and take the first step towards settled life. Completing this advances your colony to the neolithic era.</description>
@@ -28,7 +28,7 @@
     <tab>Genesis_Neolithic</tab>
     <baseCost>1000</baseCost>
     <prerequisites>
-      <li>Genesis_Capstone_Neolithic</li>
+      <li MayRequire="OskarPotocki.VFE.Tribals">Genesis_Capstone_Neolithic</li>
     </prerequisites>
   </ResearchProjectDef>
 
