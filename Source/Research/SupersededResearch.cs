@@ -35,6 +35,10 @@ namespace Genesis
                     Log.Error($"[Genesis] {proj.defName} is marked superseded without a valid replacement project.");
                     continue;
                 }
+                if (ext.by.modContentPack?.PackageId == "cruesoe.genesis")
+                {
+                    MergeInto(proj, ext.by);
+                }
                 // The replacement becomes its only prerequisite, so FinishProject never completes the old prerequisites
                 proj.prerequisites = new List<ResearchProjectDef> { ext.by };
                 proj.hiddenPrerequisites = null;
@@ -44,6 +48,41 @@ namespace Genesis
                     byTarget[ext.by] = list = new List<ResearchProjectDef>();
                 }
                 list.Add(proj);
+            }
+        }
+
+        // A Genesis replacement costs at least as much as each project it replaces and keeps their requirements: the strictest
+        // research bench, every facility, a mechanitor, items to study, grav engine inspection, and difficulty hiding if it has none.
+        // Techprints can't be copied here (the techprint items are generated before startup), so they are set in XML.
+        private static void MergeInto(ResearchProjectDef old, ResearchProjectDef target)
+        {
+            target.baseCost = UnityEngine.Mathf.Max(target.baseCost, old.baseCost);
+            if (old.requiredResearchBuilding != null && (target.requiredResearchBuilding == null || old.requiredResearchBuilding.defName == "HiTechResearchBench"))
+            {
+                target.requiredResearchBuilding = old.requiredResearchBuilding;
+            }
+            foreach (var facility in old.requiredResearchFacilities ?? new List<ThingDef>())
+            {
+                target.requiredResearchFacilities ??= new List<ThingDef>();
+                if (!target.requiredResearchFacilities.Contains(facility))
+                {
+                    target.requiredResearchFacilities.Add(facility);
+                }
+            }
+            target.requiresMechanitor |= old.requiresMechanitor;
+            target.requireGravEngineInspected |= old.requireGravEngineInspected;
+            foreach (var thing in old.requiredAnalyzed ?? new List<ThingDef>())
+            {
+                target.requiredAnalyzed ??= new List<ThingDef>();
+                if (!target.requiredAnalyzed.Contains(thing))
+                {
+                    target.requiredAnalyzed.Add(thing);
+                }
+            }
+            target.hideWhen ??= old.hideWhen;
+            if (old.techprintCount > 0)
+            {
+                Log.Warning($"[Genesis] {old.defName} is superseded by {target.defName} but still has {old.techprintCount} techprints.");
             }
         }
 

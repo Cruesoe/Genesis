@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Medieval era. Each project replaces vanilla, DLC or Medieval 2 projects (Genesis_Supersede_Base.xml), which also sets its cost and research bench. -->
+
+  <ResearchProjectDef Name="Genesis_MedievalBase" Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <tab>Genesis_Medieval</tab>
+    <baseCost>600</baseCost>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Beekeeping</defName>
+    <label>beekeeping</label>
+    <description>Keep bees for honey and wax. Unlocks apiaries, mead and sweetrolls.</description>
+    <prerequisites>
+      <li>Genesis_Husbandry</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Winemaking</defName>
+    <label>winemaking</label>
+    <description>Grow grapes and age their juice into wine. Unlocks grapes, must and wine barrels.</description>
+    <prerequisites>
+      <li>Genesis_Brewing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Alchemy</defName>
+    <label>alchemy</label>
+    <description>Distil herbs and stranger things into potent draughts. Unlocks the alchemical draughts.</description>
+    <prerequisites>
+      <li>Genesis_PsychoidBrewing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Stonecutting</defName>
+    <label>stonecutting</label>
+    <description>Cut stone into blocks for building and paving. Unlocks the stonecutter's table, stone tiles and flagstones.</description>
+    <prerequisites>
+      <li>Genesis_TimberBuilding</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Castles</defName>
+    <label>castle building</label>
+    <description>Raise castle walls, gates and great doors. Unlocks the medieval architecture.</description>
+    <prerequisites>
+      <li>Genesis_Stonecutting</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_FineFurniture</defName>
+    <label>fine furniture</label>
+    <description>Build proper beds, chairs, shelves and decorations. Unlocks the complex furniture.</description>
+    <prerequisites>
+      <li>Genesis_Woodworking</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Carpets</defName>
+    <label>carpet-making</label>
+    <description>Weave fabric into carpets and rugs. Unlocks carpets.</description>
+    <prerequisites>
+      <li>Genesis_FineFurniture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Games</defName>
+    <label>games</label>
+    <description>Make games of skill and chance, and targets to train on. Unlocks chess, poker and billiards tables, toy boxes and training targets.</description>
+    <prerequisites>
+      <li>Genesis_Woodworking</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_StringInstruments</defName>
+    <label>harp</label>
+    <description>Build a harp and fill the halls with music. Unlocks the harp.</description>
+    <prerequisites>
+      <li>Genesis_Games</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_KeyboardInstruments</defName>
+    <label>harpsichord</label>
+    <description>Build a keyed instrument with plucked strings. Unlocks the harpsichord.</description>
+    <prerequisites>
+      <li>Genesis_StringInstruments</li>
+      <li>Genesis_Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Smithing</defName>
+    <label>smithing</label>
+    <description>Work metal at the forge into tools and fittings. Unlocks smithies and metal tiles.</description>
+    <prerequisites>
+      <li>Genesis_Carving</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Workshops</defName>
+    <label>complex workshops</label>
+    <description>Equip workshops with anvils, looms, racks and tools that speed up every craft. Unlocks the workshop facilities.</description>
+    <prerequisites>
+      <li>Genesis_Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Bladesmithing</defName>
+    <label>bladesmithing</label>
+    <description>Forge metal weapons for close fighting. Unlocks maces, axes, gladii, shortswords and flails.</description>
+    <prerequisites>
+      <li>Genesis_StoneTools</li>
+      <li>Genesis_Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_LongBlades</defName>
+    <label>long blades</label>
+    <description>Forge long swords and polearms. Unlocks longswords, spears, warhammers, claymores, halberds and pikes.</description>
+    <prerequisites>
+      <li>Genesis_Bladesmithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_WarBows</defName>
+    <label>war bows</label>
+    <description>Make bows and crossbows built for war, and axes for throwing. Unlocks the greatbow, warbow, arbalest and throwing axe.</description>
+    <prerequisites>
+      <li>Genesis_RecurveBow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Gunpowder</defName>
+    <label>gunpowder</label>
+    <description>Fire lead balls with black powder. Unlocks the hand cannon, arquebus, musket and flintlock.</description>
+    <prerequisites>
+      <li>Genesis_WarBows</li>
+      <li>Genesis_Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Siegecraft</defName>
+    <label>siegecraft</label>
+    <description>Mount crossbows and guns on walls to hold a castle. Unlocks the wall-mounted arbalest and arquebus.</description>
+    <prerequisites>
+      <li>Genesis_WarBows</li>
+      <li>Genesis_Castles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_ComplexClothing</defName>
+    <label>complex clothing</label>
+    <description>Tailor shirts, trousers, dusters and hats. Unlocks the complex clothing.</description>
+    <prerequisites>
+      <li>Genesis_Tailoring</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_NobleDress</defName>
+    <label>noble dress</label>
+    <description>Make the fine clothes, robes and crowns of nobility. Unlocks noble and royal apparel.</description>
+    <prerequisites>
+      <li>Genesis_ComplexClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Armoury</defName>
+    <label>armoury</label>
+    <description>Make helmets, leather armour and shields. Unlocks simple helmets, leather armour and round shields.</description>
+    <prerequisites>
+      <li>Genesis_Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_PlateArmour</defName>
+    <label>plate armour</label>
+    <description>Encase a fighter in shaped steel plates. Unlocks plate armour, heavy helmets and heater shields.</description>
+    <prerequisites>
+      <li>Genesis_Armoury</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Scholarship</defName>
+    <label>scholarship</label>
+    <description>Study at desks and benches, and teach the young. Unlocks the simple research bench, bookcases, school desks, blackboards and study aids.</description>
+    <prerequisites>
+      <li>Genesis_Worship</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_MedievalBase">
+    <defName>Genesis_Heraldry</defName>
+    <label>heraldry</label>
+    <description>Bear your house's colours on tabards, banners and rugs. Unlocks the heraldic items.</description>
+    <prerequisites>
+      <li>Genesis_Scholarship</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

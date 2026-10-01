@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Without Vanilla Gravship Expanded, Odyssey's gravship research is Genesis research at Spacer (with VGE, its own tab keeps Odyssey's projects) -->
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_BasicGravtech</defName>
+    <label>basic gravtech</label>
+    <description>Build a gravship around an inspected grav engine. Unlocks gravship hull, the pilot console, thrusters, fuel tanks, grav anchors and field extenders.</description>
+    <prerequisites>
+      <li>Genesis_Shuttles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_OrbitalTech</defName>
+    <label>orbital tech</label>
+    <description>Survive in vacuum. Unlocks vacsuits, vac barriers, oxygen pumps and the orbital scanner.</description>
+    <prerequisites>
+      <li>Genesis_BasicGravtech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_StandardGravtech</defName>
+    <label>standard gravtech</label>
+    <description>Build larger gravships. Unlocks large thrusters and fuel tanks.</description>
+    <prerequisites>
+      <li>Genesis_OrbitalTech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_AdvancedGravtech</defName>
+    <label>advanced gravtech</label>
+    <description>Build advanced gravship systems. Unlocks the pilot assistant, gravlite panels, signal jammer and gravcore power cell.</description>
+    <prerequisites>
+      <li>Genesis_StandardGravtech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Generated from a mapping table: every vanilla, DLC and Medieval 2 project is replaced by a Genesis project. The old project is hidden, finishes with its
+       replacement, and its items move to the replacement unless a Genesis project lists them (Genesis.UnlocksItems). Missing DLC projects are skipped. -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Cooking</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="TreeSowing" or defName="Cocoa"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_TreeSowing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_FibreCrops</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Fishing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Fishing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Brewing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_PsychoidBrewing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="RecurveBow"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_RecurveBow</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PassiveCooler"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_PassiveCooler</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_Beekeeping"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Beekeeping</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_Wine"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Winemaking</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_Alchemy"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Alchemy</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Stonecutting"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Stonecutting</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_MedievalArchitecture"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Castles</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexFurniture"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_FineFurniture</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Carpets</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Harp"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_StringInstruments</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Harpsichord"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_KeyboardInstruments</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Smithing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_ComplexWorkshops"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Workshops</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="LongBlades"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_LongBlades</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Greatbow"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_WarBows</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Gunpowder</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ComplexClothing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="NobleApparel" or defName="RoyalApparel"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_NobleDress</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PlateArmor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_PlateArmour</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="VFEM2_Heraldry"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Heraldry</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Hydroponics"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Hydroponics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="NutrientPaste"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_NutrientPaste</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PackagedSurvivalMeal"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_SurvivalMeals</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="DrugProduction" or defName="PsychiteRefining" or defName="WakeUpProduction" or defName="GoJuiceProduction"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_DrugLab</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MedicineProduction" or defName="PenoxycylineProduction"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Pharmaceuticals</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="HospitalBed" or defName="SterileMaterials" or defName="VitalsMonitor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_HospitalCare</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Prosthetics"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Prosthetics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FertilityProcedures"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Fertility</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Xenogermination" or defName="GeneProcessor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Genetics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Archogenetics"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Archogenetics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Biosculpting" or defName="Bioregeneration" or defName="NeuralSupercharger"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Biosculpting</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Deathrest"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Deathrest</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Autodoors"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Autodoors</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="HeavyBridges"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_HeavyBridges</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Piano"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Piano</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="TubeTelevision"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Television</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FlatscreenTelevision"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Flatscreen</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Machining"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Machining</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MicroelectronicsBasics"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Microelectronics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Fabrication"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Fabrication</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="AdvancedFabrication"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_AdvancedFabrication</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="DeepDrilling" or defName="GroundPenetratingScanner" or defName="LongRangeMineralScanner"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_DeepDrilling</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Electricity"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Electricity</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Batteries"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Batteries</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ColoredLights"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Lighting</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="SolarPanels" or defName="WatermillGenerator"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_RenewablePower</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GeothermalPower"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Geothermal</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Biofuel</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="AirConditioning" or defName="MoisturePump"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Climate</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Firefoam"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Firefoam</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ToxifierGenerator"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Toxifier</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="WastepackAtomizer"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_WastepackAtomizer</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Gunsmithing"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Gunsmithing</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Autoloading</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GasOperation"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_GasOperation</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_PrecisionRifling</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MultibarrelWeapons"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Minigun</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GunTurrets" or defName="FoamTurret"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_GunTurrets</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="HeavyTurrets"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_HeavyTurrets</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="SniperTurret" or defName="RocketswarmLauncher"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_AdvancedTurrets</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Mortars"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Mortars</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="IEDs"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_IEDs</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ToxGas"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ToxGas</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="HunterDrones"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_HunterDrones</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="FlakArmor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_FlakArmour</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="SmokepopBelt" or defName="Gunlink"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_CombatPacks</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="JumpPack"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_JumpPacks</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_BasicMechtech</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_StandardMechtech</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_HighMechtech</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="TransportPod"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_TransportPods</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="MultiAnalyzer"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_AdvancedResearch</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Bionics"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Bionics</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="BrainWiring" or defName="SpecializedLimbs"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ImperialImplants</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ToxFiltration"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ToxFiltration</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Cryptosleep"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Cryptosleep</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="GrowthVats"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_GrowthVats</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="CompactWeaponry" or defName="VenomSynthesis"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ImplantWeapons</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ChargedShot"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ChargedShot</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="BeamWeapons"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_BeamWeapons</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ShieldBelt"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ShieldBelts</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ReconArmor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_ReconArmour</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="PoweredArmor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_MarineArmour</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="CataphractArmor"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_CataphractArmour</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Shuttles"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Shuttles</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ShipBasics" or defName="ShipComputerCore" or defName="ShipCryptosleep"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_Starflight</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ShipEngine" or defName="ShipReactor" or defName="ShipSensorCluster"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_StarshipDrive</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="ArtificialMetabolism" or defName="HealingFactors" or defName="MolecularAnalysis" or defName="SkinHardening"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_MetabolicImplants</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="NeuralComputation" or defName="CircadianInfluence" or defName="FleshShaping"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_NeuralImplants</by></li></value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]</xpath>
+    <success>Always</success>
+    <value><li Class="Genesis.SupersededResearch"><by>Genesis_UltraMechtech</by></li></value>
+  </Operation>
+
+  <!-- Royalty techprints now belong to the Genesis projects that replace these -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="JumpPack" or defName="CataphractArmor"]/techprintCount</xpath>
+    <success>Always</success>
+    <value><techprintCount>0</techprintCount></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[@Name="BaseBodyPartEmpire_TierA"]/techprintCount</xpath>
+    <success>Always</success>
+    <value><techprintCount>0</techprintCount></value>
+  </Operation>
+
+  <!-- Items moved between projects -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Brewing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Plant_Hops</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_PsychoidBrewing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Plant_Psychoid</li>
+          <li>Plant_Psychoid_Wild</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Stonecutting"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>FlagstoneSandstone</li>
+          <li>FlagstoneGranite</li>
+          <li>FlagstoneLimestone</li>
+          <li>FlagstoneSlate</li>
+          <li>FlagstoneMarble</li>
+          <li>FlagstoneVacstone</li>
+          <li>JfF_FlagstoneJade</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Castles"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_Chemdrench</li>
+          <li>VFEArch_CobblestoneFloorGranite</li>
+          <li>VFEArch_CobblestoneFloorLimestone</li>
+          <li>VFEArch_CobblestoneFloorMarble</li>
+          <li>VFEArch_CobblestoneFloorSandstone</li>
+          <li>VFEArch_CobblestoneFloorSlate</li>
+          <li>VFEArch_FineWoodenFloor</li>
+          <li>VFEArch_FineWoodenFloorBirch</li>
+          <li>VFEArch_FineWoodenFloorMahogany</li>
+          <li>VFEArch_FineWoodenFloorWalnut</li>
+          <li>VFEArch_WoodenParquet</li>
+          <li>VFEArch_WoodenParquetBirch</li>
+          <li>VFEArch_WoodenParquetMahogany</li>
+          <li>VFEArch_WoodenParquetWalnut</li>
+          <li>VFEArch_FineWall</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_FineFurniture"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>ChristmasTree</li>
+          <li>DoorSaloon</li>
+          <li>VFEArch_SingleDoor</li>
+          <li>VFEArch_SingleDoor_Flipped</li>
+          <li>VFEArch_Grass</li>
+          <li>VFEArch_LawnPlot</li>
+          <li>VFEArch_HedgeWall</li>
+          <li>VHE_TableBarber</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Games"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>ChessTable</li>
+          <li>PokerTable</li>
+          <li>BilliardsTable</li>
+          <li>ToyBox</li>
+          <li>VFEM2_ArcheryTarget</li>
+          <li>VFEM2_TrainingDummy</li>
+          <li>GameOfUrBoard</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Scholarship"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>SimpleResearchBench</li>
+          <li>Blackboard</li>
+          <li>SchoolDesk</li>
+          <li>Bookcase</li>
+          <li>BookcaseSmall</li>
+          <li>VFEM2_NotesStack</li>
+          <li>VFEM2_ResearchBoard</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Workshops"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VCE_SushiPrepTable</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Bladesmithing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>MeleeWeapon_BreachAxe</li>
+          <li>MeleeWeapon_Mace</li>
+          <li>MeleeWeapon_Gladius</li>
+          <li>MeleeWeapon_Ikwa</li>
+          <li>MeleeWeapon_Axe</li>
+          <li>VFEM2_MeleeWeapon_HeavyMace</li>
+          <li>VFEM2_MeleeWeapon_Shortsword</li>
+          <li>VFEM2_MeleeWeapon_Flail</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_WarBows"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_ThrowingAxe</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Siegecraft"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_Turret_WallMountedArbalest</li>
+          <li>VFEM2_Turret_WallMountedArquebus</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_ComplexClothing"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VIEHAR_Apparel_Fez</li>
+          <li>VIEHAR_Apparel_BishopHat</li>
+          <li>VIEHAR_Apparel_WideHat</li>
+          <li>VIEHAR_Apparel_BrimlessHat</li>
+          <li>VIEHAR_Apparel_Skullcap</li>
+          <li>VIEHAR_Apparel_SpikedSkullcap</li>
+          <li>VIEHAR_Apparel_Headscarf</li>
+          <li>VIEHAR_Apparel_Headbag</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_NobleDress"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>VFEM2_Apparel_KingsCrown</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Armoury"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Apparel_SimpleHelmet</li>
+          <li>Apparel_KidHelmet</li>
+          <li>VFEM2_Apparel_LeatherHelmet</li>
+          <li>VFEM2_Apparel_LeatherArmor</li>
+          <li>VFEM2_Shield_Round</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Hydroponics"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>SunLamp</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_DrugLab"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Autobong</li>
+          <li>VBE_Cigarettes</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Concrete"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Concrete</li>
+          <li>PavedTile</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Grenades"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Weapon_GrenadeFrag</li>
+          <li>Weapon_GrenadeMolotov</li>
+          <li>Gun_EmpLauncher</li>
+          <li>Weapon_GrenadeEMP</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_GunTurrets"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Sandbags</li>
+          <li>Barricade</li>
+          <li>CE_Embrasure</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Mortars"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Shell_EMP</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_FlakArmour"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>Apparel_GasMask</li>
+          <li>VIEHAR_Apparel_CommisarHat</li>
+          <li>VIEHAR_Apparel_MilitaryCap</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_Communications"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>OrbitalTradeBeacon</li>
+          <li>CommsConsole</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="Genesis_AdvancedResearch"]</xpath>
+    <value>
+      <li Class="Genesis.UnlocksItems">
+        <items>
+          <li>HiTechResearchBench</li>
+        </items>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

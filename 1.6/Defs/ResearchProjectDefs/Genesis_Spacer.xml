@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Spacer and ultra eras. Each project replaces vanilla or DLC projects (Genesis_Supersede_Base.xml), which also sets its cost, research bench and special requirements. -->
+  <!-- Techprints are set here: merged Royalty projects add up their techprints, and the old projects have none (Genesis_Supersede_Base.xml). -->
+
+  <ResearchProjectDef Name="Genesis_SpacerBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <tab>Genesis_Spacer</tab>
+    <baseCost>2000</baseCost>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef Name="Genesis_UltraBase" Abstract="True">
+    <techLevel>Ultra</techLevel>
+    <tab>Genesis_Ultra</tab>
+    <baseCost>3000</baseCost>
+  </ResearchProjectDef>
+
+  <!-- Medicine -->
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_Bionics</defName>
+    <label>bionics</label>
+    <description>Replace body parts with bionics that outperform the originals. Unlocks bionic eyes, arms, legs, spines, hearts, stomachs and ears.</description>
+    <prerequisites>
+      <li>Genesis_Prosthetics</li>
+      <li>Genesis_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ImperialImplants</defName>
+    <label>imperial implants</label>
+    <description>Craft the Empire's brain implants and specialised limbs. Unlocks the joywire, painstopper, mindscrew, power claw, drill arm and field hand.</description>
+    <prerequisites>
+      <li>Genesis_Bionics</li>
+    </prerequisites>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>1000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ToxFiltration</defName>
+    <label>toxin filtration</label>
+    <description>Implant organs that filter toxins from the body. Unlocks the detoxifier lung and kidney.</description>
+    <prerequisites>
+      <li>Genesis_Bionics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_Cryptosleep</defName>
+    <label>cryptosleep</label>
+    <description>Suspend people in cryptosleep. Unlocks the cryptosleep casket.</description>
+    <prerequisites>
+      <li>Genesis_Bionics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_GrowthVats</defName>
+    <label>growth vats</label>
+    <description>Grow embryos and children in vats. Unlocks the growth vat.</description>
+    <prerequisites>
+      <li>Genesis_Genetics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- Weapons -->
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ImplantWeapons</defName>
+    <label>implant weapons</label>
+    <description>Craft weapons built into the body. Unlocks hand talons, elbow blades, knee spikes, venom fangs and venom talons.</description>
+    <prerequisites>
+      <li>Genesis_LongBlades</li>
+      <li>Genesis_Bionics</li>
+    </prerequisites>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>1000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ChargedShot</defName>
+    <label>pulse-charged munitions</label>
+    <description>Fire charged pulses of energy. Unlocks the charge rifle and charge lance.</description>
+    <prerequisites>
+      <li>Genesis_Minigun</li>
+      <li>Genesis_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_BeamWeapons</defName>
+    <label>beam weapons</label>
+    <description>Fire continuous energy beams. Unlocks the beam repeater and beam graser.</description>
+    <prerequisites>
+      <li>Genesis_ChargedShot</li>
+      <li>Genesis_AdvancedFabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- Armour -->
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ShieldBelts</defName>
+    <label>shields</label>
+    <description>Project personal and area shields that stop projectiles. Unlocks the shield belt and broadshield pack.</description>
+    <prerequisites>
+      <li>Genesis_JumpPacks</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_ReconArmour</defName>
+    <label>recon armour</label>
+    <description>Make light powered armour. Unlocks recon armour and helmets.</description>
+    <prerequisites>
+      <li>Genesis_FlakArmour</li>
+      <li>Genesis_Fabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_MarineArmour</defName>
+    <label>marine armour</label>
+    <description>Make full powered armour. Unlocks marine armour and helmets.</description>
+    <prerequisites>
+      <li>Genesis_ReconArmour</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_CataphractArmour</defName>
+    <label>cataphract armour</label>
+    <description>Make the Empire's heavy powered armour. Unlocks cataphract armour and helmets.</description>
+    <prerequisites>
+      <li>Genesis_MarineArmour</li>
+    </prerequisites>
+    <techprintCount>2</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <!-- Transport -->
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_Shuttles</defName>
+    <label>shuttles</label>
+    <description>Build passenger shuttles. Unlocks the passenger shuttle.</description>
+    <prerequisites>
+      <li>Genesis_TransportPods</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_Starflight</defName>
+    <label>starflight basics</label>
+    <description>Build the hull of a starship, its computer core and cryptosleep caskets for the journey. Unlocks ship structure, the ship computer core and ship cryptosleep caskets.</description>
+    <prerequisites>
+      <li>Genesis_Shuttles</li>
+      <li>Genesis_AdvancedFabrication</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_SpacerBase">
+    <defName>Genesis_StarshipDrive</defName>
+    <label>starship drive</label>
+    <description>Power and steer a starship. Unlocks the ship engine, reactor and sensor cluster.</description>
+    <prerequisites>
+      <li>Genesis_Starflight</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- Ultra -->
+  <ResearchProjectDef ParentName="Genesis_UltraBase">
+    <defName>Genesis_MetabolicImplants</defName>
+    <label>metabolic implants</label>
+    <description>Craft the Empire's implants that rework digestion, healing and the skin. Unlocks the artificial metabolism, healing factor, molecular analysis and skin hardening implants.</description>
+    <prerequisites>
+      <li>Genesis_ImperialImplants</li>
+    </prerequisites>
+    <techprintCount>4</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_UltraBase">
+    <defName>Genesis_NeuralImplants</defName>
+    <label>neural implants</label>
+    <description>Craft the Empire's implants that reshape the mind, the sleep cycle and the face. Unlocks the neural computation, circadian influence and flesh shaping implants.</description>
+    <prerequisites>
+      <li>Genesis_MetabolicImplants</li>
+    </prerequisites>
+    <techprintCount>3</techprintCount>
+    <techprintCommonality>1</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_UltraBase">
+    <defName>Genesis_UltraMechtech</defName>
+    <label>ultra mechtech</label>
+    <description>The technology needed for your mechanitor to create and control ultra-tier mechanoids.</description>
+    <prerequisites>
+      <li>Genesis_HighMechtech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

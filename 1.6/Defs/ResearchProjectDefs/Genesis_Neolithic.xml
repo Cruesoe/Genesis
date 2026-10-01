@@ -211,6 +211,62 @@
   </VFETribals.TribalResearchProjectDef>
 
   <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_TreeSowing</defName>
+    <label>tree sowing</label>
+    <description>Plant and tend trees for timber, fruit and shade. Unlocks sowing trees, cacti and cocoa.</description>
+    <prerequisites>
+      <li>Genesis_Agriculture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Fishing</defName>
+    <label>fishing</label>
+    <description>Catch fish from rivers, lakes and the sea.</description>
+    <prerequisites>
+      <li>Genesis_Hunting</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_Brewing</defName>
+    <label>beer brewing</label>
+    <description>Ferment grain and hops into beer. Unlocks the brewery, fermenting barrels and hops.</description>
+    <prerequisites>
+      <li>Genesis_Cooking</li>
+      <li>Genesis_Agriculture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_PsychoidBrewing</defName>
+    <label>psychoid brewing</label>
+    <description>Grow psychoid leaves and brew them into psychite tea.</description>
+    <prerequisites>
+      <li>Genesis_Brewing</li>
+      <li>Genesis_Herbalism</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_RecurveBow</defName>
+    <label>recurve bow</label>
+    <description>Make a stronger bow with tips curved away from the archer. Unlocks the recurve bow.</description>
+    <prerequisites>
+      <li>Genesis_ShortBow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
+    <defName>Genesis_PassiveCooler</defName>
+    <label>passive cooler</label>
+    <description>Cool a room with evaporating water. Unlocks the passive cooler.</description>
+    <prerequisites>
+      <li>Genesis_Fire</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="Genesis_NeolithicBase">
     <defName>Genesis_Tailoring</defName>
     <label>tailoring</label>
     <description>Cut and sew cloth and leather into fitted garments. Unlocks parkas, wraps, burkas, masks and simple armour.</description>

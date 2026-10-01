@@ -17,8 +17,8 @@ namespace Genesis
     // and makes each era's starting projects need the previous Capstone.
     public static class EraTree
     {
-        private const float RowStep = 0.7f;
-        private const float LaneGap = 0.4f;
+        private const float RowStep = 0.6f;
+        private const float LaneGap = 0.25f;
 
         private static readonly AccessTools.FieldRef<ResearchProjectDef, float> X = AccessTools.FieldRefAccess<ResearchProjectDef, float>("x");
         private static readonly AccessTools.FieldRef<ResearchProjectDef, float> Y = AccessTools.FieldRefAccess<ResearchProjectDef, float>("y");
@@ -70,6 +70,7 @@ namespace Genesis
 
             foreach (var tab in Tabs.Values)
             {
+                HideCrossLaneLinks(tab, all);
                 Layout(tab, all, capstones);
             }
 
@@ -117,8 +118,26 @@ namespace Genesis
             return special;
         }
 
-        // One lane per branch, top to bottom; projects without a branch go last. Column = prerequisite depth on this tab.
-        // Projects sharing a lane and column stack in their branch's listed order. The Capstone goes one column after the rest.
+        private static int LaneOf(ResearchProjectDef p) => branchOf.TryGetValue(p, out var b) ? b.Lane : int.MaxValue;
+
+        // Lines only run along a lane: a prerequisite in another lane, or on another tab, becomes a hidden prerequisite (still required, no line)
+        private static void HideCrossLaneLinks(ResearchTabDef tab, List<ResearchProjectDef> all)
+        {
+            foreach (var p in all.Where(p => p.tab == tab && !p.HasModExtension<CapstoneExtension>() && !SupersededResearch.IsSuperseded(p)))
+            {
+                var moved = (p.prerequisites ?? new List<ResearchProjectDef>()).Where(q => q.tab != tab || LaneOf(q) != LaneOf(p)).ToList();
+                if (moved.Count == 0)
+                {
+                    continue;
+                }
+                p.prerequisites = p.prerequisites!.Except(moved).ToList();
+                p.hiddenPrerequisites = (p.hiddenPrerequisites ?? new List<ResearchProjectDef>()).Union(moved).ToList();
+            }
+        }
+
+        // One lane per branch, top to bottom; projects without a branch go last. Column = prerequisite depth on this tab,
+        // counting hidden prerequisites, so later projects sit further right. Projects sharing a lane and column stack in their
+        // branch's listed order. The Capstone goes one column after the rest.
         private static void Layout(ResearchTabDef tab, List<ResearchProjectDef> all, List<ResearchProjectDef> capstones)
         {
             var projects = all.Where(p => p.tab == tab && !capstones.Contains(p) && !SupersededResearch.IsSuperseded(p)).ToList();
@@ -131,7 +150,7 @@ namespace Genesis
                     return d;
                 }
                 depth[p] = 0;
-                var prereqs = (p.prerequisites ?? new List<ResearchProjectDef>()).Where(onTab.Contains).ToList();
+                var prereqs = (p.prerequisites ?? new List<ResearchProjectDef>()).Concat(p.hiddenPrerequisites ?? new List<ResearchProjectDef>()).Where(onTab.Contains).ToList();
                 d = prereqs.Count == 0 ? 0 : prereqs.Max(Depth) + 1;
                 depth[p] = d;
                 return d;
@@ -139,7 +158,7 @@ namespace Genesis
 
             var cursor = 0f;
             var maxColumn = -1;
-            var lanes = projects.GroupBy(p => branchOf.TryGetValue(p, out var b) ? b.Lane : int.MaxValue).OrderBy(g => g.Key);
+            var lanes = projects.GroupBy(LaneOf).OrderBy(g => g.Key);
             foreach (var lane in lanes)
             {
                 var columns = lane.GroupBy(Depth).ToList();

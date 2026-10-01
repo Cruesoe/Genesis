@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!-- Without Vanilla Gravship Expanded, Odyssey's gravship research is Spacer (with it, VGE owns these projects) -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ResearchProjectDef[defName="BasicGravtech" or defName="StandardGravtech" or defName="OrbitalTech"]/techLevel</xpath>
+  <!-- Without Vanilla Gravship Expanded, Odyssey's gravship projects are replaced by the Genesis ones (Genesis_Gravships.xml) -->
+  <Operation Class="PatchOperationSequence">
     <success>Always</success>
-    <value>
-      <techLevel>Spacer</techLevel>
-    </value>
+    <operations>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="BasicGravtech"]</xpath>
+        <value><li Class="Genesis.SupersededResearch"><by>Genesis_BasicGravtech</by></li></value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="OrbitalTech"]</xpath>
+        <value><li Class="Genesis.SupersededResearch"><by>Genesis_OrbitalTech</by></li></value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="StandardGravtech"]</xpath>
+        <value><li Class="Genesis.SupersededResearch"><by>Genesis_StandardGravtech</by></li></value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ResearchProjectDef[defName="AdvancedGravtech"]</xpath>
+        <value><li Class="Genesis.SupersededResearch"><by>Genesis_AdvancedGravtech</by></li></value>
+      </li>
+    </operations>
   </Operation>
 
 </Patch>
